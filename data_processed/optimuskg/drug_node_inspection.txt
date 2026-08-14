@@ -1,0 +1,94 @@
+OptimusKG drug node inspection
+Loaded resource: nodes/drug.parquet
+Dataframe type: <class 'polars.dataframe.frame.DataFrame'>
+Shape: (16766, 3)
+All column names: ['id', 'label', 'properties']
+Schema/dtypes:
+  id: String
+  label: String
+  properties: Struct({'name': String, 'inchi_key': String, 'type': String, 'synonyms': List(String), 'description': String, 'accession_numbers': List(String), 'canonical_smiles': String, 'chemical_abstracts_service_number': String, 'unique_ingredient_identifier': String, 'black_box_warning': Boolean, 'year_of_first_approval': Int64, 'maximum_clinical_trial_phase': Float64, 'has_been_withdrawn': Boolean, 'is_approved': Boolean, 'trade_names': List(String), 'sources': Struct({'direct': List(String), 'indirect': List(String)}), 'source_ids': List(String), 'cd_id': String, 'cd_formula': String, 'cd_mol_weight': Float64, 'calculated_log_p': Float64, 'alogs': Float64, 'tpsa': Float64, 'lipinski': Float64, 'number_of_formulations': Int32, 'mol_file_base64': String, 'mol_image_base64': String, 'mrdef': String, 'enhanced_stereo': Boolean, 'aromatic_carbons': Int32, 'sp3_count': Int32, 'sp2_count': Int32, 'sp_count': Int32, 'halogen_count': Int32, 'hetero_sp2_count': Int32, 'rotatable_bonds': Int32, 'o_n': Int32, 'oh_nh': Int32, 'inchi': String, 'rgb': Float64, 'fda_labels': Int32, 'status': String, 'struct_id': String})
+First 10 rows:
+shape: (10, 3)
+┌──────────────┬───────┬─────────────────────────────────┐
+│ id           ┆ label ┆ properties                      │
+│ ---          ┆ ---   ┆ ---                             │
+│ str          ┆ str   ┆ struct[43]                      │
+╞══════════════╪═══════╪═════════════════════════════════╡
+│ CHEMBL1000   ┆ DRG   ┆ {"CETIRIZINE","ZKLPARSLTMPFCP-… │
+│ CHEMBL100014 ┆ DRG   ┆ {"AN-9","GYKLFBYWXZYSOW-UHFFFA… │
+│ CHEMBL100109 ┆ DRG   ┆ {"CHEMBL100109","UCQIHCRMWNRFN… │
+│ CHEMBL100116 ┆ DRG   ┆ {"PENTAZOCINE","VOKSWYLNZZRQPF… │
+│ CHEMBL1002   ┆ DRG   ┆ {"LEVOSALBUTAMOL","NDAUXUAQIAJ… │
+│ CHEMBL100239 ┆ DRG   ┆ {"TCMDC-131943","BUFDQCGCADQQQ… │
+│ CHEMBL100259 ┆ DRG   ┆ {"URIDINE","DRTQHJPVMGBUCF-XVF… │
+│ CHEMBL1003   ┆ DRG   ┆ {"CLAVULANATE POTASSIUM","ABVR… │
+│ CHEMBL1004   ┆ DRG   ┆ {"DOXYLAMINE","HCFDWZZGGLSKEP-… │
+│ CHEMBL1005   ┆ DRG   ┆ {"REMIFENTANIL","ZTVQQQVZCWLTD… │
+└──────────────┴───────┴─────────────────────────────────┘
+Textual columns/field paths discovered automatically:
+  id
+  label
+  properties.accession_numbers[]
+  properties.canonical_smiles
+  properties.cd_formula
+  properties.cd_id
+  properties.chemical_abstracts_service_number
+  properties.description
+  properties.inchi
+  properties.inchi_key
+  properties.mol_file_base64
+  properties.mol_image_base64
+  properties.mrdef
+  properties.name
+  properties.source_ids[]
+  properties.sources.direct[]
+  properties.status
+  properties.struct_id
+  properties.synonyms[]
+  properties.trade_names[]
+  properties.type
+  properties.unique_ingredient_identifier
+Likely textual field roles (inferred from field names):
+  canonical drug name:
+    properties.name
+    properties.trade_names[]
+  synonyms:
+    properties.synonyms[]
+  identifiers:
+    id
+    properties.accession_numbers[]
+    properties.canonical_smiles
+    properties.cd_id
+    properties.inchi
+    properties.inchi_key
+    properties.source_ids[]
+    properties.struct_id
+    properties.unique_ingredient_identifier
+  cross references:
+    No likely field detected
+Exact case-insensitive example-drug search results:
+  lepirudin: FOUND (2 matching row(s))
+    row_index=1458, id=CHEMBL1201666, matched_field_paths=['properties.name', 'properties.synonyms[]']
+    row_index=15477, id=DRUGBANK:DB00001, matched_field_paths=['properties.name', 'properties.synonyms[]']
+  bivalirudin: FOUND (2 matching row(s))
+    row_index=13676, id=CHEMBL5314348, matched_field_paths=['properties.name', 'properties.source_ids[]', 'properties.synonyms[]', 'properties.trade_names[]']
+    row_index=15482, id=DRUGBANK:DB00006, matched_field_paths=['properties.name', 'properties.synonyms[]']
+  leuprorelin: FOUND (2 matching row(s))
+    row_index=897, id=CHEMBL1200775, matched_field_paths=['properties.trade_names[]']
+    row_index=1208, id=CHEMBL1201199, matched_field_paths=['properties.synonyms[]']
+  goserelin: FOUND (1 matching row(s))
+    row_index=1241, id=CHEMBL1201247, matched_field_paths=['properties.name', 'properties.synonyms[]']
+  erythropoietin: FOUND (4 matching row(s))
+    row_index=1400, id=CHEMBL1201565, matched_field_paths=['properties.synonyms[]']
+    row_index=5743, id=CHEMBL2108593, matched_field_paths=['properties.synonyms[]']
+    row_index=5907, id=CHEMBL2109092, matched_field_paths=['properties.synonyms[]']
+    row_index=15490, id=DRUGBANK:DB00016, matched_field_paths=['properties.name']
+  insulin: FOUND (1 matching row(s))
+    row_index=1444, id=CHEMBL1201631, matched_field_paths=['properties.synonyms[]']
+  metformin: FOUND (2 matching row(s))
+    row_index=2673, id=CHEMBL1431, matched_field_paths=['properties.name', 'properties.synonyms[]']
+    row_index=16755, id=RXNORM:6809, matched_field_paths=['properties.name']
+  aspirin: FOUND (1 matching row(s))
+    row_index=7076, id=CHEMBL25, matched_field_paths=['properties.name', 'properties.source_ids[]', 'properties.synonyms[]', 'properties.trade_names[]']
+No fuzzy matching was performed.
+Inspection report saved to: D:\Duc\BioKORF\data_processed\optimuskg\drug_node_inspection.txt

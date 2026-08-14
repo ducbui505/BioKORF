@@ -1,0 +1,184 @@
+WARNING: expected file path is a directory: D:\Duc\BioKORF\kg\stitch\chemicals.inchikeys.v5.0.tsv
+Using nested extracted TSV file: D:\Duc\BioKORF\kg\stitch\chemicals.inchikeys.v5.0.tsv\chemicals.inchikeys.v5.0.tsv
+STITCH v5.0 chemical ID to InChIKey inspection
+Expected path: D:\Duc\BioKORF\kg\stitch\chemicals.inchikeys.v5.0.tsv
+Inspected file: D:\Duc\BioKORF\kg\stitch\chemicals.inchikeys.v5.0.tsv\chemicals.inchikeys.v5.0.tsv
+File size: 4.00 GiB (4,297,884,809 bytes)
+
+First 10 raw lines:
+1: flat_chemical_id	stereo_chemical_id	source_cid	inchikey
+2: CIDm00000001	CIDs00000001	1	RDHQFKQIGNGIED-UHFFFAOYSA-N
+3: CIDm00000010	CIDs00000010	10	AUFGTPPARQZWDO-UHFFFAOYSA-N
+4: CIDm00000100	CIDs00000100	100	UTIBHEBNILDQKX-UHFFFAOYSA-N
+5: CIDm00001000	CIDs00001000	1000	ULSIYEODSMZIPX-UHFFFAOYSA-N
+6: CIDm00010000	CIDs00010000	10000	ZPIFKCVYZBVZIV-UHFFFAOYSA-N
+7: CIDm00100000	CIDs00100000	100000	SPTBIJLJJBZGDY-UHFFFAOYSA-N
+8: CIDm01000000	CIDs01000000	1000000	XTNVYACQOFUTNH-UHFFFAOYSA-N
+9: CIDm10000000	CIDs10000000	10000000	WUGPGGSZFRVGGA-UHFFFAOYSA-N
+10: CIDm10000001	CIDs10000001	10000001	ANOUMYXLUIDQNL-UHFFFAOYSA-N
+
+Detected file structure:
+Detected number of columns: 4
+Observed sample column counts: {4: 10}
+Header appears present: yes
+Detected column labels: ['flat_chemical_id', 'stereo_chemical_id', 'source_cid', 'inchikey']
+Detected STITCH chemical ID column: index 0 ('flat_chemical_id')
+Detected InChIKey column: index 3 ('inchikey')
+STITCH-pattern scores by column: [9, 9, 0, 0]
+InChIKey-pattern scores by column: [0, 0, 0, 9]
+
+Example parsed rows:
+{'flat_chemical_id': 'CIDm00000001', 'stereo_chemical_id': 'CIDs00000001', 'source_cid': '1', 'inchikey': 'RDHQFKQIGNGIED-UHFFFAOYSA-N'}
+{'flat_chemical_id': 'CIDm00000010', 'stereo_chemical_id': 'CIDs00000010', 'source_cid': '10', 'inchikey': 'AUFGTPPARQZWDO-UHFFFAOYSA-N'}
+{'flat_chemical_id': 'CIDm00000100', 'stereo_chemical_id': 'CIDs00000100', 'source_cid': '100', 'inchikey': 'UTIBHEBNILDQKX-UHFFFAOYSA-N'}
+{'flat_chemical_id': 'CIDm00001000', 'stereo_chemical_id': 'CIDs00001000', 'source_cid': '1000', 'inchikey': 'ULSIYEODSMZIPX-UHFFFAOYSA-N'}
+{'flat_chemical_id': 'CIDm00010000', 'stereo_chemical_id': 'CIDs00010000', 'source_cid': '10000', 'inchikey': 'ZPIFKCVYZBVZIV-UHFFFAOYSA-N'}
+
+Search results for the 10 BioKORF STITCH IDs:
+CIDm16132441: FOUND
+  Matching rows: 3
+  Complete row 1: CIDm16132441<TAB>CIDs16132441<TAB>16132441<TAB>OTQCKZUSUGYWBD-BRHMIFOHSA-N
+  Parsed row 1: {'flat_chemical_id': 'CIDm16132441', 'stereo_chemical_id': 'CIDs16132441', 'source_cid': '16132441', 'inchikey': 'OTQCKZUSUGYWBD-BRHMIFOHSA-N'}
+  Complete row 2: CIDm16132441<TAB>CIDs73897519<TAB>73897519<TAB>OTQCKZUSUGYWBD-UHFFFAOYSA-N
+  Parsed row 2: {'flat_chemical_id': 'CIDm16132441', 'stereo_chemical_id': 'CIDs73897519', 'source_cid': '73897519', 'inchikey': 'OTQCKZUSUGYWBD-UHFFFAOYSA-N'}
+  Complete row 3: CIDm16132441<TAB>CIDs73952223<TAB>73952223<TAB>OTQCKZUSUGYWBD-MLVDHBCPSA-N
+  Parsed row 3: {'flat_chemical_id': 'CIDm16132441', 'stereo_chemical_id': 'CIDs73952223', 'source_cid': '73952223', 'inchikey': 'OTQCKZUSUGYWBD-MLVDHBCPSA-N'}
+  Distinct non-empty InChIKeys: 3
+  InChIKey values: ['OTQCKZUSUGYWBD-BRHMIFOHSA-N', 'OTQCKZUSUGYWBD-MLVDHBCPSA-N', 'OTQCKZUSUGYWBD-UHFFFAOYSA-N']
+  Maps to multiple different InChIKeys: yes
+CIDm16129704: FOUND
+  Matching rows: 10
+  Complete row 1: CIDm16129704<TAB>CIDs16129704<TAB>16129704<TAB>OIRCOABEOLEUMC-GEJPAHFPSA-N
+  Parsed row 1: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs16129704', 'source_cid': '16129704', 'inchikey': 'OIRCOABEOLEUMC-GEJPAHFPSA-N'}
+  Complete row 2: CIDm16129704<TAB>CIDs19797045<TAB>19797045<TAB>OIRCOABEOLEUMC-UHFFFAOYSA-N
+  Parsed row 2: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs19797045', 'source_cid': '19797045', 'inchikey': 'OIRCOABEOLEUMC-UHFFFAOYSA-N'}
+  Complete row 3: CIDm16129704<TAB>CIDs20057036<TAB>20057036<TAB>OIRCOABEOLEUMC-NUDLHGAQSA-N
+  Parsed row 3: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs20057036', 'source_cid': '20057036', 'inchikey': 'OIRCOABEOLEUMC-NUDLHGAQSA-N'}
+  Complete row 4: CIDm16129704<TAB>CIDs73952246<TAB>73952246<TAB>OIRCOABEOLEUMC-GEJPAHFPSA-N
+  Parsed row 4: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs73952246', 'source_cid': '73952246', 'inchikey': 'OIRCOABEOLEUMC-GEJPAHFPSA-N'}
+  Complete row 5: CIDm16129704<TAB>CIDs78357798<TAB>78357798<TAB>ZXZYMGVTLNJMKP-VWLBKGQPSA-N
+  Parsed row 5: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs78357798', 'source_cid': '78357798', 'inchikey': 'ZXZYMGVTLNJMKP-VWLBKGQPSA-N'}
+  Complete row 6: CIDm16129704<TAB>CIDs78357798<TAB>78357799<TAB>OIRCOABEOLEUMC-DRWUPLGZSA-N
+  Parsed row 6: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs78357798', 'source_cid': '78357799', 'inchikey': 'OIRCOABEOLEUMC-DRWUPLGZSA-N'}
+  Complete row 7: CIDm16129704<TAB>CIDs16129704<TAB>87326698<TAB>ZXZYMGVTLNJMKP-GRDNZSJBSA-N
+  Parsed row 7: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs16129704', 'source_cid': '87326698', 'inchikey': 'ZXZYMGVTLNJMKP-GRDNZSJBSA-N'}
+  Complete row 8: CIDm16129704<TAB>CIDs16129704<TAB>87327181<TAB>VUOIXNHGPJMENF-HKRGSHRKSA-N
+  Parsed row 8: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs16129704', 'source_cid': '87327181', 'inchikey': 'VUOIXNHGPJMENF-HKRGSHRKSA-N'}
+  Complete row 9: CIDm16129704<TAB>CIDs20057036<TAB>87626139<TAB>ZXZYMGVTLNJMKP-HUJDAMTASA-N
+  Parsed row 9: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs20057036', 'source_cid': '87626139', 'inchikey': 'ZXZYMGVTLNJMKP-HUJDAMTASA-N'}
+  Complete row 10: CIDm16129704<TAB>CIDs16129704<TAB>90403943<TAB>ODCZNMGPBWFNPG-HKRGSHRKSA-N
+  Parsed row 10: {'flat_chemical_id': 'CIDm16129704', 'stereo_chemical_id': 'CIDs16129704', 'source_cid': '90403943', 'inchikey': 'ODCZNMGPBWFNPG-HKRGSHRKSA-N'}
+  Distinct non-empty InChIKeys: 9
+  InChIKey values: ['ODCZNMGPBWFNPG-HKRGSHRKSA-N', 'OIRCOABEOLEUMC-DRWUPLGZSA-N', 'OIRCOABEOLEUMC-GEJPAHFPSA-N', 'OIRCOABEOLEUMC-NUDLHGAQSA-N', 'OIRCOABEOLEUMC-UHFFFAOYSA-N', 'VUOIXNHGPJMENF-HKRGSHRKSA-N', 'ZXZYMGVTLNJMKP-GRDNZSJBSA-N', 'ZXZYMGVTLNJMKP-HUJDAMTASA-N', 'ZXZYMGVTLNJMKP-VWLBKGQPSA-N']
+  Maps to multiple different InChIKeys: yes
+CIDm00657180: NOT FOUND
+  Matching rows: 0
+  Distinct non-empty InChIKeys: 0
+  InChIKey values: []
+  Maps to multiple different InChIKeys: no
+CIDm00047725: FOUND
+  Matching rows: 20
+  Complete row 1: CIDm00047725<TAB>CIDs00047725<TAB>11980055<TAB>IKDXDQDKCZPQSZ-UHFFFAOYSA-N
+  Parsed row 1: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs00047725', 'source_cid': '11980055', 'inchikey': 'IKDXDQDKCZPQSZ-UHFFFAOYSA-N'}
+  Complete row 2: CIDm00047725<TAB>CIDs05311128<TAB>16052011<TAB>IKDXDQDKCZPQSZ-JHYYTBFNSA-N
+  Parsed row 2: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '16052011', 'inchikey': 'IKDXDQDKCZPQSZ-JHYYTBFNSA-N'}
+  Complete row 3: CIDm00047725<TAB>CIDs23581804<TAB>23581804<TAB>IKDXDQDKCZPQSZ-GYAAJWHGSA-N
+  Parsed row 3: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs23581804', 'source_cid': '23581804', 'inchikey': 'IKDXDQDKCZPQSZ-GYAAJWHGSA-N'}
+  Complete row 4: CIDm00047725<TAB>CIDs23581804<TAB>23581805<TAB>BLCLNMBMMGCOAS-KJLMDEBVSA-N
+  Parsed row 4: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs23581804', 'source_cid': '23581805', 'inchikey': 'BLCLNMBMMGCOAS-KJLMDEBVSA-N'}
+  Complete row 5: CIDm00047725<TAB>CIDs00047725<TAB>47725<TAB>BLCLNMBMMGCOAS-UHFFFAOYSA-N
+  Parsed row 5: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs00047725', 'source_cid': '47725', 'inchikey': 'BLCLNMBMMGCOAS-UHFFFAOYSA-N'}
+  Complete row 6: CIDm00047725<TAB>CIDs05311128<TAB>5311128<TAB>BLCLNMBMMGCOAS-URPVMXJPSA-N
+  Parsed row 6: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '5311128', 'inchikey': 'BLCLNMBMMGCOAS-URPVMXJPSA-N'}
+  Complete row 7: CIDm00047725<TAB>CIDs53315112<TAB>53315112<TAB>BLCLNMBMMGCOAS-MGJZZOJLSA-N
+  Parsed row 7: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs53315112', 'source_cid': '53315112', 'inchikey': 'BLCLNMBMMGCOAS-MGJZZOJLSA-N'}
+  Complete row 8: CIDm00047725<TAB>CIDs57301247<TAB>57301247<TAB>BLCLNMBMMGCOAS-ZTJHFXJKSA-N
+  Parsed row 8: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs57301247', 'source_cid': '57301247', 'inchikey': 'BLCLNMBMMGCOAS-ZTJHFXJKSA-N'}
+  Complete row 9: CIDm00047725<TAB>CIDs58984301<TAB>58984301<TAB>BLCLNMBMMGCOAS-DJGWEWOFSA-N
+  Parsed row 9: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs58984301', 'source_cid': '58984301', 'inchikey': 'BLCLNMBMMGCOAS-DJGWEWOFSA-N'}
+  Complete row 10: CIDm00047725<TAB>CIDs59793478<TAB>59793478<TAB>BLCLNMBMMGCOAS-PECHQNLHSA-N
+  Parsed row 10: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs59793478', 'source_cid': '59793478', 'inchikey': 'BLCLNMBMMGCOAS-PECHQNLHSA-N'}
+  Complete row 11: CIDm00047725<TAB>CIDs71773422<TAB>71773422<TAB>BLCLNMBMMGCOAS-HZLKSCACSA-N
+  Parsed row 11: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs71773422', 'source_cid': '71773422', 'inchikey': 'BLCLNMBMMGCOAS-HZLKSCACSA-N'}
+  Complete row 12: CIDm00047725<TAB>CIDs05311128<TAB>86614451<TAB>YSPNWYOKDRFPGE-JHYYTBFNSA-N
+  Parsed row 12: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '86614451', 'inchikey': 'YSPNWYOKDRFPGE-JHYYTBFNSA-N'}
+  Complete row 13: CIDm00047725<TAB>CIDs05311128<TAB>86614452<TAB>OKBWUJUWXHIXKX-NDYXFOJLSA-N
+  Parsed row 13: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '86614452', 'inchikey': 'OKBWUJUWXHIXKX-NDYXFOJLSA-N'}
+  Complete row 14: CIDm00047725<TAB>CIDs05311128<TAB>87618430<TAB>OREKUPVDIUOJPH-JHYYTBFNSA-N
+  Parsed row 14: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '87618430', 'inchikey': 'OREKUPVDIUOJPH-JHYYTBFNSA-N'}
+  Complete row 15: CIDm00047725<TAB>CIDs05311128<TAB>87814579<TAB>CSABIHHKODJPHU-LZPGHKBSSA-N
+  Parsed row 15: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '87814579', 'inchikey': 'CSABIHHKODJPHU-LZPGHKBSSA-N'}
+  Complete row 16: CIDm00047725<TAB>CIDs05311128<TAB>88158484<TAB>NUEXQYWPWOQNJP-XFNSFMPMSA-N
+  Parsed row 16: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '88158484', 'inchikey': 'NUEXQYWPWOQNJP-XFNSFMPMSA-N'}
+  Complete row 17: CIDm00047725<TAB>CIDs05311128<TAB>88161850<TAB>WTUCIDSZXKBEMH-JHYYTBFNSA-N
+  Parsed row 17: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs05311128', 'source_cid': '88161850', 'inchikey': 'WTUCIDSZXKBEMH-JHYYTBFNSA-N'}
+  Complete row 18: CIDm00047725<TAB>CIDs89141413<TAB>89141413<TAB>BLCLNMBMMGCOAS-SROCWPMZSA-N
+  Parsed row 18: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs89141413', 'source_cid': '89141413', 'inchikey': 'BLCLNMBMMGCOAS-SROCWPMZSA-N'}
+  Complete row 19: CIDm00047725<TAB>CIDs90474525<TAB>90474525<TAB>BLCLNMBMMGCOAS-ORFGIKFDSA-N
+  Parsed row 19: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs90474525', 'source_cid': '90474525', 'inchikey': 'BLCLNMBMMGCOAS-ORFGIKFDSA-N'}
+  Complete row 20: CIDm00047725<TAB>CIDs90488862<TAB>90488862<TAB>BLCLNMBMMGCOAS-JFBCNRKLSA-N
+  Parsed row 20: {'flat_chemical_id': 'CIDm00047725', 'stereo_chemical_id': 'CIDs90488862', 'source_cid': '90488862', 'inchikey': 'BLCLNMBMMGCOAS-JFBCNRKLSA-N'}
+  Distinct non-empty InChIKeys: 20
+  InChIKey values: ['BLCLNMBMMGCOAS-DJGWEWOFSA-N', 'BLCLNMBMMGCOAS-HZLKSCACSA-N', 'BLCLNMBMMGCOAS-JFBCNRKLSA-N', 'BLCLNMBMMGCOAS-KJLMDEBVSA-N', 'BLCLNMBMMGCOAS-MGJZZOJLSA-N', 'BLCLNMBMMGCOAS-ORFGIKFDSA-N', 'BLCLNMBMMGCOAS-PECHQNLHSA-N', 'BLCLNMBMMGCOAS-SROCWPMZSA-N', 'BLCLNMBMMGCOAS-UHFFFAOYSA-N', 'BLCLNMBMMGCOAS-URPVMXJPSA-N', 'BLCLNMBMMGCOAS-ZTJHFXJKSA-N', 'CSABIHHKODJPHU-LZPGHKBSSA-N', 'IKDXDQDKCZPQSZ-GYAAJWHGSA-N', 'IKDXDQDKCZPQSZ-JHYYTBFNSA-N', 'IKDXDQDKCZPQSZ-UHFFFAOYSA-N', 'NUEXQYWPWOQNJP-XFNSFMPMSA-N', 'OKBWUJUWXHIXKX-NDYXFOJLSA-N', 'OREKUPVDIUOJPH-JHYYTBFNSA-N', 'WTUCIDSZXKBEMH-JHYYTBFNSA-N', 'YSPNWYOKDRFPGE-JHYYTBFNSA-N']
+  Maps to multiple different InChIKeys: yes
+CIDm05288169: NOT FOUND
+  Matching rows: 0
+  Distinct non-empty InChIKeys: 0
+  InChIKey values: []
+  Maps to multiple different InChIKeys: no
+CIDm16129672: FOUND
+  Matching rows: 3
+  Complete row 1: CIDm16129672<TAB>CIDs16129672<TAB>16129672<TAB>PBGKTOXHQIOBKM-FHFVDXKLSA-N
+  Parsed row 1: {'flat_chemical_id': 'CIDm16129672', 'stereo_chemical_id': 'CIDs16129672', 'source_cid': '16129672', 'inchikey': 'PBGKTOXHQIOBKM-FHFVDXKLSA-N'}
+  Complete row 2: CIDm16129672<TAB>CIDs73945181<TAB>73945181<TAB>PBGKTOXHQIOBKM-UHFFFAOYSA-N
+  Parsed row 2: {'flat_chemical_id': 'CIDm16129672', 'stereo_chemical_id': 'CIDs73945181', 'source_cid': '73945181', 'inchikey': 'PBGKTOXHQIOBKM-UHFFFAOYSA-N'}
+  Complete row 3: CIDm16129672<TAB>CIDs73952238<TAB>73952238<TAB>PBGKTOXHQIOBKM-ZEKLRAMDSA-N
+  Parsed row 3: {'flat_chemical_id': 'CIDm16129672', 'stereo_chemical_id': 'CIDs73952238', 'source_cid': '73952238', 'inchikey': 'PBGKTOXHQIOBKM-ZEKLRAMDSA-N'}
+  Distinct non-empty InChIKeys: 3
+  InChIKey values: ['PBGKTOXHQIOBKM-FHFVDXKLSA-N', 'PBGKTOXHQIOBKM-UHFFFAOYSA-N', 'PBGKTOXHQIOBKM-ZEKLRAMDSA-N']
+  Maps to multiple different InChIKeys: yes
+CIDm00444013: FOUND
+  Matching rows: 4
+  Complete row 1: CIDm00444013<TAB>CIDs00444013<TAB>444013<TAB>HBEAOBRDTOXWRZ-UHFFFAOYSA-K
+  Parsed row 1: {'flat_chemical_id': 'CIDm00444013', 'stereo_chemical_id': 'CIDs00444013', 'source_cid': '444013', 'inchikey': 'HBEAOBRDTOXWRZ-UHFFFAOYSA-K'}
+  Complete row 2: CIDm00444013<TAB>CIDs00444013<TAB>450071<TAB>HBEAOBRDTOXWRZ-UHFFFAOYSA-N
+  Parsed row 2: {'flat_chemical_id': 'CIDm00444013', 'stereo_chemical_id': 'CIDs00444013', 'source_cid': '450071', 'inchikey': 'HBEAOBRDTOXWRZ-UHFFFAOYSA-N'}
+  Complete row 3: CIDm00444013<TAB>CIDs00444013<TAB>6435809<TAB>HBEAOBRDTOXWRZ-UHFFFAOYSA-K
+  Parsed row 3: {'flat_chemical_id': 'CIDm00444013', 'stereo_chemical_id': 'CIDs00444013', 'source_cid': '6435809', 'inchikey': 'HBEAOBRDTOXWRZ-UHFFFAOYSA-K'}
+  Complete row 4: CIDm00444013<TAB>CIDs00444013<TAB>90469695<TAB>OKVNYJNFJCLPRF-UHFFFAOYSA-N
+  Parsed row 4: {'flat_chemical_id': 'CIDm00444013', 'stereo_chemical_id': 'CIDs00444013', 'source_cid': '90469695', 'inchikey': 'OKVNYJNFJCLPRF-UHFFFAOYSA-N'}
+  Distinct non-empty InChIKeys: 3
+  InChIKey values: ['HBEAOBRDTOXWRZ-UHFFFAOYSA-K', 'HBEAOBRDTOXWRZ-UHFFFAOYSA-N', 'OKVNYJNFJCLPRF-UHFFFAOYSA-N']
+  Maps to multiple different InChIKeys: yes
+CIDm00358641: FOUND
+  Matching rows: 2
+  Complete row 1: CIDm00358641<TAB>CIDs00358641<TAB>11980986<TAB>CAPYMLGXXYDZGV-UHFFFAOYSA-N
+  Parsed row 1: {'flat_chemical_id': 'CIDm00358641', 'stereo_chemical_id': 'CIDs00358641', 'source_cid': '11980986', 'inchikey': 'CAPYMLGXXYDZGV-UHFFFAOYSA-N'}
+  Complete row 2: CIDm00358641<TAB>CIDs00358641<TAB>358641<TAB>WZRJTRPJURQBRM-UHFFFAOYSA-N
+  Parsed row 2: {'flat_chemical_id': 'CIDm00358641', 'stereo_chemical_id': 'CIDs00358641', 'source_cid': '358641', 'inchikey': 'WZRJTRPJURQBRM-UHFFFAOYSA-N'}
+  Distinct non-empty InChIKeys: 2
+  InChIKey values: ['CAPYMLGXXYDZGV-UHFFFAOYSA-N', 'WZRJTRPJURQBRM-UHFFFAOYSA-N']
+  Maps to multiple different InChIKeys: yes
+CIDm00004274: FOUND
+  Matching rows: 1
+  Complete row 1: CIDm00004274<TAB>CIDs00004274<TAB>4274<TAB>QCWJONLQSHEGEJ-UHFFFAOYSA-N
+  Parsed row 1: {'flat_chemical_id': 'CIDm00004274', 'stereo_chemical_id': 'CIDs00004274', 'source_cid': '4274', 'inchikey': 'QCWJONLQSHEGEJ-UHFFFAOYSA-N'}
+  Distinct non-empty InChIKeys: 1
+  InChIKey values: ['QCWJONLQSHEGEJ-UHFFFAOYSA-N']
+  Maps to multiple different InChIKeys: no
+CIDm00003738: FOUND
+  Matching rows: 2
+  Complete row 1: CIDm00003738<TAB>CIDs00003738<TAB>3738<TAB>XUHXFSYUBXNTHU-UHFFFAOYSA-N
+  Parsed row 1: {'flat_chemical_id': 'CIDm00003738', 'stereo_chemical_id': 'CIDs00003738', 'source_cid': '3738', 'inchikey': 'XUHXFSYUBXNTHU-UHFFFAOYSA-N'}
+  Complete row 2: CIDm00003738<TAB>CIDs00003738<TAB>88374241<TAB>KGIIMBIMDZKURG-UHFFFAOYSA-N
+  Parsed row 2: {'flat_chemical_id': 'CIDm00003738', 'stereo_chemical_id': 'CIDs00003738', 'source_cid': '88374241', 'inchikey': 'KGIIMBIMDZKURG-UHFFFAOYSA-N'}
+  Distinct non-empty InChIKeys: 2
+  InChIKey values: ['KGIIMBIMDZKURG-UHFFFAOYSA-N', 'XUHXFSYUBXNTHU-UHFFFAOYSA-N']
+  Maps to multiple different InChIKeys: yes
+
+Streaming scan diagnostics:
+Data rows scanned: 68,373,241
+Rows with unexpected column count: 0
+Searched IDs mapping to multiple different InChIKeys: ['CIDm16132441', 'CIDm16129704', 'CIDm00047725', 'CIDm16129672', 'CIDm00444013', 'CIDm00358641', 'CIDm00003738']
+No mapping, fuzzy matching, network access, or source modification was performed.
+Inspection report saved to: D:\Duc\BioKORF\data_processed\stitch\stitch_inchikey_inspection.txt

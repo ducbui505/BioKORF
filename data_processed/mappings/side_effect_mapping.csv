@@ -1,0 +1,995 @@
+matrix_index,source_row,side_effect_name,optimuskg_id,mapping_method,mapping_status
+0,1,abdominal discomfort,,,unmapped
+1,2,abdominal distension,,,unmapped
+2,3,abdominal pain,,,unmapped
+3,4,abdominal pain lower,,,unmapped
+4,5,abdominal pain upper,,,unmapped
+5,6,abnormal behaviour,,,unmapped
+6,7,abnormal dreams,,,unmapped
+7,8,abnormal faeces,,,unmapped
+8,9,abscess,,,unmapped
+9,10,accommodation disorder,,,unmapped
+10,11,acidosis,,,unmapped
+11,12,acne,,,unmapped
+12,13,actinic keratosis,,,unmapped
+13,14,acute coronary syndrome,,,unmapped
+14,15,acute myocardial infarction,,,unmapped
+15,16,acute respiratory distress syndrome,,,unmapped
+16,17,adrenal insufficiency,,,unmapped
+17,18,affect lability,,,unmapped
+18,19,affective disorder,,,unmapped
+19,20,loss of taste,,,unmapped
+20,21,aggression,,,unmapped
+21,22,agitation,,,unmapped
+22,23,agranulocytosis,,,unmapped
+23,24,akathisia,,,unmapped
+24,25,can not exercise,,,unmapped
+25,26,alanine aminotransferase increased,,,unmapped
+26,27,proteinuria,,,unmapped
+27,28,alcohol intolerance,,,unmapped
+28,29,alopecia,,,unmapped
+29,30,altered state of consciousness,,,unmapped
+30,31,other allergic pneumonitis,,,unmapped
+31,32,amblyopia,,,unmapped
+32,33,amenorrhoea,,,unmapped
+33,34,amnesia,,,unmapped
+34,35,amylase increased,,,unmapped
+35,36,anaemia,,,unmapped
+36,37,anaemia large cell,,,unmapped
+37,38,anaemia megaloblastic,,,unmapped
+38,39,anal pruritus,,,unmapped
+39,40,anaphylactic shock,,,unmapped
+40,41,anaphylaxis reaction,,,unmapped
+41,42,aneurysm,,,unmapped
+42,43,anger,,,unmapped
+43,44,angina pectoris,,,unmapped
+44,45,angioedema,,,unmapped
+45,46,angiopathy,,,unmapped
+46,47,angle closure glaucoma,,,unmapped
+47,48,anorectal discomfort,,,unmapped
+48,49,anorectal disorder,,,unmapped
+49,50,inability to orgasm,,,unmapped
+50,51,antisocial behaviour,,,unmapped
+51,52,antisocial personality disorder,,,unmapped
+52,53,arrest of urinary output,,,unmapped
+53,54,anxiety,,,unmapped
+54,55,apathy,,,unmapped
+55,56,aphasia,,,unmapped
+56,57,aplasia pure red cell,,,unmapped
+57,58,aplastic anaemia,,,unmapped
+58,59,apnoea,,,unmapped
+59,60,appendicitis,,,unmapped
+60,61,application site burn,,,unmapped
+61,62,application site dryness,,,unmapped
+62,63,application site erythema,,,unmapped
+63,64,application site irritation,,,unmapped
+64,65,application site pain,,,unmapped
+65,66,application site paresthesia,,,unmapped
+66,67,application site pruritus,,,unmapped
+67,68,application site rash,,,unmapped
+68,69,application site reaction,,,unmapped
+69,70,application site vesicles,,,unmapped
+70,71,apraxia,,,unmapped
+71,72,arrhythmia,,,unmapped
+72,73,arrhythmia supraventricular,,,unmapped
+73,74,arteriosclerosis,,,unmapped
+74,75,arthralgia,,,unmapped
+75,76,arthritis,,,unmapped
+76,77,other symptoms referable to lower leg joint,,,unmapped
+77,78,ascites,,,unmapped
+78,79,asocial behaviour,,,unmapped
+79,80,aspartate aminotransferase increased,,,unmapped
+80,81,asthenia,,,unmapped
+81,82,eye strain,,,unmapped
+82,83,asthma,,,unmapped
+83,84,ataxia,,,unmapped
+84,85,atelectasis,,,unmapped
+85,86,atrial fibrillation,,,unmapped
+86,87,atrial flutter,,,unmapped
+87,88,atrioventricular block,,,unmapped
+88,89,atrioventricular block complete,,,unmapped
+89,90,atrioventricular block first degree,,,unmapped
+90,91,autonomic nervous system imbalance,,,unmapped
+91,92,syndrome uremic,,,unmapped
+92,93,back pain,,,unmapped
+93,94,bloodstream infections,,,unmapped
+94,95,bacterial infection,,,unmapped
+95,96,balance disorder,,,unmapped
+96,97,basal cell carcinoma,,,unmapped
+97,98,benign neoplasm of skin,,,unmapped
+98,99,biliary colic,,,unmapped
+99,100,bipolar disorder,,,unmapped
+100,101,bipolar i disorder,,,unmapped
+101,102,bladder cancer,,,unmapped
+102,103,bladder pain,,,unmapped
+103,104,bleeding time prolonged,,,unmapped
+104,105,dermatitis eyelid,,,unmapped
+105,106,spasm eyelid,,,unmapped
+106,107,blindness,,,unmapped
+107,108,blister,,,unmapped
+108,109,blood albumin decreased,,,unmapped
+109,110,blood alkaline phosphatase increased,,,unmapped
+110,111,blood bilirubin increased,,,unmapped
+111,112,blood calcium decreased,,,unmapped
+112,113,blood cholesterol increased,,,unmapped
+113,114,creatine kinase high,,,unmapped
+114,115,blood creatinine increased,,,unmapped
+115,116,blood disorder,,,unmapped
+116,117,blood glucose decreased,,,unmapped
+117,118,blood glucose increased,,,unmapped
+118,119,blood lactate dehydrogenase increased,,,unmapped
+119,120,blood phosphorus decreased,,,unmapped
+120,121,blood potassium decreased,,,unmapped
+121,122,blood potassium increased,,,unmapped
+122,123,blood pressure increased,,,unmapped
+123,124,blood prolactin increased,,,unmapped
+124,125,blood triglycerides increased,,,unmapped
+125,126,blood urea increased,,,unmapped
+126,127,blood uric acid increased,,,unmapped
+127,128,blood urine present,,,unmapped
+128,129,body temperature decreased,,,unmapped
+129,130,body temperature increased,,,unmapped
+130,131,bone disorder,,,unmapped
+131,132,bone pain,,,unmapped
+132,133,bradycardia,,,unmapped
+133,134,loss of motor function,,,unmapped
+134,135,brain oedema,,,unmapped
+135,136,breast cancer,,,unmapped
+136,137,breast discharge,,,unmapped
+137,138,breast disorder,,,unmapped
+138,139,breast engorgement,,,unmapped
+139,140,breast enlargement,,,unmapped
+140,141,breast neoplasm,,,unmapped
+141,142,breast pain,,,unmapped
+142,143,breast tenderness,,,unmapped
+143,144,breath odour,,,unmapped
+144,145,breath sounds abnormal,,,unmapped
+145,146,reactive airways disease,,,unmapped
+146,147,bronchitis,,,unmapped
+147,148,bronchospasm,,,unmapped
+148,149,bronchospasm paradoxical,,,unmapped
+149,150,bruxism,,,unmapped
+150,151,bundle branch block,,,unmapped
+151,152,burning sensation,,,unmapped
+152,153,bursitis,,,unmapped
+153,154,cachexia,,,unmapped
+154,155,candida infection,,,unmapped
+155,156,cardiac arrest,,,unmapped
+156,157,cardiac disorder,,,unmapped
+157,158,cardiac failure,,,unmapped
+158,159,cardiac failure congestive,,,unmapped
+159,160,cardiac flutter,,,unmapped
+160,161,cardiac murmur,,,unmapped
+161,162,cardiac output decreased,,,unmapped
+162,163,cardiogenic shock,,,unmapped
+163,164,cardiac dilatation,,,unmapped
+164,165,cardiomyopathy,,,unmapped
+165,166,cardiovascular disorder,,,unmapped
+166,167,carpal tunnel syndrome,,,unmapped
+167,168,cataract,,,unmapped
+168,169,catheter site pain,,,unmapped
+169,170,cellulitis,,,unmapped
+170,171,cerebellar syndrome,,,unmapped
+171,172,cerebral haemorrhage,,,unmapped
+172,173,cerebral infarction,,,unmapped
+173,174,cerebral ischaemia,,,unmapped
+174,175,cerebrovascular accident,,,unmapped
+175,176,cerebrovascular disorder,,,unmapped
+176,177,cervix disorder,,,unmapped
+177,178,change of bowel habit,,,unmapped
+178,179,cheilitis,,,unmapped
+179,180,chest discomfort,,,unmapped
+180,181,chest pain,,,unmapped
+181,182,chills,,,unmapped
+182,183,cholecystitis,,,unmapped
+183,184,biliary sludge,,,unmapped
+184,185,cholestasis,,,unmapped
+185,186,chorea and atheletes disease,,,unmapped
+186,187,color vision change,,,unmapped
+187,188,urine discolouration,,,unmapped
+188,189,chronic obstructive pulmonary disease,,,unmapped
+189,190,clostridium difficile colitis,,,unmapped
+190,191,coagulopathy,,,unmapped
+191,192,cognitive disorder,,,unmapped
+192,193,cold sweat,,,unmapped
+193,194,colitis,,,unmapped
+194,195,colitis ischaemic,,,unmapped
+195,196,colitis ulcerative,,,unmapped
+196,197,coma,,,unmapped
+197,198,completed suicide,,,unmapped
+198,199,conduction disorder,,,unmapped
+199,200,confusion state,,,unmapped
+200,201,congenital eye disorder,,,unmapped
+201,202,conjunctival haemorrhage,,,unmapped
+202,203,congestion conjunctival,,,unmapped
+203,204,conjunctival oedema,,,unmapped
+204,205,conjunctivitis,,,unmapped
+205,206,conjunctivitis allergic,,,unmapped
+206,207,connective tissue disorder,,,unmapped
+207,208,constipation,,,unmapped
+208,209,contusion,,,unmapped
+209,210,conversion disorder,,,unmapped
+210,211,coordination abnormal,,,unmapped
+211,212,corneal erosion,,,unmapped
+212,213,corneal lesion,,,unmapped
+213,214,corneal opacity,,,unmapped
+214,215,coronary artery disease,,,unmapped
+215,216,cough,,,unmapped
+216,217,regional enteritis of unspecified site,,,unmapped
+217,218,crying,,,unmapped
+218,219,cushing syndrome,,,unmapped
+219,220,cyanosis,,,unmapped
+220,221,cyst,,,unmapped
+221,222,cystitis,,,unmapped
+222,223,cystitis haemorrhagic,,,unmapped
+223,224,cystitis non infective,,,unmapped
+224,225,deafness,,,unmapped
+225,226,decreased appetite,,,unmapped
+226,227,deep vein thrombosis,,,unmapped
+227,228,dehydration,,,unmapped
+228,229,delirium,,,unmapped
+229,230,delusion,,,unmapped
+230,231,dementia,,,unmapped
+231,232,dental caries,,,unmapped
+232,233,depressed level of consciousness,,,unmapped
+233,234,depressed mood,,,unmapped
+234,235,depression,,,unmapped
+235,236,feeling unreal,,,unmapped
+236,237,dermatitis,,,unmapped
+237,238,dermatitis acne,,,unmapped
+238,239,dermatitis atopic,,,unmapped
+239,240,dermatitis bullous,,,unmapped
+240,241,dermatitis contact,,,unmapped
+241,242,dermatitis exfoliating,,,unmapped
+242,243,diabetes mellitus,,,unmapped
+243,244,diarrhoea,,,unmapped
+244,245,diarrhoea haemorrhagic,,,unmapped
+245,246,diplopia,,,unmapped
+246,247,discomfort,,,unmapped
+247,248,disorientation,,,unmapped
+248,249,disseminated intravascular coagulation,,,unmapped
+249,250,disturbance in attention,,,unmapped
+250,251,disturbance in sexual arousal,,,unmapped
+251,252,diverticulitis,,,unmapped
+252,253,dizziness,,,unmapped
+253,254,dizziness postural,,,unmapped
+254,255,drug eruption,,,unmapped
+255,256,drug hypersensitivity,,,unmapped
+256,257,drug ineffective,,,unmapped
+257,258,dry eye,,,unmapped
+258,259,dry mouth,,,unmapped
+259,260,dry skin,,,unmapped
+260,261,dry throat,,,unmapped
+261,262,duodenal ulcer,,,unmapped
+262,263,duodenal inflammation,,,unmapped
+263,264,paresthesia,,,unmapped
+264,265,dysarthria,,,unmapped
+265,266,bad taste,,,unmapped
+266,267,dyskinesia,,,unmapped
+267,268,menses painful,,,unmapped
+268,269,dyspareunia,,,unmapped
+269,270,dyspepsia,,,unmapped
+270,271,dysphagia,,,unmapped
+271,272,dysphonia,,,unmapped
+272,273,dysphoria,,,unmapped
+273,274,air hunger,,,unmapped
+274,275,air hunger exertional,,,unmapped
+275,276,urinary spray,,,unmapped
+276,277,ear disorder,,,unmapped
+277,278,ear infection,,,unmapped
+278,279,ear pain,,,unmapped
+279,280,bruise,,,unmapped
+280,281,eczema,,,unmapped
+281,282,ejaculation delayed,,,unmapped
+282,283,ejaculation disorder,,,unmapped
+283,284,ejaculation failure,,,unmapped
+284,285,electrocardiogram abnormal,,,unmapped
+285,286,electrocardiogram qt prolonged,,,unmapped
+286,287,electrocardiogram st segment depression,,,unmapped
+287,288,electroencephalogram abnormal,,,unmapped
+288,289,electrolyte imbalance,,,unmapped
+289,290,embolism,,,unmapped
+290,291,embolism venous,,,unmapped
+291,292,emotional disorder,,,unmapped
+292,293,emphysema,,,unmapped
+293,294,encephalopathy,,,unmapped
+294,295,endocrine disorder,,,unmapped
+295,296,endometrial disorder,,,unmapped
+296,297,ophthalmia,,,unmapped
+297,298,enteritis,,,unmapped
+298,299,enterocolitis,,,unmapped
+299,300,enuresis,,,unmapped
+300,301,eosinophilia,,,unmapped
+301,302,epididymitis,,,unmapped
+302,303,epigastric discomfort,,,unmapped
+303,304,epistaxis,,,unmapped
+304,305,erectile dysfunction,,,unmapped
+305,306,gas raising,,,unmapped
+306,307,erythema,,,unmapped
+307,308,erythema multiforme,,,unmapped
+308,309,erythema nodosum,,,unmapped
+309,310,erythema of eyelid,,,unmapped
+310,311,euphoric mood,,,unmapped
+311,312,excoriation,,,unmapped
+312,313,exophthalmos,,,unmapped
+313,314,bone spur,,,unmapped
+314,315,extrapyramidal disorder,,,unmapped
+315,316,cardiac complex,,,unmapped
+316,317,extravasation,,,unmapped
+317,318,eye discharge,,,unmapped
+318,319,eye disorder,,,unmapped
+319,320,eye haemorrhage,,,unmapped
+320,321,eye infection,,,unmapped
+321,322,eye irritation,,,unmapped
+322,323,eye oedema,,,unmapped
+323,324,eye pain,,,unmapped
+324,325,eye pruritus,,,unmapped
+325,326,eye swelling,,,unmapped
+326,327,eyelid oedema,,,unmapped
+327,328,face oedema,,,unmapped
+328,329,fecal impaction,,,unmapped
+329,330,fecal impaction causing obstruction,,,unmapped
+330,331,faeces discoloured,,,unmapped
+331,332,fasting,,,unmapped
+332,333,fatigue,,,unmapped
+333,334,febrile neutropenia,,,unmapped
+334,335,feeling abnormal,,,unmapped
+335,336,feeling cold,,,unmapped
+336,337,feeling drunk,,,unmapped
+337,338,feeling hot,,,unmapped
+338,339,feeling jittery,,,unmapped
+339,340,fibrocystic breast disease,,,unmapped
+340,341,flank pain,,,unmapped
+341,342,flat affect,,,unmapped
+342,343,flatulence,,,unmapped
+343,344,fluid overload,,,unmapped
+344,345,fluid retention,,,unmapped
+345,346,flushing,,,unmapped
+346,347,halitosis of liver disease,,,unmapped
+347,348,folliculitis,,,unmapped
+348,349,fracture,,,unmapped
+349,350,functional gastrointestinal disorder,,,unmapped
+350,351,fungal infection,,,unmapped
+351,352,fungal skin infection,,,unmapped
+352,353,boil in nose,,,unmapped
+353,354,gait disturbance,,,unmapped
+354,355,female lactation,,,unmapped
+355,356,gamma glutamine transfer enzyme increased,,,unmapped
+356,357,gangrene,,,unmapped
+357,358,gastric ulcer,,,unmapped
+358,359,gastritis,,,unmapped
+359,360,gastroenteritis,,,unmapped
+360,361,gastrointestinal carcinoma,,,unmapped
+361,362,gastrointestinal disorder,,,unmapped
+362,363,gastrointestinal haemorrhage,,,unmapped
+363,364,gastrointestinal infection,,,unmapped
+364,365,gastrointestinal pain,,,unmapped
+365,366,gastrointestinal perforation,,,unmapped
+366,367,gastrointestinal ulcer,,,unmapped
+367,368,esophageal reflux,,,unmapped
+368,369,generalised oedema,,,unmapped
+369,370,genital candidiasis,,,unmapped
+370,371,gingival bleeding,,,unmapped
+371,372,gingival pain,,,unmapped
+372,373,gingivitis,,,unmapped
+373,374,glaucoma,,,unmapped
+374,375,glossitis,,,unmapped
+375,376,burning tongue,,,unmapped
+376,377,glucose tolerance impaired,,,unmapped
+377,378,diabetes,,,unmapped
+378,379,goitre,,,unmapped
+379,380,gout,,,unmapped
+380,381,gravitational oedema,,,unmapped
+381,382,breast enlargement male,,,unmapped
+382,383,emesis bloody,,,unmapped
+383,384,blood in stool,,,unmapped
+384,385,packed cell volume decreased,,,unmapped
+385,386,haematoma,,,unmapped
+386,387,urinary tract bleed microscopic,,,unmapped
+387,388,haemoglobin,,,unmapped
+388,389,haemoglobin decreased,,,unmapped
+389,390,haemolytic anaemia,,,unmapped
+390,391,haemolytic uremia syndrome,,,unmapped
+391,392,blood streaked sputum,,,unmapped
+392,393,haemorrhage,,,unmapped
+393,394,haemorrhage intracranial,,,unmapped
+394,395,haemorrhagic disorder,,,unmapped
+395,396,hemorrhoids,,,unmapped
+396,397,hair colour changes,,,unmapped
+397,398,hair disorder,,,unmapped
+398,399,hair texture abnormal,,,unmapped
+399,400,hallucination,,,unmapped
+400,401,hangover,,,unmapped
+401,402,headache,,,unmapped
+402,403,hemiplegia,,,unmapped
+403,404,hepatic cancer,,,unmapped
+404,405,hepatic enzyme increased,,,unmapped
+405,406,hepatic failure,,,unmapped
+406,407,hepatic function abnormal,,,unmapped
+407,408,hepatic necrosis,,,unmapped
+408,409,hepatic steatosis,,,unmapped
+409,410,hepatitis,,,unmapped
+410,411,hepatitis cholestasis,,,unmapped
+411,412,hepatobiliary disease,,,unmapped
+412,413,hepatocellular injury,,,unmapped
+413,414,hepatomegaly,,,unmapped
+414,415,hepatotoxicity,,,unmapped
+415,416,hernia,,,unmapped
+416,417,herpes simplex,,,unmapped
+417,418,herpes virus infection,,,unmapped
+418,419,herpes zoster,,,unmapped
+419,420,hiatus hernia,,,unmapped
+420,421,hiccups,,,unmapped
+421,422,hirsutism,,,unmapped
+422,423,hostility,,,unmapped
+423,424,hot flush,,,unmapped
+424,425,hyperacusis,,,unmapped
+425,426,venous congestion,,,unmapped
+426,427,allodynia mechanical,,,unmapped
+427,428,bilirubin blood,,,unmapped
+428,429,high calcium blood,,,unmapped
+429,430,high calcium urine,,,unmapped
+430,431,high cholesterol blood,,,unmapped
+431,432,high blood sugar,,,unmapped
+432,433,hyperhidrosis,,,unmapped
+433,434,high potassium blood,,,unmapped
+434,435,hyperkeratosis,,,unmapped
+435,436,movement function hyperactivity,,,unmapped
+436,437,high lactic acid blood,,,unmapped
+437,438,high levels of lipids,,,unmapped
+438,439,high magnesium blood,,,unmapped
+439,440,salt retention,,,unmapped
+440,441,pain allergy,,,unmapped
+441,442,high phosphorus blood,,,unmapped
+442,443,exaggerated reflexes,,,unmapped
+443,444,hypersensitivity,,,unmapped
+444,445,sleep excessive,,,unmapped
+445,446,hypertension,,,unmapped
+446,447,hyperthyroidism,,,unmapped
+447,448,tone increased,,,unmapped
+448,449,hypertrichosis,,,unmapped
+449,450,high glycerin three ester blood,,,unmapped
+450,451,high uric acid blood,,,unmapped
+451,452,hyperventilation,,,unmapped
+452,453,body numbness,,,unmapped
+453,454,body numbness oral,,,unmapped
+454,455,low albumin blood,,,unmapped
+455,456,low calcium blood,,,unmapped
+456,457,low chlorine blood,,,unmapped
+457,458,chlorosis,,,unmapped
+458,459,hypoglycemia,,,unmapped
+459,460,drenching sweats,,,unmapped
+460,461,potassium deficiency,,,unmapped
+461,462,activity motor retarded,,,unmapped
+462,463,low magnesium blood,,,unmapped
+463,464,hypomania,,,unmapped
+464,465,low sodium blood,,,unmapped
+465,466,phosphorus low blood,,,unmapped
+466,467,potassium deficiency,,,unmapped
+467,468,diminished reflexes,,,unmapped
+468,469,hypotension,,,unmapped
+469,470,hypothermia,,,unmapped
+470,471,hypothyroidism,,,unmapped
+471,472,hypotonia,,,unmapped
+472,473,hypoventilation,,,unmapped
+473,474,hypoxia,,,unmapped
+474,475,ileus,,,unmapped
+475,476,ileus paralytic,,,unmapped
+476,477,ill-defined disorder,,,unmapped
+477,478,immune system disorder,,,unmapped
+478,479,impaired gastric emptying,,,unmapped
+479,480,impaired healing,,,unmapped
+480,481,impetigo,,,unmapped
+481,482,inappropriate antidiuretic hormone secretion,,,unmapped
+482,483,incontinence,,,unmapped
+483,484,increased appetite,,,unmapped
+484,485,increased bronchial secretion,,,unmapped
+485,486,increased tendency to bruise,,,unmapped
+486,487,hardening,,,unmapped
+487,488,infarction,,,unmapped
+488,489,infection,,,unmapped
+489,490,infestation,,,unmapped
+490,491,inflammation,,,unmapped
+491,492,influenza,,,unmapped
+492,493,influenza like illness,,,unmapped
+493,494,infusion site pain,,,unmapped
+494,495,infusion site reaction,,,unmapped
+495,496,injection site bruising,,,unmapped
+496,497,injection site erythema,,,unmapped
+497,498,injection site haemorrhage,,,unmapped
+498,499,injection site hardening,,,unmapped
+499,500,injection site inflammation,,,unmapped
+500,501,injection site pain,,,unmapped
+501,502,injection site pruritus,,,unmapped
+502,503,injection site reaction,,,unmapped
+503,504,injection site swelling,,,unmapped
+504,505,injury,,,unmapped
+505,506,insomnia,,,unmapped
+506,507,instillation site pain,,,unmapped
+507,508,intermittent claudication,,,unmapped
+508,509,international normalised ratio increased,,,unmapped
+509,510,interstitial lung disease,,,unmapped
+510,511,intestinal obstruction,,,unmapped
+511,512,intestinal perforation,,,unmapped
+512,513,intracranial pressure increased,,,unmapped
+513,514,intraocular pressure increased,,,unmapped
+514,515,iris inflammation,,,unmapped
+515,516,iron deficiency anaemia,,,unmapped
+516,517,irritability,,,unmapped
+517,518,irritable bowel syndrome,,,unmapped
+518,519,ischaemia,,,unmapped
+519,520,jaundice,,,unmapped
+520,521,obstructive jaundice,,,unmapped
+521,522,joint stiffness,,,unmapped
+522,523,joint swelling,,,unmapped
+523,524,keratitis,,,unmapped
+524,525,ketosis,,,unmapped
+525,526,laboratory test abnormal,,,unmapped
+526,527,inner ear infection,,,unmapped
+527,528,laceration,,,unmapped
+528,529,lacrimal disorder,,,unmapped
+529,530,lacrimal structural disorder,,,unmapped
+530,531,lacrimation increased,,,unmapped
+531,532,lactic acidosis,,,unmapped
+532,533,laryngeal oedema,,,unmapped
+533,534,laryngeal pain,,,unmapped
+534,535,laryngitis,,,unmapped
+535,536,laryngeal spasm,,,unmapped
+536,537,lethargy,,,unmapped
+537,538,leukocytosis,,,unmapped
+538,539,vitiligo,,,unmapped
+539,540,leukopenia,,,unmapped
+540,541,libido decreased,,,unmapped
+541,542,libido disorder,,,unmapped
+542,543,libido increased,,,unmapped
+543,544,mossy keratosis,,,unmapped
+544,545,ligament sprain,,,unmapped
+545,546,lipase increased,,,unmapped
+546,547,lipodystrophy acquired,,,unmapped
+547,548,liver disorder,,,unmapped
+548,549,liver function test abnormal,,,unmapped
+549,550,liver injury,,,unmapped
+550,551,local swelling,,,unmapped
+551,552,loss of consciousness,,,unmapped
+552,553,loss of libido,,,unmapped
+553,554,lower respiratory tract infection,,,unmapped
+554,555,lung disorder,,,unmapped
+555,556,lung infection,,,unmapped
+556,557,lung infiltration,,,unmapped
+557,558,lymphadenopathy,,,unmapped
+558,559,lymphocyte count decreased,,,unmapped
+559,560,lymphocyte excess,,,unmapped
+560,561,lymph edema,,,unmapped
+561,562,lymph tumor,,,unmapped
+562,563,lymph cell cut back,,,unmapped
+563,564,major depression,,,unmapped
+564,565,malaise,,,unmapped
+565,566,malignant melanoma,,,unmapped
+566,567,malnutrition,,,unmapped
+567,568,mania,,,unmapped
+568,569,mastitis,,,unmapped
+569,570,mediastinal disorder,,,unmapped
+570,571,blood clot excretion,,,unmapped
+571,572,melanosis,,,unmapped
+572,573,memory impairment,,,unmapped
+573,574,meningitis,,,unmapped
+574,575,menopausal symptoms,,,unmapped
+575,576,menopause,,,unmapped
+576,577,menorrhagia,,,unmapped
+577,578,menstrual disorder,,,unmapped
+578,579,menstruation irregular,,,unmapped
+579,580,mental disability,,,unmapped
+580,581,mental disorder,,,unmapped
+581,582,metabolic acidosis,,,unmapped
+582,583,break through bleeding,,,unmapped
+583,584,urination disorder,,,unmapped
+584,585,urination urgency,,,unmapped
+585,586,migraine,,,unmapped
+586,587,miosis,,,unmapped
+587,588,single core cell increase,,,unmapped
+588,589,mood swings,,,unmapped
+589,590,motion sickness,,,unmapped
+590,591,mouth ulceration,,,unmapped
+591,592,movement disorder,,,unmapped
+592,593,mucosal inflammation,,,unmapped
+593,594,mucous membrane disorder,,,unmapped
+594,595,multiple fractures,,,unmapped
+595,596,muscle atrophy,,,unmapped
+596,597,muscle contractions involuntary,,,unmapped
+597,598,muscle relaxant therapy,,,unmapped
+598,599,muscle rigidity,,,unmapped
+599,600,muscle spasms,,,unmapped
+600,601,muscle tightness,,,unmapped
+601,602,muscle twitching,,,unmapped
+602,603,muscular weakness,,,unmapped
+603,604,musculoskeletal chest pain,,,unmapped
+604,605,musculoskeletal discomfort,,,unmapped
+605,606,musculoskeletal pain,,,unmapped
+606,607,musculoskeletal stiffness,,,unmapped
+607,608,myalgia,,,unmapped
+608,609,mydriasis,,,unmapped
+609,610,myelitis,,,unmapped
+610,611,myocardial infarction,,,unmapped
+611,612,myocardial ischaemia,,,unmapped
+612,613,myocarditis,,,unmapped
+613,614,myoclonus,,,unmapped
+614,615,myopathy,,,unmapped
+615,616,myositis,,,unmapped
+616,617,nail disorder,,,unmapped
+617,618,nasal congestion,,,unmapped
+618,619,nasal discomfort,,,unmapped
+619,620,nasal dryness,,,unmapped
+620,621,nose pharynx inflammation,,,unmapped
+621,622,nausea,,,unmapped
+622,623,neck pain,,,unmapped
+623,624,neoplasm,,,unmapped
+624,625,neoplasm malignant,,,unmapped
+625,626,nephritis,,,unmapped
+626,627,calculus kidney,,,unmapped
+627,628,nephropathy,,,unmapped
+628,629,nephropathy toxic,,,unmapped
+629,630,nephrotic syndrome,,,unmapped
+630,631,nervous system disorder,,,unmapped
+631,632,nervousness,,,unmapped
+632,633,neuralgia,,,unmapped
+633,634,neuritis,,,unmapped
+634,635,neuroleptic malignant syndrome,,,unmapped
+635,636,neuropathy peripheral,,,unmapped
+636,637,neurosis,,,unmapped
+637,638,neurotoxicity,,,unmapped
+638,639,neutropenia,,,unmapped
+639,640,neutrophil deficiency,,,unmapped
+640,641,neutrophil count decreased,,,unmapped
+641,642,night blindness,,,unmapped
+642,643,night sweats,,,unmapped
+643,644,nightmare,,,unmapped
+644,645,nocturnal enuresis,,,unmapped
+645,646,nodal arrhythmia,,,unmapped
+646,647,nodule,,,unmapped
+647,648,non cardiac chest pain,,,unmapped
+648,649,non hodgkin lymphoma,,,unmapped
+649,650,nuchal rigidity,,,unmapped
+650,651,nystagmus,,,unmapped
+651,652,ocular discomfort,,,unmapped
+652,653,ocular venous congestion,,,unmapped
+653,654,oculomotor spasm,,,unmapped
+654,655,swallowing painful,,,unmapped
+655,656,oedema,,,unmapped
+656,657,oedema peripheral,,,unmapped
+657,658,oesophageal spasm,,,unmapped
+658,659,oesophageal stenosis,,,unmapped
+659,660,oesophageal ulcer,,,unmapped
+660,661,esophagus inflammation,,,unmapped
+661,662,urine less,,,unmapped
+662,663,onychomycosis,,,unmapped
+663,664,opportunistic infection,,,unmapped
+664,665,optic atrophy,,,unmapped
+665,666,optic neuritis,,,unmapped
+666,667,oral candidiasis,,,unmapped
+667,668,oral herpes,,,unmapped
+668,669,oral pain,,,unmapped
+669,670,testis inflammation non infective,,,unmapped
+670,671,orgasm abnormal,,,unmapped
+671,672,oropharyngeal discomfort,,,unmapped
+672,673,oropharyngeal pain,,,unmapped
+673,674,orthostatic hypotension,,,unmapped
+674,675,osteoarthritis,,,unmapped
+675,676,osteomyelitis,,,unmapped
+676,677,osteonecrosis,,,unmapped
+677,678,osteoporosis,,,unmapped
+678,679,otitis externa,,,unmapped
+679,680,otitis media,,,unmapped
+680,681,ear toxicity,,,unmapped
+681,682,ovarian cyst,,,unmapped
+682,683,ovarian disorder,,,unmapped
+683,684,pain,,,unmapped
+684,685,pain in extremity,,,unmapped
+685,686,pain in jaw,,,unmapped
+686,687,pain of skin,,,unmapped
+687,688,pallor,,,unmapped
+688,689,palpitations,,,unmapped
+689,690,pancreatitis,,,unmapped
+690,691,pancreatitis acute,,,unmapped
+691,692,pancytopenia,,,unmapped
+692,693,panic attack,,,unmapped
+693,694,panic reaction,,,unmapped
+694,695,eyelid inflammation,,,unmapped
+695,696,nipple edema,,,unmapped
+696,697,feeling abnormal,,,unmapped
+697,698,feeling abnormal oral,,,unmapped
+698,699,paralysis,,,unmapped
+699,700,paranoia,,,unmapped
+700,701,paresis,,,unmapped
+701,702,parkinsonism,,,unmapped
+702,703,disturbances of sensation of smell and taste,,,unmapped
+703,704,pelvic pain,,,unmapped
+704,705,penis disorder,,,unmapped
+705,706,peptic ulcer,,,unmapped
+706,707,pericardial effusion,,,unmapped
+707,708,pericarditis,,,unmapped
+708,709,perineal pain,,,unmapped
+709,710,periodontitis,,,unmapped
+710,711,periorbital oedema,,,unmapped
+711,712,peripheral coldness,,,unmapped
+712,713,peripheral ischaemia,,,unmapped
+713,714,peripheral motor neuropathy,,,unmapped
+714,715,peripheral sensory neuropathy,,,unmapped
+715,716,peripheral vascular disorder,,,unmapped
+716,717,peritonitis,,,unmapped
+717,718,personality disorder,,,unmapped
+718,719,petechiae,,,unmapped
+719,720,pharyngeal oedema,,,unmapped
+720,721,pharyngitis,,,unmapped
+721,722,pharyngitis streptococcal,,,unmapped
+722,723,phlebitis,,,unmapped
+723,724,photophobia,,,unmapped
+724,725,flash vision,,,unmapped
+725,726,photosensitivity reaction,,,unmapped
+726,727,pigmentation disorder,,,unmapped
+727,728,plasma cell myeloma,,,unmapped
+728,729,tumor plasma cell,,,unmapped
+729,730,platelet count decreased,,,unmapped
+730,731,pleural effusion,,,unmapped
+731,732,pleurisy,,,unmapped
+732,733,pleural pain,,,unmapped
+733,734,pneumonia,,,unmapped
+734,735,pneumonia aspiration,,,unmapped
+735,736,pneumothorax,,,unmapped
+736,737,urinary frequency increased,,,unmapped
+737,738,increase in the total amount of red blood cells in the blood,,,unmapped
+738,739,polydipsia,,,unmapped
+739,740,polyneuropathy,,,unmapped
+740,741,polyuria,,,unmapped
+741,742,post procedural haemorrhage,,,unmapped
+742,743,premenstrual syndrome,,,unmapped
+743,744,syncope vertigo,,,unmapped
+744,745,priapism,,,unmapped
+745,746,procedural pain,,,unmapped
+746,747,anal pain,,,unmapped
+747,748,rectum inflammation,,,unmapped
+748,749,productive cough,,,unmapped
+749,750,prostate cancer,,,unmapped
+750,751,prostatic disorder,,,unmapped
+751,752,prostatitis,,,unmapped
+752,753,protein total decreased,,,unmapped
+753,754,protein urine present,,,unmapped
+754,755,proteinuria,,,unmapped
+755,756,prothrombin level decreased,,,unmapped
+756,757,prothrombin level increased,,,unmapped
+757,758,itch rash,,,unmapped
+758,759,pruritus,,,unmapped
+759,760,pruritus generalised,,,unmapped
+760,761,pruritus genital,,,unmapped
+761,762,falsehood lymph tumor,,,unmapped
+762,763,pseudomembranous colitis,,,unmapped
+763,764,psoriasis,,,unmapped
+764,765,psychomotor retardation,,,unmapped
+765,766,psychotic disorder,,,unmapped
+766,767,pulmonary congestion,,,unmapped
+767,768,pulmonary embolism,,,unmapped
+768,769,pulmonary fibrosis,,,unmapped
+769,770,pulmonary function test decreased,,,unmapped
+770,771,pulmonary hypertension,,,unmapped
+771,772,pulmonary oedema,,,unmapped
+772,773,punctate keratitis,,,unmapped
+773,774,pupils unequal,,,unmapped
+774,775,purpura,,,unmapped
+775,776,pyelonephritis,,,unmapped
+776,777,urine purulent,,,unmapped
+777,778,rales,,,unmapped
+778,779,rash,,,unmapped
+779,780,rash erythematous,,,unmapped
+780,781,rash generalised,,,unmapped
+781,782,rash macular,,,unmapped
+782,783,macula papules rash,,,unmapped
+783,784,rash papular,,,unmapped
+784,785,rash pustular,,,unmapped
+785,786,rectal haemorrhage,,,unmapped
+786,787,defecation urge painful,,,unmapped
+787,788,regurgitation,,,unmapped
+788,789,renal failure,,,unmapped
+789,790,renal impairment,,,unmapped
+790,791,renal pain,,,unmapped
+791,792,renal tubular necrosis,,,unmapped
+792,793,respiration abnormal,,,unmapped
+793,794,respiratory depression,,,unmapped
+794,795,respiratory disorder,,,unmapped
+795,796,respiratory distress,,,unmapped
+796,797,respiratory failure,,,unmapped
+797,798,respiratory tract congestion,,,unmapped
+798,799,respiratory tract infection,,,unmapped
+799,800,restless legs syndrome,,,unmapped
+800,801,retching,,,unmapped
+801,802,retinal degeneration,,,unmapped
+802,803,retinal detachment,,,unmapped
+803,804,retinal disorder,,,unmapped
+804,805,retinal haemorrhage,,,unmapped
+805,806,retroperitoneal haemorrhage,,,unmapped
+806,807,rhabdomyolysis,,,unmapped
+807,808,rheumatoid arthritis,,,unmapped
+808,809,rhinitis,,,unmapped
+809,810,rhinitis allergic,,,unmapped
+810,811,mucous nasal increased,,,unmapped
+811,812,dry rales,,,unmapped
+812,813,road traffic accident,,,unmapped
+813,814,rosacea,,,unmapped
+814,815,salivary gland enlargement,,,unmapped
+815,816,increased salivation,,,unmapped
+816,817,oviduct inflammation,,,unmapped
+817,818,scab,,,unmapped
+818,819,reaction schizoid,,,unmapped
+819,820,sciatica,,,unmapped
+820,821,sclera inflammation,,,unmapped
+821,822,seasonal allergy,,,unmapped
+822,823,seborrheic dermatitis,,,unmapped
+823,824,seborrheic keratosis,,,unmapped
+824,825,sensation of foreign body,,,unmapped
+825,826,sensory disturbance,,,unmapped
+826,827,sensory loss,,,unmapped
+827,828,sepsis,,,unmapped
+828,829,septic shock,,,unmapped
+829,830,serotonin syndrome,,,unmapped
+830,831,serum sickness,,,unmapped
+831,832,sexual dysfunction,,,unmapped
+832,833,shock,,,unmapped
+833,834,salivary glands inflammation,,,unmapped
+834,835,sinus bradycardia,,,unmapped
+835,836,sinus congestion,,,unmapped
+836,837,sinus headache,,,unmapped
+837,838,sinus tachycardia,,,unmapped
+838,839,sinusitis,,,unmapped
+839,840,skin atrophy,,,unmapped
+840,841,skin burning sensation,,,unmapped
+841,842,skin cancer,,,unmapped
+842,843,skin discolouration,,,unmapped
+843,844,skin disorder,,,unmapped
+844,845,skin exfoliation,,,unmapped
+845,846,skin hyperpigmentation,,,unmapped
+846,847,skin hypertrophy,,,unmapped
+847,848,skin infection,,,unmapped
+848,849,skin irritation,,,unmapped
+849,850,skin lesion,,,unmapped
+850,851,skin mass,,,unmapped
+851,852,skin odour abnormal,,,unmapped
+852,853,skin papilloma,,,unmapped
+853,854,skin striae,,,unmapped
+854,855,skin ulcer,,,unmapped
+855,856,sleep apnoea syndrome,,,unmapped
+856,857,sleep disorder,,,unmapped
+857,858,sluggishness,,,unmapped
+858,859,sneezing,,,unmapped
+859,860,snoring,,,unmapped
+860,861,somnambulism,,,unmapped
+861,862,somnolence,,,unmapped
+862,863,speech disorder,,,unmapped
+863,864,splenomegaly,,,unmapped
+864,865,sputum increased,,,unmapped
+865,866,staphylococcal infection,,,unmapped
+866,867,status epilepticus,,,unmapped
+867,868,stevens johnson syndrome,,,unmapped
+868,869,sticky skin,,,unmapped
+869,870,stomatitis,,,unmapped
+870,871,bladder and urethral symptoms,,,unmapped
+871,872,wheezing,,,unmapped
+872,873,stupor,,,unmapped
+873,874,subarachnoid haemorrhage,,,unmapped
+874,875,subdural haematoma,,,unmapped
+875,876,sudden death,,,unmapped
+876,877,suicidal ideation,,,unmapped
+877,878,suicide attempt,,,unmapped
+878,879,sunburn,,,unmapped
+879,880,ectopic beats atrial,,,unmapped
+880,881,supraventricular tachycardia,,,unmapped
+881,882,swelling,,,unmapped
+882,883,swelling face,,,unmapped
+883,884,syncope,,,unmapped
+884,885,systemic lupus erythematosus,,,unmapped
+885,886,tachycardia,,,unmapped
+886,887,respiration stimulated,,,unmapped
+887,888,tardive dyskinesia,,,unmapped
+888,889,telangiectasia,,,unmapped
+889,890,temperature intolerance,,,unmapped
+890,891,tenderness,,,unmapped
+891,892,tendinous contracture,,,unmapped
+892,893,tendon disorder,,,unmapped
+893,894,tendonitis,,,unmapped
+894,895,tendon sheath inflammation,,,unmapped
+895,896,tension,,,unmapped
+896,897,tension headache,,,unmapped
+897,898,testicular pain,,,unmapped
+898,899,tetany,,,unmapped
+899,900,therapeutic response unexpected,,,unmapped
+900,901,thinking abnormal,,,unmapped
+901,902,thirst,,,unmapped
+902,903,throat irritation,,,unmapped
+903,904,throat tightness,,,unmapped
+904,905,thrombocytopenia,,,unmapped
+905,906,platelets increase,,,unmapped
+906,907,thrombophlebitis,,,unmapped
+907,908,thrombosis,,,unmapped
+908,909,thrombotic thrombocytopenic purpura,,,unmapped
+909,910,thyroid disorder,,,unmapped
+910,911,thyroid neoplasm,,,unmapped
+911,912,thyroiditis,,,unmapped
+912,913,tinnitus,,,unmapped
+913,914,tongue discolouration,,,unmapped
+914,915,tongue disorder,,,unmapped
+915,916,tongue oedema,,,unmapped
+916,917,tongue ulceration,,,unmapped
+917,918,tonsillitis,,,unmapped
+918,919,tooth abscess,,,unmapped
+919,920,tooth disorder,,,unmapped
+920,921,tooth infection,,,unmapped
+921,922,toothache,,,unmapped
+922,923,ventricular arrhythmias and cardiac arrest,,,unmapped
+923,924,torticollis,,,unmapped
+924,925,toxic epidermal necrolysis,,,unmapped
+925,926,toxicity to various agents,,,unmapped
+926,927,tracheitis,,,unmapped
+927,928,trachea bronchus inflammation,,,unmapped
+928,929,transaminases increased,,,unmapped
+929,930,transient ischaemic attack,,,unmapped
+930,931,tremor,,,unmapped
+931,932,masseter spasms,,,unmapped
+932,933,inflammation of the interstitial tissue of the kidney,,,unmapped
+933,934,tumour lysis syndrome,,,unmapped
+934,935,ulcer,,,unmapped
+935,936,ulcerative keratitis,,,unmapped
+936,937,unintended pregnancy,,,unmapped
+937,938,upper respiratory tract infection,,,unmapped
+938,939,upper airway cough syndrome,,,unmapped
+939,940,urethral disorder,,,unmapped
+940,941,urethritis,,,unmapped
+941,942,urethritis non infective,,,unmapped
+942,943,urinary hesitation,,,unmapped
+943,944,urinary incontinence,,,unmapped
+944,945,urinary retention,,,unmapped
+945,946,urinary tract disorder,,,unmapped
+946,947,urinary tract infection,,,unmapped
+947,948,urine abnormality,,,unmapped
+948,949,urine analysis abnormal,,,unmapped
+949,950,urine output increased,,,unmapped
+950,951,urticaria,,,unmapped
+951,952,uterine disorder,,,unmapped
+952,953,uterine haemorrhage,,,unmapped
+953,954,uterine smooth muscle tumor,,,unmapped
+954,955,uterine spasm,,,unmapped
+955,956,uveitis,,,unmapped
+956,957,vaginal discharge,,,unmapped
+957,958,vaginal haemorrhage,,,unmapped
+958,959,vaginal infection,,,unmapped
+959,960,varicose vein,,,unmapped
+960,961,vascular headache,,,unmapped
+961,962,vascular purpura,,,unmapped
+962,963,vasculitis,,,unmapped
+963,964,vasodilation procedure,,,unmapped
+964,965,vasospasm,,,unmapped
+965,966,venous thrombosis,,,unmapped
+966,967,ventricular arrhythmia,,,unmapped
+967,968,premature ventricular contractions,,,unmapped
+968,969,ventricular fibrillation,,,unmapped
+969,970,ventricular tachycardia,,,unmapped
+970,971,vertigo,,,unmapped
+971,972,vestibular disorder,,,unmapped
+972,973,viral diarrhoea,,,unmapped
+973,974,viral infection,,,unmapped
+974,975,viral upper respiratory tract infection,,,unmapped
+975,976,vision blurred,,,unmapped
+976,977,visual acuity reduced,,,unmapped
+977,978,visual impairment,,,unmapped
+978,979,vomiting,,,unmapped
+979,980,vulva vaginal candidiasis,,,unmapped
+980,981,vulva vaginal dryness,,,unmapped
+981,982,vulva vaginal mold infection,,,unmapped
+982,983,vulva vaginal pruritus,,,unmapped
+983,984,vulva vagina inflammation,,,unmapped
+984,985,weight decreased,,,unmapped
+985,986,weight increased,,,unmapped
+986,987,wheezing,,,unmapped
+987,988,white blood cell count decreased,,,unmapped
+988,989,white blood cell count increased,,,unmapped
+989,990,withdrawal syndrome,,,unmapped
+990,991,wound infection,,,unmapped
+991,992,wound secretion,,,unmapped
+992,993,dry eye,,,unmapped
+993,994,yawning,,,unmapped
