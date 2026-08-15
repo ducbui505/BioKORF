@@ -1,0 +1,995 @@
+matrix_index,side_effect_name,candidate_count,meddra_candidate_count,hpo_candidate_count,preferred_meddra_id,candidate_ids,mapping_status
+0,abdominal discomfort,1,0,1,"","[""HP_0002027""]",exact_synonym_only
+1,abdominal distension,2,1,1,meddra:10000060,"[""HP_0003270"",""meddra:10000060""]",meddra_exact_with_other_ontology_candidates
+2,abdominal pain,2,1,1,meddra:10000081,"[""HP_0002027"",""meddra:10000081""]",meddra_exact_with_other_ontology_candidates
+3,abdominal pain lower,0,0,0,"",[],unmatched
+4,abdominal pain upper,0,0,0,"",[],unmatched
+5,abnormal behaviour,0,0,0,"",[],unmatched
+6,abnormal dreams,1,1,0,meddra:10000125,"[""meddra:10000125""]",unique_meddra_exact_name
+7,abnormal faeces,0,0,0,"",[],unmatched
+8,abscess,1,0,1,"","[""HP_0025615""]",unique_other_exact_name
+9,accommodation disorder,0,0,0,"",[],unmatched
+10,acidosis,1,0,1,"","[""HP_0001941""]",unique_other_exact_name
+11,acne,2,1,1,meddra:10000496,"[""HP_0001061"",""meddra:10000496""]",meddra_exact_with_other_ontology_candidates
+12,actinic keratosis,1,0,1,"","[""HP_0025127""]",unique_other_exact_name
+13,acute coronary syndrome,1,0,1,"","[""HP_0033678""]",unique_other_exact_name
+14,acute myocardial infarction,0,0,0,"",[],unmatched
+15,acute respiratory distress syndrome,2,1,1,meddra:10001052,"[""HP_0033677"",""meddra:10001052""]",meddra_exact_with_other_ontology_candidates
+16,adrenal insufficiency,1,0,1,"","[""HP_0000846""]",unique_other_exact_name
+17,affect lability,0,0,0,"",[],unmatched
+18,affective disorder,0,0,0,"",[],unmatched
+19,loss of taste,0,0,0,"",[],unmatched
+20,aggression,2,1,1,meddra:10001488,"[""HP_0000718"",""meddra:10001488""]",meddra_exact_with_other_ontology_candidates
+21,agitation,2,1,1,meddra:10001497,"[""HP_0000713"",""meddra:10001497""]",meddra_exact_with_other_ontology_candidates
+22,agranulocytosis,3,1,2,meddra:10001507,"[""HP_0001913"",""HP_0012234"",""meddra:10001507""]",meddra_exact_with_other_ontology_candidates
+23,akathisia,2,1,1,meddra:10001540,"[""HP_0031943"",""meddra:10001540""]",meddra_exact_with_other_ontology_candidates
+24,can not exercise,0,0,0,"",[],unmatched
+25,alanine aminotransferase increased,1,0,1,"","[""HP_0031964""]",exact_synonym_only
+26,proteinuria,2,1,1,meddra:10037032,"[""HP_0000093"",""meddra:10037032""]",meddra_exact_with_other_ontology_candidates
+27,alcohol intolerance,0,0,0,"",[],unmatched
+28,alopecia,3,1,2,meddra:10001760,"[""HP_0001596"",""HP_0002293"",""meddra:10001760""]",meddra_exact_with_other_ontology_candidates
+29,altered state of consciousness,0,0,0,"",[],unmatched
+30,other allergic pneumonitis,0,0,0,"",[],unmatched
+31,amblyopia,1,0,1,"","[""HP_0000646""]",unique_other_exact_name
+32,amenorrhoea,0,0,0,"",[],unmatched
+33,amnesia,1,1,0,meddra:10001949,"[""meddra:10001949""]",unique_meddra_exact_name
+34,amylase increased,0,0,0,"",[],unmatched
+35,anaemia,1,0,1,"","[""HP_0001903""]",exact_synonym_only
+36,anaemia large cell,0,0,0,"",[],unmatched
+37,anaemia megaloblastic,0,0,0,"",[],unmatched
+38,anal pruritus,0,0,0,"",[],unmatched
+39,anaphylactic shock,1,0,1,"","[""HP_0100845""]",unique_other_exact_name
+40,anaphylaxis reaction,0,0,0,"",[],unmatched
+41,aneurysm,1,0,1,"","[""HP_0002617""]",exact_synonym_only
+42,anger,1,0,1,"","[""HP_0031473""]",unique_other_exact_name
+43,angina pectoris,1,0,1,"","[""HP_0001681""]",unique_other_exact_name
+44,angioedema,2,1,1,meddra:10002424,"[""HP_0100665"",""meddra:10002424""]",meddra_exact_with_other_ontology_candidates
+45,angiopathy,0,0,0,"",[],unmatched
+46,angle closure glaucoma,1,0,1,"","[""HP_0012109""]",unique_other_exact_name
+47,anorectal discomfort,0,0,0,"",[],unmatched
+48,anorectal disorder,0,0,0,"",[],unmatched
+49,inability to orgasm,0,0,0,"",[],unmatched
+50,antisocial behaviour,0,0,0,"",[],unmatched
+51,antisocial personality disorder,0,0,0,"",[],unmatched
+52,arrest of urinary output,0,0,0,"",[],unmatched
+53,anxiety,2,1,1,meddra:10002855,"[""HP_0000739"",""meddra:10002855""]",meddra_exact_with_other_ontology_candidates
+54,apathy,1,0,1,"","[""HP_0000741""]",unique_other_exact_name
+55,aphasia,1,0,1,"","[""HP_0002381""]",unique_other_exact_name
+56,aplasia pure red cell,0,0,0,"",[],unmatched
+57,aplastic anaemia,1,0,1,"","[""HP_0001915""]",exact_synonym_only
+58,apnoea,1,0,1,"","[""HP_0002104""]",exact_synonym_only
+59,appendicitis,1,0,1,"","[""HP_6000143""]",unique_other_exact_name
+60,application site burn,0,0,0,"",[],unmatched
+61,application site dryness,0,0,0,"",[],unmatched
+62,application site erythema,0,0,0,"",[],unmatched
+63,application site irritation,0,0,0,"",[],unmatched
+64,application site pain,0,0,0,"",[],unmatched
+65,application site paresthesia,0,0,0,"",[],unmatched
+66,application site pruritus,0,0,0,"",[],unmatched
+67,application site rash,0,0,0,"",[],unmatched
+68,application site reaction,0,0,0,"",[],unmatched
+69,application site vesicles,0,0,0,"",[],unmatched
+70,apraxia,1,0,1,"","[""HP_0002186""]",unique_other_exact_name
+71,arrhythmia,2,1,1,meddra:10003119,"[""HP_0011675"",""meddra:10003119""]",meddra_exact_with_other_ontology_candidates
+72,arrhythmia supraventricular,0,0,0,"",[],unmatched
+73,arteriosclerosis,1,0,1,"","[""HP_0002634""]",unique_other_exact_name
+74,arthralgia,2,1,1,meddra:10003239,"[""HP_0002829"",""meddra:10003239""]",meddra_exact_with_other_ontology_candidates
+75,arthritis,2,1,1,meddra:10003246,"[""HP_0001369"",""meddra:10003246""]",meddra_exact_with_other_ontology_candidates
+76,other symptoms referable to lower leg joint,0,0,0,"",[],unmatched
+77,ascites,1,0,1,"","[""HP_0001541""]",unique_other_exact_name
+78,asocial behaviour,0,0,0,"",[],unmatched
+79,aspartate aminotransferase increased,1,0,1,"","[""HP_0031956""]",exact_synonym_only
+80,asthenia,2,1,1,meddra:10003549,"[""HP_0025406"",""meddra:10003549""]",meddra_exact_with_other_ontology_candidates
+81,eye strain,0,0,0,"",[],unmatched
+82,asthma,1,0,1,"","[""HP_0002099""]",unique_other_exact_name
+83,ataxia,2,1,1,meddra:10003591,"[""HP_0001251"",""meddra:10003591""]",meddra_exact_with_other_ontology_candidates
+84,atelectasis,1,0,1,"","[""HP_0100750""]",unique_other_exact_name
+85,atrial fibrillation,2,1,1,meddra:10003658,"[""HP_0005110"",""meddra:10003658""]",meddra_exact_with_other_ontology_candidates
+86,atrial flutter,1,0,1,"","[""HP_0004749""]",unique_other_exact_name
+87,atrioventricular block,1,0,1,"","[""HP_0001678""]",unique_other_exact_name
+88,atrioventricular block complete,0,0,0,"",[],unmatched
+89,atrioventricular block first degree,0,0,0,"",[],unmatched
+90,autonomic nervous system imbalance,0,0,0,"",[],unmatched
+91,syndrome uremic,0,0,0,"",[],unmatched
+92,back pain,2,1,1,meddra:10003988,"[""HP_0003418"",""meddra:10003988""]",meddra_exact_with_other_ontology_candidates
+93,bloodstream infections,0,0,0,"",[],unmatched
+94,bacterial infection,0,0,0,"",[],unmatched
+95,balance disorder,0,0,0,"",[],unmatched
+96,basal cell carcinoma,1,0,1,"","[""HP_0002671""]",unique_other_exact_name
+97,benign neoplasm of skin,0,0,0,"",[],unmatched
+98,biliary colic,0,0,0,"",[],unmatched
+99,bipolar disorder,0,0,0,"",[],unmatched
+100,bipolar i disorder,0,0,0,"",[],unmatched
+101,bladder cancer,0,0,0,"",[],unmatched
+102,bladder pain,1,0,1,"","[""HP_0032171""]",unique_other_exact_name
+103,bleeding time prolonged,0,0,0,"",[],unmatched
+104,dermatitis eyelid,0,0,0,"",[],unmatched
+105,spasm eyelid,0,0,0,"",[],unmatched
+106,blindness,1,0,1,"","[""HP_0000618""]",unique_other_exact_name
+107,blister,1,0,1,"","[""HP_0008066""]",exact_synonym_only
+108,blood albumin decreased,0,0,0,"",[],unmatched
+109,blood alkaline phosphatase increased,0,0,0,"",[],unmatched
+110,blood bilirubin increased,0,0,0,"",[],unmatched
+111,blood calcium decreased,0,0,0,"",[],unmatched
+112,blood cholesterol increased,0,0,0,"",[],unmatched
+113,creatine kinase high,0,0,0,"",[],unmatched
+114,blood creatinine increased,0,0,0,"",[],unmatched
+115,blood disorder,0,0,0,"",[],unmatched
+116,blood glucose decreased,0,0,0,"",[],unmatched
+117,blood glucose increased,0,0,0,"",[],unmatched
+118,blood lactate dehydrogenase increased,0,0,0,"",[],unmatched
+119,blood phosphorus decreased,0,0,0,"",[],unmatched
+120,blood potassium decreased,0,0,0,"",[],unmatched
+121,blood potassium increased,0,0,0,"",[],unmatched
+122,blood pressure increased,0,0,0,"",[],unmatched
+123,blood prolactin increased,0,0,0,"",[],unmatched
+124,blood triglycerides increased,0,0,0,"",[],unmatched
+125,blood urea increased,0,0,0,"",[],unmatched
+126,blood uric acid increased,0,0,0,"",[],unmatched
+127,blood urine present,0,0,0,"",[],unmatched
+128,body temperature decreased,0,0,0,"",[],unmatched
+129,body temperature increased,0,0,0,"",[],unmatched
+130,bone disorder,0,0,0,"",[],unmatched
+131,bone pain,2,1,1,meddra:10006002,"[""HP_0002653"",""meddra:10006002""]",meddra_exact_with_other_ontology_candidates
+132,bradycardia,2,1,1,meddra:10006093,"[""HP_0001662"",""meddra:10006093""]",meddra_exact_with_other_ontology_candidates
+133,loss of motor function,0,0,0,"",[],unmatched
+134,brain oedema,0,0,0,"",[],unmatched
+135,breast cancer,0,0,0,"",[],unmatched
+136,breast discharge,0,0,0,"",[],unmatched
+137,breast disorder,0,0,0,"",[],unmatched
+138,breast engorgement,0,0,0,"",[],unmatched
+139,breast enlargement,1,0,1,"","[""HP_0010313""]",exact_synonym_only
+140,breast neoplasm,0,0,0,"",[],unmatched
+141,breast pain,0,0,0,"",[],unmatched
+142,breast tenderness,0,0,0,"",[],unmatched
+143,breath odour,0,0,0,"",[],unmatched
+144,breath sounds abnormal,0,0,0,"",[],unmatched
+145,reactive airways disease,0,0,0,"",[],unmatched
+146,bronchitis,1,0,1,"","[""HP_0012387""]",unique_other_exact_name
+147,bronchospasm,1,1,0,meddra:10006482,"[""meddra:10006482""]",unique_meddra_exact_name
+148,bronchospasm paradoxical,0,0,0,"",[],unmatched
+149,bruxism,1,0,1,"","[""HP_0003763""]",unique_other_exact_name
+150,bundle branch block,1,0,1,"","[""HP_0011710""]",unique_other_exact_name
+151,burning sensation,0,0,0,"",[],unmatched
+152,bursitis,1,0,1,"","[""HP_0025232""]",unique_other_exact_name
+153,cachexia,1,0,1,"","[""HP_0004326""]",unique_other_exact_name
+154,candida infection,0,0,0,"",[],unmatched
+155,cardiac arrest,1,0,1,"","[""HP_0001695""]",unique_other_exact_name
+156,cardiac disorder,1,1,0,meddra:10061024,"[""meddra:10061024""]",unique_meddra_exact_name
+157,cardiac failure,2,1,1,meddra:10007554,"[""HP_0001635"",""meddra:10007554""]",meddra_exact_with_other_ontology_candidates
+158,cardiac failure congestive,0,0,0,"",[],unmatched
+159,cardiac flutter,0,0,0,"",[],unmatched
+160,cardiac murmur,1,0,1,"","[""HP_0030148""]",exact_synonym_only
+161,cardiac output decreased,0,0,0,"",[],unmatched
+162,cardiogenic shock,1,0,1,"","[""HP_0030149""]",unique_other_exact_name
+163,cardiac dilatation,0,0,0,"",[],unmatched
+164,cardiomyopathy,1,0,1,"","[""HP_0001638""]",unique_other_exact_name
+165,cardiovascular disorder,0,0,0,"",[],unmatched
+166,carpal tunnel syndrome,0,0,0,"",[],unmatched
+167,cataract,2,1,1,meddra:10007739,"[""HP_0000518"",""meddra:10007739""]",meddra_exact_with_other_ontology_candidates
+168,catheter site pain,0,0,0,"",[],unmatched
+169,cellulitis,1,0,1,"","[""HP_0100658""]",unique_other_exact_name
+170,cerebellar syndrome,0,0,0,"",[],unmatched
+171,cerebral haemorrhage,0,0,0,"",[],unmatched
+172,cerebral infarction,1,1,0,meddra:10008118,"[""meddra:10008118""]",unique_meddra_exact_name
+173,cerebral ischaemia,0,0,0,"",[],unmatched
+174,cerebrovascular accident,1,0,1,"","[""HP_0001297""]",exact_synonym_only
+175,cerebrovascular disorder,0,0,0,"",[],unmatched
+176,cervix disorder,0,0,0,"",[],unmatched
+177,change of bowel habit,0,0,0,"",[],unmatched
+178,cheilitis,1,0,1,"","[""HP_0100825""]",unique_other_exact_name
+179,chest discomfort,1,0,1,"","[""HP_0100749""]",exact_synonym_only
+180,chest pain,2,1,1,meddra:10008479,"[""HP_0100749"",""meddra:10008479""]",meddra_exact_with_other_ontology_candidates
+181,chills,2,1,1,meddra:10008531,"[""HP_0025143"",""meddra:10008531""]",meddra_exact_with_other_ontology_candidates
+182,cholecystitis,1,0,1,"","[""HP_0001082""]",unique_other_exact_name
+183,biliary sludge,0,0,0,"",[],unmatched
+184,cholestasis,1,0,1,"","[""HP_0001396""]",unique_other_exact_name
+185,chorea and atheletes disease,0,0,0,"",[],unmatched
+186,color vision change,0,0,0,"",[],unmatched
+187,urine discolouration,0,0,0,"",[],unmatched
+188,chronic obstructive pulmonary disease,0,0,0,"",[],unmatched
+189,clostridium difficile colitis,1,0,1,"","[""HP_0032168""]",unique_other_exact_name
+190,coagulopathy,0,0,0,"",[],unmatched
+191,cognitive disorder,0,0,0,"",[],unmatched
+192,cold sweat,0,0,0,"",[],unmatched
+193,colitis,2,1,1,meddra:10009887,"[""HP_0002583"",""meddra:10009887""]",meddra_exact_with_other_ontology_candidates
+194,colitis ischaemic,0,0,0,"",[],unmatched
+195,colitis ulcerative,0,0,0,"",[],unmatched
+196,coma,1,0,1,"","[""HP_0001259""]",unique_other_exact_name
+197,completed suicide,0,0,0,"",[],unmatched
+198,conduction disorder,0,0,0,"",[],unmatched
+199,confusion state,0,0,0,"",[],unmatched
+200,congenital eye disorder,0,0,0,"",[],unmatched
+201,conjunctival haemorrhage,0,0,0,"",[],unmatched
+202,congestion conjunctival,0,0,0,"",[],unmatched
+203,conjunctival oedema,0,0,0,"",[],unmatched
+204,conjunctivitis,2,1,1,meddra:10010741,"[""HP_0000509"",""meddra:10010741""]",meddra_exact_with_other_ontology_candidates
+205,conjunctivitis allergic,0,0,0,"",[],unmatched
+206,connective tissue disorder,0,0,0,"",[],unmatched
+207,constipation,2,1,1,meddra:10010774,"[""HP_0002019"",""meddra:10010774""]",meddra_exact_with_other_ontology_candidates
+208,contusion,1,1,0,meddra:10050584,"[""meddra:10050584""]",unique_meddra_exact_name
+209,conversion disorder,0,0,0,"",[],unmatched
+210,coordination abnormal,0,0,0,"",[],unmatched
+211,corneal erosion,1,0,1,"","[""HP_0200020""]",unique_other_exact_name
+212,corneal lesion,0,0,0,"",[],unmatched
+213,corneal opacity,1,0,1,"","[""HP_0007957""]",unique_other_exact_name
+214,coronary artery disease,0,0,0,"",[],unmatched
+215,cough,2,1,1,meddra:10011224,"[""HP_0012735"",""meddra:10011224""]",meddra_exact_with_other_ontology_candidates
+216,regional enteritis of unspecified site,0,0,0,"",[],unmatched
+217,crying,0,0,0,"",[],unmatched
+218,cushing syndrome,0,0,0,"",[],unmatched
+219,cyanosis,1,0,1,"","[""HP_0000961""]",unique_other_exact_name
+220,cyst,0,0,0,"",[],unmatched
+221,cystitis,0,0,0,"",[],unmatched
+222,cystitis haemorrhagic,0,0,0,"",[],unmatched
+223,cystitis non infective,0,0,0,"",[],unmatched
+224,deafness,1,0,1,"","[""HP_0000365""]",exact_synonym_only
+225,decreased appetite,1,1,0,meddra:10061428,"[""meddra:10061428""]",unique_meddra_exact_name
+226,deep vein thrombosis,1,1,0,meddra:10051055,"[""meddra:10051055""]",unique_meddra_exact_name
+227,dehydration,2,1,1,meddra:10012174,"[""HP_0001944"",""meddra:10012174""]",meddra_exact_with_other_ontology_candidates
+228,delirium,2,1,1,meddra:10012218,"[""HP_0031258"",""meddra:10012218""]",meddra_exact_with_other_ontology_candidates
+229,delusion,1,0,1,"","[""HP_0000746""]",unique_other_exact_name
+230,dementia,1,0,1,"","[""HP_0000726""]",unique_other_exact_name
+231,dental caries,0,0,0,"",[],unmatched
+232,depressed level of consciousness,0,0,0,"",[],unmatched
+233,depressed mood,0,0,0,"",[],unmatched
+234,depression,2,1,1,meddra:10012378,"[""HP_0000716"",""meddra:10012378""]",meddra_exact_with_other_ontology_candidates
+235,feeling unreal,0,0,0,"",[],unmatched
+236,dermatitis,1,0,1,"","[""HP_0000964""]",exact_synonym_only
+237,dermatitis acne,0,0,0,"",[],unmatched
+238,dermatitis atopic,0,0,0,"",[],unmatched
+239,dermatitis bullous,0,0,0,"",[],unmatched
+240,dermatitis contact,0,0,0,"",[],unmatched
+241,dermatitis exfoliating,0,0,0,"",[],unmatched
+242,diabetes mellitus,2,1,1,meddra:10012601,"[""HP_0000819"",""meddra:10012601""]",meddra_exact_with_other_ontology_candidates
+243,diarrhoea,1,0,1,"","[""HP_0002014""]",exact_synonym_only
+244,diarrhoea haemorrhagic,0,0,0,"",[],unmatched
+245,diplopia,2,1,1,meddra:10013036,"[""HP_0000651"",""meddra:10013036""]",meddra_exact_with_other_ontology_candidates
+246,discomfort,0,0,0,"",[],unmatched
+247,disorientation,1,0,1,"","[""HP_0001289""]",exact_synonym_only
+248,disseminated intravascular coagulation,1,0,1,"","[""HP_0005521""]",unique_other_exact_name
+249,disturbance in attention,0,0,0,"",[],unmatched
+250,disturbance in sexual arousal,0,0,0,"",[],unmatched
+251,diverticulitis,0,0,0,"",[],unmatched
+252,dizziness,2,1,1,meddra:10013573,"[""HP_0002321"",""meddra:10013573""]",meddra_exact_with_other_ontology_candidates
+253,dizziness postural,0,0,0,"",[],unmatched
+254,drug eruption,0,0,0,"",[],unmatched
+255,drug hypersensitivity,0,0,0,"",[],unmatched
+256,drug ineffective,0,0,0,"",[],unmatched
+257,dry eye,0,0,0,"",[],unmatched
+258,dry mouth,1,1,0,meddra:10013781,"[""meddra:10013781""]",unique_meddra_exact_name
+259,dry skin,2,1,1,meddra:10013786,"[""HP_0000958"",""meddra:10013786""]",meddra_exact_with_other_ontology_candidates
+260,dry throat,0,0,0,"",[],unmatched
+261,duodenal ulcer,1,0,1,"","[""HP_0002588""]",unique_other_exact_name
+262,duodenal inflammation,0,0,0,"",[],unmatched
+263,paresthesia,1,0,1,"","[""HP_0003401""]",unique_other_exact_name
+264,dysarthria,1,0,1,"","[""HP_0001260""]",unique_other_exact_name
+265,bad taste,0,0,0,"",[],unmatched
+266,dyskinesia,2,1,1,meddra:10013916,"[""HP_0100660"",""meddra:10013916""]",meddra_exact_with_other_ontology_candidates
+267,menses painful,0,0,0,"",[],unmatched
+268,dyspareunia,1,0,1,"","[""HP_0030016""]",unique_other_exact_name
+269,dyspepsia,2,1,1,meddra:10013946,"[""HP_0410281"",""meddra:10013946""]",meddra_exact_with_other_ontology_candidates
+270,dysphagia,2,1,1,meddra:10013950,"[""HP_0002015"",""meddra:10013950""]",meddra_exact_with_other_ontology_candidates
+271,dysphonia,1,0,1,"","[""HP_0001618""]",unique_other_exact_name
+272,dysphoria,1,0,1,"","[""HP_0033838""]",unique_other_exact_name
+273,air hunger,0,0,0,"",[],unmatched
+274,air hunger exertional,0,0,0,"",[],unmatched
+275,urinary spray,0,0,0,"",[],unmatched
+276,ear disorder,0,0,0,"",[],unmatched
+277,ear infection,0,0,0,"",[],unmatched
+278,ear pain,1,0,1,"","[""HP_0030766""]",unique_other_exact_name
+279,bruise,0,0,0,"",[],unmatched
+280,eczema,1,0,1,"","[""HP_0000964""]",exact_synonym_only
+281,ejaculation delayed,0,0,0,"",[],unmatched
+282,ejaculation disorder,0,0,0,"",[],unmatched
+283,ejaculation failure,0,0,0,"",[],unmatched
+284,electrocardiogram abnormal,0,0,0,"",[],unmatched
+285,electrocardiogram qt prolonged,0,0,0,"",[],unmatched
+286,electrocardiogram st segment depression,0,0,0,"",[],unmatched
+287,electroencephalogram abnormal,1,0,1,"","[""HP_0002353""]",exact_synonym_only
+288,electrolyte imbalance,0,0,0,"",[],unmatched
+289,embolism,0,0,0,"",[],unmatched
+290,embolism venous,0,0,0,"",[],unmatched
+291,emotional disorder,0,0,0,"",[],unmatched
+292,emphysema,1,0,1,"","[""HP_0002097""]",unique_other_exact_name
+293,encephalopathy,2,1,1,meddra:10014625,"[""HP_0001298"",""meddra:10014625""]",meddra_exact_with_other_ontology_candidates
+294,endocrine disorder,1,1,0,meddra:10014695,"[""meddra:10014695""]",unique_meddra_exact_name
+295,endometrial disorder,0,0,0,"",[],unmatched
+296,ophthalmia,0,0,0,"",[],unmatched
+297,enteritis,0,0,0,"",[],unmatched
+298,enterocolitis,1,0,1,"","[""HP_0004387""]",unique_other_exact_name
+299,enuresis,1,0,1,"","[""HP_0000805""]",unique_other_exact_name
+300,eosinophilia,1,0,1,"","[""HP_0001880""]",unique_other_exact_name
+301,epididymitis,1,0,1,"","[""HP_0000031""]",unique_other_exact_name
+302,epigastric discomfort,0,0,0,"",[],unmatched
+303,epistaxis,2,1,1,meddra:10015090,"[""HP_0000421"",""meddra:10015090""]",meddra_exact_with_other_ontology_candidates
+304,erectile dysfunction,2,1,1,meddra:10061461,"[""HP_0100639"",""meddra:10061461""]",meddra_exact_with_other_ontology_candidates
+305,gas raising,0,0,0,"",[],unmatched
+306,erythema,2,1,1,meddra:10015150,"[""HP_0010783"",""meddra:10015150""]",meddra_exact_with_other_ontology_candidates
+307,erythema multiforme,1,1,0,meddra:10015218,"[""meddra:10015218""]",unique_meddra_exact_name
+308,erythema nodosum,1,0,1,"","[""HP_0012219""]",unique_other_exact_name
+309,erythema of eyelid,0,0,0,"",[],unmatched
+310,euphoric mood,1,0,1,"","[""HP_0031844""]",exact_synonym_only
+311,excoriation,0,0,0,"",[],unmatched
+312,exophthalmos,1,0,1,"","[""HP_0000520""]",exact_synonym_only
+313,bone spur,0,0,0,"",[],unmatched
+314,extrapyramidal disorder,0,0,0,"",[],unmatched
+315,cardiac complex,0,0,0,"",[],unmatched
+316,extravasation,0,0,0,"",[],unmatched
+317,eye discharge,0,0,0,"",[],unmatched
+318,eye disorder,0,0,0,"",[],unmatched
+319,eye haemorrhage,0,0,0,"",[],unmatched
+320,eye infection,0,0,0,"",[],unmatched
+321,eye irritation,0,0,0,"",[],unmatched
+322,eye oedema,0,0,0,"",[],unmatched
+323,eye pain,2,1,1,meddra:10015958,"[""HP_0200026"",""meddra:10015958""]",meddra_exact_with_other_ontology_candidates
+324,eye pruritus,0,0,0,"",[],unmatched
+325,eye swelling,0,0,0,"",[],unmatched
+326,eyelid oedema,0,0,0,"",[],unmatched
+327,face oedema,0,0,0,"",[],unmatched
+328,fecal impaction,0,0,0,"",[],unmatched
+329,fecal impaction causing obstruction,0,0,0,"",[],unmatched
+330,faeces discoloured,0,0,0,"",[],unmatched
+331,fasting,0,0,0,"",[],unmatched
+332,fatigue,2,1,1,meddra:10016256,"[""HP_0012378"",""meddra:10016256""]",meddra_exact_with_other_ontology_candidates
+333,febrile neutropenia,1,1,0,meddra:10016288,"[""meddra:10016288""]",unique_meddra_exact_name
+334,feeling abnormal,0,0,0,"",[],unmatched
+335,feeling cold,0,0,0,"",[],unmatched
+336,feeling drunk,0,0,0,"",[],unmatched
+337,feeling hot,0,0,0,"",[],unmatched
+338,feeling jittery,0,0,0,"",[],unmatched
+339,fibrocystic breast disease,0,0,0,"",[],unmatched
+340,flank pain,1,0,1,"","[""HP_0030157""]",unique_other_exact_name
+341,flat affect,0,0,0,"",[],unmatched
+342,flatulence,1,0,1,"","[""HP_0033589""]",unique_other_exact_name
+343,fluid overload,0,0,0,"",[],unmatched
+344,fluid retention,1,0,1,"","[""HP_0000969""]",exact_synonym_only
+345,flushing,2,1,1,meddra:10016825,"[""HP_0031284"",""meddra:10016825""]",meddra_exact_with_other_ontology_candidates
+346,halitosis of liver disease,0,0,0,"",[],unmatched
+347,folliculitis,1,0,1,"","[""HP_0025084""]",unique_other_exact_name
+348,fracture,1,1,0,meddra:10017076,"[""meddra:10017076""]",unique_meddra_exact_name
+349,functional gastrointestinal disorder,0,0,0,"",[],unmatched
+350,fungal infection,0,0,0,"",[],unmatched
+351,fungal skin infection,0,0,0,"",[],unmatched
+352,boil in nose,0,0,0,"",[],unmatched
+353,gait disturbance,1,0,1,"","[""HP_0001288""]",unique_other_exact_name
+354,female lactation,0,0,0,"",[],unmatched
+355,gamma glutamine transfer enzyme increased,0,0,0,"",[],unmatched
+356,gangrene,1,0,1,"","[""HP_0100758""]",unique_other_exact_name
+357,gastric ulcer,1,0,1,"","[""HP_0002592""]",unique_other_exact_name
+358,gastritis,1,0,1,"","[""HP_0005263""]",unique_other_exact_name
+359,gastroenteritis,1,1,0,meddra:10017888,"[""meddra:10017888""]",unique_meddra_exact_name
+360,gastrointestinal carcinoma,1,0,1,"","[""HP_0002672""]",unique_other_exact_name
+361,gastrointestinal disorder,1,1,0,meddra:10017944,"[""meddra:10017944""]",unique_meddra_exact_name
+362,gastrointestinal haemorrhage,1,0,1,"","[""HP_0002239""]",exact_synonym_only
+363,gastrointestinal infection,0,0,0,"",[],unmatched
+364,gastrointestinal pain,1,0,1,"","[""HP_0002027""]",exact_synonym_only
+365,gastrointestinal perforation,0,0,0,"",[],unmatched
+366,gastrointestinal ulcer,1,0,1,"","[""HP_0034274""]",unique_other_exact_name
+367,esophageal reflux,0,0,0,"",[],unmatched
+368,generalised oedema,0,0,0,"",[],unmatched
+369,genital candidiasis,0,0,0,"",[],unmatched
+370,gingival bleeding,1,0,1,"","[""HP_0000225""]",unique_other_exact_name
+371,gingival pain,0,0,0,"",[],unmatched
+372,gingivitis,2,1,1,meddra:10018292,"[""HP_0000230"",""meddra:10018292""]",meddra_exact_with_other_ontology_candidates
+373,glaucoma,2,1,1,meddra:10018304,"[""HP_0000501"",""meddra:10018304""]",meddra_exact_with_other_ontology_candidates
+374,glossitis,1,0,1,"","[""HP_0000206""]",unique_other_exact_name
+375,burning tongue,0,0,0,"",[],unmatched
+376,glucose tolerance impaired,0,0,0,"",[],unmatched
+377,diabetes,0,0,0,"",[],unmatched
+378,goitre,1,0,1,"","[""HP_0000853""]",exact_synonym_only
+379,gout,2,1,1,meddra:10018627,"[""HP_0001997"",""meddra:10018627""]",meddra_exact_with_other_ontology_candidates
+380,gravitational oedema,0,0,0,"",[],unmatched
+381,breast enlargement male,0,0,0,"",[],unmatched
+382,emesis bloody,0,0,0,"",[],unmatched
+383,blood in stool,1,0,1,"","[""HP_0025085""]",exact_synonym_only
+384,packed cell volume decreased,0,0,0,"",[],unmatched
+385,haematoma,0,0,0,"",[],unmatched
+386,urinary tract bleed microscopic,0,0,0,"",[],unmatched
+387,haemoglobin,0,0,0,"",[],unmatched
+388,haemoglobin decreased,0,0,0,"",[],unmatched
+389,haemolytic anaemia,0,0,0,"",[],unmatched
+390,haemolytic uremia syndrome,0,0,0,"",[],unmatched
+391,blood streaked sputum,0,0,0,"",[],unmatched
+392,haemorrhage,0,0,0,"",[],unmatched
+393,haemorrhage intracranial,0,0,0,"",[],unmatched
+394,haemorrhagic disorder,0,0,0,"",[],unmatched
+395,hemorrhoids,1,0,1,"","[""HP_0032551""]",unique_other_exact_name
+396,hair colour changes,0,0,0,"",[],unmatched
+397,hair disorder,0,0,0,"",[],unmatched
+398,hair texture abnormal,0,0,0,"",[],unmatched
+399,hallucination,2,1,1,meddra:10019063,"[""HP_0000738"",""meddra:10019063""]",meddra_exact_with_other_ontology_candidates
+400,hangover,0,0,0,"",[],unmatched
+401,headache,2,1,1,meddra:10019211,"[""HP_0002315"",""meddra:10019211""]",meddra_exact_with_other_ontology_candidates
+402,hemiplegia,1,0,1,"","[""HP_0002301""]",unique_other_exact_name
+403,hepatic cancer,0,0,0,"",[],unmatched
+404,hepatic enzyme increased,0,0,0,"",[],unmatched
+405,hepatic failure,2,1,1,meddra:10019663,"[""HP_0001399"",""meddra:10019663""]",meddra_exact_with_other_ontology_candidates
+406,hepatic function abnormal,0,0,0,"",[],unmatched
+407,hepatic necrosis,1,0,1,"","[""HP_0002605""]",unique_other_exact_name
+408,hepatic steatosis,1,0,1,"","[""HP_0001397""]",unique_other_exact_name
+409,hepatitis,2,1,1,meddra:10019717,"[""HP_0012115"",""meddra:10019717""]",meddra_exact_with_other_ontology_candidates
+410,hepatitis cholestasis,0,0,0,"",[],unmatched
+411,hepatobiliary disease,0,0,0,"",[],unmatched
+412,hepatocellular injury,0,0,0,"",[],unmatched
+413,hepatomegaly,1,0,1,"","[""HP_0002240""]",unique_other_exact_name
+414,hepatotoxicity,0,0,0,"",[],unmatched
+415,hernia,1,0,1,"","[""HP_0100790""]",unique_other_exact_name
+416,herpes simplex,1,1,0,meddra:10019948,"[""meddra:10019948""]",unique_meddra_exact_name
+417,herpes virus infection,0,0,0,"",[],unmatched
+418,herpes zoster,0,0,0,"",[],unmatched
+419,hiatus hernia,1,0,1,"","[""HP_0002036""]",unique_other_exact_name
+420,hiccups,0,0,0,"",[],unmatched
+421,hirsutism,1,0,1,"","[""HP_0001007""]",unique_other_exact_name
+422,hostility,0,0,0,"",[],unmatched
+423,hot flush,1,1,0,meddra:10060800,"[""meddra:10060800""]",unique_meddra_exact_name
+424,hyperacusis,1,0,1,"","[""HP_0010780""]",unique_other_exact_name
+425,venous congestion,0,0,0,"",[],unmatched
+426,allodynia mechanical,0,0,0,"",[],unmatched
+427,bilirubin blood,0,0,0,"",[],unmatched
+428,high calcium blood,0,0,0,"",[],unmatched
+429,high calcium urine,0,0,0,"",[],unmatched
+430,high cholesterol blood,0,0,0,"",[],unmatched
+431,high blood sugar,1,0,1,"","[""HP_0003074""]",exact_synonym_only
+432,hyperhidrosis,1,0,1,"","[""HP_0000975""]",unique_other_exact_name
+433,high potassium blood,0,0,0,"",[],unmatched
+434,hyperkeratosis,1,0,1,"","[""HP_0000962""]",unique_other_exact_name
+435,movement function hyperactivity,0,0,0,"",[],unmatched
+436,high lactic acid blood,0,0,0,"",[],unmatched
+437,high levels of lipids,0,0,0,"",[],unmatched
+438,high magnesium blood,0,0,0,"",[],unmatched
+439,salt retention,0,0,0,"",[],unmatched
+440,pain allergy,0,0,0,"",[],unmatched
+441,high phosphorus blood,0,0,0,"",[],unmatched
+442,exaggerated reflexes,0,0,0,"",[],unmatched
+443,hypersensitivity,1,1,0,meddra:10020751,"[""meddra:10020751""]",unique_meddra_exact_name
+444,sleep excessive,0,0,0,"",[],unmatched
+445,hypertension,2,1,1,meddra:10020772,"[""HP_0000822"",""meddra:10020772""]",meddra_exact_with_other_ontology_candidates
+446,hyperthyroidism,1,0,1,"","[""HP_0000836""]",unique_other_exact_name
+447,tone increased,0,0,0,"",[],unmatched
+448,hypertrichosis,1,0,1,"","[""HP_0000998""]",unique_other_exact_name
+449,high glycerin three ester blood,0,0,0,"",[],unmatched
+450,high uric acid blood,0,0,0,"",[],unmatched
+451,hyperventilation,1,0,1,"","[""HP_0002883""]",unique_other_exact_name
+452,body numbness,0,0,0,"",[],unmatched
+453,body numbness oral,0,0,0,"",[],unmatched
+454,low albumin blood,0,0,0,"",[],unmatched
+455,low calcium blood,0,0,0,"",[],unmatched
+456,low chlorine blood,0,0,0,"",[],unmatched
+457,chlorosis,0,0,0,"",[],unmatched
+458,hypoglycemia,1,0,1,"","[""HP_0001943""]",unique_other_exact_name
+459,drenching sweats,0,0,0,"",[],unmatched
+460,potassium deficiency,0,0,0,"",[],unmatched
+461,activity motor retarded,0,0,0,"",[],unmatched
+462,low magnesium blood,0,0,0,"",[],unmatched
+463,hypomania,0,0,0,"",[],unmatched
+464,low sodium blood,0,0,0,"",[],unmatched
+465,phosphorus low blood,0,0,0,"",[],unmatched
+466,potassium deficiency,0,0,0,"",[],unmatched
+467,diminished reflexes,0,0,0,"",[],unmatched
+468,hypotension,2,1,1,meddra:10021097,"[""HP_0002615"",""meddra:10021097""]",meddra_exact_with_other_ontology_candidates
+469,hypothermia,1,0,1,"","[""HP_0002045""]",unique_other_exact_name
+470,hypothyroidism,2,1,1,meddra:10021114,"[""HP_0000821"",""meddra:10021114""]",meddra_exact_with_other_ontology_candidates
+471,hypotonia,1,0,1,"","[""HP_0001252""]",unique_other_exact_name
+472,hypoventilation,1,0,1,"","[""HP_0002791""]",unique_other_exact_name
+473,hypoxia,1,0,1,"","[""HP_0012418""]",exact_synonym_only
+474,ileus,1,0,1,"","[""HP_0002595""]",unique_other_exact_name
+475,ileus paralytic,0,0,0,"",[],unmatched
+476,ill-defined disorder,0,0,0,"",[],unmatched
+477,immune system disorder,1,1,0,meddra:10021425,"[""meddra:10021425""]",unique_meddra_exact_name
+478,impaired gastric emptying,0,0,0,"",[],unmatched
+479,impaired healing,0,0,0,"",[],unmatched
+480,impetigo,0,0,0,"",[],unmatched
+481,inappropriate antidiuretic hormone secretion,1,0,1,"","[""HP_0031218""]",unique_other_exact_name
+482,incontinence,0,0,0,"",[],unmatched
+483,increased appetite,1,0,1,"","[""HP_0002591""]",exact_synonym_only
+484,increased bronchial secretion,0,0,0,"",[],unmatched
+485,increased tendency to bruise,0,0,0,"",[],unmatched
+486,hardening,0,0,0,"",[],unmatched
+487,infarction,0,0,0,"",[],unmatched
+488,infection,1,1,0,meddra:10021789,"[""meddra:10021789""]",unique_meddra_exact_name
+489,infestation,0,0,0,"",[],unmatched
+490,inflammation,0,0,0,"",[],unmatched
+491,influenza,1,1,0,meddra:10022000,"[""meddra:10022000""]",unique_meddra_exact_name
+492,influenza like illness,0,0,0,"",[],unmatched
+493,infusion site pain,0,0,0,"",[],unmatched
+494,infusion site reaction,0,0,0,"",[],unmatched
+495,injection site bruising,0,0,0,"",[],unmatched
+496,injection site erythema,0,0,0,"",[],unmatched
+497,injection site haemorrhage,0,0,0,"",[],unmatched
+498,injection site hardening,0,0,0,"",[],unmatched
+499,injection site inflammation,0,0,0,"",[],unmatched
+500,injection site pain,0,0,0,"",[],unmatched
+501,injection site pruritus,0,0,0,"",[],unmatched
+502,injection site reaction,1,1,0,meddra:10022095,"[""meddra:10022095""]",unique_meddra_exact_name
+503,injection site swelling,0,0,0,"",[],unmatched
+504,injury,0,0,0,"",[],unmatched
+505,insomnia,2,1,1,meddra:10022437,"[""HP_0100785"",""meddra:10022437""]",meddra_exact_with_other_ontology_candidates
+506,instillation site pain,0,0,0,"",[],unmatched
+507,intermittent claudication,1,0,1,"","[""HP_0004417""]",unique_other_exact_name
+508,international normalised ratio increased,0,0,0,"",[],unmatched
+509,interstitial lung disease,2,1,1,meddra:10022611,"[""HP_0006530"",""meddra:10022611""]",meddra_exact_with_other_ontology_candidates
+510,intestinal obstruction,1,0,1,"","[""HP_0005214""]",unique_other_exact_name
+511,intestinal perforation,1,0,1,"","[""HP_0031368""]",unique_other_exact_name
+512,intracranial pressure increased,0,0,0,"",[],unmatched
+513,intraocular pressure increased,0,0,0,"",[],unmatched
+514,iris inflammation,0,0,0,"",[],unmatched
+515,iron deficiency anaemia,1,0,1,"","[""HP_0001891""]",exact_synonym_only
+516,irritability,2,1,1,meddra:10022998,"[""HP_0000737"",""meddra:10022998""]",meddra_exact_with_other_ontology_candidates
+517,irritable bowel syndrome,0,0,0,"",[],unmatched
+518,ischaemia,0,0,0,"",[],unmatched
+519,jaundice,2,1,1,meddra:10023126,"[""HP_0000952"",""meddra:10023126""]",meddra_exact_with_other_ontology_candidates
+520,obstructive jaundice,0,0,0,"",[],unmatched
+521,joint stiffness,1,0,1,"","[""HP_0001387""]",unique_other_exact_name
+522,joint swelling,1,0,1,"","[""HP_0001386""]",unique_other_exact_name
+523,keratitis,1,0,1,"","[""HP_0000491""]",unique_other_exact_name
+524,ketosis,1,0,1,"","[""HP_0001946""]",unique_other_exact_name
+525,laboratory test abnormal,0,0,0,"",[],unmatched
+526,inner ear infection,0,0,0,"",[],unmatched
+527,laceration,0,0,0,"",[],unmatched
+528,lacrimal disorder,0,0,0,"",[],unmatched
+529,lacrimal structural disorder,0,0,0,"",[],unmatched
+530,lacrimation increased,0,0,0,"",[],unmatched
+531,lactic acidosis,2,1,1,meddra:10023676,"[""HP_0003128"",""meddra:10023676""]",meddra_exact_with_other_ontology_candidates
+532,laryngeal oedema,0,0,0,"",[],unmatched
+533,laryngeal pain,0,0,0,"",[],unmatched
+534,laryngitis,0,0,0,"",[],unmatched
+535,laryngeal spasm,0,0,0,"",[],unmatched
+536,lethargy,1,0,1,"","[""HP_0001254""]",unique_other_exact_name
+537,leukocytosis,1,0,1,"","[""HP_0001974""]",unique_other_exact_name
+538,vitiligo,1,0,1,"","[""HP_0001045""]",unique_other_exact_name
+539,leukopenia,1,0,1,"","[""HP_0001882""]",unique_other_exact_name
+540,libido decreased,0,0,0,"",[],unmatched
+541,libido disorder,0,0,0,"",[],unmatched
+542,libido increased,0,0,0,"",[],unmatched
+543,mossy keratosis,0,0,0,"",[],unmatched
+544,ligament sprain,0,0,0,"",[],unmatched
+545,lipase increased,0,0,0,"",[],unmatched
+546,lipodystrophy acquired,0,0,0,"",[],unmatched
+547,liver disorder,0,0,0,"",[],unmatched
+548,liver function test abnormal,0,0,0,"",[],unmatched
+549,liver injury,0,0,0,"",[],unmatched
+550,local swelling,0,0,0,"",[],unmatched
+551,loss of consciousness,1,0,1,"","[""HP_0007185""]",unique_other_exact_name
+552,loss of libido,0,0,0,"",[],unmatched
+553,lower respiratory tract infection,1,0,1,"","[""HP_0002783""]",exact_synonym_only
+554,lung disorder,0,0,0,"",[],unmatched
+555,lung infection,0,0,0,"",[],unmatched
+556,lung infiltration,0,0,0,"",[],unmatched
+557,lymphadenopathy,1,0,1,"","[""HP_0002716""]",unique_other_exact_name
+558,lymphocyte count decreased,0,0,0,"",[],unmatched
+559,lymphocyte excess,0,0,0,"",[],unmatched
+560,lymph edema,0,0,0,"",[],unmatched
+561,lymph tumor,0,0,0,"",[],unmatched
+562,lymph cell cut back,0,0,0,"",[],unmatched
+563,major depression,0,0,0,"",[],unmatched
+564,malaise,2,1,1,meddra:10025482,"[""HP_0033834"",""meddra:10025482""]",meddra_exact_with_other_ontology_candidates
+565,malignant melanoma,0,0,0,"",[],unmatched
+566,malnutrition,1,0,1,"","[""HP_0004395""]",unique_other_exact_name
+567,mania,2,1,1,meddra:10026749,"[""HP_0100754"",""meddra:10026749""]",meddra_exact_with_other_ontology_candidates
+568,mastitis,1,0,1,"","[""HP_0040407""]",unique_other_exact_name
+569,mediastinal disorder,0,0,0,"",[],unmatched
+570,blood clot excretion,0,0,0,"",[],unmatched
+571,melanosis,0,0,0,"",[],unmatched
+572,memory impairment,1,0,1,"","[""HP_0002354""]",unique_other_exact_name
+573,meningitis,1,0,1,"","[""HP_0001287""]",unique_other_exact_name
+574,menopausal symptoms,0,0,0,"",[],unmatched
+575,menopause,0,0,0,"",[],unmatched
+576,menorrhagia,1,0,1,"","[""HP_0000132""]",unique_other_exact_name
+577,menstrual disorder,0,0,0,"",[],unmatched
+578,menstruation irregular,0,0,0,"",[],unmatched
+579,mental disability,0,0,0,"",[],unmatched
+580,mental disorder,0,0,0,"",[],unmatched
+581,metabolic acidosis,1,0,1,"","[""HP_0001942""]",unique_other_exact_name
+582,break through bleeding,0,0,0,"",[],unmatched
+583,urination disorder,0,0,0,"",[],unmatched
+584,urination urgency,0,0,0,"",[],unmatched
+585,migraine,1,0,1,"","[""HP_0002076""]",unique_other_exact_name
+586,miosis,1,0,1,"","[""HP_0000616""]",unique_other_exact_name
+587,single core cell increase,0,0,0,"",[],unmatched
+588,mood swings,1,0,1,"","[""HP_0000712""]",exact_synonym_only
+589,motion sickness,0,0,0,"",[],unmatched
+590,mouth ulceration,0,0,0,"",[],unmatched
+591,movement disorder,1,0,1,"","[""HP_0100022""]",exact_synonym_only
+592,mucosal inflammation,0,0,0,"",[],unmatched
+593,mucous membrane disorder,0,0,0,"",[],unmatched
+594,multiple fractures,1,0,1,"","[""HP_0002757""]",exact_synonym_only
+595,muscle atrophy,1,0,1,"","[""HP_0003202""]",exact_synonym_only
+596,muscle contractions involuntary,0,0,0,"",[],unmatched
+597,muscle relaxant therapy,0,0,0,"",[],unmatched
+598,muscle rigidity,1,0,1,"","[""HP_0002063""]",exact_synonym_only
+599,muscle spasms,2,1,1,meddra:10028334,"[""HP_0003394"",""meddra:10028334""]",meddra_exact_with_other_ontology_candidates
+600,muscle tightness,0,0,0,"",[],unmatched
+601,muscle twitching,0,0,0,"",[],unmatched
+602,muscular weakness,2,1,1,meddra:10028372,"[""HP_0001324"",""meddra:10028372""]",meddra_exact_with_other_ontology_candidates
+603,musculoskeletal chest pain,0,0,0,"",[],unmatched
+604,musculoskeletal discomfort,0,0,0,"",[],unmatched
+605,musculoskeletal pain,1,1,0,meddra:10028391,"[""meddra:10028391""]",unique_meddra_exact_name
+606,musculoskeletal stiffness,0,0,0,"",[],unmatched
+607,myalgia,2,1,1,meddra:10028411,"[""HP_0003326"",""meddra:10028411""]",meddra_exact_with_other_ontology_candidates
+608,mydriasis,1,0,1,"","[""HP_0011499""]",unique_other_exact_name
+609,myelitis,1,0,1,"","[""HP_0012486""]",unique_other_exact_name
+610,myocardial infarction,2,1,1,meddra:10028596,"[""HP_0001658"",""meddra:10028596""]",meddra_exact_with_other_ontology_candidates
+611,myocardial ischaemia,0,0,0,"",[],unmatched
+612,myocarditis,1,0,1,"","[""HP_0012819""]",unique_other_exact_name
+613,myoclonus,1,0,1,"","[""HP_0001336""]",unique_other_exact_name
+614,myopathy,1,0,1,"","[""HP_0003198""]",unique_other_exact_name
+615,myositis,1,0,1,"","[""HP_0100614""]",unique_other_exact_name
+616,nail disorder,0,0,0,"",[],unmatched
+617,nasal congestion,1,0,1,"","[""HP_0001742""]",unique_other_exact_name
+618,nasal discomfort,0,0,0,"",[],unmatched
+619,nasal dryness,1,0,1,"","[""HP_0033521""]",unique_other_exact_name
+620,nose pharynx inflammation,0,0,0,"",[],unmatched
+621,nausea,2,1,1,meddra:10028813,"[""HP_0002018"",""meddra:10028813""]",meddra_exact_with_other_ontology_candidates
+622,neck pain,2,1,1,meddra:10028836,"[""HP_0030833"",""meddra:10028836""]",meddra_exact_with_other_ontology_candidates
+623,neoplasm,1,0,1,"","[""HP_0002664""]",unique_other_exact_name
+624,neoplasm malignant,0,0,0,"",[],unmatched
+625,nephritis,1,0,1,"","[""HP_0000123""]",unique_other_exact_name
+626,calculus kidney,0,0,0,"",[],unmatched
+627,nephropathy,1,0,1,"","[""HP_0000112""]",unique_other_exact_name
+628,nephropathy toxic,0,0,0,"",[],unmatched
+629,nephrotic syndrome,1,0,1,"","[""HP_0000100""]",unique_other_exact_name
+630,nervous system disorder,1,1,0,meddra:10029202,"[""meddra:10029202""]",unique_meddra_exact_name
+631,nervousness,0,0,0,"",[],unmatched
+632,neuralgia,2,1,1,meddra:10029223,"[""HP_0033345"",""meddra:10029223""]",meddra_exact_with_other_ontology_candidates
+633,neuritis,1,0,1,"","[""HP_0031002""]",unique_other_exact_name
+634,neuroleptic malignant syndrome,0,0,0,"",[],unmatched
+635,neuropathy peripheral,1,1,0,meddra:10029331,"[""meddra:10029331""]",unique_meddra_exact_name
+636,neurosis,0,0,0,"",[],unmatched
+637,neurotoxicity,0,0,0,"",[],unmatched
+638,neutropenia,1,1,0,meddra:10029354,"[""meddra:10029354""]",unique_meddra_exact_name
+639,neutrophil deficiency,0,0,0,"",[],unmatched
+640,neutrophil count decreased,0,0,0,"",[],unmatched
+641,night blindness,0,0,0,"",[],unmatched
+642,night sweats,1,0,1,"","[""HP_0030166""]",unique_other_exact_name
+643,nightmare,0,0,0,"",[],unmatched
+644,nocturnal enuresis,0,0,0,"",[],unmatched
+645,nodal arrhythmia,0,0,0,"",[],unmatched
+646,nodule,0,0,0,"",[],unmatched
+647,non cardiac chest pain,0,0,0,"",[],unmatched
+648,non hodgkin lymphoma,0,0,0,"",[],unmatched
+649,nuchal rigidity,1,0,1,"","[""HP_0031179""]",unique_other_exact_name
+650,nystagmus,2,1,1,meddra:10029864,"[""HP_0000639"",""meddra:10029864""]",meddra_exact_with_other_ontology_candidates
+651,ocular discomfort,0,0,0,"",[],unmatched
+652,ocular venous congestion,0,0,0,"",[],unmatched
+653,oculomotor spasm,0,0,0,"",[],unmatched
+654,swallowing painful,0,0,0,"",[],unmatched
+655,oedema,1,0,1,"","[""HP_0000969""]",exact_synonym_only
+656,oedema peripheral,0,0,0,"",[],unmatched
+657,oesophageal spasm,0,0,0,"",[],unmatched
+658,oesophageal stenosis,0,0,0,"",[],unmatched
+659,oesophageal ulcer,0,0,0,"",[],unmatched
+660,esophagus inflammation,0,0,0,"",[],unmatched
+661,urine less,0,0,0,"",[],unmatched
+662,onychomycosis,1,0,1,"","[""HP_0012203""]",unique_other_exact_name
+663,opportunistic infection,1,0,1,"","[""HP_0031690""]",unique_other_exact_name
+664,optic atrophy,1,0,1,"","[""HP_0000648""]",unique_other_exact_name
+665,optic neuritis,1,0,1,"","[""HP_0100653""]",unique_other_exact_name
+666,oral candidiasis,0,0,0,"",[],unmatched
+667,oral herpes,0,0,0,"",[],unmatched
+668,oral pain,0,0,0,"",[],unmatched
+669,testis inflammation non infective,0,0,0,"",[],unmatched
+670,orgasm abnormal,0,0,0,"",[],unmatched
+671,oropharyngeal discomfort,0,0,0,"",[],unmatched
+672,oropharyngeal pain,1,1,0,meddra:10068319,"[""meddra:10068319""]",unique_meddra_exact_name
+673,orthostatic hypotension,2,1,1,meddra:10031127,"[""HP_0001278"",""meddra:10031127""]",meddra_exact_with_other_ontology_candidates
+674,osteoarthritis,1,0,1,"","[""HP_0002758""]",unique_other_exact_name
+675,osteomyelitis,1,0,1,"","[""HP_0002754""]",unique_other_exact_name
+676,osteonecrosis,1,0,1,"","[""HP_0010885""]",exact_synonym_only
+677,osteoporosis,1,0,1,"","[""HP_0000939""]",unique_other_exact_name
+678,otitis externa,1,0,1,"","[""HP_0410017""]",unique_other_exact_name
+679,otitis media,1,0,1,"","[""HP_0000388""]",unique_other_exact_name
+680,ear toxicity,0,0,0,"",[],unmatched
+681,ovarian cyst,1,0,1,"","[""HP_0000138""]",unique_other_exact_name
+682,ovarian disorder,0,0,0,"",[],unmatched
+683,pain,2,1,1,meddra:10033371,"[""HP_0012531"",""meddra:10033371""]",meddra_exact_with_other_ontology_candidates
+684,pain in extremity,1,1,0,meddra:10033425,"[""meddra:10033425""]",unique_meddra_exact_name
+685,pain in jaw,0,0,0,"",[],unmatched
+686,pain of skin,0,0,0,"",[],unmatched
+687,pallor,1,0,1,"","[""HP_0000980""]",unique_other_exact_name
+688,palpitations,2,1,1,meddra:10033557,"[""HP_0001962"",""meddra:10033557""]",meddra_exact_with_other_ontology_candidates
+689,pancreatitis,2,1,1,meddra:10033645,"[""HP_0001733"",""meddra:10033645""]",meddra_exact_with_other_ontology_candidates
+690,pancreatitis acute,0,0,0,"",[],unmatched
+691,pancytopenia,2,1,1,meddra:10033661,"[""HP_0001876"",""meddra:10033661""]",meddra_exact_with_other_ontology_candidates
+692,panic attack,1,0,1,"","[""HP_0025269""]",unique_other_exact_name
+693,panic reaction,0,0,0,"",[],unmatched
+694,eyelid inflammation,0,0,0,"",[],unmatched
+695,nipple edema,0,0,0,"",[],unmatched
+696,feeling abnormal,0,0,0,"",[],unmatched
+697,feeling abnormal oral,0,0,0,"",[],unmatched
+698,paralysis,1,0,1,"","[""HP_0003470""]",unique_other_exact_name
+699,paranoia,1,0,1,"","[""HP_0011999""]",unique_other_exact_name
+700,paresis,0,0,0,"",[],unmatched
+701,parkinsonism,2,1,1,meddra:10034010,"[""HP_0001300"",""meddra:10034010""]",meddra_exact_with_other_ontology_candidates
+702,disturbances of sensation of smell and taste,0,0,0,"",[],unmatched
+703,pelvic pain,1,0,1,"","[""HP_0034267""]",unique_other_exact_name
+704,penis disorder,0,0,0,"",[],unmatched
+705,peptic ulcer,1,0,1,"","[""HP_0004398""]",unique_other_exact_name
+706,pericardial effusion,1,0,1,"","[""HP_0001698""]",unique_other_exact_name
+707,pericarditis,1,0,1,"","[""HP_0001701""]",unique_other_exact_name
+708,perineal pain,0,0,0,"",[],unmatched
+709,periodontitis,1,0,1,"","[""HP_0000704""]",unique_other_exact_name
+710,periorbital oedema,0,0,0,"",[],unmatched
+711,peripheral coldness,0,0,0,"",[],unmatched
+712,peripheral ischaemia,0,0,0,"",[],unmatched
+713,peripheral motor neuropathy,0,0,0,"",[],unmatched
+714,peripheral sensory neuropathy,1,0,1,"","[""HP_0000763""]",exact_synonym_only
+715,peripheral vascular disorder,0,0,0,"",[],unmatched
+716,peritonitis,1,0,1,"","[""HP_0002586""]",unique_other_exact_name
+717,personality disorder,1,0,1,"","[""HP_0012075""]",unique_other_exact_name
+718,petechiae,1,0,1,"","[""HP_0000967""]",unique_other_exact_name
+719,pharyngeal oedema,0,0,0,"",[],unmatched
+720,pharyngitis,1,0,1,"","[""HP_0025439""]",unique_other_exact_name
+721,pharyngitis streptococcal,0,0,0,"",[],unmatched
+722,phlebitis,0,0,0,"",[],unmatched
+723,photophobia,1,0,1,"","[""HP_0000613""]",unique_other_exact_name
+724,flash vision,0,0,0,"",[],unmatched
+725,photosensitivity reaction,0,0,0,"",[],unmatched
+726,pigmentation disorder,0,0,0,"",[],unmatched
+727,plasma cell myeloma,0,0,0,"",[],unmatched
+728,tumor plasma cell,0,0,0,"",[],unmatched
+729,platelet count decreased,0,0,0,"",[],unmatched
+730,pleural effusion,1,0,1,"","[""HP_0002202""]",unique_other_exact_name
+731,pleurisy,1,0,1,"","[""HP_0002102""]",exact_synonym_only
+732,pleural pain,0,0,0,"",[],unmatched
+733,pneumonia,2,1,1,meddra:10035664,"[""HP_0002090"",""meddra:10035664""]",meddra_exact_with_other_ontology_candidates
+734,pneumonia aspiration,0,0,0,"",[],unmatched
+735,pneumothorax,1,0,1,"","[""HP_0002107""]",unique_other_exact_name
+736,urinary frequency increased,0,0,0,"",[],unmatched
+737,increase in the total amount of red blood cells in the blood,0,0,0,"",[],unmatched
+738,polydipsia,1,0,1,"","[""HP_0001959""]",unique_other_exact_name
+739,polyneuropathy,1,0,1,"","[""HP_0001271""]",unique_other_exact_name
+740,polyuria,1,0,1,"","[""HP_0000103""]",unique_other_exact_name
+741,post procedural haemorrhage,0,0,0,"",[],unmatched
+742,premenstrual syndrome,0,0,0,"",[],unmatched
+743,syncope vertigo,0,0,0,"",[],unmatched
+744,priapism,1,0,1,"","[""HP_0200023""]",unique_other_exact_name
+745,procedural pain,0,0,0,"",[],unmatched
+746,anal pain,1,0,1,"","[""HP_0500005""]",unique_other_exact_name
+747,rectum inflammation,0,0,0,"",[],unmatched
+748,productive cough,1,0,1,"","[""HP_0031245""]",unique_other_exact_name
+749,prostate cancer,1,0,1,"","[""HP_0012125""]",unique_other_exact_name
+750,prostatic disorder,0,0,0,"",[],unmatched
+751,prostatitis,1,0,1,"","[""HP_0000024""]",unique_other_exact_name
+752,protein total decreased,0,0,0,"",[],unmatched
+753,protein urine present,0,0,0,"",[],unmatched
+754,proteinuria,2,1,1,meddra:10037032,"[""HP_0000093"",""meddra:10037032""]",meddra_exact_with_other_ontology_candidates
+755,prothrombin level decreased,0,0,0,"",[],unmatched
+756,prothrombin level increased,0,0,0,"",[],unmatched
+757,itch rash,0,0,0,"",[],unmatched
+758,pruritus,2,1,1,meddra:10037087,"[""HP_0000989"",""meddra:10037087""]",meddra_exact_with_other_ontology_candidates
+759,pruritus generalised,0,0,0,"",[],unmatched
+760,pruritus genital,0,0,0,"",[],unmatched
+761,falsehood lymph tumor,0,0,0,"",[],unmatched
+762,pseudomembranous colitis,0,0,0,"",[],unmatched
+763,psoriasis,0,0,0,"",[],unmatched
+764,psychomotor retardation,0,0,0,"",[],unmatched
+765,psychotic disorder,0,0,0,"",[],unmatched
+766,pulmonary congestion,0,0,0,"",[],unmatched
+767,pulmonary embolism,2,1,1,meddra:10037377,"[""HP_0002204"",""meddra:10037377""]",meddra_exact_with_other_ontology_candidates
+768,pulmonary fibrosis,2,1,1,meddra:10037383,"[""HP_0002206"",""meddra:10037383""]",meddra_exact_with_other_ontology_candidates
+769,pulmonary function test decreased,0,0,0,"",[],unmatched
+770,pulmonary hypertension,0,0,0,"",[],unmatched
+771,pulmonary oedema,0,0,0,"",[],unmatched
+772,punctate keratitis,1,0,1,"","[""HP_0011859""]",unique_other_exact_name
+773,pupils unequal,0,0,0,"",[],unmatched
+774,purpura,2,1,1,meddra:10037549,"[""HP_0000979"",""meddra:10037549""]",meddra_exact_with_other_ontology_candidates
+775,pyelonephritis,1,0,1,"","[""HP_0012330""]",unique_other_exact_name
+776,urine purulent,0,0,0,"",[],unmatched
+777,rales,0,0,0,"",[],unmatched
+778,rash,2,1,1,meddra:10037844,"[""HP_0000988"",""meddra:10037844""]",meddra_exact_with_other_ontology_candidates
+779,rash erythematous,0,0,0,"",[],unmatched
+780,rash generalised,0,0,0,"",[],unmatched
+781,rash macular,0,0,0,"",[],unmatched
+782,macula papules rash,0,0,0,"",[],unmatched
+783,rash papular,0,0,0,"",[],unmatched
+784,rash pustular,0,0,0,"",[],unmatched
+785,rectal haemorrhage,0,0,0,"",[],unmatched
+786,defecation urge painful,0,0,0,"",[],unmatched
+787,regurgitation,0,0,0,"",[],unmatched
+788,renal failure,2,1,1,meddra:10038435,"[""HP_0000083"",""meddra:10038435""]",meddra_exact_with_other_ontology_candidates
+789,renal impairment,1,1,0,meddra:10062237,"[""meddra:10062237""]",unique_meddra_exact_name
+790,renal pain,0,0,0,"",[],unmatched
+791,renal tubular necrosis,0,0,0,"",[],unmatched
+792,respiration abnormal,0,0,0,"",[],unmatched
+793,respiratory depression,1,0,1,"","[""HP_0002791""]",exact_synonym_only
+794,respiratory disorder,0,0,0,"",[],unmatched
+795,respiratory distress,1,0,1,"","[""HP_0002098""]",unique_other_exact_name
+796,respiratory failure,1,0,1,"","[""HP_0002878""]",unique_other_exact_name
+797,respiratory tract congestion,0,0,0,"",[],unmatched
+798,respiratory tract infection,1,0,1,"","[""HP_0011947""]",unique_other_exact_name
+799,restless legs syndrome,0,0,0,"",[],unmatched
+800,retching,0,0,0,"",[],unmatched
+801,retinal degeneration,1,0,1,"","[""HP_0000546""]",unique_other_exact_name
+802,retinal detachment,1,0,1,"","[""HP_0000541""]",unique_other_exact_name
+803,retinal disorder,0,0,0,"",[],unmatched
+804,retinal haemorrhage,1,0,1,"","[""HP_0000573""]",exact_synonym_only
+805,retroperitoneal haemorrhage,0,0,0,"",[],unmatched
+806,rhabdomyolysis,2,1,1,meddra:10039020,"[""HP_0003201"",""meddra:10039020""]",meddra_exact_with_other_ontology_candidates
+807,rheumatoid arthritis,1,0,1,"","[""HP_0001370""]",unique_other_exact_name
+808,rhinitis,2,1,1,meddra:10039083,"[""HP_0012384"",""meddra:10039083""]",meddra_exact_with_other_ontology_candidates
+809,rhinitis allergic,0,0,0,"",[],unmatched
+810,mucous nasal increased,0,0,0,"",[],unmatched
+811,dry rales,0,0,0,"",[],unmatched
+812,road traffic accident,0,0,0,"",[],unmatched
+813,rosacea,0,0,0,"",[],unmatched
+814,salivary gland enlargement,0,0,0,"",[],unmatched
+815,increased salivation,0,0,0,"",[],unmatched
+816,oviduct inflammation,0,0,0,"",[],unmatched
+817,scab,0,0,0,"",[],unmatched
+818,reaction schizoid,0,0,0,"",[],unmatched
+819,sciatica,1,0,1,"","[""HP_0011868""]",unique_other_exact_name
+820,sclera inflammation,0,0,0,"",[],unmatched
+821,seasonal allergy,1,0,1,"","[""HP_0012395""]",unique_other_exact_name
+822,seborrheic dermatitis,1,0,1,"","[""HP_0001051""]",unique_other_exact_name
+823,seborrheic keratosis,1,0,1,"","[""HP_0031287""]",unique_other_exact_name
+824,sensation of foreign body,0,0,0,"",[],unmatched
+825,sensory disturbance,0,0,0,"",[],unmatched
+826,sensory loss,0,0,0,"",[],unmatched
+827,sepsis,2,1,1,meddra:10040047,"[""HP_0100806"",""meddra:10040047""]",meddra_exact_with_other_ontology_candidates
+828,septic shock,0,0,0,"",[],unmatched
+829,serotonin syndrome,1,1,0,meddra:10040108,"[""meddra:10040108""]",unique_meddra_exact_name
+830,serum sickness,0,0,0,"",[],unmatched
+831,sexual dysfunction,0,0,0,"",[],unmatched
+832,shock,1,0,1,"","[""HP_0031273""]",unique_other_exact_name
+833,salivary glands inflammation,0,0,0,"",[],unmatched
+834,sinus bradycardia,1,0,1,"","[""HP_0001688""]",unique_other_exact_name
+835,sinus congestion,0,0,0,"",[],unmatched
+836,sinus headache,0,0,0,"",[],unmatched
+837,sinus tachycardia,1,0,1,"","[""HP_0011703""]",unique_other_exact_name
+838,sinusitis,1,0,1,"","[""HP_0000246""]",unique_other_exact_name
+839,skin atrophy,0,0,0,"",[],unmatched
+840,skin burning sensation,0,0,0,"",[],unmatched
+841,skin cancer,0,0,0,"",[],unmatched
+842,skin discolouration,0,0,0,"",[],unmatched
+843,skin disorder,0,0,0,"",[],unmatched
+844,skin exfoliation,0,0,0,"",[],unmatched
+845,skin hyperpigmentation,1,0,1,"","[""HP_0000953""]",exact_synonym_only
+846,skin hypertrophy,0,0,0,"",[],unmatched
+847,skin infection,1,0,1,"","[""HP_0100658""]",exact_synonym_only
+848,skin irritation,0,0,0,"",[],unmatched
+849,skin lesion,0,0,0,"",[],unmatched
+850,skin mass,0,0,0,"",[],unmatched
+851,skin odour abnormal,0,0,0,"",[],unmatched
+852,skin papilloma,0,0,0,"",[],unmatched
+853,skin striae,1,0,1,"","[""HP_0001065""]",exact_synonym_only
+854,skin ulcer,1,0,1,"","[""HP_0200042""]",unique_other_exact_name
+855,sleep apnoea syndrome,0,0,0,"",[],unmatched
+856,sleep disorder,0,0,0,"",[],unmatched
+857,sluggishness,0,0,0,"",[],unmatched
+858,sneezing,0,0,0,"",[],unmatched
+859,snoring,1,0,1,"","[""HP_0025267""]",unique_other_exact_name
+860,somnambulism,1,0,1,"","[""HP_0025236""]",unique_other_exact_name
+861,somnolence,2,1,1,meddra:10041349,"[""HP_0002329"",""meddra:10041349""]",meddra_exact_with_other_ontology_candidates
+862,speech disorder,0,0,0,"",[],unmatched
+863,splenomegaly,1,0,1,"","[""HP_0001744""]",unique_other_exact_name
+864,sputum increased,0,0,0,"",[],unmatched
+865,staphylococcal infection,0,0,0,"",[],unmatched
+866,status epilepticus,1,0,1,"","[""HP_0002133""]",unique_other_exact_name
+867,stevens johnson syndrome,0,0,0,"",[],unmatched
+868,sticky skin,0,0,0,"",[],unmatched
+869,stomatitis,2,1,1,meddra:10042128,"[""HP_0010280"",""meddra:10042128""]",meddra_exact_with_other_ontology_candidates
+870,bladder and urethral symptoms,0,0,0,"",[],unmatched
+871,wheezing,1,0,1,"","[""HP_0030828""]",unique_other_exact_name
+872,stupor,1,0,1,"","[""HP_0001259""]",exact_synonym_only
+873,subarachnoid haemorrhage,0,0,0,"",[],unmatched
+874,subdural haematoma,1,0,1,"","[""HP_0100309""]",exact_synonym_only
+875,sudden death,1,0,1,"","[""HP_0001699""]",unique_other_exact_name
+876,suicidal ideation,1,0,1,"","[""HP_0031589""]",unique_other_exact_name
+877,suicide attempt,0,0,0,"",[],unmatched
+878,sunburn,0,0,0,"",[],unmatched
+879,ectopic beats atrial,0,0,0,"",[],unmatched
+880,supraventricular tachycardia,1,0,1,"","[""HP_0004755""]",unique_other_exact_name
+881,swelling,0,0,0,"",[],unmatched
+882,swelling face,0,0,0,"",[],unmatched
+883,syncope,2,1,1,meddra:10042772,"[""HP_0001279"",""meddra:10042772""]",meddra_exact_with_other_ontology_candidates
+884,systemic lupus erythematosus,1,0,1,"","[""HP_0002725""]",unique_other_exact_name
+885,tachycardia,2,1,1,meddra:10043071,"[""HP_0001649"",""meddra:10043071""]",meddra_exact_with_other_ontology_candidates
+886,respiration stimulated,0,0,0,"",[],unmatched
+887,tardive dyskinesia,1,0,1,"","[""HP_0040141""]",unique_other_exact_name
+888,telangiectasia,1,0,1,"","[""HP_0001009""]",unique_other_exact_name
+889,temperature intolerance,0,0,0,"",[],unmatched
+890,tenderness,0,0,0,"",[],unmatched
+891,tendinous contracture,0,0,0,"",[],unmatched
+892,tendon disorder,0,0,0,"",[],unmatched
+893,tendonitis,1,0,1,"","[""HP_0025230""]",unique_other_exact_name
+894,tendon sheath inflammation,0,0,0,"",[],unmatched
+895,tension,0,0,0,"",[],unmatched
+896,tension headache,0,0,0,"",[],unmatched
+897,testicular pain,1,0,1,"","[""HP_0033839""]",unique_other_exact_name
+898,tetany,1,0,1,"","[""HP_0001281""]",unique_other_exact_name
+899,therapeutic response unexpected,0,0,0,"",[],unmatched
+900,thinking abnormal,0,0,0,"",[],unmatched
+901,thirst,1,1,0,meddra:10043458,"[""meddra:10043458""]",unique_meddra_exact_name
+902,throat irritation,0,0,0,"",[],unmatched
+903,throat tightness,0,0,0,"",[],unmatched
+904,thrombocytopenia,2,1,1,meddra:10043554,"[""HP_0001873"",""meddra:10043554""]",meddra_exact_with_other_ontology_candidates
+905,platelets increase,0,0,0,"",[],unmatched
+906,thrombophlebitis,1,0,1,"","[""HP_0004418""]",unique_other_exact_name
+907,thrombosis,1,1,0,meddra:10043607,"[""meddra:10043607""]",unique_meddra_exact_name
+908,thrombotic thrombocytopenic purpura,0,0,0,"",[],unmatched
+909,thyroid disorder,0,0,0,"",[],unmatched
+910,thyroid neoplasm,0,0,0,"",[],unmatched
+911,thyroiditis,1,0,1,"","[""HP_0100646""]",unique_other_exact_name
+912,tinnitus,2,1,1,meddra:10043882,"[""HP_0000360"",""meddra:10043882""]",meddra_exact_with_other_ontology_candidates
+913,tongue discolouration,0,0,0,"",[],unmatched
+914,tongue disorder,0,0,0,"",[],unmatched
+915,tongue oedema,0,0,0,"",[],unmatched
+916,tongue ulceration,0,0,0,"",[],unmatched
+917,tonsillitis,1,0,1,"","[""HP_0011110""]",exact_synonym_only
+918,tooth abscess,1,0,1,"","[""HP_0030757""]",unique_other_exact_name
+919,tooth disorder,0,0,0,"",[],unmatched
+920,tooth infection,0,0,0,"",[],unmatched
+921,toothache,0,0,0,"",[],unmatched
+922,ventricular arrhythmias and cardiac arrest,0,0,0,"",[],unmatched
+923,torticollis,1,0,1,"","[""HP_0000473""]",unique_other_exact_name
+924,toxic epidermal necrolysis,0,0,0,"",[],unmatched
+925,toxicity to various agents,0,0,0,"",[],unmatched
+926,tracheitis,0,0,0,"",[],unmatched
+927,trachea bronchus inflammation,0,0,0,"",[],unmatched
+928,transaminases increased,0,0,0,"",[],unmatched
+929,transient ischaemic attack,0,0,0,"",[],unmatched
+930,tremor,2,1,1,meddra:10044565,"[""HP_0001337"",""meddra:10044565""]",meddra_exact_with_other_ontology_candidates
+931,masseter spasms,0,0,0,"",[],unmatched
+932,inflammation of the interstitial tissue of the kidney,0,0,0,"",[],unmatched
+933,tumour lysis syndrome,0,0,0,"",[],unmatched
+934,ulcer,0,0,0,"",[],unmatched
+935,ulcerative keratitis,0,0,0,"",[],unmatched
+936,unintended pregnancy,0,0,0,"",[],unmatched
+937,upper respiratory tract infection,1,1,0,meddra:10046306,"[""meddra:10046306""]",unique_meddra_exact_name
+938,upper airway cough syndrome,0,0,0,"",[],unmatched
+939,urethral disorder,0,0,0,"",[],unmatched
+940,urethritis,1,0,1,"","[""HP_0500006""]",unique_other_exact_name
+941,urethritis non infective,0,0,0,"",[],unmatched
+942,urinary hesitation,0,0,0,"",[],unmatched
+943,urinary incontinence,1,0,1,"","[""HP_0000020""]",unique_other_exact_name
+944,urinary retention,1,0,1,"","[""HP_0000016""]",unique_other_exact_name
+945,urinary tract disorder,0,0,0,"",[],unmatched
+946,urinary tract infection,0,0,0,"",[],unmatched
+947,urine abnormality,0,0,0,"",[],unmatched
+948,urine analysis abnormal,0,0,0,"",[],unmatched
+949,urine output increased,0,0,0,"",[],unmatched
+950,urticaria,2,1,1,meddra:10046735,"[""HP_0001025"",""meddra:10046735""]",meddra_exact_with_other_ontology_candidates
+951,uterine disorder,0,0,0,"",[],unmatched
+952,uterine haemorrhage,0,0,0,"",[],unmatched
+953,uterine smooth muscle tumor,0,0,0,"",[],unmatched
+954,uterine spasm,0,0,0,"",[],unmatched
+955,uveitis,1,0,1,"","[""HP_0000554""]",unique_other_exact_name
+956,vaginal discharge,1,1,0,meddra:10046901,"[""meddra:10046901""]",unique_meddra_exact_name
+957,vaginal haemorrhage,0,0,0,"",[],unmatched
+958,vaginal infection,0,0,0,"",[],unmatched
+959,varicose vein,0,0,0,"",[],unmatched
+960,vascular headache,0,0,0,"",[],unmatched
+961,vascular purpura,0,0,0,"",[],unmatched
+962,vasculitis,2,1,1,meddra:10047115,"[""HP_0002633"",""meddra:10047115""]",meddra_exact_with_other_ontology_candidates
+963,vasodilation procedure,0,0,0,"",[],unmatched
+964,vasospasm,1,0,1,"","[""HP_0025637""]",unique_other_exact_name
+965,venous thrombosis,2,1,1,meddra:10047249,"[""HP_0004936"",""meddra:10047249""]",meddra_exact_with_other_ontology_candidates
+966,ventricular arrhythmia,1,0,1,"","[""HP_0004308""]",unique_other_exact_name
+967,premature ventricular contractions,0,0,0,"",[],unmatched
+968,ventricular fibrillation,1,0,1,"","[""HP_0001663""]",unique_other_exact_name
+969,ventricular tachycardia,1,0,1,"","[""HP_0004756""]",unique_other_exact_name
+970,vertigo,2,1,1,meddra:10047340,"[""HP_0002321"",""meddra:10047340""]",meddra_exact_with_other_ontology_candidates
+971,vestibular disorder,0,0,0,"",[],unmatched
+972,viral diarrhoea,0,0,0,"",[],unmatched
+973,viral infection,0,0,0,"",[],unmatched
+974,viral upper respiratory tract infection,0,0,0,"",[],unmatched
+975,vision blurred,0,0,0,"",[],unmatched
+976,visual acuity reduced,0,0,0,"",[],unmatched
+977,visual impairment,1,0,1,"","[""HP_0000505""]",unique_other_exact_name
+978,vomiting,2,1,1,meddra:10047700,"[""HP_0002013"",""meddra:10047700""]",meddra_exact_with_other_ontology_candidates
+979,vulva vaginal candidiasis,0,0,0,"",[],unmatched
+980,vulva vaginal dryness,0,0,0,"",[],unmatched
+981,vulva vaginal mold infection,0,0,0,"",[],unmatched
+982,vulva vaginal pruritus,0,0,0,"",[],unmatched
+983,vulva vagina inflammation,0,0,0,"",[],unmatched
+984,weight decreased,0,0,0,"",[],unmatched
+985,weight increased,0,0,0,"",[],unmatched
+986,wheezing,1,0,1,"","[""HP_0030828""]",unique_other_exact_name
+987,white blood cell count decreased,0,0,0,"",[],unmatched
+988,white blood cell count increased,0,0,0,"",[],unmatched
+989,withdrawal syndrome,0,0,0,"",[],unmatched
+990,wound infection,0,0,0,"",[],unmatched
+991,wound secretion,0,0,0,"",[],unmatched
+992,dry eye,0,0,0,"",[],unmatched
+993,yawning,0,0,0,"",[],unmatched

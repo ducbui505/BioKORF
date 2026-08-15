@@ -1,0 +1,995 @@
+matrix_index,side_effect_name,sider_found,sider_pt_row_count,umls_cui_count,umls_cuis,matched_meddra_names,mapping_status
+0,abdominal discomfort,True,265,1,"[""C0232487""]","[""Abdominal discomfort""]",unique_umls
+1,abdominal distension,True,267,1,"[""C0000731""]","[""Abdominal distension""]",unique_umls
+2,abdominal pain,True,2033,1,"[""C0000737""]","[""Abdominal pain""]",unique_umls
+3,abdominal pain lower,True,14,1,"[""C0232495""]","[""Abdominal pain lower""]",unique_umls
+4,abdominal pain upper,True,289,1,"[""C0232492""]","[""Abdominal pain upper""]",unique_umls
+5,abnormal behaviour,True,34,1,"[""C0233514""]","[""Abnormal behaviour""]",unique_umls
+6,abnormal dreams,True,175,1,"[""C0234458""]","[""Abnormal dreams""]",unique_umls
+7,abnormal faeces,True,15,1,"[""C0162287""]","[""Abnormal faeces""]",unique_umls
+8,abscess,True,50,1,"[""C0000833""]","[""Abscess""]",unique_umls
+9,accommodation disorder,True,50,1,"[""C0152198""]","[""Accommodation disorder""]",unique_umls
+10,acidosis,True,28,1,"[""C0001122""]","[""Acidosis""]",unique_umls
+11,acne,True,234,1,"[""C0702166""]","[""Acne""]",unique_umls
+12,actinic keratosis,True,17,1,"[""C0022602""]","[""Actinic keratosis""]",unique_umls
+13,acute coronary syndrome,True,185,1,"[""C0948089""]","[""Acute coronary syndrome""]",unique_umls
+14,acute myocardial infarction,True,13,1,"[""C0155626""]","[""Acute myocardial infarction""]",unique_umls
+15,acute respiratory distress syndrome,True,25,1,"[""C0035222""]","[""Acute respiratory distress syndrome""]",unique_umls
+16,adrenal insufficiency,True,15,1,"[""C0001623""]","[""Adrenal insufficiency""]",unique_umls
+17,affect lability,True,243,1,"[""C0233472""]","[""Affect lability""]",unique_umls
+18,affective disorder,True,9,1,"[""C0525045""]","[""Affective disorder""]",unique_umls
+19,loss of taste,False,0,0,[],[],unmatched
+20,aggression,True,161,1,"[""C0001807""]","[""Aggression""]",unique_umls
+21,agitation,True,610,1,"[""C0085631""]","[""Agitation""]",unique_umls
+22,agranulocytosis,True,190,1,"[""C0001824""]","[""Agranulocytosis""]",unique_umls
+23,akathisia,True,198,1,"[""C0392156""]","[""Akathisia""]",unique_umls
+24,can not exercise,False,0,0,[],[],unmatched
+25,alanine aminotransferase increased,True,387,1,"[""C0151905""]","[""Alanine aminotransferase increased""]",unique_umls
+26,proteinuria,True,102,1,"[""C0033687""]","[""Proteinuria""]",unique_umls
+27,alcohol intolerance,True,27,1,"[""C0151474""]","[""Alcohol intolerance""]",unique_umls
+28,alopecia,True,603,1,"[""C0002170""]","[""Alopecia""]",unique_umls
+29,altered state of consciousness,True,39,1,"[""C0150450""]","[""Altered state of consciousness""]",unique_umls
+30,other allergic pneumonitis,False,0,0,[],[],unmatched
+31,amblyopia,True,86,1,"[""C0002418""]","[""Amblyopia""]",unique_umls
+32,amenorrhoea,True,101,1,"[""C0002453""]","[""Amenorrhoea""]",unique_umls
+33,amnesia,True,176,1,"[""C0002622""]","[""Amnesia""]",unique_umls
+34,amylase increased,True,53,1,"[""C0151479""]","[""Amylase increased""]",unique_umls
+35,anaemia,True,1035,1,"[""C0002871""]","[""Anaemia""]",unique_umls
+36,anaemia large cell,False,0,0,[],[],unmatched
+37,anaemia megaloblastic,True,7,1,"[""C0002888""]","[""Anaemia megaloblastic""]",unique_umls
+38,anal pruritus,True,9,1,"[""C0033775""]","[""Anal pruritus""]",unique_umls
+39,anaphylactic shock,True,420,1,"[""C0002792""]","[""Anaphylactic shock""]",unique_umls
+40,anaphylaxis reaction,False,0,0,[],[],unmatched
+41,aneurysm,True,7,1,"[""C0002940""]","[""Aneurysm""]",unique_umls
+42,anger,True,30,1,"[""C0002957""]","[""Anger""]",unique_umls
+43,angina pectoris,True,235,1,"[""C0002962""]","[""Angina pectoris""]",unique_umls
+44,angioedema,True,349,1,"[""C0002994""]","[""Angioedema""]",unique_umls
+45,angiopathy,True,224,1,"[""C0042373""]","[""Angiopathy""]",unique_umls
+46,angle closure glaucoma,True,24,1,"[""C0017605""]","[""Angle closure glaucoma""]",unique_umls
+47,anorectal discomfort,True,44,1,"[""C2242737""]","[""Anorectal discomfort""]",unique_umls
+48,anorectal disorder,True,28,1,"[""C0687707""]","[""Anorectal disorder""]",unique_umls
+49,inability to orgasm,False,0,0,[],[],unmatched
+50,antisocial behaviour,True,6,1,"[""C0233523""]","[""Antisocial behaviour""]",unique_umls
+51,antisocial personality disorder,True,6,1,"[""C0003431""]","[""Antisocial personality disorder""]",unique_umls
+52,arrest of urinary output,False,0,0,[],[],unmatched
+53,anxiety,True,821,1,"[""C0003467""]","[""Anxiety""]",unique_umls
+54,apathy,True,72,1,"[""C0085632""]","[""Apathy""]",unique_umls
+55,aphasia,True,70,1,"[""C0003537""]","[""Aphasia""]",unique_umls
+56,aplasia pure red cell,True,17,1,"[""C0034902""]","[""Aplasia pure red cell""]",unique_umls
+57,aplastic anaemia,True,70,1,"[""C0002874""]","[""Aplastic anaemia""]",unique_umls
+58,apnoea,True,59,1,"[""C0003578""]","[""Apnoea""]",unique_umls
+59,appendicitis,True,8,1,"[""C0003615""]","[""Appendicitis""]",unique_umls
+60,application site burn,True,51,1,"[""C0877661""]","[""Application site burn""]",unique_umls
+61,application site dryness,True,20,1,"[""C0877098""]","[""Application site dryness""]",unique_umls
+62,application site erythema,True,69,1,"[""C0853700""]","[""Application site erythema""]",unique_umls
+63,application site irritation,True,62,1,"[""C0521490""]","[""Application site irritation""]",unique_umls
+64,application site pain,True,84,1,"[""C0521491""]","[""Application site pain""]",unique_umls
+65,application site paresthesia,False,0,0,[],[],unmatched
+66,application site pruritus,True,72,1,"[""C0853714""]","[""Application site pruritus""]",unique_umls
+67,application site rash,True,37,1,"[""C0521495""]","[""Application site rash""]",unique_umls
+68,application site reaction,True,107,1,"[""C0151505""]","[""Application site reaction""]",unique_umls
+69,application site vesicles,True,14,1,"[""C0877097""]","[""Application site vesicles""]",unique_umls
+70,apraxia,True,7,1,"[""C0003635""]","[""Apraxia""]",unique_umls
+71,arrhythmia,True,227,1,"[""C0003811""]","[""Arrhythmia""]",unique_umls
+72,arrhythmia supraventricular,True,20,1,"[""C0428974""]","[""Arrhythmia supraventricular""]",unique_umls
+73,arteriosclerosis,True,6,1,"[""C0003850""]","[""Arteriosclerosis""]",unique_umls
+74,arthralgia,True,1130,1,"[""C0003862""]","[""Arthralgia""]",unique_umls
+75,arthritis,True,197,1,"[""C0003864""]","[""Arthritis""]",unique_umls
+76,other symptoms referable to lower leg joint,False,0,0,[],[],unmatched
+77,ascites,True,42,1,"[""C0003962""]","[""Ascites""]",unique_umls
+78,asocial behaviour,True,6,1,"[""C0233528""]","[""Asocial behaviour""]",unique_umls
+79,aspartate aminotransferase increased,True,348,1,"[""C0151904""]","[""Aspartate aminotransferase increased""]",unique_umls
+80,asthenia,True,3491,1,"[""C0004093""]","[""Asthenia""]",unique_umls
+81,eye strain,False,0,0,[],[],unmatched
+82,asthma,True,260,1,"[""C0004096""]","[""Asthma""]",unique_umls
+83,ataxia,True,269,1,"[""C0004134""]","[""Ataxia""]",unique_umls
+84,atelectasis,True,33,1,"[""C0004144""]","[""Atelectasis""]",unique_umls
+85,atrial fibrillation,True,205,1,"[""C0004238""]","[""Atrial fibrillation""]",unique_umls
+86,atrial flutter,True,35,1,"[""C0004239""]","[""Atrial flutter""]",unique_umls
+87,atrioventricular block,True,120,1,"[""C0004245""]","[""Atrioventricular block""]",unique_umls
+88,atrioventricular block complete,True,20,1,"[""C0151517""]","[""Atrioventricular block complete""]",unique_umls
+89,atrioventricular block first degree,True,41,1,"[""C0085614""]","[""Atrioventricular block first degree""]",unique_umls
+90,autonomic nervous system imbalance,True,9,1,"[""C0262385""]","[""Autonomic nervous system imbalance""]",unique_umls
+91,syndrome uremic,False,0,0,[],[],unmatched
+92,back pain,True,1220,1,"[""C0004604""]","[""Back pain""]",unique_umls
+93,bloodstream infections,False,0,0,[],[],unmatched
+94,bacterial infection,True,57,1,"[""C0004623""]","[""Bacterial infection""]",unique_umls
+95,balance disorder,True,68,1,"[""C0575090""]","[""Balance disorder""]",unique_umls
+96,basal cell carcinoma,True,13,1,"[""C0007117""]","[""Basal cell carcinoma""]",unique_umls
+97,benign neoplasm of skin,True,10,1,"[""C0004998""]","[""Benign neoplasm of skin""]",unique_umls
+98,biliary colic,True,9,1,"[""C0151824""]","[""Biliary colic""]",unique_umls
+99,bipolar disorder,True,12,1,"[""C0005586""]","[""Bipolar disorder""]",unique_umls
+100,bipolar i disorder,True,14,1,"[""C0853193""]","[""Bipolar I disorder""]",unique_umls
+101,bladder cancer,True,9,1,"[""C0005684""]","[""Bladder cancer""]",unique_umls
+102,bladder pain,True,98,1,"[""C0232849""]","[""Bladder pain""]",unique_umls
+103,bleeding time prolonged,True,10,1,"[""C0151529""]","[""Bleeding time prolonged""]",unique_umls
+104,dermatitis eyelid,False,0,0,[],[],unmatched
+105,spasm eyelid,False,0,0,[],[],unmatched
+106,blindness,True,30,1,"[""C0456909""]","[""Blindness""]",unique_umls
+107,blister,True,43,1,"[""C0005758""]","[""Blister""]",unique_umls
+108,blood albumin decreased,True,35,1,"[""C0853777""]","[""Blood albumin decreased""]",unique_umls
+109,blood alkaline phosphatase increased,True,235,1,"[""C0852911""]","[""Blood alkaline phosphatase increased""]",unique_umls
+110,blood bilirubin increased,True,144,1,"[""C0311468""]","[""Blood bilirubin increased""]",unique_umls
+111,blood calcium decreased,True,22,1,"[""C3665624""]","[""Blood calcium decreased""]",unique_umls
+112,blood cholesterol increased,True,16,1,"[""C0595930""]","[""Blood cholesterol increased""]",unique_umls
+113,creatine kinase high,False,0,0,[],[],unmatched
+114,blood creatinine increased,True,320,1,"[""C0235431""]","[""Blood creatinine increased""]",unique_umls
+115,blood disorder,True,36,1,"[""C0018939""]","[""Blood disorder""]",unique_umls
+116,blood glucose decreased,True,17,1,"[""C0595883""]","[""Blood glucose decreased""]",unique_umls
+117,blood glucose increased,True,61,1,"[""C0595877""]","[""Blood glucose increased""]",unique_umls
+118,blood lactate dehydrogenase increased,True,59,1,"[""C0853149""]","[""Blood lactate dehydrogenase increased""]",unique_umls
+119,blood phosphorus decreased,True,28,1,"[""C0877517""]","[""Blood phosphorus decreased""]",unique_umls
+120,blood potassium decreased,True,51,1,"[""C0853761""]","[""Blood potassium decreased""]",unique_umls
+121,blood potassium increased,True,31,1,"[""C0853760""]","[""Blood potassium increased""]",unique_umls
+122,blood pressure increased,True,66,1,"[""C0497247""]","[""Blood pressure increased""]",unique_umls
+123,blood prolactin increased,True,13,1,"[""C0854082""]","[""Blood prolactin increased""]",unique_umls
+124,blood triglycerides increased,True,99,1,"[""C0853692""]","[""Blood triglycerides increased""]",unique_umls
+125,blood urea increased,True,131,1,"[""C0151539""]","[""Blood urea increased""]",unique_umls
+126,blood uric acid increased,True,74,1,"[""C0235416""]","[""Blood uric acid increased""]",unique_umls
+127,blood urine present,True,5,1,"[""C0947999""]","[""Blood urine present""]",unique_umls
+128,body temperature decreased,True,29,1,"[""C0020672""]","[""Body temperature decreased""]",unique_umls
+129,body temperature increased,True,1619,1,"[""C0015967""]","[""Body temperature increased""]",unique_umls
+130,bone disorder,True,35,1,"[""C0005940""]","[""Bone disorder""]",unique_umls
+131,bone pain,True,187,1,"[""C0151825""]","[""Bone pain""]",unique_umls
+132,bradycardia,True,391,1,"[""C0428977""]","[""Bradycardia""]",unique_umls
+133,loss of motor function,False,0,0,[],[],unmatched
+134,brain oedema,True,31,1,"[""C1527311""]","[""Brain oedema""]",unique_umls
+135,breast cancer,True,24,1,"[""C0006142""]","[""Breast cancer""]",unique_umls
+136,breast discharge,True,10,1,"[""C0149741""]","[""Breast discharge""]",unique_umls
+137,breast disorder,True,89,1,"[""C0006145""]","[""Breast disorder""]",unique_umls
+138,breast engorgement,True,10,1,"[""C0085688""]","[""Breast engorgement""]",unique_umls
+139,breast enlargement,True,59,1,"[""C2225524""]","[""Breast enlargement""]",unique_umls
+140,breast neoplasm,True,20,1,"[""C1458155""]","[""Breast neoplasm""]",unique_umls
+141,breast pain,True,147,1,"[""C0024902""]","[""Breast pain""]",unique_umls
+142,breast tenderness,True,56,1,"[""C0262397""]","[""Breast tenderness""]",unique_umls
+143,breath odour,True,20,1,"[""C0018520""]","[""Breath odour""]",unique_umls
+144,breath sounds abnormal,True,22,1,"[""C0231856""]","[""Breath sounds abnormal""]",unique_umls
+145,reactive airways disease,False,0,0,[],[],unmatched
+146,bronchitis,True,486,1,"[""C0006277""]","[""Bronchitis""]",unique_umls
+147,bronchospasm,True,169,1,"[""C0006266""]","[""Bronchospasm""]",unique_umls
+148,bronchospasm paradoxical,True,17,1,"[""C0236072""]","[""Bronchospasm paradoxical""]",unique_umls
+149,bruxism,True,31,1,"[""C0006325""]","[""Bruxism""]",unique_umls
+150,bundle branch block,True,48,1,"[""C0006384""]","[""Bundle branch block""]",unique_umls
+151,burning sensation,True,47,1,"[""C0085624""]","[""Burning sensation""]",unique_umls
+152,bursitis,True,36,1,"[""C0006444""]","[""Bursitis""]",unique_umls
+153,cachexia,True,11,1,"[""C0006625""]","[""Cachexia""]",unique_umls
+154,candida infection,True,207,1,"[""C0006840""]","[""Candida infection""]",unique_umls
+155,cardiac arrest,True,92,1,"[""C0018790""]","[""Cardiac arrest""]",unique_umls
+156,cardiac disorder,True,167,1,"[""C0018799""]","[""Cardiac disorder""]",unique_umls
+157,cardiac failure,True,153,1,"[""C0018801""]","[""Cardiac failure""]",unique_umls
+158,cardiac failure congestive,True,110,1,"[""C0018802""]","[""Cardiac failure congestive""]",unique_umls
+159,cardiac flutter,True,9,1,"[""C0016385""]","[""Cardiac flutter""]",unique_umls
+160,cardiac murmur,True,21,1,"[""C0018808""]","[""Cardiac murmur""]",unique_umls
+161,cardiac output decreased,True,11,1,"[""C0007166""]","[""Cardiac output decreased""]",unique_umls
+162,cardiogenic shock,True,18,1,"[""C0036980""]","[""Cardiogenic shock""]",unique_umls
+163,cardiac dilatation,False,0,0,[],[],unmatched
+164,cardiomyopathy,True,26,1,"[""C0878544""]","[""Cardiomyopathy""]",unique_umls
+165,cardiovascular disorder,True,62,1,"[""C0007222""]","[""Cardiovascular disorder""]",unique_umls
+166,carpal tunnel syndrome,True,18,1,"[""C0007286""]","[""Carpal tunnel syndrome""]",unique_umls
+167,cataract,True,109,1,"[""C0086543""]","[""Cataract""]",unique_umls
+168,catheter site pain,True,9,1,"[""C0949103""]","[""Catheter site pain""]",unique_umls
+169,cellulitis,True,75,1,"[""C0007642""]","[""Cellulitis""]",unique_umls
+170,cerebellar syndrome,True,13,1,"[""C0007760""]","[""Cerebellar syndrome""]",unique_umls
+171,cerebral haemorrhage,True,42,1,"[""C2937358""]","[""Cerebral haemorrhage""]",unique_umls
+172,cerebral infarction,True,15,1,"[""C0007785""]","[""Cerebral infarction""]",unique_umls
+173,cerebral ischaemia,True,30,1,"[""C0917798""]","[""Cerebral ischaemia""]",unique_umls
+174,cerebrovascular accident,True,142,1,"[""C0038454""]","[""Cerebrovascular accident""]",unique_umls
+175,cerebrovascular disorder,True,21,1,"[""C0007820""]","[""Cerebrovascular disorder""]",unique_umls
+176,cervix disorder,True,9,1,"[""C0007867""]","[""Cervix disorder""]",unique_umls
+177,change of bowel habit,True,7,1,"[""C0278008""]","[""Change of bowel habit""]",unique_umls
+178,cheilitis,True,27,1,"[""C0007971""]","[""Cheilitis""]",unique_umls
+179,chest discomfort,True,94,1,"[""C0235710""]","[""Chest discomfort""]",unique_umls
+180,chest pain,True,837,1,"[""C0008031""]","[""Chest pain""]",unique_umls
+181,chills,True,616,1,"[""C0085593""]","[""Chills""]",unique_umls
+182,cholecystitis,True,49,1,"[""C0008325""]","[""Cholecystitis""]",unique_umls
+183,biliary sludge,False,0,0,[],[],unmatched
+184,cholestasis,True,52,1,"[""C0008370""]","[""Cholestasis""]",unique_umls
+185,chorea and atheletes disease,False,0,0,[],[],unmatched
+186,color vision change,False,0,0,[],[],unmatched
+187,urine discolouration,False,0,0,[],[],unmatched
+188,chronic obstructive pulmonary disease,True,15,1,"[""C0024117""]","[""Chronic obstructive pulmonary disease""]",unique_umls
+189,clostridium difficile colitis,True,8,1,"[""C0238106""]","[""Clostridium difficile colitis""]",unique_umls
+190,coagulopathy,True,42,1,"[""C0005779""]","[""Coagulopathy""]",unique_umls
+191,cognitive disorder,True,20,1,"[""C0009241""]","[""Cognitive disorder""]",unique_umls
+192,cold sweat,True,22,1,"[""C0232431""]","[""Cold sweat""]",unique_umls
+193,colitis,True,92,1,"[""C0009319""]","[""Colitis""]",unique_umls
+194,colitis ischaemic,True,25,1,"[""C0162529""]","[""Colitis ischaemic""]",unique_umls
+195,colitis ulcerative,True,27,1,"[""C0009324""]","[""Colitis ulcerative""]",unique_umls
+196,coma,True,71,1,"[""C0009421""]","[""Coma""]",unique_umls
+197,completed suicide,True,40,1,"[""C0852733""]","[""Completed suicide""]",unique_umls
+198,conduction disorder,True,7,1,"[""C0264886""]","[""Conduction disorder""]",unique_umls
+199,confusion state,False,0,0,[],[],unmatched
+200,congenital eye disorder,True,10,1,"[""C0015393""]","[""Congenital eye disorder""]",unique_umls
+201,conjunctival haemorrhage,True,23,1,"[""C0009760""]","[""Conjunctival haemorrhage""]",unique_umls
+202,congestion conjunctival,False,0,0,[],[],unmatched
+203,conjunctival oedema,True,25,1,"[""C0151601""]","[""Conjunctival oedema""]",unique_umls
+204,conjunctivitis,True,278,1,"[""C0009763""]","[""Conjunctivitis""]",unique_umls
+205,conjunctivitis allergic,True,9,1,"[""C0009766""]","[""Conjunctivitis allergic""]",unique_umls
+206,connective tissue disorder,True,151,1,"[""C0009782""]","[""Connective tissue disorder""]",unique_umls
+207,constipation,True,1881,1,"[""C0009806""]","[""Constipation""]",unique_umls
+208,contusion,True,128,1,"[""C0009938""]","[""Contusion""]",unique_umls
+209,conversion disorder,True,12,1,"[""C0009946""]","[""Conversion disorder""]",unique_umls
+210,coordination abnormal,True,139,1,"[""C0520966""]","[""Coordination abnormal""]",unique_umls
+211,corneal erosion,True,14,1,"[""C0392163""]","[""Corneal erosion""]",unique_umls
+212,corneal lesion,True,9,1,"[""C0151571""]","[""Corneal lesion""]",unique_umls
+213,corneal opacity,True,8,1,"[""C0010038""]","[""Corneal opacity""]",unique_umls
+214,coronary artery disease,True,24,1,"[""C1956346""]","[""Coronary artery disease""]",unique_umls
+215,cough,True,1308,1,"[""C0010200""]","[""Cough""]",unique_umls
+216,regional enteritis of unspecified site,False,0,0,[],[],unmatched
+217,crying,True,12,1,"[""C0010399""]","[""Crying""]",unique_umls
+218,cushing syndrome,False,0,0,[],[],unmatched
+219,cyanosis,True,29,1,"[""C0010520""]","[""Cyanosis""]",unique_umls
+220,cyst,True,31,1,"[""C0010709""]","[""Cyst""]",unique_umls
+221,cystitis,True,90,1,"[""C0010692""]","[""Cystitis""]",unique_umls
+222,cystitis haemorrhagic,True,14,1,"[""C0085692""]","[""Cystitis haemorrhagic""]",unique_umls
+223,cystitis non infective,False,0,0,[],[],unmatched
+224,deafness,True,150,1,"[""C0011053""]","[""Deafness""]",unique_umls
+225,decreased appetite,True,1455,1,"[""C0232462""]","[""Decreased appetite""]",unique_umls
+226,deep vein thrombosis,True,80,1,"[""C0149871""]","[""Deep vein thrombosis""]",unique_umls
+227,dehydration,True,232,1,"[""C0011175""]","[""Dehydration""]",unique_umls
+228,delirium,True,68,1,"[""C0011206""]","[""Delirium""]",unique_umls
+229,delusion,True,64,1,"[""C0011253""]","[""Delusion""]",unique_umls
+230,dementia,True,19,1,"[""C0497327""]","[""Dementia""]",unique_umls
+231,dental caries,True,26,1,"[""C0011334""]","[""Dental caries""]",unique_umls
+232,depressed level of consciousness,True,98,1,"[""C0549249""]","[""Depressed level of consciousness""]",unique_umls
+233,depressed mood,True,36,1,"[""C0344315""]","[""Depressed mood""]",unique_umls
+234,depression,True,637,1,"[""C0011570""]","[""Depression""]",unique_umls
+235,feeling unreal,False,0,0,[],[],unmatched
+236,dermatitis,True,2183,1,"[""C0011603""]","[""Dermatitis""]",unique_umls
+237,dermatitis acne,False,0,0,[],[],unmatched
+238,dermatitis atopic,True,46,1,"[""C0011615""]","[""Dermatitis atopic""]",unique_umls
+239,dermatitis bullous,True,135,1,"[""C0085932""]","[""Dermatitis bullous""]",unique_umls
+240,dermatitis contact,True,93,1,"[""C0011616""]","[""Dermatitis contact""]",unique_umls
+241,dermatitis exfoliating,False,0,0,[],[],unmatched
+242,diabetes mellitus,True,161,1,"[""C0011849""]","[""Diabetes mellitus""]",unique_umls
+243,diarrhoea,True,3216,1,"[""C0011991""]","[""Diarrhoea""]",unique_umls
+244,diarrhoea haemorrhagic,True,13,1,"[""C0151594""]","[""Diarrhoea haemorrhagic""]",unique_umls
+245,diplopia,True,196,1,"[""C0012569""]","[""Diplopia""]",unique_umls
+246,discomfort,True,563,1,"[""C0234215""]","[""Discomfort""]",unique_umls
+247,disorientation,True,76,1,"[""C0233407""]","[""Disorientation""]",unique_umls
+248,disseminated intravascular coagulation,True,20,1,"[""C0012739""]","[""Disseminated intravascular coagulation""]",unique_umls
+249,disturbance in attention,True,190,1,"[""C0233414""]","[""Disturbance in attention""]",unique_umls
+250,disturbance in sexual arousal,True,325,1,"[""C0855242""]","[""Disturbance in sexual arousal""]",unique_umls
+251,diverticulitis,True,19,1,"[""C0012813""]","[""Diverticulitis""]",unique_umls
+252,dizziness,True,3207,1,"[""C0012833""]","[""Dizziness""]",unique_umls
+253,dizziness postural,True,33,1,"[""C0234987""]","[""Dizziness postural""]",unique_umls
+254,drug eruption,True,37,1,"[""C0011609""]","[""Drug eruption""]",unique_umls
+255,drug hypersensitivity,True,16,1,"[""C0013182""]","[""Drug hypersensitivity""]",unique_umls
+256,drug ineffective,True,10,1,"[""C0852908""]","[""Drug ineffective""]",unique_umls
+257,dry eye,True,125,1,"[""C0314719""]","[""Dry eye""]",unique_umls
+258,dry mouth,True,1037,1,"[""C0043352""]","[""Dry mouth""]",unique_umls
+259,dry skin,True,323,1,"[""C0151908""]","[""Dry skin""]",unique_umls
+260,dry throat,True,32,1,"[""C0235234""]","[""Dry throat""]",unique_umls
+261,duodenal ulcer,True,22,1,"[""C0013295""]","[""Duodenal ulcer""]",unique_umls
+262,duodenal inflammation,False,0,0,[],[],unmatched
+263,paresthesia,False,0,0,[],[],unmatched
+264,dysarthria,True,132,1,"[""C0013362""]","[""Dysarthria""]",unique_umls
+265,bad taste,False,0,0,[],[],unmatched
+266,dyskinesia,True,185,1,"[""C0013384""]","[""Dyskinesia""]",unique_umls
+267,menses painful,False,0,0,[],[],unmatched
+268,dyspareunia,True,10,1,"[""C1384606""]","[""Dyspareunia""]",unique_umls
+269,dyspepsia,True,1568,1,"[""C0013395""]","[""Dyspepsia""]",unique_umls
+270,dysphagia,True,210,1,"[""C0011168""]","[""Dysphagia""]",unique_umls
+271,dysphonia,True,110,1,"[""C1527344""]","[""Dysphonia""]",unique_umls
+272,dysphoria,True,25,1,"[""C0233477""]","[""Dysphoria""]",unique_umls
+273,air hunger,False,0,0,[],[],unmatched
+274,air hunger exertional,False,0,0,[],[],unmatched
+275,urinary spray,False,0,0,[],[],unmatched
+276,ear disorder,True,29,1,"[""C0013447""]","[""Ear disorder""]",unique_umls
+277,ear infection,True,56,1,"[""C0699744""]","[""Ear infection""]",unique_umls
+278,ear pain,True,123,1,"[""C0013456""]","[""Ear pain""]",unique_umls
+279,bruise,False,0,0,[],[],unmatched
+280,eczema,True,163,1,"[""C0013595""]","[""Eczema""]",unique_umls
+281,ejaculation delayed,True,25,1,"[""C0234047""]","[""Ejaculation delayed""]",unique_umls
+282,ejaculation disorder,True,122,1,"[""C0235969""]","[""Ejaculation disorder""]",unique_umls
+283,ejaculation failure,True,37,1,"[""C0278106""]","[""Ejaculation failure""]",unique_umls
+284,electrocardiogram abnormal,True,49,1,"[""C0522055""]","[""Electrocardiogram abnormal""]",unique_umls
+285,electrocardiogram qt prolonged,True,62,1,"[""C0151878""]","[""Electrocardiogram QT prolonged""]",unique_umls
+286,electrocardiogram st segment depression,True,12,1,"[""C0520887""]","[""Electrocardiogram ST segment depression""]",unique_umls
+287,electroencephalogram abnormal,True,14,1,"[""C0151611""]","[""Electroencephalogram abnormal""]",unique_umls
+288,electrolyte imbalance,True,10,1,"[""C0342579""]","[""Electrolyte imbalance""]",unique_umls
+289,embolism,True,91,1,"[""C0013922""]","[""Embolism""]",unique_umls
+290,embolism venous,True,36,1,"[""C0340726""]","[""Embolism venous""]",unique_umls
+291,emotional disorder,True,9,1,"[""C0233459""]","[""Emotional disorder""]",unique_umls
+292,emphysema,True,7,1,"[""C0034067""]","[""Emphysema""]",unique_umls
+293,encephalopathy,True,46,1,"[""C0085584""]","[""Encephalopathy""]",unique_umls
+294,endocrine disorder,True,42,1,"[""C0014130""]","[""Endocrine disorder""]",unique_umls
+295,endometrial disorder,True,10,1,"[""C0151622""]","[""Endometrial disorder""]",unique_umls
+296,ophthalmia,False,0,0,[],[],unmatched
+297,enteritis,True,14,1,"[""C0014335""]","[""Enteritis""]",unique_umls
+298,enterocolitis,True,15,1,"[""C0014356""]","[""Enterocolitis""]",unique_umls
+299,enuresis,True,29,1,"[""C0014394""]","[""Enuresis""]",unique_umls
+300,eosinophilia,True,152,1,"[""C0014457""]","[""Eosinophilia""]",unique_umls
+301,epididymitis,True,13,1,"[""C0014534""]","[""Epididymitis""]",unique_umls
+302,epigastric discomfort,True,17,1,"[""C1291078""]","[""Epigastric discomfort""]",unique_umls
+303,epistaxis,True,471,1,"[""C0014591""]","[""Epistaxis""]",unique_umls
+304,erectile dysfunction,True,322,1,"[""C0242350""]","[""Erectile dysfunction""]",unique_umls
+305,gas raising,False,0,0,[],[],unmatched
+306,erythema,True,422,1,"[""C0041834""]","[""Erythema""]",unique_umls
+307,erythema multiforme,True,375,1,"[""C0014742""]","[""Erythema multiforme""]",unique_umls
+308,erythema nodosum,True,25,1,"[""C0014743""]","[""Erythema nodosum""]",unique_umls
+309,erythema of eyelid,True,17,1,"[""C0239454""]","[""Erythema of eyelid""]",unique_umls
+310,euphoric mood,True,93,1,"[""C0235146""]","[""Euphoric mood""]",unique_umls
+311,excoriation,True,41,1,"[""C0015256""]","[""Excoriation""]",unique_umls
+312,exophthalmos,True,10,1,"[""C0015300""]","[""Exophthalmos""]",unique_umls
+313,bone spur,False,0,0,[],[],unmatched
+314,extrapyramidal disorder,True,156,1,"[""C0015371""]","[""Extrapyramidal disorder""]",unique_umls
+315,cardiac complex,False,0,0,[],[],unmatched
+316,extravasation,True,28,1,"[""C0015376""]","[""Extravasation""]",unique_umls
+317,eye discharge,True,15,1,"[""C0423006""]","[""Eye discharge""]",unique_umls
+318,eye disorder,True,176,1,"[""C0015397""]","[""Eye disorder""]",unique_umls
+319,eye haemorrhage,True,31,1,"[""C0015402""]","[""Eye haemorrhage""]",unique_umls
+320,eye infection,True,16,1,"[""C0015403""]","[""Eye infection""]",unique_umls
+321,eye irritation,True,69,1,"[""C0235266""]","[""Eye irritation""]",unique_umls
+322,eye oedema,True,10,1,"[""C0743680""]","[""Eye oedema""]",unique_umls
+323,eye pain,True,129,1,"[""C0151827""]","[""Eye pain""]",unique_umls
+324,eye pruritus,True,26,1,"[""C0022281""]","[""Eye pruritus""]",unique_umls
+325,eye swelling,True,9,1,"[""C0270996""]","[""Eye swelling""]",unique_umls
+326,eyelid oedema,True,34,1,"[""C0162285""]","[""Eyelid oedema""]",unique_umls
+327,face oedema,True,156,1,"[""C0542571""]","[""Face oedema""]",unique_umls
+328,fecal impaction,False,0,0,[],[],unmatched
+329,fecal impaction causing obstruction,False,0,0,[],[],unmatched
+330,faeces discoloured,True,9,1,"[""C0235315""]","[""Faeces discoloured""]",unique_umls
+331,fasting,True,26,1,"[""C0015663""]","[""Fasting""]",unique_umls
+332,fatigue,True,1867,1,"[""C0015672""]","[""Fatigue""]",unique_umls
+333,febrile neutropenia,True,151,1,"[""C0746883""]","[""Febrile neutropenia""]",unique_umls
+334,feeling abnormal,True,1010,1,"[""C1443060""]","[""Feeling abnormal""]",unique_umls
+335,feeling cold,True,18,1,"[""C0234192""]","[""Feeling cold""]",unique_umls
+336,feeling drunk,True,14,1,"[""C0522172""]","[""Feeling drunk""]",unique_umls
+337,feeling hot,True,55,1,"[""C2939147""]","[""Feeling hot""]",unique_umls
+338,feeling jittery,True,33,1,"[""C0549209""]","[""Feeling jittery""]",unique_umls
+339,fibrocystic breast disease,True,14,1,"[""C0016034""]","[""Fibrocystic breast disease""]",unique_umls
+340,flank pain,True,20,1,"[""C0016199""]","[""Flank pain""]",unique_umls
+341,flat affect,True,74,1,"[""C0233471""]","[""Flat affect""]",unique_umls
+342,flatulence,True,695,1,"[""C0016204""]","[""Flatulence""]",unique_umls
+343,fluid overload,True,37,1,"[""C0546817""]","[""Fluid overload""]",unique_umls
+344,fluid retention,True,172,1,"[""C0268000""]","[""Fluid retention""]",unique_umls
+345,flushing,True,381,1,"[""C0016382""]","[""Flushing""]",unique_umls
+346,halitosis of liver disease,False,0,0,[],[],unmatched
+347,folliculitis,True,75,1,"[""C0016436""]","[""Folliculitis""]",unique_umls
+348,fracture,True,78,1,"[""C0016658""]","[""Fracture""]",unique_umls
+349,functional gastrointestinal disorder,True,11,1,"[""C0559031""]","[""Functional gastrointestinal disorder""]",unique_umls
+350,fungal infection,True,101,1,"[""C0026946""]","[""Fungal infection""]",unique_umls
+351,fungal skin infection,True,48,1,"[""C0011630""]","[""Fungal skin infection""]",unique_umls
+352,boil in nose,False,0,0,[],[],unmatched
+353,gait disturbance,True,170,1,"[""C0575081""]","[""Gait disturbance""]",unique_umls
+354,female lactation,False,0,0,[],[],unmatched
+355,gamma glutamine transfer enzyme increased,False,0,0,[],[],unmatched
+356,gangrene,True,10,1,"[""C0017086""]","[""Gangrene""]",unique_umls
+357,gastric ulcer,True,47,1,"[""C0038358""]","[""Gastric ulcer""]",unique_umls
+358,gastritis,True,178,1,"[""C0017152""]","[""Gastritis""]",unique_umls
+359,gastroenteritis,True,207,1,"[""C0017160""]","[""Gastroenteritis""]",unique_umls
+360,gastrointestinal carcinoma,True,5,1,"[""C0151544""]","[""Gastrointestinal carcinoma""]",unique_umls
+361,gastrointestinal disorder,True,459,1,"[""C0017178""]","[""Gastrointestinal disorder""]",unique_umls
+362,gastrointestinal haemorrhage,True,200,1,"[""C0017181""]","[""Gastrointestinal haemorrhage""]",unique_umls
+363,gastrointestinal infection,True,16,1,"[""C1264613""]","[""Gastrointestinal infection""]",unique_umls
+364,gastrointestinal pain,True,2001,1,"[""C0687713""]","[""Gastrointestinal pain""]",unique_umls
+365,gastrointestinal perforation,True,12,1,"[""C0151664""]","[""Gastrointestinal perforation""]",unique_umls
+366,gastrointestinal ulcer,True,8,1,"[""C0237938""]","[""Gastrointestinal ulcer""]",unique_umls
+367,esophageal reflux,False,0,0,[],[],unmatched
+368,generalised oedema,True,56,1,"[""C0151603""]","[""Generalised oedema""]",unique_umls
+369,genital candidiasis,True,14,1,"[""C0343863""]","[""Genital candidiasis""]",unique_umls
+370,gingival bleeding,True,51,1,"[""C0017565""]","[""Gingival bleeding""]",unique_umls
+371,gingival pain,True,12,1,"[""C0239739""]","[""Gingival pain""]",unique_umls
+372,gingivitis,True,77,1,"[""C0017574""]","[""Gingivitis""]",unique_umls
+373,glaucoma,True,61,1,"[""C0017601""]","[""Glaucoma""]",unique_umls
+374,glossitis,True,61,1,"[""C0017675""]","[""Glossitis""]",unique_umls
+375,burning tongue,False,0,0,[],[],unmatched
+376,glucose tolerance impaired,True,14,1,"[""C0271650""]","[""Glucose tolerance impaired""]",unique_umls
+377,diabetes,False,0,0,[],[],unmatched
+378,goitre,True,21,1,"[""C0018021""]","[""Goitre""]",unique_umls
+379,gout,True,70,1,"[""C0018099""]","[""Gout""]",unique_umls
+380,gravitational oedema,True,27,1,"[""C0235437""]","[""Gravitational oedema""]",unique_umls
+381,breast enlargement male,False,0,0,[],[],unmatched
+382,emesis bloody,False,0,0,[],[],unmatched
+383,blood in stool,False,0,0,[],[],unmatched
+384,packed cell volume decreased,False,0,0,[],[],unmatched
+385,haematoma,True,87,1,"[""C0018944""]","[""Haematoma""]",unique_umls
+386,urinary tract bleed microscopic,False,0,0,[],[],unmatched
+387,haemoglobin,True,662,1,"[""C0518015""]","[""Haemoglobin""]",unique_umls
+388,haemoglobin decreased,True,104,1,"[""C0162119""]","[""Haemoglobin decreased""]",unique_umls
+389,haemolytic anaemia,True,70,1,"[""C0002878""]","[""Haemolytic anaemia""]",unique_umls
+390,haemolytic uremia syndrome,False,0,0,[],[],unmatched
+391,blood streaked sputum,False,0,0,[],[],unmatched
+392,haemorrhage,True,672,1,"[""C0019080""]","[""Haemorrhage""]",unique_umls
+393,haemorrhage intracranial,True,46,1,"[""C0151699""]","[""Haemorrhage intracranial""]",unique_umls
+394,haemorrhagic disorder,True,14,1,"[""C0019087""]","[""Haemorrhagic disorder""]",unique_umls
+395,hemorrhoids,False,0,0,[],[],unmatched
+396,hair colour changes,True,22,1,"[""C0474378""]","[""Hair colour changes""]",unique_umls
+397,hair disorder,True,8,1,"[""C0018500""]","[""Hair disorder""]",unique_umls
+398,hair texture abnormal,True,9,1,"[""C0235807""]","[""Hair texture abnormal""]",unique_umls
+399,hallucination,True,282,1,"[""C0018524""]","[""Hallucination""]",unique_umls
+400,hangover,True,16,1,"[""C0221100""]","[""Hangover""]",unique_umls
+401,headache,True,3732,1,"[""C0018681""]","[""Headache""]",unique_umls
+402,hemiplegia,True,27,1,"[""C0018991""]","[""Hemiplegia""]",unique_umls
+403,hepatic cancer,True,10,1,"[""C0345904""]","[""Hepatic cancer""]",unique_umls
+404,hepatic enzyme increased,True,84,1,"[""C0235996""]","[""Hepatic enzyme increased""]",unique_umls
+405,hepatic failure,True,127,1,"[""C0085605""]","[""Hepatic failure""]",unique_umls
+406,hepatic function abnormal,True,93,1,"[""C0086565""]","[""Hepatic function abnormal""]",unique_umls
+407,hepatic necrosis,True,45,1,"[""C0151798""]","[""Hepatic necrosis""]",unique_umls
+408,hepatic steatosis,True,29,1,"[""C2711227""]","[""Hepatic steatosis""]",unique_umls
+409,hepatitis,True,244,1,"[""C0019158""]","[""Hepatitis""]",unique_umls
+410,hepatitis cholestasis,False,0,0,[],[],unmatched
+411,hepatobiliary disease,True,129,1,"[""C0267792""]","[""Hepatobiliary disease""]",unique_umls
+412,hepatocellular injury,True,61,1,"[""C0151763""]","[""Hepatocellular injury""]",unique_umls
+413,hepatomegaly,True,29,1,"[""C0019209""]","[""Hepatomegaly""]",unique_umls
+414,hepatotoxicity,True,47,1,"[""C0235378""]","[""Hepatotoxicity""]",unique_umls
+415,hernia,True,23,1,"[""C0019270""]","[""Hernia""]",unique_umls
+416,herpes simplex,True,140,1,"[""C0019348""]","[""Herpes simplex""]",unique_umls
+417,herpes virus infection,True,14,1,"[""C0019372""]","[""Herpes virus infection""]",unique_umls
+418,herpes zoster,True,117,1,"[""C0019360""]","[""Herpes zoster""]",unique_umls
+419,hiatus hernia,True,6,1,"[""C3489393""]","[""Hiatus hernia""]",unique_umls
+420,hiccups,True,83,1,"[""C0019521""]","[""Hiccups""]",unique_umls
+421,hirsutism,True,60,1,"[""C0019572""]","[""Hirsutism""]",unique_umls
+422,hostility,True,69,1,"[""C0020039""]","[""Hostility""]",unique_umls
+423,hot flush,True,285,1,"[""C0600142""]","[""Hot flush""]",unique_umls
+424,hyperacusis,True,29,1,"[""C0034880""]","[""Hyperacusis""]",unique_umls
+425,venous congestion,False,0,0,[],[],unmatched
+426,allodynia mechanical,False,0,0,[],[],unmatched
+427,bilirubin blood,False,0,0,[],[],unmatched
+428,high calcium blood,False,0,0,[],[],unmatched
+429,high calcium urine,False,0,0,[],[],unmatched
+430,high cholesterol blood,False,0,0,[],[],unmatched
+431,high blood sugar,False,0,0,[],[],unmatched
+432,hyperhidrosis,True,755,1,"[""C0020458""]","[""Hyperhidrosis""]",unique_umls
+433,high potassium blood,False,0,0,[],[],unmatched
+434,hyperkeratosis,True,35,1,"[""C0870082""]","[""Hyperkeratosis""]",unique_umls
+435,movement function hyperactivity,False,0,0,[],[],unmatched
+436,high lactic acid blood,False,0,0,[],[],unmatched
+437,high levels of lipids,False,0,0,[],[],unmatched
+438,high magnesium blood,False,0,0,[],[],unmatched
+439,salt retention,False,0,0,[],[],unmatched
+440,pain allergy,False,0,0,[],[],unmatched
+441,high phosphorus blood,False,0,0,[],[],unmatched
+442,exaggerated reflexes,False,0,0,[],[],unmatched
+443,hypersensitivity,True,734,1,"[""C0020517""]","[""Hypersensitivity""]",unique_umls
+444,sleep excessive,False,0,0,[],[],unmatched
+445,hypertension,True,942,1,"[""C0020538""]","[""Hypertension""]",unique_umls
+446,hyperthyroidism,True,25,1,"[""C0020550""]","[""Hyperthyroidism""]",unique_umls
+447,tone increased,False,0,0,[],[],unmatched
+448,hypertrichosis,True,24,1,"[""C0020555""]","[""Hypertrichosis""]",unique_umls
+449,high glycerin three ester blood,False,0,0,[],[],unmatched
+450,high uric acid blood,False,0,0,[],[],unmatched
+451,hyperventilation,True,55,1,"[""C0020578""]","[""Hyperventilation""]",unique_umls
+452,body numbness,False,0,0,[],[],unmatched
+453,body numbness oral,False,0,0,[],[],unmatched
+454,low albumin blood,False,0,0,[],[],unmatched
+455,low calcium blood,False,0,0,[],[],unmatched
+456,low chlorine blood,False,0,0,[],[],unmatched
+457,chlorosis,False,0,0,[],[],unmatched
+458,hypoglycemia,False,0,0,[],[],unmatched
+459,drenching sweats,False,0,0,[],[],unmatched
+460,potassium deficiency,False,0,0,[],[],unmatched
+461,activity motor retarded,False,0,0,[],[],unmatched
+462,low magnesium blood,False,0,0,[],[],unmatched
+463,hypomania,True,16,1,"[""C0241934""]","[""Hypomania""]",unique_umls
+464,low sodium blood,False,0,0,[],[],unmatched
+465,phosphorus low blood,False,0,0,[],[],unmatched
+466,potassium deficiency,False,0,0,[],[],unmatched
+467,diminished reflexes,False,0,0,[],[],unmatched
+468,hypotension,True,863,1,"[""C0020649""]","[""Hypotension""]",unique_umls
+469,hypothermia,True,29,1,"[""C0413252""]","[""Hypothermia""]",unique_umls
+470,hypothyroidism,True,83,1,"[""C0020676""]","[""Hypothyroidism""]",unique_umls
+471,hypotonia,True,45,1,"[""C0026827""]","[""Hypotonia""]",unique_umls
+472,hypoventilation,True,30,1,"[""C3203358""]","[""Hypoventilation""]",unique_umls
+473,hypoxia,True,88,1,"[""C0242184""]","[""Hypoxia""]",unique_umls
+474,ileus,True,52,1,"[""C1258215""]","[""Ileus""]",unique_umls
+475,ileus paralytic,True,20,1,"[""C0030446""]","[""Ileus paralytic""]",unique_umls
+476,ill-defined disorder,True,447,1,"[""C2047937""]","[""Ill-defined disorder""]",unique_umls
+477,immune system disorder,True,173,1,"[""C0021053""]","[""Immune system disorder""]",unique_umls
+478,impaired gastric emptying,True,9,1,"[""C0522063""]","[""Impaired gastric emptying""]",unique_umls
+479,impaired healing,True,31,1,"[""C0151692""]","[""Impaired healing""]",unique_umls
+480,impetigo,True,24,1,"[""C0021099""]","[""Impetigo""]",unique_umls
+481,inappropriate antidiuretic hormone secretion,True,39,1,"[""C0021141""]","[""Inappropriate antidiuretic hormone secretion""]",unique_umls
+482,incontinence,True,22,1,"[""C0021167""]","[""Incontinence""]",unique_umls
+483,increased appetite,True,224,1,"[""C0232461""]","[""Increased appetite""]",unique_umls
+484,increased bronchial secretion,True,25,1,"[""C1262144""]","[""Increased bronchial secretion""]",unique_umls
+485,increased tendency to bruise,True,8,1,"[""C0423798""]","[""Increased tendency to bruise""]",unique_umls
+486,hardening,False,0,0,[],[],unmatched
+487,infarction,True,13,1,"[""C0021308""]","[""Infarction""]",unique_umls
+488,infection,True,1054,1,"[""C0009450""]","[""Infection""]",unique_umls
+489,infestation,True,174,1,"[""C1384353""]","[""Infestation""]",unique_umls
+490,inflammation,True,86,1,"[""C0021368""]","[""Inflammation""]",unique_umls
+491,influenza,True,543,1,"[""C0021400""]","[""Influenza""]",unique_umls
+492,influenza like illness,True,320,1,"[""C0521839""]","[""Influenza like illness""]",unique_umls
+493,infusion site pain,True,22,1,"[""C1096035""]","[""Infusion site pain""]",unique_umls
+494,infusion site reaction,True,19,1,"[""C1096343""]","[""Infusion site reaction""]",unique_umls
+495,injection site bruising,True,9,1,"[""C0521508""]","[""Injection site bruising""]",unique_umls
+496,injection site erythema,True,29,1,"[""C0852625""]","[""Injection site erythema""]",unique_umls
+497,injection site haemorrhage,True,29,1,"[""C0151698""]","[""Injection site haemorrhage""]",unique_umls
+498,injection site hardening,False,0,0,[],[],unmatched
+499,injection site inflammation,True,29,1,"[""C0151734""]","[""Injection site inflammation""]",unique_umls
+500,injection site pain,True,124,1,"[""C0151828""]","[""Injection site pain""]",unique_umls
+501,injection site pruritus,True,22,1,"[""C0852995""]","[""Injection site pruritus""]",unique_umls
+502,injection site reaction,True,198,1,"[""C0151735""]","[""Injection site reaction""]",unique_umls
+503,injection site swelling,True,20,1,"[""C0151605""]","[""Injection site swelling""]",unique_umls
+504,injury,True,328,1,"[""C3263723""]","[""Injury""]",unique_umls
+505,insomnia,True,1471,1,"[""C0917801""]","[""Insomnia""]",unique_umls
+506,instillation site pain,True,32,1,"[""C0858797""]","[""Instillation site pain""]",unique_umls
+507,intermittent claudication,True,24,1,"[""C0021775""]","[""Intermittent claudication""]",unique_umls
+508,international normalised ratio increased,True,13,1,"[""C0853225""]","[""International normalised ratio increased""]",unique_umls
+509,interstitial lung disease,True,97,1,"[""C0206062""]","[""Interstitial lung disease""]",unique_umls
+510,intestinal obstruction,True,66,1,"[""C0021843""]","[""Intestinal obstruction""]",unique_umls
+511,intestinal perforation,True,22,1,"[""C0021845""]","[""Intestinal perforation""]",unique_umls
+512,intracranial pressure increased,True,25,1,"[""C0151740""]","[""Intracranial pressure increased""]",unique_umls
+513,intraocular pressure increased,True,19,1,"[""C0234708""]","[""Intraocular pressure increased""]",unique_umls
+514,iris inflammation,False,0,0,[],[],unmatched
+515,iron deficiency anaemia,True,10,1,"[""C0162316""]","[""Iron deficiency anaemia""]",unique_umls
+516,irritability,True,217,1,"[""C0022107""]","[""Irritability""]",unique_umls
+517,irritable bowel syndrome,True,10,1,"[""C0022104""]","[""Irritable bowel syndrome""]",unique_umls
+518,ischaemia,True,21,1,"[""C0022116""]","[""Ischaemia""]",unique_umls
+519,jaundice,True,183,1,"[""C0022346""]","[""Jaundice""]",unique_umls
+520,obstructive jaundice,False,0,0,[],[],unmatched
+521,joint stiffness,True,23,1,"[""C0162298""]","[""Joint stiffness""]",unique_umls
+522,joint swelling,True,39,1,"[""C0152031""]","[""Joint swelling""]",unique_umls
+523,keratitis,True,55,1,"[""C0022568""]","[""Keratitis""]",unique_umls
+524,ketosis,True,8,1,"[""C0022638""]","[""Ketosis""]",unique_umls
+525,laboratory test abnormal,True,25,1,"[""C0438215""]","[""Laboratory test abnormal""]",unique_umls
+526,inner ear infection,False,0,0,[],[],unmatched
+527,laceration,True,23,1,"[""C0043246""]","[""Laceration""]",unique_umls
+528,lacrimal disorder,True,36,1,"[""C0022904""]","[""Lacrimal disorder""]",unique_umls
+529,lacrimal structural disorder,True,14,1,"[""C3495920""]","[""Lacrimal structural disorder""]",unique_umls
+530,lacrimation increased,True,99,1,"[""C0152227""]","[""Lacrimation increased""]",unique_umls
+531,lactic acidosis,True,24,1,"[""C0001125""]","[""Lactic acidosis""]",unique_umls
+532,laryngeal oedema,True,30,1,"[""C0023052""]","[""Laryngeal oedema""]",unique_umls
+533,laryngeal pain,True,161,1,"[""C0549373""]","[""Laryngeal pain""]",unique_umls
+534,laryngitis,True,55,1,"[""C0023067""]","[""Laryngitis""]",unique_umls
+535,laryngeal spasm,False,0,0,[],[],unmatched
+536,lethargy,True,239,1,"[""C0023380""]","[""Lethargy""]",unique_umls
+537,leukocytosis,True,91,1,"[""C0023518""]","[""Leukocytosis""]",unique_umls
+538,vitiligo,True,1,1,"[""C0042900""]","[""Vitiligo""]",unique_umls
+539,leukopenia,True,635,1,"[""C0023530""]","[""Leukopenia""]",unique_umls
+540,libido decreased,True,260,1,"[""C0011124""]","[""Libido decreased""]",unique_umls
+541,libido disorder,True,7,1,"[""C0854382""]","[""Libido disorder""]",unique_umls
+542,libido increased,True,65,1,"[""C0021177""]","[""Libido increased""]",unique_umls
+543,mossy keratosis,False,0,0,[],[],unmatched
+544,ligament sprain,True,13,1,"[""C0435002""]","[""Ligament sprain""]",unique_umls
+545,lipase increased,True,42,1,"[""C0549475""]","[""Lipase increased""]",unique_umls
+546,lipodystrophy acquired,True,15,1,"[""C0877192""]","[""Lipodystrophy acquired""]",unique_umls
+547,liver disorder,True,40,1,"[""C0023895""]","[""Liver disorder""]",unique_umls
+548,liver function test abnormal,True,187,1,"[""C0151766""]","[""Liver function test abnormal""]",unique_umls
+549,liver injury,True,45,1,"[""C0160390""]","[""Liver injury""]",unique_umls
+550,local swelling,True,24,1,"[""C0853619""]","[""Local swelling""]",unique_umls
+551,loss of consciousness,True,400,1,"[""C0041657""]","[""Loss of consciousness""]",unique_umls
+552,loss of libido,True,16,1,"[""C2981158""]","[""Loss of libido""]",unique_umls
+553,lower respiratory tract infection,True,30,1,"[""C0149725""]","[""Lower respiratory tract infection""]",unique_umls
+554,lung disorder,True,45,1,"[""C0024115""]","[""Lung disorder""]",unique_umls
+555,lung infection,True,9,1,"[""C0876973""]","[""Lung infection""]",unique_umls
+556,lung infiltration,True,17,1,"[""C0235896""]","[""Lung infiltration""]",unique_umls
+557,lymphadenopathy,True,141,1,"[""C0497156""]","[""Lymphadenopathy""]",unique_umls
+558,lymphocyte count decreased,True,18,1,"[""C0853986""]","[""Lymphocyte count decreased""]",unique_umls
+559,lymphocyte excess,False,0,0,[],[],unmatched
+560,lymph edema,False,0,0,[],[],unmatched
+561,lymph tumor,False,0,0,[],[],unmatched
+562,lymph cell cut back,False,0,0,[],[],unmatched
+563,major depression,True,17,1,"[""C1269683""]","[""Major depression""]",unique_umls
+564,malaise,True,454,1,"[""C0231218""]","[""Malaise""]",unique_umls
+565,malignant melanoma,True,26,1,"[""C0025202""]","[""Malignant melanoma""]",unique_umls
+566,malnutrition,True,256,1,"[""C0162429""]","[""Malnutrition""]",unique_umls
+567,mania,True,80,1,"[""C0338831""]","[""Mania""]",unique_umls
+568,mastitis,True,17,1,"[""C0024894""]","[""Mastitis""]",unique_umls
+569,mediastinal disorder,True,228,1,"[""C0025061""]","[""Mediastinal disorder""]",unique_umls
+570,blood clot excretion,False,0,0,[],[],unmatched
+571,melanosis,True,5,1,"[""C0025209""]","[""Melanosis""]",unique_umls
+572,memory impairment,True,113,1,"[""C0233794""]","[""Memory impairment""]",unique_umls
+573,meningitis,True,16,1,"[""C0025289""]","[""Meningitis""]",unique_umls
+574,menopausal symptoms,True,289,1,"[""C0236075""]","[""Menopausal symptoms""]",unique_umls
+575,menopause,True,8,1,"[""C0025320""]","[""Menopause""]",unique_umls
+576,menorrhagia,True,87,1,"[""C0025323""]","[""Menorrhagia""]",unique_umls
+577,menstrual disorder,True,90,1,"[""C0025345""]","[""Menstrual disorder""]",unique_umls
+578,menstruation irregular,True,37,1,"[""C0156404""]","[""Menstruation irregular""]",unique_umls
+579,mental disability,True,254,1,"[""C1306341""]","[""Mental disability""]",unique_umls
+580,mental disorder,True,255,1,"[""C0004936""]","[""Mental disorder""]",unique_umls
+581,metabolic acidosis,True,16,1,"[""C0220981""]","[""Metabolic acidosis""]",unique_umls
+582,break through bleeding,False,0,0,[],[],unmatched
+583,urination disorder,False,0,0,[],[],unmatched
+584,urination urgency,False,0,0,[],[],unmatched
+585,migraine,True,186,1,"[""C0149931""]","[""Migraine""]",unique_umls
+586,miosis,True,16,1,"[""C0026205""]","[""Miosis""]",unique_umls
+587,single core cell increase,False,0,0,[],[],unmatched
+588,mood swings,True,243,1,"[""C0085633""]","[""Mood swings""]",unique_umls
+589,motion sickness,True,6,1,"[""C0026603""]","[""Motion sickness""]",unique_umls
+590,mouth ulceration,True,119,1,"[""C0149745""]","[""Mouth ulceration""]",unique_umls
+591,movement disorder,True,18,1,"[""C0026650""]","[""Movement disorder""]",unique_umls
+592,mucosal inflammation,True,138,1,"[""C0333355""]","[""Mucosal inflammation""]",unique_umls
+593,mucous membrane disorder,True,15,1,"[""C0151785""]","[""Mucous membrane disorder""]",unique_umls
+594,multiple fractures,True,78,1,"[""C0016655""]","[""Multiple fractures""]",unique_umls
+595,muscle atrophy,True,11,1,"[""C0026846""]","[""Muscle atrophy""]",unique_umls
+596,muscle contractions involuntary,True,42,1,"[""C0235086""]","[""Muscle contractions involuntary""]",unique_umls
+597,muscle relaxant therapy,True,44,1,"[""C1142135""]","[""Muscle relaxant therapy""]",unique_umls
+598,muscle rigidity,True,56,1,"[""C0026837""]","[""Muscle rigidity""]",unique_umls
+599,muscle spasms,True,666,1,"[""C0037763""]","[""Muscle spasms""]",unique_umls
+600,muscle tightness,True,13,1,"[""C0877322""]","[""Muscle tightness""]",unique_umls
+601,muscle twitching,True,98,1,"[""C0231530""]","[""Muscle twitching""]",unique_umls
+602,muscular weakness,True,178,1,"[""C0151786""]","[""Muscular weakness""]",unique_umls
+603,musculoskeletal chest pain,True,40,1,"[""C0476280""]","[""Musculoskeletal chest pain""]",unique_umls
+604,musculoskeletal discomfort,True,2156,1,"[""C0948594""]","[""Musculoskeletal discomfort""]",unique_umls
+605,musculoskeletal pain,True,269,1,"[""C0026858""]","[""Musculoskeletal pain""]",unique_umls
+606,musculoskeletal stiffness,True,116,1,"[""C0948525""]","[""Musculoskeletal stiffness""]",unique_umls
+607,myalgia,True,1022,1,"[""C0231528""]","[""Myalgia""]",unique_umls
+608,mydriasis,True,59,1,"[""C0026961""]","[""Mydriasis""]",unique_umls
+609,myelitis,True,7,1,"[""C0026975""]","[""Myelitis""]",unique_umls
+610,myocardial infarction,True,187,1,"[""C0027051""]","[""Myocardial infarction""]",unique_umls
+611,myocardial ischaemia,True,54,1,"[""C0151744""]","[""Myocardial ischaemia""]",unique_umls
+612,myocarditis,True,11,1,"[""C0027059""]","[""Myocarditis""]",unique_umls
+613,myoclonus,True,69,1,"[""C0027066""]","[""Myoclonus""]",unique_umls
+614,myopathy,True,53,1,"[""C0026848""]","[""Myopathy""]",unique_umls
+615,myositis,True,30,1,"[""C0027121""]","[""Myositis""]",unique_umls
+616,nail disorder,True,76,1,"[""C0027339""]","[""Nail disorder""]",unique_umls
+617,nasal congestion,True,239,1,"[""C0027424""]","[""Nasal congestion""]",unique_umls
+618,nasal discomfort,True,89,1,"[""C0858259""]","[""Nasal discomfort""]",unique_umls
+619,nasal dryness,True,31,1,"[""C0231919""]","[""Nasal dryness""]",unique_umls
+620,nose pharynx inflammation,False,0,0,[],[],unmatched
+621,nausea,True,3957,1,"[""C0027497""]","[""Nausea""]",unique_umls
+622,neck pain,True,125,1,"[""C0007859""]","[""Neck pain""]",unique_umls
+623,neoplasm,True,51,1,"[""C0027651""]","[""Neoplasm""]",unique_umls
+624,neoplasm malignant,True,73,1,"[""C0006826""]","[""Neoplasm malignant""]",unique_umls
+625,nephritis,True,15,1,"[""C0027697""]","[""Nephritis""]",unique_umls
+626,calculus kidney,False,0,0,[],[],unmatched
+627,nephropathy,True,24,1,"[""C0022658""]","[""Nephropathy""]",unique_umls
+628,nephropathy toxic,True,35,1,"[""C0595916""]","[""Nephropathy toxic""]",unique_umls
+629,nephrotic syndrome,True,27,1,"[""C0027726""]","[""Nephrotic syndrome""]",unique_umls
+630,nervous system disorder,True,369,1,"[""C0027765""]","[""Nervous system disorder""]",unique_umls
+631,nervousness,True,501,1,"[""C0027769""]","[""Nervousness""]",unique_umls
+632,neuralgia,True,63,1,"[""C0027796""]","[""Neuralgia""]",unique_umls
+633,neuritis,True,47,1,"[""C0027813""]","[""Neuritis""]",unique_umls
+634,neuroleptic malignant syndrome,True,39,1,"[""C0027849""]","[""Neuroleptic malignant syndrome""]",unique_umls
+635,neuropathy peripheral,True,397,1,"[""C0031117""]","[""Neuropathy peripheral""]",unique_umls
+636,neurosis,True,36,1,"[""C0027932""]","[""Neurosis""]",unique_umls
+637,neurotoxicity,True,28,1,"[""C0235032""]","[""Neurotoxicity""]",unique_umls
+638,neutropenia,True,748,1,"[""C0027947""]","[""Neutropenia""]",unique_umls
+639,neutrophil deficiency,False,0,0,[],[],unmatched
+640,neutrophil count decreased,True,22,1,"[""C0853697""]","[""Neutrophil count decreased""]",unique_umls
+641,night blindness,True,12,1,"[""C0028077""]","[""Night blindness""]",unique_umls
+642,night sweats,True,62,1,"[""C0028081""]","[""Night sweats""]",unique_umls
+643,nightmare,True,84,1,"[""C0028084""]","[""Nightmare""]",unique_umls
+644,nocturnal enuresis,False,0,0,[],[],unmatched
+645,nodal arrhythmia,True,10,1,"[""C0264893""]","[""Nodal arrhythmia""]",unique_umls
+646,nodule,True,19,1,"[""C0028259""]","[""Nodule""]",unique_umls
+647,non cardiac chest pain,False,0,0,[],[],unmatched
+648,non hodgkin lymphoma,False,0,0,[],[],unmatched
+649,nuchal rigidity,True,36,1,"[""C1320474""]","[""Nuchal rigidity""]",unique_umls
+650,nystagmus,True,96,1,"[""C0028738""]","[""Nystagmus""]",unique_umls
+651,ocular discomfort,True,9,1,"[""C0948595""]","[""Ocular discomfort""]",unique_umls
+652,ocular venous congestion,False,0,0,[],[],unmatched
+653,oculomotor spasm,False,0,0,[],[],unmatched
+654,swallowing painful,False,0,0,[],[],unmatched
+655,oedema,True,766,1,"[""C0013604""]","[""Oedema""]",unique_umls
+656,oedema peripheral,True,771,1,"[""C0085649""]","[""Oedema peripheral""]",unique_umls
+657,oesophageal spasm,True,6,1,"[""C0014863""]","[""Oesophageal spasm""]",unique_umls
+658,oesophageal stenosis,True,17,1,"[""C0014866""]","[""Oesophageal stenosis""]",unique_umls
+659,oesophageal ulcer,True,24,1,"[""C0151970""]","[""Oesophageal ulcer""]",unique_umls
+660,esophagus inflammation,False,0,0,[],[],unmatched
+661,urine less,False,0,0,[],[],unmatched
+662,onychomycosis,True,8,1,"[""C0040261""]","[""Onychomycosis""]",unique_umls
+663,opportunistic infection,True,15,1,"[""C0029118""]","[""Opportunistic infection""]",unique_umls
+664,optic atrophy,True,8,1,"[""C0029124""]","[""Optic atrophy""]",unique_umls
+665,optic neuritis,True,42,1,"[""C0029134""]","[""Optic neuritis""]",unique_umls
+666,oral candidiasis,True,106,1,"[""C0006849""]","[""Oral candidiasis""]",unique_umls
+667,oral herpes,True,11,1,"[""C0341012""]","[""Oral herpes""]",unique_umls
+668,oral pain,True,15,1,"[""C0221776""]","[""Oral pain""]",unique_umls
+669,testis inflammation non infective,False,0,0,[],[],unmatched
+670,orgasm abnormal,True,23,1,"[""C0029261""]","[""Orgasm abnormal""]",unique_umls
+671,oropharyngeal discomfort,True,101,1,"[""C2363730""]","[""Oropharyngeal discomfort""]",unique_umls
+672,oropharyngeal pain,True,174,1,"[""C2363731""]","[""Oropharyngeal pain""]",unique_umls
+673,orthostatic hypotension,True,275,1,"[""C0020651""]","[""Orthostatic hypotension""]",unique_umls
+674,osteoarthritis,True,264,1,"[""C0029408""]","[""Osteoarthritis""]",unique_umls
+675,osteomyelitis,True,14,1,"[""C0029443""]","[""Osteomyelitis""]",unique_umls
+676,osteonecrosis,True,15,1,"[""C0029445""]","[""Osteonecrosis""]",unique_umls
+677,osteoporosis,True,55,1,"[""C0029456""]","[""Osteoporosis""]",unique_umls
+678,otitis externa,True,21,1,"[""C0029878""]","[""Otitis externa""]",unique_umls
+679,otitis media,True,116,1,"[""C0029882""]","[""Otitis media""]",unique_umls
+680,ear toxicity,False,0,0,[],[],unmatched
+681,ovarian cyst,True,31,1,"[""C0029927""]","[""Ovarian cyst""]",unique_umls
+682,ovarian disorder,True,22,1,"[""C0029928""]","[""Ovarian disorder""]",unique_umls
+683,pain,True,1473,1,"[""C0030193""]","[""Pain""]",unique_umls
+684,pain in extremity,True,425,1,"[""C0030196""]","[""Pain in extremity""]",unique_umls
+685,pain in jaw,True,36,1,"[""C0236000""]","[""Pain in jaw""]",unique_umls
+686,pain of skin,True,25,1,"[""C0241136""]","[""Pain of skin""]",unique_umls
+687,pallor,True,63,1,"[""C0030232""]","[""Pallor""]",unique_umls
+688,palpitations,True,485,1,"[""C0030252""]","[""Palpitations""]",unique_umls
+689,pancreatitis,True,213,1,"[""C0030305""]","[""Pancreatitis""]",unique_umls
+690,pancreatitis acute,True,33,1,"[""C0001339""]","[""Pancreatitis acute""]",unique_umls
+691,pancytopenia,True,170,1,"[""C0030312""]","[""Pancytopenia""]",unique_umls
+692,panic attack,True,19,1,"[""C0086769""]","[""Panic attack""]",unique_umls
+693,panic reaction,True,14,1,"[""C0030318""]","[""Panic reaction""]",unique_umls
+694,eyelid inflammation,False,0,0,[],[],unmatched
+695,nipple edema,False,0,0,[],[],unmatched
+696,feeling abnormal,True,1010,1,"[""C1443060""]","[""Feeling abnormal""]",unique_umls
+697,feeling abnormal oral,False,0,0,[],[],unmatched
+698,paralysis,True,39,1,"[""C0522224""]","[""Paralysis""]",unique_umls
+699,paranoia,True,64,1,"[""C1456784""]","[""Paranoia""]",unique_umls
+700,paresis,True,23,1,"[""C0030552""]","[""Paresis""]",unique_umls
+701,parkinsonism,True,148,1,"[""C0242422""]","[""Parkinsonism""]",unique_umls
+702,disturbances of sensation of smell and taste,False,0,0,[],[],unmatched
+703,pelvic pain,True,57,1,"[""C0030794""]","[""Pelvic pain""]",unique_umls
+704,penis disorder,True,12,1,"[""C0030846""]","[""Penis disorder""]",unique_umls
+705,peptic ulcer,True,32,1,"[""C0030920""]","[""Peptic ulcer""]",unique_umls
+706,pericardial effusion,True,46,1,"[""C0031039""]","[""Pericardial effusion""]",unique_umls
+707,pericarditis,True,26,1,"[""C0031046""]","[""Pericarditis""]",unique_umls
+708,perineal pain,True,8,1,"[""C0240717""]","[""Perineal pain""]",unique_umls
+709,periodontitis,True,12,1,"[""C0031099""]","[""Periodontitis""]",unique_umls
+710,periorbital oedema,True,35,1,"[""C0151205""]","[""Periorbital oedema""]",unique_umls
+711,peripheral coldness,True,34,1,"[""C0277925""]","[""Peripheral coldness""]",unique_umls
+712,peripheral ischaemia,True,26,1,"[""C0235490""]","[""Peripheral ischaemia""]",unique_umls
+713,peripheral motor neuropathy,True,18,1,"[""C0235025""]","[""Peripheral motor neuropathy""]",unique_umls
+714,peripheral sensory neuropathy,True,35,1,"[""C0151313""]","[""Peripheral sensory neuropathy""]",unique_umls
+715,peripheral vascular disorder,True,27,1,"[""C0085096""]","[""Peripheral vascular disorder""]",unique_umls
+716,peritonitis,True,25,1,"[""C0031154""]","[""Peritonitis""]",unique_umls
+717,personality disorder,True,47,1,"[""C0031212""]","[""Personality disorder""]",unique_umls
+718,petechiae,True,63,1,"[""C0031256""]","[""Petechiae""]",unique_umls
+719,pharyngeal oedema,True,23,1,"[""C0236024""]","[""Pharyngeal oedema""]",unique_umls
+720,pharyngitis,True,807,1,"[""C0031350""]","[""Pharyngitis""]",unique_umls
+721,pharyngitis streptococcal,True,24,1,"[""C0036689""]","[""Pharyngitis streptococcal""]",unique_umls
+722,phlebitis,True,139,1,"[""C0031542""]","[""Phlebitis""]",unique_umls
+723,photophobia,True,96,1,"[""C0085636""]","[""Photophobia""]",unique_umls
+724,flash vision,False,0,0,[],[],unmatched
+725,photosensitivity reaction,True,238,1,"[""C0162830""]","[""Photosensitivity reaction""]",unique_umls
+726,pigmentation disorder,True,11,1,"[""C0549567""]","[""Pigmentation disorder""]",unique_umls
+727,plasma cell myeloma,True,22,1,"[""C0026764""]","[""Plasma cell myeloma""]",unique_umls
+728,tumor plasma cell,False,0,0,[],[],unmatched
+729,platelet count decreased,True,94,1,"[""C0392386""]","[""Platelet count decreased""]",unique_umls
+730,pleural effusion,True,141,1,"[""C0032227""]","[""Pleural effusion""]",unique_umls
+731,pleurisy,True,12,1,"[""C0032231""]","[""Pleurisy""]",unique_umls
+732,pleural pain,False,0,0,[],[],unmatched
+733,pneumonia,True,449,1,"[""C0032285""]","[""Pneumonia""]",unique_umls
+734,pneumonia aspiration,True,12,1,"[""C0032290""]","[""Pneumonia aspiration""]",unique_umls
+735,pneumothorax,True,44,1,"[""C0032326""]","[""Pneumothorax""]",unique_umls
+736,urinary frequency increased,False,0,0,[],[],unmatched
+737,increase in the total amount of red blood cells in the blood,False,0,0,[],[],unmatched
+738,polydipsia,True,12,1,"[""C0085602""]","[""Polydipsia""]",unique_umls
+739,polyneuropathy,True,12,1,"[""C0152025""]","[""Polyneuropathy""]",unique_umls
+740,polyuria,True,90,1,"[""C0032617""]","[""Polyuria""]",unique_umls
+741,post procedural haemorrhage,True,28,1,"[""C0919874""]","[""Post procedural haemorrhage""]",unique_umls
+742,premenstrual syndrome,True,14,1,"[""C0033046""]","[""Premenstrual syndrome""]",unique_umls
+743,syncope vertigo,False,0,0,[],[],unmatched
+744,priapism,True,43,1,"[""C0033117""]","[""Priapism""]",unique_umls
+745,procedural pain,True,53,1,"[""C1619712""]","[""Procedural pain""]",unique_umls
+746,anal pain,False,0,0,[],[],unmatched
+747,rectum inflammation,False,0,0,[],[],unmatched
+748,productive cough,True,27,1,"[""C0239134""]","[""Productive cough""]",unique_umls
+749,prostate cancer,True,15,1,"[""C0376358""]","[""Prostate cancer""]",unique_umls
+750,prostatic disorder,True,29,1,"[""C0033575""]","[""Prostatic disorder""]",unique_umls
+751,prostatitis,True,11,1,"[""C0033581""]","[""Prostatitis""]",unique_umls
+752,protein total decreased,True,17,1,"[""C0860901""]","[""Protein total decreased""]",unique_umls
+753,protein urine present,True,111,1,"[""C0948586""]","[""Protein urine present""]",unique_umls
+754,proteinuria,True,102,1,"[""C0033687""]","[""Proteinuria""]",unique_umls
+755,prothrombin level decreased,True,10,1,"[""C0553732""]","[""Prothrombin level decreased""]",unique_umls
+756,prothrombin level increased,True,24,1,"[""C0151872""]","[""Prothrombin level increased""]",unique_umls
+757,itch rash,False,0,0,[],[],unmatched
+758,pruritus,True,1445,1,"[""C0033774""]","[""Pruritus""]",unique_umls
+759,pruritus generalised,True,30,1,"[""C0475858""]","[""Pruritus generalised""]",unique_umls
+760,pruritus genital,True,30,1,"[""C0033777""]","[""Pruritus genital""]",unique_umls
+761,falsehood lymph tumor,False,0,0,[],[],unmatched
+762,pseudomembranous colitis,True,29,1,"[""C1257843""]","[""Pseudomembranous colitis""]",unique_umls
+763,psoriasis,True,57,1,"[""C0033860""]","[""Psoriasis""]",unique_umls
+764,psychomotor retardation,True,9,1,"[""C0424230""]","[""Psychomotor retardation""]",unique_umls
+765,psychotic disorder,True,135,1,"[""C0033975""]","[""Psychotic disorder""]",unique_umls
+766,pulmonary congestion,True,12,1,"[""C0242073""]","[""Pulmonary congestion""]",unique_umls
+767,pulmonary embolism,True,123,1,"[""C0034065""]","[""Pulmonary embolism""]",unique_umls
+768,pulmonary fibrosis,True,30,1,"[""C0034069""]","[""Pulmonary fibrosis""]",unique_umls
+769,pulmonary function test decreased,True,49,1,"[""C0855775""]","[""Pulmonary function test decreased""]",unique_umls
+770,pulmonary hypertension,True,28,1,"[""C0020542""]","[""Pulmonary hypertension""]",unique_umls
+771,pulmonary oedema,True,97,1,"[""C0034063""]","[""Pulmonary oedema""]",unique_umls
+772,punctate keratitis,True,12,1,"[""C0259799""]","[""Punctate keratitis""]",unique_umls
+773,pupils unequal,True,5,1,"[""C0003079""]","[""Pupils unequal""]",unique_umls
+774,purpura,True,133,1,"[""C0034150""]","[""Purpura""]",unique_umls
+775,pyelonephritis,True,37,1,"[""C0034186""]","[""Pyelonephritis""]",unique_umls
+776,urine purulent,False,0,0,[],[],unmatched
+777,rales,True,37,1,"[""C0034642""]","[""Rales""]",unique_umls
+778,rash,True,2045,1,"[""C0015230""]","[""Rash""]",unique_umls
+779,rash erythematous,True,48,1,"[""C0234913""]","[""Rash erythematous""]",unique_umls
+780,rash generalised,True,16,1,"[""C0497365""]","[""Rash generalised""]",unique_umls
+781,rash macular,True,9,1,"[""C0221201""]","[""Rash macular""]",unique_umls
+782,macula papules rash,False,0,0,[],[],unmatched
+783,rash papular,True,13,1,"[""C1519353""]","[""Rash papular""]",unique_umls
+784,rash pustular,True,91,1,"[""C0085641""]","[""Rash pustular""]",unique_umls
+785,rectal haemorrhage,True,86,1,"[""C0267596""]","[""Rectal haemorrhage""]",unique_umls
+786,defecation urge painful,False,0,0,[],[],unmatched
+787,regurgitation,True,44,1,"[""C2004489""]","[""Regurgitation""]",unique_umls
+788,renal failure,True,264,1,"[""C0035078""]","[""Renal failure""]",unique_umls
+789,renal impairment,True,174,1,"[""C1565489""]","[""Renal impairment""]",unique_umls
+790,renal pain,True,37,1,"[""C0558489""]","[""Renal pain""]",unique_umls
+791,renal tubular necrosis,True,23,1,"[""C1720775""]","[""Renal tubular necrosis""]",unique_umls
+792,respiration abnormal,True,15,1,"[""C1260922""]","[""Respiration abnormal""]",unique_umls
+793,respiratory depression,True,45,1,"[""C0235063""]","[""Respiratory depression""]",unique_umls
+794,respiratory disorder,True,14,1,"[""C0035204""]","[""Respiratory disorder""]",unique_umls
+795,respiratory distress,True,43,1,"[""C0476273""]","[""Respiratory distress""]",unique_umls
+796,respiratory failure,True,87,1,"[""C1145670""]","[""Respiratory failure""]",unique_umls
+797,respiratory tract congestion,True,19,1,"[""C0948349""]","[""Respiratory tract congestion""]",unique_umls
+798,respiratory tract infection,True,113,1,"[""C0035243""]","[""Respiratory tract infection""]",unique_umls
+799,restless legs syndrome,True,20,1,"[""C0035258""]","[""Restless legs syndrome""]",unique_umls
+800,retching,True,12,1,"[""C0232602""]","[""Retching""]",unique_umls
+801,retinal degeneration,True,9,1,"[""C0035304""]","[""Retinal degeneration""]",unique_umls
+802,retinal detachment,True,17,1,"[""C0035305""]","[""Retinal detachment""]",unique_umls
+803,retinal disorder,True,15,1,"[""C0035309""]","[""Retinal disorder""]",unique_umls
+804,retinal haemorrhage,True,20,1,"[""C0035317""]","[""Retinal haemorrhage""]",unique_umls
+805,retroperitoneal haemorrhage,True,17,1,"[""C0151705""]","[""Retroperitoneal haemorrhage""]",unique_umls
+806,rhabdomyolysis,True,99,1,"[""C0035410""]","[""Rhabdomyolysis""]",unique_umls
+807,rheumatoid arthritis,True,25,1,"[""C0003873""]","[""Rheumatoid arthritis""]",unique_umls
+808,rhinitis,True,704,1,"[""C0035455""]","[""Rhinitis""]",unique_umls
+809,rhinitis allergic,True,21,1,"[""C2607914""]","[""Rhinitis allergic""]",unique_umls
+810,mucous nasal increased,False,0,0,[],[],unmatched
+811,dry rales,False,0,0,[],[],unmatched
+812,road traffic accident,True,8,1,"[""C0221706""]","[""Road traffic accident""]",unique_umls
+813,rosacea,True,11,1,"[""C0035854""]","[""Rosacea""]",unique_umls
+814,salivary gland enlargement,True,18,1,"[""C0020569""]","[""Salivary gland enlargement""]",unique_umls
+815,increased salivation,False,0,0,[],[],unmatched
+816,oviduct inflammation,False,0,0,[],[],unmatched
+817,scab,True,60,1,"[""C0205204""]","[""Scab""]",unique_umls
+818,reaction schizoid,False,0,0,[],[],unmatched
+819,sciatica,True,16,1,"[""C0036396""]","[""Sciatica""]",unique_umls
+820,sclera inflammation,False,0,0,[],[],unmatched
+821,seasonal allergy,True,22,1,"[""C0018621""]","[""Seasonal allergy""]",unique_umls
+822,seborrheic dermatitis,False,0,0,[],[],unmatched
+823,seborrheic keratosis,False,0,0,[],[],unmatched
+824,sensation of foreign body,True,31,1,"[""C0423602""]","[""Sensation of foreign body""]",unique_umls
+825,sensory disturbance,True,20,1,"[""C0152027""]","[""Sensory disturbance""]",unique_umls
+826,sensory loss,True,40,1,"[""C0278134""]","[""Sensory loss""]",unique_umls
+827,sepsis,True,184,1,"[""C0243026""]","[""Sepsis""]",unique_umls
+828,septic shock,True,17,1,"[""C0036983""]","[""Septic shock""]",unique_umls
+829,serotonin syndrome,True,24,1,"[""C0699828""]","[""Serotonin syndrome""]",unique_umls
+830,serum sickness,True,20,1,"[""C0036830""]","[""Serum sickness""]",unique_umls
+831,sexual dysfunction,True,64,1,"[""C0549622""]","[""Sexual dysfunction""]",unique_umls
+832,shock,True,475,1,"[""C0036974""]","[""Shock""]",unique_umls
+833,salivary glands inflammation,False,0,0,[],[],unmatched
+834,sinus bradycardia,True,22,1,"[""C0085610""]","[""Sinus bradycardia""]",unique_umls
+835,sinus congestion,True,91,1,"[""C0152029""]","[""Sinus congestion""]",unique_umls
+836,sinus headache,True,29,1,"[""C0037195""]","[""Sinus headache""]",unique_umls
+837,sinus tachycardia,True,28,1,"[""C0039239""]","[""Sinus tachycardia""]",unique_umls
+838,sinusitis,True,740,1,"[""C0037199""]","[""Sinusitis""]",unique_umls
+839,skin atrophy,True,12,1,"[""C0151514""]","[""Skin atrophy""]",unique_umls
+840,skin burning sensation,True,20,1,"[""C0241057""]","[""Skin burning sensation""]",unique_umls
+841,skin cancer,True,16,1,"[""C0007114""]","[""Skin cancer""]",unique_umls
+842,skin discolouration,True,74,1,"[""C0151907""]","[""Skin discolouration""]",unique_umls
+843,skin disorder,True,396,1,"[""C0037274""]","[""Skin disorder""]",unique_umls
+844,skin exfoliation,True,146,1,"[""C0237849""]","[""Skin exfoliation""]",unique_umls
+845,skin hyperpigmentation,True,51,1,"[""C0162834""]","[""Skin hyperpigmentation""]",unique_umls
+846,skin hypertrophy,True,18,1,"[""C0151717""]","[""Skin hypertrophy""]",unique_umls
+847,skin infection,True,45,1,"[""C0037278""]","[""Skin infection""]",unique_umls
+848,skin irritation,True,34,1,"[""C0152030""]","[""Skin irritation""]",unique_umls
+849,skin lesion,True,15,1,"[""C0037284""]","[""Skin lesion""]",unique_umls
+850,skin mass,True,21,1,"[""C0281981""]","[""Skin mass""]",unique_umls
+851,skin odour abnormal,True,18,1,"[""C0234930""]","[""Skin odour abnormal""]",unique_umls
+852,skin papilloma,True,36,1,"[""C0347390""]","[""Skin papilloma""]",unique_umls
+853,skin striae,True,16,1,"[""C0152459""]","[""Skin striae""]",unique_umls
+854,skin ulcer,True,68,1,"[""C0037299""]","[""Skin ulcer""]",unique_umls
+855,sleep apnoea syndrome,True,13,1,"[""C0037315""]","[""Sleep apnoea syndrome""]",unique_umls
+856,sleep disorder,True,154,1,"[""C0851578""]","[""Sleep disorder""]",unique_umls
+857,sluggishness,True,10,1,"[""C0920289""]","[""Sluggishness""]",unique_umls
+858,sneezing,True,48,1,"[""C0037383""]","[""Sneezing""]",unique_umls
+859,snoring,True,7,1,"[""C0037384""]","[""Snoring""]",unique_umls
+860,somnambulism,True,15,1,"[""C0037672""]","[""Somnambulism""]",unique_umls
+861,somnolence,True,1444,1,"[""C2830004""]","[""Somnolence""]",unique_umls
+862,speech disorder,True,101,1,"[""C0037822""]","[""Speech disorder""]",unique_umls
+863,splenomegaly,True,13,1,"[""C0038002""]","[""Splenomegaly""]",unique_umls
+864,sputum increased,True,25,1,"[""C0235567""]","[""Sputum increased""]",unique_umls
+865,staphylococcal infection,True,24,1,"[""C0038160""]","[""Staphylococcal infection""]",unique_umls
+866,status epilepticus,True,20,1,"[""C0038220""]","[""Status epilepticus""]",unique_umls
+867,stevens johnson syndrome,False,0,0,[],[],unmatched
+868,sticky skin,True,8,1,"[""C0392162""]","[""Sticky skin""]",unique_umls
+869,stomatitis,True,530,1,"[""C0038362""]","[""Stomatitis""]",unique_umls
+870,bladder and urethral symptoms,False,0,0,[],[],unmatched
+871,wheezing,True,95,1,"[""C0043144""]","[""Wheezing""]",unique_umls
+872,stupor,True,61,1,"[""C0085628""]","[""Stupor""]",unique_umls
+873,subarachnoid haemorrhage,True,7,1,"[""C0038525""]","[""Subarachnoid haemorrhage""]",unique_umls
+874,subdural haematoma,True,14,1,"[""C0018946""]","[""Subdural haematoma""]",unique_umls
+875,sudden death,True,25,1,"[""C0011071""]","[""Sudden death""]",unique_umls
+876,suicidal ideation,True,59,1,"[""C0424000""]","[""Suicidal ideation""]",unique_umls
+877,suicide attempt,True,69,1,"[""C0038663""]","[""Suicide attempt""]",unique_umls
+878,sunburn,True,30,1,"[""C0038814""]","[""Sunburn""]",unique_umls
+879,ectopic beats atrial,False,0,0,[],[],unmatched
+880,supraventricular tachycardia,True,62,1,"[""C0039240""]","[""Supraventricular tachycardia""]",unique_umls
+881,swelling,True,101,1,"[""C0038999""]","[""Swelling""]",unique_umls
+882,swelling face,True,19,1,"[""C0151602""]","[""Swelling face""]",unique_umls
+883,syncope,True,376,1,"[""C0039070""]","[""Syncope""]",unique_umls
+884,systemic lupus erythematosus,True,31,1,"[""C0024141""]","[""Systemic lupus erythematosus""]",unique_umls
+885,tachycardia,True,611,1,"[""C0039231""]","[""Tachycardia""]",unique_umls
+886,respiration stimulated,False,0,0,[],[],unmatched
+887,tardive dyskinesia,True,21,1,"[""C0686347""]","[""Tardive dyskinesia""]",unique_umls
+888,telangiectasia,True,10,1,"[""C0039446""]","[""Telangiectasia""]",unique_umls
+889,temperature intolerance,True,7,1,"[""C1112320""]","[""Temperature intolerance""]",unique_umls
+890,tenderness,True,51,1,"[""C0234233""]","[""Tenderness""]",unique_umls
+891,tendinous contracture,True,5,1,"[""C0158350""]","[""Tendinous contracture""]",unique_umls
+892,tendon disorder,True,8,1,"[""C0151936""]","[""Tendon disorder""]",unique_umls
+893,tendonitis,True,28,1,"[""C0039503""]","[""Tendonitis""]",unique_umls
+894,tendon sheath inflammation,False,0,0,[],[],unmatched
+895,tension,True,480,1,"[""C0233494""]","[""Tension""]",unique_umls
+896,tension headache,True,13,1,"[""C0033893""]","[""Tension headache""]",unique_umls
+897,testicular pain,True,14,1,"[""C0039591""]","[""Testicular pain""]",unique_umls
+898,tetany,True,13,1,"[""C0039621""]","[""Tetany""]",unique_umls
+899,therapeutic response unexpected,True,8,1,"[""C0853141""]","[""Therapeutic response unexpected""]",unique_umls
+900,thinking abnormal,True,125,1,"[""C0233632""]","[""Thinking abnormal""]",unique_umls
+901,thirst,True,118,1,"[""C0039971""]","[""Thirst""]",unique_umls
+902,throat irritation,True,73,1,"[""C0700184""]","[""Throat irritation""]",unique_umls
+903,throat tightness,True,27,1,"[""C0236071""]","[""Throat tightness""]",unique_umls
+904,thrombocytopenia,True,837,1,"[""C0040034""]","[""Thrombocytopenia""]",unique_umls
+905,platelets increase,False,0,0,[],[],unmatched
+906,thrombophlebitis,True,108,1,"[""C0040046""]","[""Thrombophlebitis""]",unique_umls
+907,thrombosis,True,91,1,"[""C0040053""]","[""Thrombosis""]",unique_umls
+908,thrombotic thrombocytopenic purpura,True,21,1,"[""C0034155""]","[""Thrombotic thrombocytopenic purpura""]",unique_umls
+909,thyroid disorder,True,9,1,"[""C0040128""]","[""Thyroid disorder""]",unique_umls
+910,thyroid neoplasm,True,10,1,"[""C0040136""]","[""Thyroid neoplasm""]",unique_umls
+911,thyroiditis,True,8,1,"[""C0040147""]","[""Thyroiditis""]",unique_umls
+912,tinnitus,True,253,1,"[""C0040264""]","[""Tinnitus""]",unique_umls
+913,tongue discolouration,True,33,1,"[""C0151596""]","[""Tongue discolouration""]",unique_umls
+914,tongue disorder,True,58,1,"[""C0040409""]","[""Tongue disorder""]",unique_umls
+915,tongue oedema,True,43,1,"[""C0151610""]","[""Tongue oedema""]",unique_umls
+916,tongue ulceration,True,12,1,"[""C0235351""]","[""Tongue ulceration""]",unique_umls
+917,tonsillitis,True,24,1,"[""C0040425""]","[""Tonsillitis""]",unique_umls
+918,tooth abscess,True,37,1,"[""C0518988""]","[""Tooth abscess""]",unique_umls
+919,tooth disorder,True,108,1,"[""C0040435""]","[""Tooth disorder""]",unique_umls
+920,tooth infection,True,16,1,"[""C0877046""]","[""Tooth infection""]",unique_umls
+921,toothache,True,110,1,"[""C0040460""]","[""Toothache""]",unique_umls
+922,ventricular arrhythmias and cardiac arrest,False,0,0,[],[],unmatched
+923,torticollis,True,16,1,"[""C0040485""]","[""Torticollis""]",unique_umls
+924,toxic epidermal necrolysis,True,180,1,"[""C0014518""]","[""Toxic epidermal necrolysis""]",unique_umls
+925,toxicity to various agents,True,12,1,"[""C3160741""]","[""Toxicity to various agents""]",unique_umls
+926,tracheitis,True,11,1,"[""C0040584""]","[""Tracheitis""]",unique_umls
+927,trachea bronchus inflammation,False,0,0,[],[],unmatched
+928,transaminases increased,True,48,1,"[""C0438717""]","[""Transaminases increased""]",unique_umls
+929,transient ischaemic attack,True,38,1,"[""C0007787""]","[""Transient ischaemic attack""]",unique_umls
+930,tremor,True,779,1,"[""C0040822""]","[""Tremor""]",unique_umls
+931,masseter spasms,False,0,0,[],[],unmatched
+932,inflammation of the interstitial tissue of the kidney,False,0,0,[],[],unmatched
+933,tumour lysis syndrome,True,19,1,"[""C0041364""]","[""Tumour lysis syndrome""]",unique_umls
+934,ulcer,True,75,1,"[""C0041582""]","[""Ulcer""]",unique_umls
+935,ulcerative keratitis,True,9,1,"[""C0010043""]","[""Ulcerative keratitis""]",unique_umls
+936,unintended pregnancy,True,7,1,"[""C0041747""]","[""Unintended pregnancy""]",unique_umls
+937,upper respiratory tract infection,True,802,1,"[""C0041912""]","[""Upper respiratory tract infection""]",unique_umls
+938,upper airway cough syndrome,False,0,0,[],[],unmatched
+939,urethral disorder,True,164,1,"[""C0041969""]","[""Urethral disorder""]",unique_umls
+940,urethritis,True,10,1,"[""C0041976""]","[""Urethritis""]",unique_umls
+941,urethritis non infective,False,0,0,[],[],unmatched
+942,urinary hesitation,True,38,1,"[""C0152032""]","[""Urinary hesitation""]",unique_umls
+943,urinary incontinence,True,154,1,"[""C0042024""]","[""Urinary incontinence""]",unique_umls
+944,urinary retention,True,200,1,"[""C0080274""]","[""Urinary retention""]",unique_umls
+945,urinary tract disorder,True,160,1,"[""C0042075""]","[""Urinary tract disorder""]",unique_umls
+946,urinary tract infection,True,708,1,"[""C0042029""]","[""Urinary tract infection""]",unique_umls
+947,urine abnormality,True,33,1,"[""C0235639""]","[""Urine abnormality""]",unique_umls
+948,urine analysis abnormal,True,36,1,"[""C0438142""]","[""Urine analysis abnormal""]",unique_umls
+949,urine output increased,True,88,1,"[""C1167965""]","[""Urine output increased""]",unique_umls
+950,urticaria,True,528,1,"[""C0042109""]","[""Urticaria""]",unique_umls
+951,uterine disorder,True,6,1,"[""C0042131""]","[""Uterine disorder""]",unique_umls
+952,uterine haemorrhage,True,24,1,"[""C0042134""]","[""Uterine haemorrhage""]",unique_umls
+953,uterine smooth muscle tumor,False,0,0,[],[],unmatched
+954,uterine spasm,True,6,1,"[""C0151998""]","[""Uterine spasm""]",unique_umls
+955,uveitis,True,23,1,"[""C0042164""]","[""Uveitis""]",unique_umls
+956,vaginal discharge,True,124,1,"[""C0227791""]","[""Vaginal discharge""]",unique_umls
+957,vaginal haemorrhage,True,138,1,"[""C2979982""]","[""Vaginal haemorrhage""]",unique_umls
+958,vaginal infection,True,157,1,"[""C0404521""]","[""Vaginal infection""]",unique_umls
+959,varicose vein,True,25,1,"[""C0042345""]","[""Varicose vein""]",unique_umls
+960,vascular headache,True,6,1,"[""C0042376""]","[""Vascular headache""]",unique_umls
+961,vascular purpura,True,122,1,"[""C1368065""]","[""Vascular purpura""]",unique_umls
+962,vasculitis,True,72,1,"[""C0042384""]","[""Vasculitis""]",unique_umls
+963,vasodilation procedure,True,92,1,"[""C1142412""]","[""Vasodilation procedure""]",unique_umls
+964,vasospasm,True,13,1,"[""C0085616""]","[""Vasospasm""]",unique_umls
+965,venous thrombosis,True,12,1,"[""C0042487""]","[""Venous thrombosis""]",unique_umls
+966,ventricular arrhythmia,True,54,1,"[""C0085612""]","[""Ventricular arrhythmia""]",unique_umls
+967,premature ventricular contractions,False,0,0,[],[],unmatched
+968,ventricular fibrillation,True,55,1,"[""C0042510""]","[""Ventricular fibrillation""]",unique_umls
+969,ventricular tachycardia,True,109,1,"[""C0042514""]","[""Ventricular tachycardia""]",unique_umls
+970,vertigo,True,502,1,"[""C0042571""]","[""Vertigo""]",unique_umls
+971,vestibular disorder,True,11,1,"[""C0042594""]","[""Vestibular disorder""]",unique_umls
+972,viral diarrhoea,True,36,1,"[""C0152517""]","[""Viral diarrhoea""]",unique_umls
+973,viral infection,True,178,1,"[""C0042769""]","[""Viral infection""]",unique_umls
+974,viral upper respiratory tract infection,True,25,1,"[""C0339916""]","[""Viral upper respiratory tract infection""]",unique_umls
+975,vision blurred,True,469,1,"[""C0344232""]","[""Vision blurred""]",unique_umls
+976,visual acuity reduced,True,37,1,"[""C0234632""]","[""Visual acuity reduced""]",unique_umls
+977,visual impairment,True,385,1,"[""C3665347""]","[""Visual impairment""]",unique_umls
+978,vomiting,True,2889,1,"[""C0042963""]","[""Vomiting""]",unique_umls
+979,vulva vaginal candidiasis,False,0,0,[],[],unmatched
+980,vulva vaginal dryness,False,0,0,[],[],unmatched
+981,vulva vaginal mold infection,False,0,0,[],[],unmatched
+982,vulva vaginal pruritus,False,0,0,[],[],unmatched
+983,vulva vagina inflammation,False,0,0,[],[],unmatched
+984,weight decreased,True,497,1,"[""C0043096""]","[""Weight decreased""]",unique_umls
+985,weight increased,True,475,1,"[""C0043094""]","[""Weight increased""]",unique_umls
+986,wheezing,True,95,1,"[""C0043144""]","[""Wheezing""]",unique_umls
+987,white blood cell count decreased,True,65,1,"[""C0750394""]","[""White blood cell count decreased""]",unique_umls
+988,white blood cell count increased,True,10,1,"[""C0750426""]","[""White blood cell count increased""]",unique_umls
+989,withdrawal syndrome,True,26,1,"[""C0038587""]","[""Withdrawal syndrome""]",unique_umls
+990,wound infection,True,11,1,"[""C0043241""]","[""Wound infection""]",unique_umls
+991,wound secretion,True,26,1,"[""C0406834""]","[""Wound secretion""]",unique_umls
+992,dry eye,True,125,1,"[""C0314719""]","[""Dry eye""]",unique_umls
+993,yawning,True,78,1,"[""C0043387""]","[""Yawning""]",unique_umls

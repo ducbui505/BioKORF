@@ -1,0 +1,486 @@
+matrix_index,side_effect_name,optimuskg_id,optimuskg_name,ontology_namespace,matched_field,properties.code,properties.umls_cui,properties.concept_ids,properties.xrefs,properties.snomed_concept_ids
+0,abdominal discomfort,HP_0002027,Abdominal pain,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002027,"",[],"[""MEDDRA:10000081"",""NCIt:C26682"",""UMLS:C0000737"",""ICD9:789.0"",""SNOMEDCT_US:21522001"",""SNOMEDCT:21522001""]",[]
+1,abdominal distension,HP_0003270,Abdominal distention,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0003270,"",[],"[""SNOMEDCT_US:41931001"",""SNOMEDCT:41931001"",""SNOMEDCT_US:60728008"",""NCIt:C78161"",""UMLS:C0000731""]",[]
+1,abdominal distension,meddra:10000060,Abdominal distension,MEDDRA,properties.name,"","",[],[],[]
+2,abdominal pain,HP_0002027,Abdominal pain,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002027,"",[],"[""MEDDRA:10000081"",""NCIt:C26682"",""UMLS:C0000737"",""ICD9:789.0"",""SNOMEDCT_US:21522001"",""SNOMEDCT:21522001""]",[]
+2,abdominal pain,meddra:10000081,Abdominal pain,MEDDRA,properties.name,"","",[],[],[]
+6,abnormal dreams,meddra:10000125,Abnormal dreams,MEDDRA,properties.name,"","",[],[],[]
+8,abscess,HP_0025615,Abscess,HPO,properties.name,"","",[],[],[]
+10,acidosis,HP_0001941,Acidosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001941,C0001122,"[""21000737""]","[""SNOMEDCT_US:51387008"",""UMLS:C0001122""]","[""51387008.0""]"
+11,acne,HP_0001061,Acne,HPO,properties.name,"","",[],[],[]
+11,acne,meddra:10000496,Acne,MEDDRA,properties.name,"","",[],[],[]
+12,actinic keratosis,HP_0025127,Actinic keratosis,HPO,properties.name,"","",[],[],[]
+13,acute coronary syndrome,HP_0033678,Acute coronary syndrome,HPO,properties.name,"","",[],[],[]
+15,acute respiratory distress syndrome,HP_0033677,Acute respiratory distress syndrome,HPO,properties.name,"","",[],[],[]
+15,acute respiratory distress syndrome,meddra:10001052,Acute respiratory distress syndrome,MEDDRA,properties.name,"","",[],[],[]
+16,adrenal insufficiency,HP_0000846,Adrenal insufficiency,HPO,properties.name,"","",[],[],[]
+20,aggression,HP_0000718,Aggressive behavior,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000718,C0001807,"[""21001024""]","[""UMLS:C0001807"",""UMLS:C1457883"",""SNOMEDCT_US:248004009"",""UMLS:C0424323"",""SNOMEDCT_US:61372001""]","[""61372001.0""]"
+20,aggression,meddra:10001488,Aggression,MEDDRA,properties.name,"","",[],[],[]
+21,agitation,HP_0000713,Agitation,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000713,C0085631,"[""21001018""]","[""SNOMEDCT_US:24199005"",""UMLS:C0085631""]","[""24199005.0""]"
+21,agitation,meddra:10001497,Agitation,MEDDRA,properties.name,"","",[],[],[]
+22,agranulocytosis,HP_0001913,Granulocytopenia,HPO,properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001913,C0001824,"[""21000887"",""21000882""]","[""UMLS:C0001824"",""SNOMEDCT_US:17182001"",""SNOMEDCT_US:417672002""]","[""417672002.0"",""17182001.0""]"
+22,agranulocytosis,HP_0012234,Agranulocytosis,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0012234,"",[],"[""SNOMEDCT:17182001"",""NCIt:C107102"",""UMLS:C0702094"",""MeSH:D000380"",""DOID:12987"",""ICD10:D70""]",[]
+22,agranulocytosis,meddra:10001507,Agranulocytosis,MEDDRA,properties.name,"","",[],[],[]
+23,akathisia,HP_0031943,Akathisia,HPO,properties.name,"","",[],[],[]
+23,akathisia,meddra:10001540,Akathisia,MEDDRA,properties.name,"","",[],[],[]
+25,alanine aminotransferase increased,HP_0031964,Elevated circulating alanine aminotransferase concentration,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0031964,"",[],[],[]
+26,proteinuria,HP_0000093,Proteinuria,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000093,C0033687,"[""21003282""]","[""UMLS:C0033687"",""ICD10:O13"",""ICD10:R80"",""SNOMEDCT_US:29738008""]","[""29738008.0""]"
+26,proteinuria,meddra:10037032,Proteinuria,MEDDRA,properties.name,"","",[],[],[]
+28,alopecia,HP_0001596,Alopecia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001596,C0002170,"[""21002714""]","[""SNOMEDCT_US:56317004"",""MEDDRA:10001760"",""SNOMEDCT_US:278040002"",""UMLS:C0002170""]","[""56317004.0""]"
+28,alopecia,HP_0002293,Alopecia of scalp,HPO,properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002293,C0002170,"[""21002714""]","[""UMLS:C0574769"",""SNOMEDCT_US:56317004"",""SNOMEDCT_US:298000004"",""UMLS:C0002170"",""UMLS:C1850535"",""SNOMEDCT_US:278040002""]","[""56317004.0""]"
+28,alopecia,meddra:10001760,Alopecia,MEDDRA,properties.name,"","",[],[],[]
+31,amblyopia,HP_0000646,Amblyopia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000646,"",[],"[""SNOMEDCT_US:387742006"",""UMLS:C0002418""]",[]
+33,amnesia,meddra:10001949,Amnesia,MEDDRA,properties.name,"","",[],[],[]
+35,anaemia,HP_0001903,Anemia,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001903,"",[],"[""SNOMEDCT_US:165397008"",""SNOMEDCT_US:271737000"",""UMLS:C0162119"",""UMLS:C0002871""]",[]
+39,anaphylactic shock,HP_0100845,Anaphylactic shock,HPO,properties.name,"","",[],[],[]
+41,aneurysm,HP_0002617,Vascular dilatation,HPO,properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002617,C0002940,"[""40249368""]","[""Fyler:2399"",""UMLS:C0002940"",""SNOMEDCT_US:432119003"",""SNOMEDCT_US:85659009"",""UMLS:C4020848""]","[""432119003.0""]"
+42,anger,HP_0031473,Anger,HPO,properties.name,"","",[],[],[]
+43,angina pectoris,HP_0001681,Angina pectoris,HPO,properties.name,"","",[],[],[]
+44,angioedema,HP_0100665,Angioedema,HPO,properties.name,"","",[],[],[]
+44,angioedema,meddra:10002424,Angioedema,MEDDRA,properties.name,"","",[],[],[]
+46,angle closure glaucoma,HP_0012109,Angle closure glaucoma,HPO,properties.name,"","",[],[],[]
+53,anxiety,HP_0000739,Anxiety,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000739,C0003467,"[""21000967""]","[""SNOMEDCT_US:48694002"",""UMLS:C0003467"",""UMLS:C4020884""]","[""48694002.0""]"
+53,anxiety,meddra:10002855,Anxiety,MEDDRA,properties.name,"","",[],[],[]
+54,apathy,HP_0000741,Apathy,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000741,C0085632,"[""21013522""]","[""UMLS:C0085632"",""SNOMEDCT_US:20602000""]","[""20602000.0""]"
+55,aphasia,HP_0002381,Aphasia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002381,"",[],"[""SNOMEDCT_US:87486003"",""UMLS:C0003537""]",[]
+57,aplastic anaemia,HP_0001915,Aplastic anemia,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001915,C0002874,"[""21000838""]","[""SNOMEDCT:306058006"",""DOID:12449"",""NCIt:C2870"",""SNOMEDCT_US:306058006"",""UMLS:C0002874"",""SNOMEDCT_US:304132006"",""OMIM:609135"",""ICD10:D61""]","[""306058006.0""]"
+58,apnoea,HP_0002104,Apnea,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002104,C0003578,"[""21003194""]","[""UMLS:C0003578"",""SNOMEDCT_US:248583008"",""SNOMEDCT_US:1023001""]","[""1023001.0""]"
+59,appendicitis,HP_6000143,Appendicitis,HPO,properties.name,"","",[],[],[]
+70,apraxia,HP_0002186,Apraxia,HPO,properties.name,"","",[],[],[]
+71,arrhythmia,HP_0011675,Arrhythmia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0011675,C0264886,"[""21001572""]","[""UMLS:C1842820"",""UMLS:C0003811"",""UMLS:C0264886"",""SNOMEDCT_US:102594003"",""UMLS:C0855329"",""UMLS:C0522055"",""SNOMEDCT_US:44808001"",""SNOMEDCT_US:698247007"",""UMLS:C1832603""]","[""44808001.0""]"
+71,arrhythmia,meddra:10003119,Arrhythmia,MEDDRA,properties.name,"","",[],[],[]
+73,arteriosclerosis,HP_0002634,Arteriosclerosis,HPO,properties.name,"","",[],[],[]
+74,arthralgia,HP_0002829,Arthralgia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002829,C0003862,"[""21002820""]","[""SNOMEDCT:57676002"",""SNOMEDCT_US:57676002"",""NCIt:C50464"",""UMLS:C0003862""]","[""57676002.0""]"
+74,arthralgia,meddra:10003239,Arthralgia,MEDDRA,properties.name,"","",[],[],[]
+75,arthritis,HP_0001369,Arthritis,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001369,C0003864,"[""21002816""]","[""SNOMEDCT_US:3723001"",""UMLS:C0003864""]","[""3723001.0""]"
+75,arthritis,meddra:10003246,Arthritis,MEDDRA,properties.name,"","",[],[],[]
+77,ascites,HP_0001541,Ascites,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001541,C0003962,"[""21003269""]","[""UMLS:C0003962"",""SNOMEDCT_US:389026000""]","[""389026000.0""]"
+79,aspartate aminotransferase increased,HP_0031956,Elevated circulating aspartate aminotransferase concentration,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0031956,"",[],[],[]
+80,asthenia,HP_0025406,Asthenia,HPO,properties.name,"","",[],[],[]
+80,asthenia,meddra:10003549,Asthenia,MEDDRA,properties.name,"","",[],[],[]
+82,asthma,HP_0002099,Asthma,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002099,C0004096,"[""21001860""]","[""UMLS:C0004096"",""SNOMEDCT_US:991000119106"",""UMLS:C3714497"",""SNOMEDCT_US:195967001""]","[""195967001.0""]"
+83,ataxia,HP_0001251,Ataxia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001251,"",[],"[""UMLS:C0007758"",""SNOMEDCT_US:85102008""]",[]
+83,ataxia,meddra:10003591,Ataxia,MEDDRA,properties.name,"","",[],[],[]
+84,atelectasis,HP_0100750,Atelectasis,HPO,properties.name,"","",[],[],[]
+85,atrial fibrillation,HP_0005110,Atrial fibrillation,HPO,properties.name,"","",[],[],[]
+85,atrial fibrillation,meddra:10003658,Atrial fibrillation,MEDDRA,properties.name,"","",[],[],[]
+86,atrial flutter,HP_0004749,Atrial flutter,HPO,properties.name,"","",[],[],[]
+87,atrioventricular block,HP_0001678,Atrioventricular block,HPO,properties.name,"","",[],[],[]
+92,back pain,HP_0003418,Back pain,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0003418,C0004604,"[""21002836""]","[""UMLS:C0004604"",""SNOMEDCT_US:161891005""]","[""161891005.0""]"
+92,back pain,meddra:10003988,Back pain,MEDDRA,properties.name,"","",[],[],[]
+96,basal cell carcinoma,HP_0002671,Basal cell carcinoma,HPO,properties.name,"","",[],[],[]
+102,bladder pain,HP_0032171,Bladder pain,HPO,properties.name,"","",[],[],[]
+106,blindness,HP_0000618,Blindness,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000618,"",[],"[""SNOMEDCT_US:65956007"",""UMLS:C0456909"",""Fyler:4866"",""UMLS:C0271215""]",[]
+107,blister,HP_0008066,Abnormal blistering of the skin,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0008066,"",[],"[""UMLS:C2220104"",""UMLS:C0241054"",""UMLS:C2132198""]",[]
+131,bone pain,HP_0002653,Bone pain,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002653,C0151825,"[""21002907"",""40249501""]","[""SNOMEDCT_US:12584003"",""UMLS:C0151825""]","[""12584003.0""]"
+131,bone pain,meddra:10006002,Bone pain,MEDDRA,properties.name,"","",[],[],[]
+132,bradycardia,HP_0001662,Bradycardia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001662,C0428977,"[""21001563""]","[""SNOMEDCT_US:48867003"",""UMLS:C0428977""]","[""48867003.0""]"
+132,bradycardia,meddra:10006093,Bradycardia,MEDDRA,properties.name,"","",[],[],[]
+139,breast enlargement,HP_0010313,Breast hypertrophy,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0010313,"",[],"[""UMLS:C2225524"",""UMLS:C0020565"",""SNOMEDCT_US:372285001"",""UMLS:C0392533"",""SNOMEDCT_US:372281005"",""SNOMEDCT_US:372283008""]",[]
+146,bronchitis,HP_0012387,Bronchitis,HPO,properties.name,"","",[],[],[]
+147,bronchospasm,meddra:10006482,Bronchospasm,MEDDRA,properties.name,"","",[],[],[]
+149,bruxism,HP_0003763,Bruxism,HPO,properties.name,"","",[],[],[]
+150,bundle branch block,HP_0011710,Bundle branch block,HPO,properties.name,"","",[],[],[]
+152,bursitis,HP_0025232,Bursitis,HPO,properties.name,"","",[],[],[]
+153,cachexia,HP_0004326,Cachexia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0004326,"",[],"[""SNOMEDCT_US:285384003"",""UMLS:C0006625"",""SNOMEDCT_US:238108007""]",[]
+155,cardiac arrest,HP_0001695,Cardiac arrest,HPO,properties.name,"","",[],[],[]
+156,cardiac disorder,meddra:10061024,Cardiac disorder,MEDDRA,properties.name,"","",[],[],[]
+157,cardiac failure,HP_0001635,Congestive heart failure,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001635,C0018802,"[""40249123""]","[""SNOMEDCT_US:84114007"",""UMLS:C0018801"",""UMLS:C0018802"",""SNOMEDCT_US:42343007""]","[""42343007.0""]"
+157,cardiac failure,meddra:10007554,Cardiac failure,MEDDRA,properties.name,"","",[],[],[]
+160,cardiac murmur,HP_0030148,Heart murmur,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0030148,"",[],"[""SNOMEDCT_US:414786004"",""SNOMEDCT_US:421493004"",""UMLS:C0018808"",""SNOMEDCT_US:88610006""]",[]
+162,cardiogenic shock,HP_0030149,Cardiogenic shock,HPO,properties.name,"","",[],[],[]
+164,cardiomyopathy,HP_0001638,Cardiomyopathy,HPO,properties.name,"","",[],[],[]
+167,cataract,HP_0000518,Cataract,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000518,"",[],"[""SNOMEDCT_US:193570009"",""SNOMEDCT_US:128306009"",""Fyler:4865"",""UMLS:C1510497"",""UMLS:C0086543"",""SNOMEDCT_US:247053007""]",[]
+167,cataract,meddra:10007739,Cataract,MEDDRA,properties.name,"","",[],[],[]
+169,cellulitis,HP_0100658,Cellulitis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0100658,C0162627,"[""21002593""]","[""UMLS:C0162627"",""SNOMEDCT_US:128936008"",""SNOMEDCT_US:385627004"",""UMLS:C0007642"",""SNOMEDCT_US:128045006""]","[""128936008.0""]"
+172,cerebral infarction,meddra:10008118,Cerebral infarction,MEDDRA,properties.name,"","",[],[],[]
+174,cerebrovascular accident,HP_0001297,Stroke,HPO,properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001297,C0038454,"[""21001629""]","[""UMLS:C0038454"",""SNOMEDCT_US:230690007""]","[""230690007.0""]"
+178,cheilitis,HP_0100825,Cheilitis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0100825,"",[],"[""UMLS:C0007971"",""SNOMEDCT_US:7847004"",""SNOMEDCT:7847004"",""NCIt:C79545"",""UMLS:C4280288"",""MeSH:D002613""]",[]
+179,chest discomfort,HP_0100749,Chest pain,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0100749,"",[],"[""UMLS:C0008031"",""SNOMEDCT_US:29857009""]",[]
+180,chest pain,HP_0100749,Chest pain,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0100749,"",[],"[""UMLS:C0008031"",""SNOMEDCT_US:29857009""]",[]
+180,chest pain,meddra:10008479,Chest pain,MEDDRA,properties.name,"","",[],[],[]
+181,chills,HP_0025143,Chills,HPO,properties.name,"","",[],[],[]
+181,chills,meddra:10008531,Chills,MEDDRA,properties.name,"","",[],[],[]
+182,cholecystitis,HP_0001082,Cholecystitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001082,C0008325,"[""21002211""]","[""UMLS:C0008325"",""ICD10:K81"",""SNOMEDCT_US:76581006""]","[""76581006.0""]"
+184,cholestasis,HP_0001396,Cholestasis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001396,C0008370,"[""21002216""]","[""SNOMEDCT_US:30144000"",""UMLS:C0008370"",""SNOMEDCT_US:33688009"",""SNOMEDCT_US:197446008""]","[""30144000.0""]"
+189,clostridium difficile colitis,HP_0032168,Clostridium difficile colitis,HPO,properties.name,"","",[],[],[]
+193,colitis,HP_0002583,Colitis,HPO,properties.name,"","",[],[],[]
+193,colitis,meddra:10009887,Colitis,MEDDRA,properties.name,"","",[],[],[]
+196,coma,HP_0001259,Coma,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001259,C0009421,"[""21003033""]","[""SNOMEDCT_US:371632003"",""ICD-10:R40.2"",""UMLS:C0009421""]","[""371632003.0""]"
+204,conjunctivitis,HP_0000509,Conjunctivitis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000509,"",[],"[""UMLS:C1864156"",""SNOMEDCT_US:9826008"",""UMLS:C0009763""]",[]
+204,conjunctivitis,meddra:10010741,Conjunctivitis,MEDDRA,properties.name,"","",[],[],[]
+207,constipation,HP_0002019,Constipation,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002019,C0009806,"[""21002114""]","[""UMLS:C0237326"",""SNOMEDCT_US:225595004"",""UMLS:C0009806"",""SNOMEDCT_US:14760008""]","[""14760008.0""]"
+207,constipation,meddra:10010774,Constipation,MEDDRA,properties.name,"","",[],[],[]
+208,contusion,meddra:10050584,Contusion,MEDDRA,properties.name,"","",[],[],[]
+211,corneal erosion,HP_0200020,Corneal erosion,HPO,properties.name,"","",[],[],[]
+213,corneal opacity,HP_0007957,Corneal opacity,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0007957,"",[],"[""UMLS:C0010038"",""SNOMEDCT_US:413921009"",""SNOMEDCT_US:95735008"",""UMLS:C0521719"",""SNOMEDCT_US:64634000""]",[]
+215,cough,HP_0012735,Cough,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0012735,C0010200,"[""21003205""]","[""SNOMEDCT_US:272039006"",""SNOMEDCT_US:263731006"",""SNOMEDCT_US:49727002"",""UMLS:C0010200""]","[""49727002.0""]"
+215,cough,meddra:10011224,Cough,MEDDRA,properties.name,"","",[],[],[]
+219,cyanosis,HP_0000961,Cyanosis,HPO,properties.name,"","",[],[],[]
+224,deafness,HP_0000365,Hearing impairment,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000365,"",[],"[""SNOMEDCT_US:103276001"",""SNOMEDCT_US:343087000"",""UMLS:C0011053"",""UMLS:C0339789"",""Fyler:4868"",""UMLS:C1384666"",""SNOMEDCT_US:15188001"",""SNOMEDCT_US:95828007"",""UMLS:C0018772""]",[]
+225,decreased appetite,meddra:10061428,Decreased appetite,MEDDRA,properties.name,"","",[],[],[]
+226,deep vein thrombosis,meddra:10051055,Deep vein thrombosis,MEDDRA,properties.name,"","",[],[],[]
+227,dehydration,HP_0001944,Dehydration,HPO,properties.name,"","",[],[],[]
+227,dehydration,meddra:10012174,Dehydration,MEDDRA,properties.name,"","",[],[],[]
+228,delirium,HP_0031258,Delirium,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0031258,"",[],[],[]
+228,delirium,meddra:10012218,Delirium,MEDDRA,properties.name,"","",[],[],[]
+229,delusion,HP_0000746,Delusion,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000746,"",[],"[""UMLS:C0011253"",""SNOMEDCT_US:2073000""]",[]
+230,dementia,HP_0000726,Dementia,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000726,C0497327,"[""21000943""]","[""SNOMEDCT_US:52448006"",""UMLS:C0497327""]","[""52448006.0""]"
+234,depression,HP_0000716,Depression,HPO,properties.name,"","",[],[],[]
+234,depression,meddra:10012378,Depression,MEDDRA,properties.name,"","",[],[],[]
+236,dermatitis,HP_0000964,Eczematoid dermatitis,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000964,C0013595,"[""21002643""]","[""UMLS:C0013595"",""NCIt:C3001"",""SNOMEDCT_US:43116000"",""ICD10:L27"",""SNOMEDCT_US:281104002"",""SNOMEDCT:43116000""]","[""43116000.0""]"
+242,diabetes mellitus,HP_0000819,Diabetes mellitus,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000819,C0011849,"[""21000604""]","[""UMLS:C0011849"",""SNOMEDCT_US:73211009""]","[""73211009.0""]"
+242,diabetes mellitus,meddra:10012601,Diabetes mellitus,MEDDRA,properties.name,"","",[],[],[]
+243,diarrhoea,HP_0002014,Diarrhea,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002014,C0011991,"[""21003246""]","[""SNOMEDCT:62315008"",""NCIt:C2987"",""SNOMEDCT_US:62315008"",""UMLS:C1963091"",""ICD9:787.91"",""OMIM:615863"",""UMLS:C0011991"",""SNOMEDCT_US:267060006"",""DOID:13250""]","[""62315008.0""]"
+245,diplopia,HP_0000651,Diplopia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000651,C0012569,"[""21001232""]","[""UMLS:C0012569"",""SNOMEDCT_US:24982008""]","[""24982008.0""]"
+245,diplopia,meddra:10013036,Diplopia,MEDDRA,properties.name,"","",[],[],[]
+247,disorientation,HP_0001289,Confusion,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001289,"",[],"[""SNOMEDCT_US:286933003"",""UMLS:C0009676""]",[]
+248,disseminated intravascular coagulation,HP_0005521,Disseminated intravascular coagulation,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0005521,C0012739,"[""21000860""]","[""UMLS:C0012739"",""SNOMEDCT_US:67406007""]","[""67406007.0""]"
+252,dizziness,HP_0002321,Vertigo,HPO,properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002321,C0012833,"[""21003059""]","[""SNOMEDCT_US:271789005"",""SNOMEDCT_US:399153001"",""UMLS:C0042571"",""SNOMEDCT_US:399090003"",""SNOMEDCT_US:404640003"",""UMLS:C0012833""]","[""404640003.0""]"
+252,dizziness,meddra:10013573,Dizziness,MEDDRA,properties.name,"","",[],[],[]
+258,dry mouth,meddra:10013781,Dry mouth,MEDDRA,properties.name,"","",[],[],[]
+259,dry skin,HP_0000958,Dry skin,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000958,"",[],"[""MEDDRA:10048222"",""UMLS:C0259817"",""UMLS:C0151908"",""SNOMEDCT_US:16386004""]",[]
+259,dry skin,meddra:10013786,Dry skin,MEDDRA,properties.name,"","",[],[],[]
+261,duodenal ulcer,HP_0002588,Duodenal ulcer,HPO,properties.name,"","",[],[],[]
+263,paresthesia,HP_0003401,Paresthesia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0003401,C0030554,"[""21004119""]","[""SNOMEDCT_US:91019004"",""UMLS:C0030554""]","[""91019004.0""]"
+264,dysarthria,HP_0001260,Dysarthria,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001260,"",[],"[""UMLS:C0013362"",""SNOMEDCT_US:8011004""]",[]
+266,dyskinesia,HP_0100660,Dyskinesia,HPO,properties.name,"","",[],[],[]
+266,dyskinesia,meddra:10013916,Dyskinesia,MEDDRA,properties.name,"","",[],[],[]
+268,dyspareunia,HP_0030016,Dyspareunia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0030016,C1384606,"[""21013942""]","[""UMLS:C1384606"",""SNOMEDCT_US:71315007""]","[""71315007.0""]"
+269,dyspepsia,HP_0410281,Dyspepsia,HPO,properties.name,"","",[],[],[]
+269,dyspepsia,meddra:10013946,Dyspepsia,MEDDRA,properties.name,"","",[],[],[]
+270,dysphagia,HP_0002015,Dysphagia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002015,C0011168,"[""21003231""]","[""UMLS:C0011168"",""ICD10:R13"",""MEDDRA:10013950"",""SNOMEDCT_US:288939007"",""MedDRA:10013950"",""SNOMEDCT_US:40739000"",""SNOMEDCT:288939007""]","[""40739000.0""]"
+270,dysphagia,meddra:10013950,Dysphagia,MEDDRA,properties.name,"","",[],[],[]
+271,dysphonia,HP_0001618,Dysphonia,HPO,properties.name,"","",[],[],[]
+272,dysphoria,HP_0033838,Dysphoria,HPO,properties.name,"","",[],[],[]
+278,ear pain,HP_0030766,Ear pain,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0030766,C0013456,"[""21001400""]","[""UMLS:C0013456"",""SNOMEDCT_US:162356005"",""SNOMEDCT_US:16001004""]","[""16001004.0""]"
+280,eczema,HP_0000964,Eczematoid dermatitis,HPO,properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000964,C0013595,"[""21002643""]","[""UMLS:C0013595"",""NCIt:C3001"",""SNOMEDCT_US:43116000"",""ICD10:L27"",""SNOMEDCT_US:281104002"",""SNOMEDCT:43116000""]","[""43116000.0""]"
+287,electroencephalogram abnormal,HP_0002353,EEG abnormality,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002353,"",[],"[""UMLS:C0151611"",""SNOMEDCT_US:274521009""]",[]
+292,emphysema,HP_0002097,Emphysema,HPO,properties.name,"","",[],[],[]
+293,encephalopathy,HP_0001298,Encephalopathy,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001298,"",[],"[""SNOMEDCT_US:81308009"",""UMLS:C0085584""]",[]
+293,encephalopathy,meddra:10014625,Encephalopathy,MEDDRA,properties.name,"","",[],[],[]
+294,endocrine disorder,meddra:10014695,Endocrine disorder,MEDDRA,properties.name,"","",[],[],[]
+298,enterocolitis,HP_0004387,Enterocolitis,HPO,properties.name,"","",[],[],[]
+299,enuresis,HP_0000805,Enuresis,HPO,properties.name,"","",[],[],[]
+300,eosinophilia,HP_0001880,Eosinophilia,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001880,"",[],"[""UMLS:C0014457""]",[]
+301,epididymitis,HP_0000031,Epididymitis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000031,"",[],"[""UMLS:C0014534"",""SNOMEDCT_US:31070006""]",[]
+303,epistaxis,HP_0000421,Epistaxis,HPO,properties.name,"","",[],[],[]
+303,epistaxis,meddra:10015090,Epistaxis,MEDDRA,properties.name,"","",[],[],[]
+304,erectile dysfunction,HP_0100639,Erectile dysfunction,HPO,properties.name,"","",[],[],[]
+304,erectile dysfunction,meddra:10061461,Erectile dysfunction,MEDDRA,properties.name,"","",[],[],[]
+306,erythema,HP_0010783,Erythema,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0010783,"",[],"[""SNOMEDCT_US:20255002"",""SNOMEDCT_US:247441003"",""SNOMEDCT_US:271811009"",""SNOMEDCT_US:86735004"",""SNOMEDCT_US:70819003"",""UMLS:C0016382"",""UMLS:C0041834"",""SNOMEDCT_US:444827008"",""SNOMEDCT_US:238810007""]",[]
+306,erythema,meddra:10015150,Erythema,MEDDRA,properties.name,"","",[],[],[]
+307,erythema multiforme,meddra:10015218,Erythema multiforme,MEDDRA,properties.name,"","",[],[],[]
+308,erythema nodosum,HP_0012219,Erythema nodosum,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0012219,"",[],"[""SNOMEDCT_US:32861005"",""UMLS:C0014743""]",[]
+310,euphoric mood,HP_0031844,Euphoria,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0031844,"",[],[],[]
+312,exophthalmos,HP_0000520,Proptosis,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000520,"",[],"[""UMLS:C0015300"",""UMLS:C1837760"",""SNOMEDCT_US:18265008"",""UMLS:C1848490"",""UMLS:C1862425""]",[]
+323,eye pain,HP_0200026,Ocular pain,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0200026,C0151827,"[""21001356""]","[""UMLS:C0151827"",""SNOMEDCT_US:41652007""]","[""41652007.0""]"
+323,eye pain,meddra:10015958,Eye pain,MEDDRA,properties.name,"","",[],[],[]
+332,fatigue,HP_0012378,Fatigue,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0012378,C0015672,"[""21003075""]","[""UMLS:C0015672"",""SNOMEDCT_US:248274002"",""SNOMEDCT_US:84229001""]","[""84229001.0""]"
+332,fatigue,meddra:10016256,Fatigue,MEDDRA,properties.name,"","",[],[],[]
+333,febrile neutropenia,meddra:10016288,Febrile neutropenia,MEDDRA,properties.name,"","",[],[],[]
+340,flank pain,HP_0030157,Flank pain,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0030157,"",[],"[""SNOMEDCT_US:247355005"",""UMLS:C0016199""]",[]
+342,flatulence,HP_0033589,Flatulence,HPO,properties.name,"","",[],[],[]
+344,fluid retention,HP_0000969,Edema,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000969,C0013604,"[""21003125""]","[""SNOMEDCT_US:267038008"",""UMLS:C0013604"",""SNOMEDCT_US:20741006"",""SNOMEDCT_US:79654002"",""SNOMEDCT_US:423666004""]","[""267038008.0""]"
+345,flushing,HP_0031284,Flushing,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0031284,"",[],[],[]
+345,flushing,meddra:10016825,Flushing,MEDDRA,properties.name,"","",[],[],[]
+347,folliculitis,HP_0025084,Folliculitis,HPO,properties.name,"","",[],[],[]
+348,fracture,meddra:10017076,Fracture,MEDDRA,properties.name,"","",[],[],[]
+353,gait disturbance,HP_0001288,Gait disturbance,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001288,C0575081,"[""21003102""]","[""SNOMEDCT_US:22325002"",""UMLS:C0575081""]","[""22325002.0""]"
+356,gangrene,HP_0100758,Gangrene,HPO,properties.name,"","",[],[],[]
+357,gastric ulcer,HP_0002592,Gastric ulcer,HPO,properties.name,"","",[],[],[]
+358,gastritis,HP_0005263,Gastritis,HPO,properties.name,"","",[],[],[]
+359,gastroenteritis,meddra:10017888,Gastroenteritis,MEDDRA,properties.name,"","",[],[],[]
+360,gastrointestinal carcinoma,HP_0002672,Gastrointestinal carcinoma,HPO,properties.name,"","",[],[],[]
+361,gastrointestinal disorder,meddra:10017944,Gastrointestinal disorder,MEDDRA,properties.name,"","",[],[],[]
+362,gastrointestinal haemorrhage,HP_0002239,Gastrointestinal hemorrhage,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002239,"",[],"[""NCIt:C48592"",""SNOMEDCT:74474003"",""ICD9:578"",""SNOMEDCT_US:74474003"",""UMLS:C0017181"",""UMLS:C1880931""]",[]
+364,gastrointestinal pain,HP_0002027,Abdominal pain,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002027,"",[],"[""MEDDRA:10000081"",""NCIt:C26682"",""UMLS:C0000737"",""ICD9:789.0"",""SNOMEDCT_US:21522001"",""SNOMEDCT:21522001""]",[]
+366,gastrointestinal ulcer,HP_0034274,Gastrointestinal ulcer,HPO,properties.name,"","",[],[],[]
+370,gingival bleeding,HP_0000225,Gingival bleeding,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000225,"",[],"[""UMLS:C0017565"",""OAE:0001985"",""SNOMEDCT_US:86276007""]",[]
+372,gingivitis,HP_0000230,Gingivitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000230,C0017574,"[""21001945""]","[""SNOMEDCT_US:66383009"",""UMLS:C0017574""]","[""66383009.0""]"
+372,gingivitis,meddra:10018292,Gingivitis,MEDDRA,properties.name,"","",[],[],[]
+373,glaucoma,HP_0000501,Glaucoma,HPO,properties.name,"","",[],[],[]
+373,glaucoma,meddra:10018304,Glaucoma,MEDDRA,properties.name,"","",[],[],[]
+374,glossitis,HP_0000206,Glossitis,HPO,properties.name,"","",[],[],[]
+378,goitre,HP_0000853,Goiter,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000853,C0018021,"[""21000578""]","[""SNOMEDCT_US:3716002"",""UMLS:C0018021""]","[""3716002.0""]"
+379,gout,HP_0001997,Gout,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001997,C0003868,"[""21000713""]","[""SNOMEDCT_US:170733007"",""SNOMEDCT_US:190828008"",""UMLS:C0018099"",""SNOMEDCT_US:48440001"",""UMLS:C0003868"",""SNOMEDCT_US:90560007""]","[""48440001.0""]"
+379,gout,meddra:10018627,Gout,MEDDRA,properties.name,"","",[],[],[]
+383,blood in stool,HP_0025085,Bloody diarrhea,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0025085,"",[],[],[]
+395,hemorrhoids,HP_0032551,Hemorrhoids,HPO,properties.name,"","",[],[],[]
+399,hallucination,HP_0000738,Hallucinations,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000738,C0018524,"[""21003050""]","[""SNOMEDCT_US:7011001"",""UMLS:C0018524"",""UMLS:C0235153""]","[""7011001.0""]"
+399,hallucination,meddra:10019063,Hallucination,MEDDRA,properties.name,"","",[],[],[]
+401,headache,HP_0002315,Headache,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002315,"",[],"[""UMLS:C0018681"",""SNOMEDCT_US:25064002"",""ICD10:R51""]",[]
+401,headache,meddra:10019211,Headache,MEDDRA,properties.name,"","",[],[],[]
+402,hemiplegia,HP_0002301,Hemiplegia,HPO,properties.name,"","",[],[],[]
+405,hepatic failure,HP_0001399,Hepatic failure,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001399,C0085605,"[""21002196"",""40249794""]","[""ICD10:K72"",""UMLS:C0085605"",""SNOMEDCT_US:59927004""]","[""59927004.0""]"
+405,hepatic failure,meddra:10019663,Hepatic failure,MEDDRA,properties.name,"","",[],[],[]
+407,hepatic necrosis,HP_0002605,Hepatic necrosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002605,C0151798,"[""21002174""]","[""UMLS:C0151798"",""SNOMEDCT_US:87248009""]","[""87248009.0""]"
+408,hepatic steatosis,HP_0001397,Hepatic steatosis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001397,C2711227,"[""21002186""]","[""UMLS:C2711227"",""SNOMEDCT_US:442191002"",""SNOMEDCT_US:197321007"",""SNOMEDCT:197321007"",""OMIM:228100"",""SNOMEDCT:442191002""]","[""197321007.0""]"
+409,hepatitis,HP_0012115,Hepatitis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0012115,C0019158,"[""21002197""]","[""SNOMEDCT_US:128241005"",""ICD10:B19"",""UMLS:C0019158"",""DOID:2237"",""NCIt:C3095""]","[""128241005.0""]"
+409,hepatitis,meddra:10019717,Hepatitis,MEDDRA,properties.name,"","",[],[],[]
+413,hepatomegaly,HP_0002240,Hepatomegaly,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002240,C0019209,"[""21003266""]","[""UMLS:C0019209"",""SNOMEDCT_US:80515008""]","[""80515008.0""]"
+415,hernia,HP_0100790,Hernia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0100790,"",[],"[""SNOMEDCT_US:414403008"",""UMLS:C0019270"",""SNOMEDCT_US:52515009""]",[]
+416,herpes simplex,meddra:10019948,Herpes simplex,MEDDRA,properties.name,"","",[],[],[]
+419,hiatus hernia,HP_0002036,Hiatus hernia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002036,C3489393,"[""21002080""]","[""MEDDRA:10020028"",""SNOMEDCT_US:84089009"",""UMLS:C3489393""]","[""84089009.0""]"
+421,hirsutism,HP_0001007,Hirsutism,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001007,"",[],"[""UMLS:C0019572"",""SNOMEDCT_US:399939002""]",[]
+423,hot flush,meddra:10060800,Hot flush,MEDDRA,properties.name,"","",[],[],[]
+424,hyperacusis,HP_0010780,Hyperacusis,HPO,properties.name,"","",[],[],[]
+431,high blood sugar,HP_0003074,Hyperglycemia,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0003074,C0020456,"[""21003278""]","[""SNOMEDCT_US:237598005"",""NCIt:C26797"",""SNOMEDCT_US:80394007"",""SNOMEDCT:80394007"",""UMLS:C0020456"",""DOID:4195""]","[""80394007.0""]"
+432,hyperhidrosis,HP_0000975,Hyperhidrosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000975,C0020458,"[""21003077""]","[""SNOMEDCT_US:312230002"",""UMLS:C0700590"",""UMLS:C0038990"",""SNOMEDCT_US:415690000"",""SNOMEDCT_US:364538006"",""UMLS:C0020458"",""SNOMEDCT_US:52613005"",""SNOMEDCT_US:161857006"",""SNOMEDCT_US:415691001"",""MEDDRA:10020642""]","[""312230002.0""]"
+434,hyperkeratosis,HP_0000962,Hyperkeratosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000962,C0870082,"[""21002702""]","[""MEDDRA:10020649"",""UMLS:C0870082"",""SNOMEDCT_US:399955009"",""SNOMEDCT_US:26996000"",""SNOMEDCT_US:396228006""]","[""396228006.0""]"
+443,hypersensitivity,meddra:10020751,Hypersensitivity,MEDDRA,properties.name,"","",[],[],[]
+445,hypertension,HP_0000822,Hypertension,HPO,properties.name;properties.concept_names,http://purl.obolibrary.org/obo/HP_0000822,C0020538,"[""21001432"",""40249783""]","[""UMLS:C0497247"",""SNOMEDCT_US:38341003"",""SNOMEDCT_US:24184005"",""UMLS:C0020538""]","[""38341003.0""]"
+445,hypertension,meddra:10020772,Hypertension,MEDDRA,properties.name,"","",[],[],[]
+446,hyperthyroidism,HP_0000836,Hyperthyroidism,HPO,properties.name,"","",[],[],[]
+448,hypertrichosis,HP_0000998,Hypertrichosis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000998,"",[],"[""SNOMEDCT_US:29966009"",""SNOMEDCT_US:271607001"",""UMLS:C0020555""]",[]
+451,hyperventilation,HP_0002883,Hyperventilation,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002883,"",[],"[""SNOMEDCT_US:68978004"",""UMLS:C0020578""]",[]
+458,hypoglycemia,HP_0001943,Hypoglycemia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001943,C0020615,"[""21000607"",""40249272""]","[""SNOMEDCT:302866003"",""UMLS:C0020615"",""SNOMEDCT_US:237630007"",""SNOMEDCT_US:302866003"",""OMIM:240800"",""DOID:9993"",""NCIt:C3126"",""SNOMEDCT_US:271327008""]","[""237630007.0"",""302866003.0""]"
+468,hypotension,HP_0002615,Hypotension,HPO,properties.name,"","",[],[],[]
+468,hypotension,meddra:10021097,Hypotension,MEDDRA,properties.name,"","",[],[],[]
+469,hypothermia,HP_0002045,Hypothermia,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002045,C0020672,"[""21003372""]","[""UMLS:C0020672"",""SNOMEDCT_US:386689009""]","[""386689009.0""]"
+470,hypothyroidism,HP_0000821,Hypothyroidism,HPO,properties.name,"","",[],[],[]
+470,hypothyroidism,meddra:10021114,Hypothyroidism,MEDDRA,properties.name,"","",[],[],[]
+471,hypotonia,HP_0001252,Hypotonia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001252,"",[],"[""SNOMEDCT_US:398151007"",""UMLS:C0026827"",""SNOMEDCT_US:398152000""]",[]
+472,hypoventilation,HP_0002791,Hypoventilation,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002791,C0235063,"[""21001914""]","[""SNOMEDCT_US:15993004"",""SNOMEDCT_US:80954004"",""UMLS:C0235063"",""SNOMEDCT_US:31515003"",""UMLS:C3203358""]","[""80954004.0""]"
+473,hypoxia,HP_0012418,Hypoxemia,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0012418,"",[],"[""SNOMEDCT_US:389087006"",""UMLS:C0700292""]",[]
+474,ileus,HP_0002595,Ileus,HPO,properties.name,"","",[],[],[]
+477,immune system disorder,meddra:10021425,Immune system disorder,MEDDRA,properties.name,"","",[],[],[]
+481,inappropriate antidiuretic hormone secretion,HP_0031218,Inappropriate antidiuretic hormone secretion,HPO,properties.name,"","",[],[],[]
+483,increased appetite,HP_0002591,Polyphagia,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002591,"",[],"[""SNOMEDCT_US:72405004"",""SNOMEDCT_US:267023007"",""UMLS:C0020505"",""SNOMEDCT_US:58424009"",""UMLS:C0232461""]",[]
+488,infection,meddra:10021789,Infection,MEDDRA,properties.name,"","",[],[],[]
+491,influenza,meddra:10022000,Influenza,MEDDRA,properties.name,"","",[],[],[]
+502,injection site reaction,meddra:10022095,Injection site reaction,MEDDRA,properties.name,"","",[],[],[]
+505,insomnia,HP_0100785,Insomnia,HPO,properties.name,"","",[],[],[]
+505,insomnia,meddra:10022437,Insomnia,MEDDRA,properties.name,"","",[],[],[]
+507,intermittent claudication,HP_0004417,Intermittent claudication,HPO,properties.name,"","",[],[],[]
+509,interstitial lung disease,HP_0006530,Abnormal pulmonary interstitial morphology,HPO,properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0006530,C0206062,"[""21013422""]","[""SNOMEDCT_US:233703007"",""UMLS:C0206062""]","[""233703007.0""]"
+509,interstitial lung disease,meddra:10022611,Interstitial lung disease,MEDDRA,properties.name,"","",[],[],[]
+510,intestinal obstruction,HP_0005214,Intestinal obstruction,HPO,properties.name,"","",[],[],[]
+511,intestinal perforation,HP_0031368,Intestinal perforation,HPO,properties.name,"","",[],[],[]
+515,iron deficiency anaemia,HP_0001891,Iron deficiency anemia,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001891,C0162316,"[""21000803""]","[""NCIt:C84484"",""DOID:11758"",""UMLS:C0162316"",""ICD10:D50"",""SNOMEDCT_US:87522002"",""SNOMEDCT:87522002""]","[""87522002.0""]"
+516,irritability,HP_0000737,Irritability,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000737,"",[],"[""UMLS:C2700617""]",[]
+516,irritability,meddra:10022998,Irritability,MEDDRA,properties.name,"","",[],[],[]
+519,jaundice,HP_0000952,Jaundice,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000952,C0022346,"[""21010769""]","[""SNOMEDCT_US:18165001"",""UMLS:C0022346"",""ICD10:R17""]","[""18165001.0""]"
+519,jaundice,meddra:10023126,Jaundice,MEDDRA,properties.name,"","",[],[],[]
+521,joint stiffness,HP_0001387,Joint stiffness,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001387,"",[],"[""SNOMEDCT_US:84445001"",""UMLS:C0162298""]",[]
+522,joint swelling,HP_0001386,Joint swelling,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001386,"",[],"[""SNOMEDCT_US:271771009"",""UMLS:C0152031""]",[]
+523,keratitis,HP_0000491,Keratitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000491,C0022568,"[""21001258""]","[""UMLS:C0022568"",""SNOMEDCT_US:5888003""]","[""5888003.0""]"
+524,ketosis,HP_0001946,Ketosis,HPO,properties.name,"","",[],[],[]
+531,lactic acidosis,HP_0003128,Lactic acidosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0003128,C0001125,"[""21000740""]","[""SNOMEDCT_US:91273001"",""SNOMEDCT_US:190882007"",""UMLS:C0001125"",""UMLS:C0347959""]","[""91273001.0""]"
+531,lactic acidosis,meddra:10023676,Lactic acidosis,MEDDRA,properties.name,"","",[],[],[]
+536,lethargy,HP_0001254,Lethargy,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001254,"",[],"[""UMLS:C0023380"",""SNOMEDCT_US:214264003""]",[]
+537,leukocytosis,HP_0001974,Leukocytosis,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001974,C0023518,"[""21000900""]","[""UMLS:C0023518"",""SNOMEDCT_US:111583006""]","[""111583006.0""]"
+538,vitiligo,HP_0001045,Vitiligo,HPO,properties.name,"","",[],[],[]
+539,leukopenia,HP_0001882,Leukopenia,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001882,C0023530,"[""21000886"",""40249746""]","[""UMLS:C0023530"",""SNOMEDCT_US:84828003""]","[""84828003.0""]"
+551,loss of consciousness,HP_0007185,Loss of consciousness,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0007185,C0041657,"[""21003037""]","[""SNOMEDCT_US:419045004"",""UMLS:C0041657"",""SNOMEDCT_US:418107008""]","[""418107008.0""]"
+553,lower respiratory tract infection,HP_0002783,Recurrent lower respiratory tract infections,HPO,properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002783,C0149725,"[""21001924""]","[""UMLS:C0149725"",""SNOMEDCT_US:448739000"",""UMLS:C0585953"",""SNOMEDCT_US:50417007"",""UMLS:C3163798""]","[""50417007.0""]"
+557,lymphadenopathy,HP_0002716,Lymphadenopathy,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002716,C0497156,"[""21003187""]","[""UMLS:C0497156"",""SNOMEDCT_US:30746006""]","[""30746006.0""]"
+564,malaise,HP_0033834,Malaise,HPO,properties.name,"","",[],[],[]
+564,malaise,meddra:10025482,Malaise,MEDDRA,properties.name,"","",[],[],[]
+566,malnutrition,HP_0004395,Malnutrition,HPO,properties.name,"","",[],[],[]
+567,mania,HP_0100754,Mania,HPO,properties.name,"","",[],[],[]
+567,mania,meddra:10026749,Mania,MEDDRA,properties.name,"","",[],[],[]
+568,mastitis,HP_0040407,Mastitis,HPO,properties.name,"","",[],[],[]
+572,memory impairment,HP_0002354,Memory impairment,HPO,properties.name,"","",[],[],[]
+573,meningitis,HP_0001287,Meningitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001287,C0025289,"[""21001044""]","[""SNOMEDCT_US:7180009"",""UMLS:C0025289""]","[""7180009.0""]"
+576,menorrhagia,HP_0000132,Menorrhagia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000132,C0025323,"[""21002502""]","[""SNOMEDCT:386692008"",""SNOMEDCT_US:386692008"",""NCIt:C26829"",""ICD10:N92"",""UMLS:C0025323""]","[""386692008.0""]"
+581,metabolic acidosis,HP_0001942,Metabolic acidosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001942,C0220981,"[""21000742""]","[""UMLS:C0220981"",""SNOMEDCT_US:59455009""]","[""59455009.0""]"
+585,migraine,HP_0002076,Migraine,HPO,properties.name,"","",[],[],[]
+586,miosis,HP_0000616,Miosis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000616,"",[],"[""SNOMEDCT_US:63251006"",""UMLS:C0026205""]",[]
+588,mood swings,HP_0000712,Emotional lability,HPO,properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000712,C0085633,"[""21000955""]","[""SNOMEDCT_US:18963009"",""UMLS:C0085633""]","[""18963009.0""]"
+591,movement disorder,HP_0100022,Abnormality of movement,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0100022,"",[],"[""ICD10:R25"",""UMLS:C0026650"",""SNOMEDCT_US:60342002""]",[]
+594,multiple fractures,HP_0002757,Recurrent fractures,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002757,"",[],"[""UMLS:C3806283"",""UMLS:C0016655"",""SNOMEDCT_US:5468008"",""SNOMEDCT_US:134291007"",""UMLS:C3805574"",""UMLS:C1833752""]",[]
+595,muscle atrophy,HP_0003202,Skeletal muscle atrophy,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0003202,"",[],"[""UMLS:C0234958"",""UMLS:C0541794"",""UMLS:C1843479"",""SNOMEDCT_US:74035001"",""UMLS:C0270948""]",[]
+598,muscle rigidity,HP_0002063,Rigidity,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002063,"",[],"[""SNOMEDCT_US:16046003"",""UMLS:C0026837""]",[]
+599,muscle spasms,HP_0003394,Muscle spasm,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0003394,"",[],"[""UMLS:C0026821"",""SNOMEDCT_US:55300003""]",[]
+599,muscle spasms,meddra:10028334,Muscle spasms,MEDDRA,properties.name,"","",[],[],[]
+602,muscular weakness,HP_0001324,Muscle weakness,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001324,C0151786,"[""21002860""]","[""SNOMEDCT_US:26544005"",""UMLS:C0151786""]","[""26544005.0""]"
+602,muscular weakness,meddra:10028372,Muscular weakness,MEDDRA,properties.name,"","",[],[],[]
+605,musculoskeletal pain,meddra:10028391,Musculoskeletal pain,MEDDRA,properties.name,"","",[],[],[]
+607,myalgia,HP_0003326,Myalgia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0003326,"",[],"[""NCIt:C27009"",""UMLS:C1963177"",""SNOMEDCT_US:68962001"",""UMLS:C0231528""]",[]
+607,myalgia,meddra:10028411,Myalgia,MEDDRA,properties.name,"","",[],[],[]
+608,mydriasis,HP_0011499,Mydriasis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0011499,C0026961,"[""21001349""]","[""UMLS:C0026961"",""SNOMEDCT_US:37125009""]","[""37125009.0""]"
+609,myelitis,HP_0012486,Myelitis,HPO,properties.name,"","",[],[],[]
+610,myocardial infarction,HP_0001658,Myocardial infarction,HPO,properties.name,"","",[],[],[]
+610,myocardial infarction,meddra:10028596,Myocardial infarction,MEDDRA,properties.name,"","",[],[],[]
+612,myocarditis,HP_0012819,Myocarditis,HPO,properties.name,"","",[],[],[]
+613,myoclonus,HP_0001336,Myoclonus,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001336,C0027066,"[""21001061""]","[""UMLS:C1854302"",""SNOMEDCT_US:17450006"",""SNOMEDCT_US:127324008"",""UMLS:C0027066""]","[""17450006.0""]"
+614,myopathy,HP_0003198,Myopathy,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0003198,C0026848,"[""21001161""]","[""UMLS:C0026848"",""SNOMEDCT_US:129565002""]","[""129565002.0""]"
+615,myositis,HP_0100614,Myositis,HPO,properties.name,"","",[],[],[]
+617,nasal congestion,HP_0001742,Nasal congestion,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001742,"",[],"[""UMLS:C0027429"",""SNOMEDCT_US:267100006"",""SNOMEDCT_US:68235000"",""UMLS:C0027424"",""SNOMEDCT_US:232209000""]",[]
+619,nasal dryness,HP_0033521,Nasal dryness,HPO,properties.name,"","",[],[],[]
+621,nausea,HP_0002018,Nausea,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002018,C0027497,"[""21003223"",""40249516""]","[""SNOMEDCT_US:422587007"",""UMLS:C0027497"",""MEDDRA:10028813""]","[""422587007.0""]"
+621,nausea,meddra:10028813,Nausea,MEDDRA,properties.name,"","",[],[],[]
+622,neck pain,HP_0030833,Neck pain,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0030833,"",[],"[""UMLS:C0007859"",""SNOMEDCT_US:81680005""]",[]
+622,neck pain,meddra:10028836,Neck pain,MEDDRA,properties.name,"","",[],[],[]
+623,neoplasm,HP_0002664,Neoplasm,HPO,properties.name,"","",[],[],[]
+625,nephritis,HP_0000123,Nephritis,HPO,properties.name,"","",[],[],[]
+627,nephropathy,HP_0000112,Nephropathy,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000112,C0022658,"[""21002292""]","[""SNOMEDCT_US:90708001"",""UMLS:C0022658"",""UMLS:C1408258""]","[""90708001.0""]"
+629,nephrotic syndrome,HP_0000100,Nephrotic syndrome,HPO,properties.name,"","",[],[],[]
+630,nervous system disorder,meddra:10029202,Nervous system disorder,MEDDRA,properties.name,"","",[],[],[]
+632,neuralgia,HP_0033345,Neuralgia,HPO,properties.name,"","",[],[],[]
+632,neuralgia,meddra:10029223,Neuralgia,MEDDRA,properties.name,"","",[],[],[]
+633,neuritis,HP_0031002,Neuritis,HPO,properties.name,"","",[],[],[]
+635,neuropathy peripheral,meddra:10029331,Neuropathy peripheral,MEDDRA,properties.name,"","",[],[],[]
+638,neutropenia,meddra:10029354,Neutropenia,MEDDRA,properties.name,"","",[],[],[]
+642,night sweats,HP_0030166,Night sweats,HPO,properties.name,"","",[],[],[]
+649,nuchal rigidity,HP_0031179,Nuchal rigidity,HPO,properties.name,"","",[],[],[]
+650,nystagmus,HP_0000639,Nystagmus,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000639,"",[],"[""SNOMEDCT_US:563001"",""UMLS:C0028738"",""UMLS:C1963184""]",[]
+650,nystagmus,meddra:10029864,Nystagmus,MEDDRA,properties.name,"","",[],[],[]
+655,oedema,HP_0000969,Edema,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000969,C0013604,"[""21003125""]","[""SNOMEDCT_US:267038008"",""UMLS:C0013604"",""SNOMEDCT_US:20741006"",""SNOMEDCT_US:79654002"",""SNOMEDCT_US:423666004""]","[""267038008.0""]"
+662,onychomycosis,HP_0012203,Onychomycosis,HPO,properties.name,"","",[],[],[]
+663,opportunistic infection,HP_0031690,Opportunistic infection,HPO,properties.name,"","",[],[],[]
+664,optic atrophy,HP_0000648,Optic atrophy,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000648,"",[],"[""UMLS:C0029124"",""SNOMEDCT_US:76976005""]",[]
+665,optic neuritis,HP_0100653,Optic neuritis,HPO,properties.name,"","",[],[],[]
+672,oropharyngeal pain,meddra:10068319,Oropharyngeal pain,MEDDRA,properties.name,"","",[],[],[]
+673,orthostatic hypotension,HP_0001278,Orthostatic hypotension,HPO,properties.name,"","",[],[],[]
+673,orthostatic hypotension,meddra:10031127,Orthostatic hypotension,MEDDRA,properties.name,"","",[],[],[]
+674,osteoarthritis,HP_0002758,Osteoarthritis,HPO,properties.name,"","",[],[],[]
+675,osteomyelitis,HP_0002754,Osteomyelitis,HPO,properties.name,"","",[],[],[]
+676,osteonecrosis,HP_0010885,Avascular necrosis,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0010885,"",[],"[""UMLS:C0520474"",""UMLS:C0029445"",""UMLS:C0085660"",""UMLS:C0877326"",""SNOMEDCT_US:398199007"",""SNOMEDCT_US:72756009"",""SNOMEDCT_US:240196003""]",[]
+677,osteoporosis,HP_0000939,Osteoporosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000939,C0029456,"[""21002896""]","[""SNOMEDCT_US:64859006"",""UMLS:C0029456""]","[""64859006.0""]"
+678,otitis externa,HP_0410017,Otitis externa,HPO,properties.name,"","",[],[],[]
+679,otitis media,HP_0000388,Otitis media,HPO,properties.name,"","",[],[],[]
+681,ovarian cyst,HP_0000138,Ovarian cyst,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000138,C0029927,"[""21002476""]","[""SNOMEDCT_US:79883001"",""UMLS:C0029927""]","[""79883001.0""]"
+683,pain,HP_0012531,Pain,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0012531,C0030193,"[""22253000"",""21003079""]","[""SNOMEDCT_US:22253000"",""UMLS:C0030193""]","[""22253000.0""]"
+683,pain,meddra:10033371,Pain,MEDDRA,properties.name,"","",[],[],[]
+684,pain in extremity,meddra:10033425,Pain in extremity,MEDDRA,properties.name,"","",[],[],[]
+687,pallor,HP_0000980,Pallor,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000980,"",[],"[""SNOMEDCT_US:398979000"",""UMLS:C0030232""]",[]
+688,palpitations,HP_0001962,Palpitations,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001962,"",[],"[""SNOMEDCT_US:80313002"",""UMLS:C0030252""]",[]
+688,palpitations,meddra:10033557,Palpitations,MEDDRA,properties.name,"","",[],[],[]
+689,pancreatitis,HP_0001733,Pancreatitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001733,C0030305,"[""21013547""]","[""UMLS:C0030305"",""SNOMEDCT_US:75694006""]","[""75694006.0""]"
+689,pancreatitis,meddra:10033645,Pancreatitis,MEDDRA,properties.name,"","",[],[],[]
+691,pancytopenia,HP_0001876,Pancytopenia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001876,C0030312,"[""21000829""]","[""UMLS:C0030312"",""SNOMEDCT_US:127034005""]","[""127034005.0""]"
+691,pancytopenia,meddra:10033661,Pancytopenia,MEDDRA,properties.name,"","",[],[],[]
+692,panic attack,HP_0025269,Panic attack,HPO,properties.name,"","",[],[],[]
+698,paralysis,HP_0003470,Paralysis,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0003470,C0522224,"[""21001085""]","[""SNOMEDCT_US:44695005"",""UMLS:C0522224""]","[""44695005.0""]"
+699,paranoia,HP_0011999,Paranoia,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0011999,C1456784,"[""21000959""]","[""UMLS:C1456784"",""SNOMEDCT_US:191667009""]","[""191667009.0""]"
+701,parkinsonism,HP_0001300,Parkinsonism,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001300,C0242422,"[""21001054""]","[""UMLS:C0242422"",""SNOMEDCT_US:32798002""]","[""32798002.0""]"
+701,parkinsonism,meddra:10034010,Parkinsonism,MEDDRA,properties.name,"","",[],[],[]
+703,pelvic pain,HP_0034267,Pelvic pain,HPO,properties.name,"","",[],[],[]
+705,peptic ulcer,HP_0004398,Peptic ulcer,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0004398,C0030920,"[""21002035""]","[""SNOMEDCT:13200003"",""NCIt:C3318"",""SNOMEDCT_US:13200003"",""ICD10:K27"",""UMLS:C0030920""]","[""13200003.0""]"
+706,pericardial effusion,HP_0001698,Pericardial effusion,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001698,C0031039,"[""21001498""]","[""SNOMEDCT_US:373945007"",""Fyler:1940"",""UMLS:C0031039""]","[""373945007.0""]"
+707,pericarditis,HP_0001701,Pericarditis,HPO,properties.name,"","",[],[],[]
+709,periodontitis,HP_0000704,Periodontitis,HPO,properties.name,"","",[],[],[]
+714,peripheral sensory neuropathy,HP_0000763,Sensory neuropathy,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000763,"",[],"[""UMLS:C0151313"",""SNOMEDCT_US:95662005""]",[]
+716,peritonitis,HP_0002586,Peritonitis,HPO,properties.name,"","",[],[],[]
+717,personality disorder,HP_0012075,Personality disorder,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0012075,"",[],"[""ICD-10:F60"",""UMLS:C0031212"",""SNOMEDCT_US:33449004""]",[]
+718,petechiae,HP_0000967,Petechiae,HPO,properties.name,"","",[],[],[]
+720,pharyngitis,HP_0025439,Pharyngitis,HPO,properties.name,"","",[],[],[]
+723,photophobia,HP_0000613,Photophobia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000613,C0085636,"[""21001226""]","[""SNOMEDCT_US:246622003"",""UMLS:C4020887"",""SNOMEDCT_US:409668002"",""UMLS:C0085636""]","[""409668002.0""]"
+730,pleural effusion,HP_0002202,Pleural effusion,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002202,"",[],"[""SNOMEDCT_US:60046008"",""UMLS:C0032227""]",[]
+731,pleurisy,HP_0002102,Pleuritis,HPO,properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002102,C0032231,"[""21001886""]","[""SNOMEDCT_US:196075003"",""UMLS:C0032231""]","[""196075003.0""]"
+733,pneumonia,HP_0002090,Pneumonia,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002090,C0032285,"[""21001823""]","[""UMLS:C0032285"",""SNOMEDCT_US:233604007""]","[""233604007.0""]"
+733,pneumonia,meddra:10035664,Pneumonia,MEDDRA,properties.name,"","",[],[],[]
+735,pneumothorax,HP_0002107,Pneumothorax,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002107,C0032326,"[""21001889""]","[""SNOMEDCT_US:36118008"",""UMLS:C0032326""]","[""36118008.0""]"
+738,polydipsia,HP_0001959,Polydipsia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001959,C0085602,"[""21003149""]","[""SNOMEDCT_US:267026004"",""SNOMEDCT_US:17173007"",""UMLS:C0085602""]","[""267026004.0""]"
+739,polyneuropathy,HP_0001271,Polyneuropathy,HPO,properties.name,"","",[],[],[]
+740,polyuria,HP_0000103,Polyuria,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000103,C0032617,"[""21003260""]","[""SNOMEDCT:28442001"",""SNOMEDCT_US:718402002"",""UMLS:C0032617"",""SNOMEDCT_US:28442001"",""NCIt:C118303"",""ICD9:788.42"",""SNOMEDCT_US:56574000"",""ICD10:R35""]","[""28442001.0""]"
+744,priapism,HP_0200023,Priapism,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0200023,C0033117,"[""21002380""]","[""SNOMEDCT_US:6273006"",""UMLS:C0033117""]","[""6273006.0""]"
+746,anal pain,HP_0500005,Anal pain,HPO,properties.name,"","",[],[],[]
+748,productive cough,HP_0031245,Productive cough,HPO,properties.name,"","",[],[],[]
+749,prostate cancer,HP_0012125,Prostate cancer,HPO,properties.name,"","",[],[],[]
+751,prostatitis,HP_0000024,Prostatitis,HPO,properties.name,"","",[],[],[]
+754,proteinuria,HP_0000093,Proteinuria,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000093,C0033687,"[""21003282""]","[""UMLS:C0033687"",""ICD10:O13"",""ICD10:R80"",""SNOMEDCT_US:29738008""]","[""29738008.0""]"
+754,proteinuria,meddra:10037032,Proteinuria,MEDDRA,properties.name,"","",[],[],[]
+758,pruritus,HP_0000989,Pruritus,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000989,C0033774,"[""21002694"",""40249495"",""40249494""]","[""SNOMEDCT_US:279333002"",""SNOMEDCT_US:418290006"",""UMLS:C0033774"",""SNOMEDCT_US:418363000"",""SNOMEDCT_US:424492005""]","[""418363000.0"",""109333005.0""]"
+758,pruritus,meddra:10037087,Pruritus,MEDDRA,properties.name,"","",[],[],[]
+767,pulmonary embolism,HP_0002204,Pulmonary embolism,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002204,C0034065,"[""40249099""]","[""UMLS:C0034065"",""SNOMEDCT_US:59282003""]","[""59282003.0""]"
+767,pulmonary embolism,meddra:10037377,Pulmonary embolism,MEDDRA,properties.name,"","",[],[],[]
+768,pulmonary fibrosis,HP_0002206,Pulmonary fibrosis,HPO,properties.name,"","",[],[],[]
+768,pulmonary fibrosis,meddra:10037383,Pulmonary fibrosis,MEDDRA,properties.name,"","",[],[],[]
+772,punctate keratitis,HP_0011859,Punctate keratitis,HPO,properties.name,"","",[],[],[]
+774,purpura,HP_0000979,Purpura,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000979,C0034150,"[""21000872""]","[""Wikipedia:Purpura"",""DOID:3326"",""SNOMEDCT_US:387778001"",""SNOMEDCT_US:423902002"",""SNOMEDCT_US:12393003"",""UMLS:C0034150"",""ICD10:D69"",""MeSH:D011693"",""NCIt:C78787""]","[""387778001.0""]"
+774,purpura,meddra:10037549,Purpura,MEDDRA,properties.name,"","",[],[],[]
+775,pyelonephritis,HP_0012330,Pyelonephritis,HPO,properties.name,"","",[],[],[]
+778,rash,HP_0000988,Skin rash,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000988,C0015230,"[""21003118"",""21002596""]","[""MEDDRA:10037844"",""SNOMEDCT_US:112625008"",""SNOMEDCT_US:271807003"",""UMLS:C0015230""]","[""271807003.0"",""112625008.0""]"
+778,rash,meddra:10037844,Rash,MEDDRA,properties.name,"","",[],[],[]
+788,renal failure,HP_0000083,Renal insufficiency,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000083,C0035078,"[""40249795"",""21002261""]","[""UMLS:C0035078"",""SNOMEDCT_US:42399005"",""UMLS:C1839604"",""SNOMEDCT_US:236423003"",""UMLS:C1565489""]","[""42399005.0""]"
+788,renal failure,meddra:10038435,Renal failure,MEDDRA,properties.name,"","",[],[],[]
+789,renal impairment,meddra:10062237,Renal impairment,MEDDRA,properties.name,"","",[],[],[]
+793,respiratory depression,HP_0002791,Hypoventilation,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002791,C0235063,"[""21001914""]","[""SNOMEDCT_US:15993004"",""SNOMEDCT_US:80954004"",""UMLS:C0235063"",""SNOMEDCT_US:31515003"",""UMLS:C3203358""]","[""80954004.0""]"
+795,respiratory distress,HP_0002098,Respiratory distress,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002098,C0013404,"[""21003199""]","[""UMLS:C0476273"",""UMLS:C0013404"",""SNOMEDCT_US:267036007"",""SNOMEDCT_US:230145002"",""SNOMEDCT_US:271825005""]","[""267036007.0""]"
+796,respiratory failure,HP_0002878,Respiratory failure,HPO,properties.name,"","",[],[],[]
+798,respiratory tract infection,HP_0011947,Respiratory tract infection,HPO,properties.name,"","",[],[],[]
+801,retinal degeneration,HP_0000546,Retinal degeneration,HPO,properties.name,"","",[],[],[]
+802,retinal detachment,HP_0000541,Retinal detachment,HPO,properties.name,"","",[],[],[]
+804,retinal haemorrhage,HP_0000573,Retinal hemorrhage,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000573,C0035317,"[""21001179""]","[""UMLS:C0035317"",""SNOMEDCT_US:28998008""]","[""28998008.0""]"
+806,rhabdomyolysis,HP_0003201,Rhabdomyolysis,HPO,properties.name,"","",[],[],[]
+806,rhabdomyolysis,meddra:10039020,Rhabdomyolysis,MEDDRA,properties.name,"","",[],[],[]
+807,rheumatoid arthritis,HP_0001370,Rheumatoid arthritis,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001370,C0003873,"[""21002805""]","[""UMLS:C0003873"",""SNOMEDCT_US:69896004""]","[""69896004.0""]"
+808,rhinitis,HP_0012384,Rhinitis,HPO,properties.name,"","",[],[],[]
+808,rhinitis,meddra:10039083,Rhinitis,MEDDRA,properties.name,"","",[],[],[]
+819,sciatica,HP_0011868,Sciatica,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0011868,"",[],"[""UMLS:C0036396"",""SNOMEDCT_US:23056005""]",[]
+821,seasonal allergy,HP_0012395,Seasonal allergy,HPO,properties.name,"","",[],[],[]
+822,seborrheic dermatitis,HP_0001051,Seborrheic dermatitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001051,C0036508,"[""21002627""]","[""UMLS:C0036508"",""SNOMEDCT_US:50563003"",""SNOMEDCT_US:86708008"",""UMLS:C3806554""]","[""50563003.0""]"
+823,seborrheic keratosis,HP_0031287,Seborrheic keratosis,HPO,properties.name,"","",[],[],[]
+827,sepsis,HP_0100806,Sepsis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0100806,"",[],"[""UMLS:C0036690""]",[]
+827,sepsis,meddra:10040047,Sepsis,MEDDRA,properties.name,"","",[],[],[]
+829,serotonin syndrome,meddra:10040108,Serotonin syndrome,MEDDRA,properties.name,"","",[],[],[]
+832,shock,HP_0031273,Shock,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0031273,"",[],[],[]
+834,sinus bradycardia,HP_0001688,Sinus bradycardia,HPO,properties.name,"","",[],[],[]
+837,sinus tachycardia,HP_0011703,Sinus tachycardia,HPO,properties.name,"","",[],[],[]
+838,sinusitis,HP_0000246,Sinusitis,HPO,properties.name,"","",[],[],[]
+845,skin hyperpigmentation,HP_0000953,Hyperpigmentation of the skin,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0000953,"",[],"[""UMLS:C0162834"",""SNOMEDCT_US:49765009"",""SNOMEDCT_US:4830009""]",[]
+847,skin infection,HP_0100658,Cellulitis,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0100658,C0162627,"[""21002593""]","[""UMLS:C0162627"",""SNOMEDCT_US:128936008"",""SNOMEDCT_US:385627004"",""UMLS:C0007642"",""SNOMEDCT_US:128045006""]","[""128936008.0""]"
+853,skin striae,HP_0001065,Striae distensae,HPO,properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001065,C0152459,"[""21002704""]","[""SNOMEDCT_US:201066002"",""UMLS:C0152459"",""MEDDRA:10040925"",""SNOMEDCT_US:201067006"",""SNOMEDCT_US:47212006""]","[""201066002.0""]"
+854,skin ulcer,HP_0200042,Skin ulcer,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0200042,C0037299,"[""21002742""]","[""NCIt:C54247"",""MEDDRA:10040943"",""SNOMEDCT_US:46742003"",""UMLS:C0037299"",""SNOMEDCT:46742003"",""MedDRA:10040943""]","[""46742003.0""]"
+859,snoring,HP_0025267,Snoring,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0025267,"",[],[],[]
+860,somnambulism,HP_0025236,Somnambulism,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0025236,"",[],[],[]
+861,somnolence,HP_0002329,Drowsiness,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0002329,C0013144,"[""21003036""]","[""SNOMEDCT_US:271782001"",""UMLS:C0013144"",""SNOMEDCT_US:79519003""]","[""271782001.0""]"
+861,somnolence,meddra:10041349,Somnolence,MEDDRA,properties.name,"","",[],[],[]
+863,splenomegaly,HP_0001744,Splenomegaly,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001744,C0038002,"[""40249803""]","[""SNOMEDCT_US:16294009"",""UMLS:C0038002""]","[""16294009.0""]"
+866,status epilepticus,HP_0002133,Status epilepticus,HPO,properties.name,"","",[],[],[]
+869,stomatitis,HP_0010280,Stomatitis,HPO,properties.name,"","",[],[],[]
+869,stomatitis,meddra:10042128,Stomatitis,MEDDRA,properties.name,"","",[],[],[]
+871,wheezing,HP_0030828,Wheezing,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0030828,C0043144,"[""21003198""]","[""SNOMEDCT_US:56018004"",""UMLS:C0043144""]","[""56018004.0""]"
+872,stupor,HP_0001259,Coma,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001259,C0009421,"[""21003033""]","[""SNOMEDCT_US:371632003"",""ICD-10:R40.2"",""UMLS:C0009421""]","[""371632003.0""]"
+874,subdural haematoma,HP_0100309,Subdural hemorrhage,HPO,properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0100309,"",[],"[""SNOMEDCT_US:95453001"",""UMLS:C0018946"",""SNOMEDCT_US:35486000""]",[]
+875,sudden death,HP_0001699,Sudden death,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001699,"",[],"[""UMLS:C0011071"",""SNOMEDCT_US:26636000""]",[]
+876,suicidal ideation,HP_0031589,Suicidal ideation,HPO,properties.name,"","",[],[],[]
+880,supraventricular tachycardia,HP_0004755,Supraventricular tachycardia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0004755,"",[],"[""SNOMEDCT_US:6456007"",""UMLS:C1698480"",""UMLS:C0039240""]",[]
+883,syncope,HP_0001279,Syncope,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001279,C0039070,"[""21003051""]","[""SNOMEDCT_US:272030005"",""SNOMEDCT_US:309585006"",""SNOMEDCT_US:271594007"",""UMLS:C0039070""]","[""271594007.0""]"
+883,syncope,meddra:10042772,Syncope,MEDDRA,properties.name,"","",[],[],[]
+884,systemic lupus erythematosus,HP_0002725,Systemic lupus erythematosus,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002725,C0024141,"[""21002775""]","[""UMLS:C0024141"",""SNOMEDCT_US:55464009""]","[""55464009.0""]"
+885,tachycardia,HP_0001649,Tachycardia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001649,"",[],"[""SNOMEDCT_US:86651002"",""UMLS:C4020868"",""UMLS:C0039231"",""SNOMEDCT_US:3424008""]",[]
+885,tachycardia,meddra:10043071,Tachycardia,MEDDRA,properties.name,"","",[],[],[]
+887,tardive dyskinesia,HP_0040141,Tardive dyskinesia,HPO,properties.name,"","",[],[],[]
+888,telangiectasia,HP_0001009,Telangiectasia,HPO,properties.name,"","",[],[],[]
+893,tendonitis,HP_0025230,Tendonitis,HPO,properties.name,"","",[],[],[]
+897,testicular pain,HP_0033839,Testicular pain,HPO,properties.name,"","",[],[],[]
+898,tetany,HP_0001281,Tetany,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001281,C0039621,"[""21003106""]","[""UMLS:C0039621"",""SNOMEDCT_US:10629009""]","[""10629009.0""]"
+901,thirst,meddra:10043458,Thirst,MEDDRA,properties.name,"","",[],[],[]
+904,thrombocytopenia,HP_0001873,Thrombocytopenia,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0001873,C0040034,"[""21000878"",""40249748""]","[""OMIM:617441"",""UMLS:C0392386"",""SNOMEDCT_US:302215000"",""SNOMEDCT_US:415116008"",""UMLS:C0040034"",""MeSH:D013921""]","[""302215000.0""]"
+904,thrombocytopenia,meddra:10043554,Thrombocytopenia,MEDDRA,properties.name,"","",[],[],[]
+906,thrombophlebitis,HP_0004418,Thrombophlebitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0004418,C0040046,"[""21001679""]","[""SNOMEDCT_US:64156001"",""UMLS:C0040046""]","[""64156001.0""]"
+907,thrombosis,meddra:10043607,Thrombosis,MEDDRA,properties.name,"","",[],[],[]
+911,thyroiditis,HP_0100646,Thyroiditis,HPO,properties.name,"","",[],[],[]
+912,tinnitus,HP_0000360,Tinnitus,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000360,C0040264,"[""21001395""]","[""SNOMEDCT_US:162352007"",""SNOMEDCT_US:162349004"",""SNOMEDCT_US:60862001"",""UMLS:C0040264""]","[""60862001.0""]"
+912,tinnitus,meddra:10043882,Tinnitus,MEDDRA,properties.name,"","",[],[],[]
+917,tonsillitis,HP_0011110,Recurrent tonsillitis,HPO,properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0011110,C0040425,"[""21001753""]","[""UMLS:C0040425"",""SNOMEDCT_US:90176007"",""ICD10:J03""]","[""90176007.0""]"
+918,tooth abscess,HP_0030757,Tooth abscess,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0030757,"",[],"[""UMLS:C0518988"",""SNOMEDCT_US:299709002""]",[]
+923,torticollis,HP_0000473,Torticollis,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000473,"",[],"[""SNOMEDCT_US:270476009"",""UMLS:C0949445"",""SNOMEDCT_US:74333002"",""UMLS:C0152116"",""UMLS:C0040485"",""SNOMEDCT_US:70070008""]",[]
+930,tremor,HP_0001337,Tremor,HPO,properties.name;properties.exact_synonyms,http://purl.obolibrary.org/obo/HP_0001337,"",[],"[""SNOMEDCT_US:26079004"",""UMLS:C0040822""]",[]
+930,tremor,meddra:10044565,Tremor,MEDDRA,properties.name,"","",[],[],[]
+937,upper respiratory tract infection,meddra:10046306,Upper respiratory tract infection,MEDDRA,properties.name,"","",[],[],[]
+940,urethritis,HP_0500006,Urethritis,HPO,properties.name,"","",[],[],[]
+943,urinary incontinence,HP_0000020,Urinary incontinence,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000020,C0042024,"[""21003254""]","[""SNOMEDCT:165232002"",""NCIt:C78497"",""ICD9:788.3"",""ICD10:R32"",""SNOMEDCT_US:165232002"",""UMLS:C0042024""]","[""165232002.0""]"
+944,urinary retention,HP_0000016,Urinary retention,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0000016,C0080274,"[""21003253""]","[""NCIt:C50790"",""UMLS:C0080274"",""SNOMEDCT_US:130951007"",""ICD10:R33"",""SNOMEDCT_US:267064002"",""SNOMEDCT_US:449491000124101""]","[""267064002.0""]"
+950,urticaria,HP_0001025,Urticaria,HPO,properties.name,"","",[],[],[]
+950,urticaria,meddra:10046735,Urticaria,MEDDRA,properties.name,"","",[],[],[]
+955,uveitis,HP_0000554,Uveitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000554,C0042164,"[""21001191""]","[""SNOMEDCT_US:128473001"",""UMLS:C0042164""]","[""128473001.0""]"
+956,vaginal discharge,meddra:10046901,Vaginal discharge,MEDDRA,properties.name,"","",[],[],[]
+962,vasculitis,HP_0002633,Vasculitis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002633,C0042384,"[""21001669""]","[""SNOMEDCT_US:31996006"",""UMLS:C0042384""]","[""31996006.0""]"
+962,vasculitis,meddra:10047115,Vasculitis,MEDDRA,properties.name,"","",[],[],[]
+964,vasospasm,HP_0025637,Vasospasm,HPO,properties.name,"","",[],[],[]
+965,venous thrombosis,HP_0004936,Venous thrombosis,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0004936,C0042487,"[""21001698""]","[""SNOMEDCT_US:111293003"",""UMLS:C0517555"",""SNOMEDCT:111293003"",""UMLS:C0042487"",""OMIM:300807"",""OMIM:188050"",""NCIt:C99107"",""OMIM:188055"",""OMIM:612356"",""OMIM:614486""]","[""111293003.0""]"
+965,venous thrombosis,meddra:10047249,Venous thrombosis,MEDDRA,properties.name,"","",[],[],[]
+966,ventricular arrhythmia,HP_0004308,Ventricular arrhythmia,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0004308,C0085612,"[""21001574""]","[""SNOMEDCT_US:44103008"",""UMLS:C0085612""]","[""44103008.0""]"
+968,ventricular fibrillation,HP_0001663,Ventricular fibrillation,HPO,properties.name;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0001663,C0042510,"[""21001554""]","[""SNOMEDCT_US:71908006"",""UMLS:C0042510""]","[""71908006.0""]"
+969,ventricular tachycardia,HP_0004756,Ventricular tachycardia,HPO,properties.name,"","",[],[],[]
+970,vertigo,HP_0002321,Vertigo,HPO,properties.name,http://purl.obolibrary.org/obo/HP_0002321,C0012833,"[""21003059""]","[""SNOMEDCT_US:271789005"",""SNOMEDCT_US:399153001"",""UMLS:C0042571"",""SNOMEDCT_US:399090003"",""SNOMEDCT_US:404640003"",""UMLS:C0012833""]","[""404640003.0""]"
+970,vertigo,meddra:10047340,Vertigo,MEDDRA,properties.name,"","",[],[],[]
+977,visual impairment,HP_0000505,Visual impairment,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0000505,C3665347,"[""21001241""]","[""ICD10:H53"",""SNOMEDCT_US:397540003"",""SNOMEDCT_US:7973008"",""UMLS:C0042798"",""UMLS:C3665347"",""SNOMEDCT_US:246635007""]","[""397540003.0""]"
+978,vomiting,HP_0002013,Vomiting,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0002013,C0042963,"[""21003226""]","[""SNOMEDCT_US:249497008"",""SNOMEDCT_US:300359004"",""SNOMEDCT_US:422400008"",""MEDDRA:10047700"",""UMLS:C0042963""]","[""422400008.0""]"
+978,vomiting,meddra:10047700,Vomiting,MEDDRA,properties.name,"","",[],[],[]
+986,wheezing,HP_0030828,Wheezing,HPO,properties.name;properties.exact_synonyms;properties.concept_names;properties.snomed_full_names,http://purl.obolibrary.org/obo/HP_0030828,C0043144,"[""21003198""]","[""SNOMEDCT_US:56018004"",""UMLS:C0043144""]","[""56018004.0""]"

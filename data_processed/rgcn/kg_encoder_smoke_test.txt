@@ -1,0 +1,28 @@
+BioKORF KG encoder smoke test: PASS
+======================================
+PyTorch version: 2.13.0+cu126
+PyG version: 2.8.0.post1
+Device: cuda
+Num nodes: 21829
+Num edges: 1048598
+Num relations: 40
+Num node types: 6
+Hidden dimension: 128
+Output dimension: 128
+Num bases: 8
+Total trainable parameters: 297088
+R-GCN parameters: 295808
+Node embeddings shape: [21829, 128]
+Drug anchor embeddings shape: [757, 128]
+Side anchor embeddings shape: [994, 128]
+Drug availability mask shape: [757]
+Side availability mask shape: [994]
+Drug anchors connected / missing: 730 / 27
+Side anchors connected / missing: 319 / 675
+Finite-value check: PASS
+Fallback replacement check: PASS
+Connected-anchor preservation check: PASS
+Matrix ordering check: PASS
+Graph leakage metadata: PASS
+Training steps performed: 0
+Embeddings saved: no

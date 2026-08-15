@@ -1,0 +1,32 @@
+BioKORF KG pretraining smoke test: PASS
+=========================================
+PyTorch version: 2.13.0+cu126
+PyG version: 2.8.0.post1
+Device: cuda
+Message-passing nodes: 21829
+Message-passing edges (with inverse): 1048598
+Message-passing relations: 40
+Original decoder relations: 20
+Positive sample count: 50000
+Negative sample count: 50000
+Initial loss: 0.95214671
+Mean positive score: -1.26771247
+Mean negative score: -1.23623717
+Gradient finite check: PASS
+Parameters with gradients: 12
+All parameters finite after step: PASS
+Peak CUDA allocated memory: 1294258688 bytes (1234.30 MiB)
+Peak CUDA reserved memory: 1514143744 bytes (1444.00 MiB)
+Optimizer: AdamW(lr=0.001, weight_decay=0.00001)
+Optimization steps completed: 1
+Optimization step: PASS
+Excluded supervision relations: ['MAPS_TO_DRUG', 'MAPS_TO_PHENOTYPE']
+Sampled supervision relation counts: {'AGONIST': 21, 'ANTAGONIST': 18, 'ASSOCIATED_WITH': 19967, 'BLOCKER': 10, 'CARRIER': 24, 'ENZYME': 212, 'INHIBITOR': 28, 'INTERACTS_WITH': 29443, 'MODULATOR': 3, 'OPENER': 1, 'POSITIVE_ALLOSTERIC_MODULATOR': 26, 'TARGET': 153, 'TRANSPORTER': 94}
+Observed type signatures by supervised relation: {'ACTIVATOR': ['DRUG->GENE'], 'AGONIST': ['DRUG->GENE'], 'ANTAGONIST': ['DRUG->GENE'], 'ASSOCIATED_WITH': ['PHENOTYPE->GENE'], 'BLOCKER': ['DRUG->GENE'], 'CARRIER': ['DRUG->GENE'], 'ENZYME': ['DRUG->GENE'], 'INHIBITOR': ['DRUG->GENE'], 'INTERACTS_WITH': ['GENE->GENE', 'PATHWAY->GENE'], 'INVERSE_AGONIST': ['DRUG->GENE'], 'MODULATOR': ['DRUG->GENE'], 'NEGATIVE_ALLOSTERIC_MODULATOR': ['DRUG->GENE'], 'OPENER': ['DRUG->GENE'], 'PARTIAL_AGONIST': ['DRUG->GENE'], 'POSITIVE_ALLOSTERIC_MODULATOR': ['DRUG->GENE'], 'POSITIVE_MODULATOR': ['DRUG->GENE'], 'TARGET': ['DRUG->GENE'], 'TRANSPORTER': ['DRUG->GENE']}
+No Drug-Phenotype edge used: PASS
+No ADVERSE_DRUG_REACTION relation: PASS
+No drug-side-effect frequency labels loaded: PASS
+No direct BIOKORF_DRUG -> BIOKORF_SIDE supervision: PASS
+LEAKAGE CHECK: PASS
+Checkpoint saved: no
+Embeddings saved: no

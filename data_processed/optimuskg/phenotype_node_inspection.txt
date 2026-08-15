@@ -1,0 +1,141 @@
+OptimusKG phenotype node inspection
+Loaded local resource: D:\Duc\BioKORF\kg\optimuskg\nodes\phenotype.parquet
+Dataframe type: <class 'polars.dataframe.frame.DataFrame'>
+Shape: (19341, 3)
+All column names: ['id', 'label', 'properties']
+Schema/dtypes:
+  id: String
+  label: String
+  properties: Struct({'sources': Struct({'direct': List(String), 'indirect': List(String)}), 'name': String, 'description': String, 'code': String, 'xrefs': List(String), 'parents': List(String), 'exact_synonyms': List(String), 'related_synonyms': List(String), 'narrow_synonyms': List(String), 'broad_synonyms': List(String), 'obsolete_terms': List(String), 'obsolete_xrefs': List(String), 'children': List(String), 'ancestors': List(String), 'descendants': List(String), 'type': String, 'ontology': Struct({'description': String, 'title': String, 'license': String, 'version': String}), 'concept_ids': List(String), 'concept_names': List(String), 'umls_cui': String, 'snomed_full_names': List(String), 'cui_semantic_type': String, 'snomed_concept_ids': List(String)})
+First 10 rows:
+  row_index=0: {'id': 'HP_0000001', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'All', 'description': None, 'code': None, 'xrefs': None, 'parents': None, 'exact_synonyms': None, 'related_synonyms': None, 'narrow_synonyms': None, 'broad_synonyms': None, 'obsolete_terms': None, 'obsolete_xrefs': None, 'children': None, 'ancestors': None, 'descendants': None, 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=1: {'id': 'HP_0000002', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Abnormality of body height', 'description': 'Deviation from the norm of height with respect to that which is expected according to age and gender norms.', 'code': None, 'xrefs': None, 'parents': None, 'exact_synonyms': None, 'related_synonyms': None, 'narrow_synonyms': None, 'broad_synonyms': None, 'obsolete_terms': None, 'obsolete_xrefs': None, 'children': None, 'ancestors': None, 'descendants': None, 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=2: {'id': 'HP_0000003', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Multicystic kidney dysplasia', 'description': 'Multicystic dysplasia of the kidney is characterized by multiple cysts of varying size in the kidney and the absence of a normal pelvicaliceal system. The condition is associated with ureteral or ureteropelvic atresia, and the affected kidney is nonfunctional.', 'code': None, 'xrefs': None, 'parents': None, 'exact_synonyms': None, 'related_synonyms': None, 'narrow_synonyms': None, 'broad_synonyms': None, 'obsolete_terms': None, 'obsolete_xrefs': None, 'children': None, 'ancestors': None, 'descendants': None, 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=3: {'id': 'HP_0000005', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Mode of inheritance', 'description': 'The pattern in which a particular genetic trait or disorder is passed from one generation to the next.', 'code': None, 'xrefs': None, 'parents': None, 'exact_synonyms': None, 'related_synonyms': None, 'narrow_synonyms': None, 'broad_synonyms': None, 'obsolete_terms': None, 'obsolete_xrefs': None, 'children': None, 'ancestors': None, 'descendants': None, 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=4: {'id': 'HP_0000006', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Autosomal dominant inheritance', 'description': 'A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in heterozygotes. In the context of medical genetics, an autosomal dominant disorder is caused when a single copy of the mutant allele is present. Males and females are affected equally, and can both transmit the disorder with a risk of 50% for each child of inheriting the mutant allele.', 'code': None, 'xrefs': None, 'parents': None, 'exact_synonyms': None, 'related_synonyms': None, 'narrow_synonyms': None, 'broad_synonyms': None, 'obsolete_terms': None, 'obsolete_xrefs': None, 'children': None, 'ancestors': None, 'descendants': None, 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=5: {'id': 'HP_0000007', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Autosomal recessive inheritance', 'description': 'A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in individuals with two pathogenic alleles, either homozygotes (two copies of the same mutant allele) or compound heterozygotes (whereby each copy of a gene has a distinct mutant allele).', 'code': None, 'xrefs': None, 'parents': None, 'exact_synonyms': None, 'related_synonyms': None, 'narrow_synonyms': None, 'broad_synonyms': None, 'obsolete_terms': None, 'obsolete_xrefs': None, 'children': None, 'ancestors': None, 'descendants': None, 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=6: {'id': 'HP_0000008', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Abnormal morphology of female internal genitalia', 'description': 'An abnormality of the female internal genitalia.', 'code': 'http://purl.obolibrary.org/obo/HP_0000008', 'xrefs': ['ICD10:Q51', 'UMLS:C4025900', 'ICD10:R87'], 'parents': ['HP_0000078'], 'exact_synonyms': ['Abnormality of female internal genitalia'], 'related_synonyms': [], 'narrow_synonyms': [], 'broad_synonyms': [], 'obsolete_terms': [], 'obsolete_xrefs': [], 'children': ['HP_0000130', 'HP_0000138', 'HP_0003250', 'HP_0032565'], 'ancestors': ['HP_0000118', 'EFO_0000651', 'HP_0000078'], 'descendants': ['HP_0030159', 'HP_0040298', 'HP_0032565', 'HP_0000131', 'HP_0000130', 'HP_0030160', 'HP_0003250', 'HP_0030158', 'HP_0000138'], 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=7: {'id': 'HP_0000009', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Functional abnormality of the bladder', 'description': 'Dysfunction of the urinary bladder.', 'code': 'http://purl.obolibrary.org/obo/HP_0000009', 'xrefs': ['UMLS:C3806583'], 'parents': ['HP_0000014'], 'exact_synonyms': ['Poor bladder function'], 'related_synonyms': [], 'narrow_synonyms': [], 'broad_synonyms': [], 'obsolete_terms': [], 'obsolete_xrefs': [], 'children': ['HP_0000011', 'HP_0000016', 'HP_0000019', 'HP_0000020'], 'ancestors': ['HP_0000118', 'HP_0000079', 'EFO_0000651', 'HP_0000014'], 'descendants': ['HP_0000011', 'HP_0000016', 'HP_0000019', 'HP_0000020', 'HP_0010992', 'EFO_0006865'], 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=8: {'id': 'HP_0000010', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Recurrent urinary tract infections', 'description': 'Repeated infections of the urinary tract.', 'code': None, 'xrefs': None, 'parents': None, 'exact_synonyms': None, 'related_synonyms': None, 'narrow_synonyms': None, 'broad_synonyms': None, 'obsolete_terms': None, 'obsolete_xrefs': None, 'children': None, 'ancestors': None, 'descendants': None, 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': None, 'concept_names': None, 'umls_cui': None, 'snomed_full_names': None, 'cui_semantic_type': None, 'snomed_concept_ids': None}}
+  row_index=9: {'id': 'HP_0000011', 'label': 'PHE', 'properties': {'sources': {'direct': ['OPEN_TARGETS', 'HPO', 'MEDDRA'], 'indirect': []}, 'name': 'Neurogenic bladder', 'description': 'A type of bladder dysfunction caused by neurologic damage. Neurogenic bladder can be flaccid or spastic. Common manifestatios of neurogenic bladder are overflow incontinence, frequency, urgency, urge incontinence, and retention.', 'code': 'http://purl.obolibrary.org/obo/HP_0000011', 'xrefs': ['MeSH:D001750', 'DOID:12143', 'MedDRA:10029279', 'NCIt:C79696', 'ICD10:N31', 'SNOMEDCT:398064005', 'MedlinePlus:MTHU037120', 'SNOMEDCT_US:397732007', 'SNOMEDCT_US:398064005', 'UMLS:C0005697'], 'parents': ['HP_0000009', 'EFO_1000018'], 'exact_synonyms': ['Lack of bladder control due to nervous system injury'], 'related_synonyms': [], 'narrow_synonyms': [], 'broad_synonyms': [], 'obsolete_terms': [], 'obsolete_xrefs': [], 'children': [], 'ancestors': ['HP_0000118', 'EFO_1000018', 'HP_0000009', 'EFO_0000651', 'HP_0000079', 'HP_0000014', 'EFO_0009690'], 'descendants': [], 'type': 'phenotype', 'ontology': {'description': 'The Human Phenotype Ontology (HPO) provides a standardized vocabulary of phenotypic abnormalities and clinical features encountered in human disease.', 'title': 'Human Phenotype Ontology', 'license': 'https://hpo.jax.org/app/license', 'version': '2025-05-06'}, 'concept_ids': ['21004198'], 'concept_names': ['Neurogenic bladder'], 'umls_cui': 'C0005697', 'snomed_full_names': ['Neurogenic bladder'], 'cui_semantic_type': 'T047', 'snomed_concept_ids': ['398064005.0']}}
+Textual/nested field paths discovered automatically:
+  id
+  label
+  properties.ancestors[]
+  properties.broad_synonyms[]
+  properties.children[]
+  properties.code
+  properties.concept_ids[]
+  properties.concept_names[]
+  properties.cui_semantic_type
+  properties.descendants[]
+  properties.description
+  properties.exact_synonyms[]
+  properties.name
+  properties.narrow_synonyms[]
+  properties.obsolete_terms[]
+  properties.obsolete_xrefs[]
+  properties.ontology.description
+  properties.ontology.license
+  properties.ontology.title
+  properties.ontology.version
+  properties.parents[]
+  properties.related_synonyms[]
+  properties.snomed_concept_ids[]
+  properties.snomed_full_names[]
+  properties.sources.direct[]
+  properties.type
+  properties.umls_cui
+  properties.xrefs[]
+Likely field roles inferred from the actual nested schema:
+  canonical phenotype name:
+    properties.name
+  synonyms:
+    properties.broad_synonyms[]
+    properties.concept_names[]
+    properties.exact_synonyms[]
+    properties.narrow_synonyms[]
+    properties.related_synonyms[]
+    properties.snomed_full_names[]
+  ontology IDs:
+    id
+    properties.code
+    properties.concept_ids[]
+    properties.snomed_concept_ids[]
+    properties.umls_cui
+  source IDs:
+    properties.sources.direct[]
+    properties.sources.indirect[]
+  cross references:
+    properties.obsolete_xrefs[]
+    properties.xrefs[]
+Exact case-insensitive side-effect search results:
+abdominal discomfort: FOUND
+  Matching phenotype nodes: 1
+  Matching node IDs: ['HP_0002027']
+  Canonical names: ['Abdominal pain']
+  Match details:
+    id=HP_0002027 | canonical_name='Abdominal pain' | matched_fields=['properties.exact_synonyms[]', 'properties.related_synonyms[]']
+abdominal distension: FOUND
+  Matching phenotype nodes: 2
+  Matching node IDs: ['HP_0003270', 'meddra:10000060']
+  Canonical names: ['Abdominal distention', 'Abdominal distension']
+  Match details:
+    id=HP_0003270 | canonical_name='Abdominal distention' | matched_fields=['properties.exact_synonyms[]']
+    id=meddra:10000060 | canonical_name='Abdominal distension' | matched_fields=['properties.name']
+abdominal pain: FOUND
+  Matching phenotype nodes: 2
+  Matching node IDs: ['HP_0002027', 'meddra:10000081']
+  Canonical names: ['Abdominal pain', 'Abdominal pain']
+  Match details:
+    id=HP_0002027 | canonical_name='Abdominal pain' | matched_fields=['properties.exact_synonyms[]', 'properties.name']
+    id=meddra:10000081 | canonical_name='Abdominal pain' | matched_fields=['properties.name']
+nausea: FOUND
+  Matching phenotype nodes: 2
+  Matching node IDs: ['HP_0002018', 'meddra:10028813']
+  Canonical names: ['Nausea', 'Nausea']
+  Match details:
+    id=HP_0002018 | canonical_name='Nausea' | matched_fields=['properties.concept_names[]', 'properties.exact_synonyms[]', 'properties.name', 'properties.snomed_full_names[]']
+    id=meddra:10028813 | canonical_name='Nausea' | matched_fields=['properties.name']
+vomiting: FOUND
+  Matching phenotype nodes: 2
+  Matching node IDs: ['HP_0002013', 'meddra:10047700']
+  Canonical names: ['Vomiting', 'Vomiting']
+  Match details:
+    id=HP_0002013 | canonical_name='Vomiting' | matched_fields=['properties.concept_names[]', 'properties.exact_synonyms[]', 'properties.name', 'properties.snomed_full_names[]']
+    id=meddra:10047700 | canonical_name='Vomiting' | matched_fields=['properties.name']
+headache: FOUND
+  Matching phenotype nodes: 2
+  Matching node IDs: ['HP_0002315', 'meddra:10019211']
+  Canonical names: ['Headache', 'Headache']
+  Match details:
+    id=HP_0002315 | canonical_name='Headache' | matched_fields=['properties.exact_synonyms[]', 'properties.name']
+    id=meddra:10019211 | canonical_name='Headache' | matched_fields=['properties.name']
+dizziness: FOUND
+  Matching phenotype nodes: 2
+  Matching node IDs: ['HP_0002321', 'meddra:10013573']
+  Canonical names: ['Vertigo', 'Dizziness']
+  Match details:
+    id=HP_0002321 | canonical_name='Vertigo' | matched_fields=['properties.concept_names[]', 'properties.exact_synonyms[]', 'properties.related_synonyms[]', 'properties.snomed_full_names[]']
+    id=meddra:10013573 | canonical_name='Dizziness' | matched_fields=['properties.name']
+dry eye: NOT FOUND
+  Matching phenotype nodes: 0
+  Matching node IDs: []
+  Canonical names: []
+  Match details:
+    None
+proteinuria: FOUND
+  Matching phenotype nodes: 2
+  Matching node IDs: ['HP_0000093', 'meddra:10037032']
+  Canonical names: ['Proteinuria', 'Proteinuria']
+  Match details:
+    id=HP_0000093 | canonical_name='Proteinuria' | matched_fields=['properties.concept_names[]', 'properties.name', 'properties.snomed_full_names[]']
+    id=meddra:10037032 | canonical_name='Proteinuria' | matched_fields=['properties.name']
+wheezing: FOUND
+  Matching phenotype nodes: 1
+  Matching node IDs: ['HP_0030828']
+  Canonical names: ['Wheezing']
+  Match details:
+    id=HP_0030828 | canonical_name='Wheezing' | matched_fields=['properties.concept_names[]', 'properties.exact_synonyms[]', 'properties.name', 'properties.snomed_full_names[]']
+No fuzzy matching or final mapping was performed.
+Inspection report saved to: D:\Duc\BioKORF\data_processed\optimuskg\phenotype_node_inspection.txt

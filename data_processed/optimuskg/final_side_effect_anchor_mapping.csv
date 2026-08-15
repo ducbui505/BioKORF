@@ -1,0 +1,995 @@
+matrix_index,biokorf_side_id,side_effect_name,sider_umls_cui,meddra_id,meddra_name,canonical_optimuskg_id,alias_optimuskg_ids,optimuskg_node_count,identity_source,mapping_confidence,kg_mapping_status,has_kg_node,requires_review
+0,BIOKORF_SIDE_000,abdominal discomfort,C0232487,10000059,Abdominal discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+1,BIOKORF_SIDE_001,abdominal distension,C0000731,10000060,Abdominal distension,meddra:10000060,"[""HP_0003270""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+2,BIOKORF_SIDE_002,abdominal pain,C0000737,10000081,Abdominal pain,meddra:10000081,"[""HP_0002027""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+3,BIOKORF_SIDE_003,abdominal pain lower,C0232495,10000084,Abdominal pain lower,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+4,BIOKORF_SIDE_004,abdominal pain upper,C0232492,10000087,Abdominal pain upper,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+5,BIOKORF_SIDE_005,abnormal behaviour,C0233514,10061422,Abnormal behaviour,,"[""HP_0000708""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+6,BIOKORF_SIDE_006,abnormal dreams,C0234458,10000125,Abnormal dreams,meddra:10000125,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+7,BIOKORF_SIDE_007,abnormal faeces,C0162287,10000133,Abnormal faeces,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+8,BIOKORF_SIDE_008,abscess,C0000833,10000269,Abscess,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+9,BIOKORF_SIDE_009,accommodation disorder,C0152198,10000389,Accommodation disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+10,BIOKORF_SIDE_010,acidosis,C0001122,10000486,Acidosis,,"[""HP_0001941""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+11,BIOKORF_SIDE_011,acne,C0702166,10000496,Acne,meddra:10000496,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+12,BIOKORF_SIDE_012,actinic keratosis,C0022602,10000614,Actinic keratosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+13,BIOKORF_SIDE_013,acute coronary syndrome,C0948089,10051592,Acute coronary syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+14,BIOKORF_SIDE_014,acute myocardial infarction,C0155626,10000891,Acute myocardial infarction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+15,BIOKORF_SIDE_015,acute respiratory distress syndrome,C0035222,10001052,Acute respiratory distress syndrome,meddra:10001052,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+16,BIOKORF_SIDE_016,adrenal insufficiency,C0001623,10001367,Adrenal insufficiency,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+17,BIOKORF_SIDE_017,affect lability,C0233472,10054196,Affect lability,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+18,BIOKORF_SIDE_018,affective disorder,C0525045,10001443,Affective disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+19,BIOKORF_SIDE_019,loss of taste,,,,,[],0,none,none,no_kg_evidence,False,True
+20,BIOKORF_SIDE_020,aggression,C0001807,10001488,Aggression,meddra:10001488,"[""HP_0000718""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+21,BIOKORF_SIDE_021,agitation,C0085631,10001497,Agitation,meddra:10001497,"[""HP_0000713""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+22,BIOKORF_SIDE_022,agranulocytosis,C0001824,10001507,Agranulocytosis,meddra:10001507,"[""HP_0001913""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+23,BIOKORF_SIDE_023,akathisia,C0392156,10001540,Akathisia,meddra:10001540,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+24,BIOKORF_SIDE_024,can not exercise,,,,,[],0,none,none,no_kg_evidence,False,True
+25,BIOKORF_SIDE_025,alanine aminotransferase increased,C0151905,10001551,Alanine aminotransferase increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+26,BIOKORF_SIDE_026,proteinuria,C0033687,10037032,Proteinuria,meddra:10037032,"[""HP_0000093""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+27,BIOKORF_SIDE_027,alcohol intolerance,C0151474,10001598,Alcohol intolerance,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+28,BIOKORF_SIDE_028,alopecia,C0002170,10001760,Alopecia,meddra:10001760,"[""HP_0001596"",""HP_0002293""]",3,sider_umls_pt,high,meddra_with_alias_kg,True,False
+29,BIOKORF_SIDE_029,altered state of consciousness,C0150450,10001854,Altered state of consciousness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+30,BIOKORF_SIDE_030,other allergic pneumonitis,,,,,[],0,none,none,no_kg_evidence,False,True
+31,BIOKORF_SIDE_031,amblyopia,C0002418,10001906,Amblyopia,,"[""HP_0000646""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+32,BIOKORF_SIDE_032,amenorrhoea,C0002453,10001928,Amenorrhoea,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+33,BIOKORF_SIDE_033,amnesia,C0002622,10001949,Amnesia,meddra:10001949,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+34,BIOKORF_SIDE_034,amylase increased,C0151479,10002016,Amylase increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+35,BIOKORF_SIDE_035,anaemia,C0002871,10002034,Anaemia,,"[""HP_0001903""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+36,BIOKORF_SIDE_036,anaemia large cell,,,,,[],0,none,none,no_kg_evidence,False,True
+37,BIOKORF_SIDE_037,anaemia megaloblastic,C0002888,10002065,Anaemia megaloblastic,,"[""HP_0001889""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+38,BIOKORF_SIDE_038,anal pruritus,C0033775,10068172,Anal pruritus,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+39,BIOKORF_SIDE_039,anaphylactic shock,C0002792,10002199,Anaphylactic shock,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+40,BIOKORF_SIDE_040,anaphylaxis reaction,,,,,[],0,none,none,no_kg_evidence,False,True
+41,BIOKORF_SIDE_041,aneurysm,C0002940,10002329,Aneurysm,,"[""HP_0002617""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+42,BIOKORF_SIDE_042,anger,C0002957,10002368,Anger,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+43,BIOKORF_SIDE_043,angina pectoris,C0002962,10002383,Angina pectoris,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+44,BIOKORF_SIDE_044,angioedema,C0002994,10002424,Angioedema,meddra:10002424,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+45,BIOKORF_SIDE_045,angiopathy,C0042373,10059245,Angiopathy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+46,BIOKORF_SIDE_046,angle closure glaucoma,C0017605,10002500,Angle closure glaucoma,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+47,BIOKORF_SIDE_047,anorectal discomfort,C2242737,10068286,Anorectal discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+48,BIOKORF_SIDE_048,anorectal disorder,C0687707,10002644,Anorectal disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+49,BIOKORF_SIDE_049,inability to orgasm,,,,,[],0,none,none,no_kg_evidence,False,True
+50,BIOKORF_SIDE_050,antisocial behaviour,C0233523,10002820,Antisocial behaviour,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+51,BIOKORF_SIDE_051,antisocial personality disorder,C0003431,10002822,Antisocial personality disorder,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+52,BIOKORF_SIDE_052,arrest of urinary output,,,,,[],0,none,none,no_kg_evidence,False,True
+53,BIOKORF_SIDE_053,anxiety,C0003467,10002855,Anxiety,meddra:10002855,"[""HP_0000739""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+54,BIOKORF_SIDE_054,apathy,C0085632,10002942,Apathy,,"[""HP_0000741""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+55,BIOKORF_SIDE_055,aphasia,C0003537,10002948,Aphasia,,"[""HP_0002381""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+56,BIOKORF_SIDE_056,aplasia pure red cell,C0034902,10002965,Aplasia pure red cell,,"[""HP_0012410""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+57,BIOKORF_SIDE_057,aplastic anaemia,C0002874,10002967,Aplastic anaemia,,"[""HP_0001915""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+58,BIOKORF_SIDE_058,apnoea,C0003578,10002974,Apnoea,,"[""HP_0002104""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+59,BIOKORF_SIDE_059,appendicitis,C0003615,10003011,Appendicitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+60,BIOKORF_SIDE_060,application site burn,C0877661,10065059,Application site burn,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+61,BIOKORF_SIDE_061,application site dryness,C0877098,10048943,Application site dryness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+62,BIOKORF_SIDE_062,application site erythema,C0853700,10003041,Application site erythema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+63,BIOKORF_SIDE_063,application site irritation,C0521490,10003046,Application site irritation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+64,BIOKORF_SIDE_064,application site pain,C0521491,10003051,Application site pain,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+65,BIOKORF_SIDE_065,application site paresthesia,,,,,[],0,none,none,no_kg_evidence,False,True
+66,BIOKORF_SIDE_066,application site pruritus,C0853714,10003053,Application site pruritus,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+67,BIOKORF_SIDE_067,application site rash,C0521495,10003054,Application site rash,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+68,BIOKORF_SIDE_068,application site reaction,C0151505,10003055,Application site reaction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+69,BIOKORF_SIDE_069,application site vesicles,C0877097,10048941,Application site vesicles,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+70,BIOKORF_SIDE_070,apraxia,C0003635,10003062,Apraxia,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+71,BIOKORF_SIDE_071,arrhythmia,C0003811,10003119,Arrhythmia,meddra:10003119,"[""HP_0011675""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+72,BIOKORF_SIDE_072,arrhythmia supraventricular,C0428974,10003130,Arrhythmia supraventricular,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+73,BIOKORF_SIDE_073,arteriosclerosis,C0003850,10003210,Arteriosclerosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+74,BIOKORF_SIDE_074,arthralgia,C0003862,10003239,Arthralgia,meddra:10003239,"[""HP_0002829""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+75,BIOKORF_SIDE_075,arthritis,C0003864,10003246,Arthritis,meddra:10003246,"[""HP_0001369""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+76,BIOKORF_SIDE_076,other symptoms referable to lower leg joint,,,,,[],0,none,none,no_kg_evidence,False,True
+77,BIOKORF_SIDE_077,ascites,C0003962,10003445,Ascites,,"[""HP_0001541""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+78,BIOKORF_SIDE_078,asocial behaviour,C0233528,10003472,Asocial behaviour,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+79,BIOKORF_SIDE_079,aspartate aminotransferase increased,C0151904,10003481,Aspartate aminotransferase increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+80,BIOKORF_SIDE_080,asthenia,C0004093,10003549,Asthenia,meddra:10003549,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+81,BIOKORF_SIDE_081,eye strain,,,,,[],0,none,none,no_kg_evidence,False,True
+82,BIOKORF_SIDE_082,asthma,C0004096,10003553,Asthma,,"[""HP_0002099""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+83,BIOKORF_SIDE_083,ataxia,C0004134,10003591,Ataxia,meddra:10003591,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+84,BIOKORF_SIDE_084,atelectasis,C0004144,10003598,Atelectasis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+85,BIOKORF_SIDE_085,atrial fibrillation,C0004238,10003658,Atrial fibrillation,meddra:10003658,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+86,BIOKORF_SIDE_086,atrial flutter,C0004239,10003662,Atrial flutter,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+87,BIOKORF_SIDE_087,atrioventricular block,C0004245,10003671,Atrioventricular block,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+88,BIOKORF_SIDE_088,atrioventricular block complete,C0151517,10003673,Atrioventricular block complete,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+89,BIOKORF_SIDE_089,atrioventricular block first degree,C0085614,10003674,Atrioventricular block first degree,,"[""HP_0011705""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+90,BIOKORF_SIDE_090,autonomic nervous system imbalance,C0262385,10003840,Autonomic nervous system imbalance,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+91,BIOKORF_SIDE_091,syndrome uremic,,,,,[],0,none,none,no_kg_evidence,False,True
+92,BIOKORF_SIDE_092,back pain,C0004604,10003988,Back pain,meddra:10003988,"[""HP_0003418""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+93,BIOKORF_SIDE_093,bloodstream infections,,,,,[],0,none,none,no_kg_evidence,False,True
+94,BIOKORF_SIDE_094,bacterial infection,C0004623,10060945,Bacterial infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+95,BIOKORF_SIDE_095,balance disorder,C0575090,10049848,Balance disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+96,BIOKORF_SIDE_096,basal cell carcinoma,C0007117,10004146,Basal cell carcinoma,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+97,BIOKORF_SIDE_097,benign neoplasm of skin,C0004998,10004398,Benign neoplasm of skin,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+98,BIOKORF_SIDE_098,biliary colic,C0151824,10004663,Biliary colic,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+99,BIOKORF_SIDE_099,bipolar disorder,C0005586,10057667,Bipolar disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+100,BIOKORF_SIDE_100,bipolar i disorder,C0853193,10004939,Bipolar I disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+101,BIOKORF_SIDE_101,bladder cancer,C0005684,10005003,Bladder cancer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+102,BIOKORF_SIDE_102,bladder pain,C0232849,10005063,Bladder pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+103,BIOKORF_SIDE_103,bleeding time prolonged,C0151529,10005140,Bleeding time prolonged,,"[""HP_0003010""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+104,BIOKORF_SIDE_104,dermatitis eyelid,,,,,[],0,none,none,no_kg_evidence,False,True
+105,BIOKORF_SIDE_105,spasm eyelid,,,,,[],0,none,none,no_kg_evidence,False,True
+106,BIOKORF_SIDE_106,blindness,C0456909,10005169,Blindness,,"[""HP_0000618""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+107,BIOKORF_SIDE_107,blister,C0005758,10005191,Blister,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+108,BIOKORF_SIDE_108,blood albumin decreased,C0853777,10005287,Blood albumin decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+109,BIOKORF_SIDE_109,blood alkaline phosphatase increased,C0852911,10059570,Blood alkaline phosphatase increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+110,BIOKORF_SIDE_110,blood bilirubin increased,C0311468,10005364,Blood bilirubin increased,,"[""HP_0002904""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+111,BIOKORF_SIDE_111,blood calcium decreased,C3665624,10005395,Blood calcium decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+112,BIOKORF_SIDE_112,blood cholesterol increased,C0595930,10005425,Blood cholesterol increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+113,BIOKORF_SIDE_113,creatine kinase high,,,,,[],0,none,none,no_kg_evidence,False,True
+114,BIOKORF_SIDE_114,blood creatinine increased,C0235431,10005483,Blood creatinine increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+115,BIOKORF_SIDE_115,blood disorder,C0018939,10061590,Blood disorder,,"[""HP_0001871""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+116,BIOKORF_SIDE_116,blood glucose decreased,C0595883,10005555,Blood glucose decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+117,BIOKORF_SIDE_117,blood glucose increased,C0595877,10005557,Blood glucose increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+118,BIOKORF_SIDE_118,blood lactate dehydrogenase increased,C0853149,10005630,Blood lactate dehydrogenase increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+119,BIOKORF_SIDE_119,blood phosphorus decreased,C0877517,10049471,Blood phosphorus decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+120,BIOKORF_SIDE_120,blood potassium decreased,C0853761,10005724,Blood potassium decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+121,BIOKORF_SIDE_121,blood potassium increased,C0853760,10005725,Blood potassium increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+122,BIOKORF_SIDE_122,blood pressure increased,C0497247,10005750,Blood pressure increased,,"[""HP_0000822""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+123,BIOKORF_SIDE_123,blood prolactin increased,C0854082,10005780,Blood prolactin increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+124,BIOKORF_SIDE_124,blood triglycerides increased,C0853692,10005839,Blood triglycerides increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+125,BIOKORF_SIDE_125,blood urea increased,C0151539,10005851,Blood urea increased,,"[""HP_0003138""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+126,BIOKORF_SIDE_126,blood uric acid increased,C0235416,10005861,Blood uric acid increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+127,BIOKORF_SIDE_127,blood urine present,C0947999,10018870,Blood urine present,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+128,BIOKORF_SIDE_128,body temperature decreased,C0020672,10005910,Body temperature decreased,,"[""HP_0002045""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+129,BIOKORF_SIDE_129,body temperature increased,C0015967,10005911,Body temperature increased,,"[""HP_0001945""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+130,BIOKORF_SIDE_130,bone disorder,C0005940,10005956,Bone disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+131,BIOKORF_SIDE_131,bone pain,C0151825,10006002,Bone pain,meddra:10006002,"[""HP_0002653""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+132,BIOKORF_SIDE_132,bradycardia,C0428977,10006093,Bradycardia,meddra:10006093,"[""HP_0001662""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+133,BIOKORF_SIDE_133,loss of motor function,,,,,[],0,none,none,no_kg_evidence,False,True
+134,BIOKORF_SIDE_134,brain oedema,C1527311,10048962,Brain oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+135,BIOKORF_SIDE_135,breast cancer,C0006142,10006187,Breast cancer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+136,BIOKORF_SIDE_136,breast discharge,C0149741,10006223,Breast discharge,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+137,BIOKORF_SIDE_137,breast disorder,C0006145,10061021,Breast disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+138,BIOKORF_SIDE_138,breast engorgement,C0085688,10006240,Breast engorgement,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+139,BIOKORF_SIDE_139,breast enlargement,C2225524,10006242,Breast enlargement,,"[""HP_0010313""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+140,BIOKORF_SIDE_140,breast neoplasm,C1458155,10006279,Breast neoplasm,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+141,BIOKORF_SIDE_141,breast pain,C0024902,10006298,Breast pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+142,BIOKORF_SIDE_142,breast tenderness,C0262397,10006313,Breast tenderness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+143,BIOKORF_SIDE_143,breath odour,C0018520,10006326,Breath odour,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+144,BIOKORF_SIDE_144,breath sounds abnormal,C0231856,10064780,Breath sounds abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+145,BIOKORF_SIDE_145,reactive airways disease,,,,,[],0,none,none,no_kg_evidence,False,True
+146,BIOKORF_SIDE_146,bronchitis,C0006277,10006451,Bronchitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+147,BIOKORF_SIDE_147,bronchospasm,C0006266,10006482,Bronchospasm,meddra:10006482,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+148,BIOKORF_SIDE_148,bronchospasm paradoxical,C0236072,10006486,Bronchospasm paradoxical,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+149,BIOKORF_SIDE_149,bruxism,C0006325,10006514,Bruxism,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+150,BIOKORF_SIDE_150,bundle branch block,C0006384,10006578,Bundle branch block,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+151,BIOKORF_SIDE_151,burning sensation,C0085624,10006784,Burning sensation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+152,BIOKORF_SIDE_152,bursitis,C0006444,10006811,Bursitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+153,BIOKORF_SIDE_153,cachexia,C0006625,10006895,Cachexia,,"[""HP_0004326""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+154,BIOKORF_SIDE_154,candida infection,C0006840,10074170,Candida infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+155,BIOKORF_SIDE_155,cardiac arrest,C0018790,10007515,Cardiac arrest,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+156,BIOKORF_SIDE_156,cardiac disorder,C0018799,10061024,Cardiac disorder,meddra:10061024,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+157,BIOKORF_SIDE_157,cardiac failure,C0018801,10007554,Cardiac failure,meddra:10007554,"[""HP_0001635""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+158,BIOKORF_SIDE_158,cardiac failure congestive,C0018802,10007559,Cardiac failure congestive,,"[""HP_0001635""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+159,BIOKORF_SIDE_159,cardiac flutter,C0016385,10052840,Cardiac flutter,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+160,BIOKORF_SIDE_160,cardiac murmur,C0018808,10007586,Cardiac murmur,,"[""HP_0030148""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+161,BIOKORF_SIDE_161,cardiac output decreased,C0007166,10007595,Cardiac output decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+162,BIOKORF_SIDE_162,cardiogenic shock,C0036980,10007625,Cardiogenic shock,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+163,BIOKORF_SIDE_163,cardiac dilatation,,,,,[],0,none,none,no_kg_evidence,False,True
+164,BIOKORF_SIDE_164,cardiomyopathy,C0878544,10007636,Cardiomyopathy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+165,BIOKORF_SIDE_165,cardiovascular disorder,C0007222,10007649,Cardiovascular disorder,,"[""HP_0001626""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+166,BIOKORF_SIDE_166,carpal tunnel syndrome,C0007286,10007697,Carpal tunnel syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+167,BIOKORF_SIDE_167,cataract,C0086543,10007739,Cataract,meddra:10007739,"[""HP_0000518""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+168,BIOKORF_SIDE_168,catheter site pain,C0949103,10052268,Catheter site pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+169,BIOKORF_SIDE_169,cellulitis,C0007642,10007882,Cellulitis,,"[""HP_0100658""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+170,BIOKORF_SIDE_170,cerebellar syndrome,C0007760,10008072,Cerebellar syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+171,BIOKORF_SIDE_171,cerebral haemorrhage,C2937358,10008111,Cerebral haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+172,BIOKORF_SIDE_172,cerebral infarction,C0007785,10008118,Cerebral infarction,meddra:10008118,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+173,BIOKORF_SIDE_173,cerebral ischaemia,C0917798,10008120,Cerebral ischaemia,,"[""HP_0002637""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+174,BIOKORF_SIDE_174,cerebrovascular accident,C0038454,10008190,Cerebrovascular accident,,"[""HP_0001297""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+175,BIOKORF_SIDE_175,cerebrovascular disorder,C0007820,10008196,Cerebrovascular disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+176,BIOKORF_SIDE_176,cervix disorder,C0007867,10008351,Cervix disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+177,BIOKORF_SIDE_177,change of bowel habit,C0278008,10008399,Change of bowel habit,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+178,BIOKORF_SIDE_178,cheilitis,C0007971,10008417,Cheilitis,,"[""HP_0100825""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+179,BIOKORF_SIDE_179,chest discomfort,C0235710,10008469,Chest discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+180,BIOKORF_SIDE_180,chest pain,C0008031,10008479,Chest pain,meddra:10008479,"[""HP_0100749""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+181,BIOKORF_SIDE_181,chills,C0085593,10008531,Chills,meddra:10008531,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+182,BIOKORF_SIDE_182,cholecystitis,C0008325,10008612,Cholecystitis,,"[""HP_0001082""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+183,BIOKORF_SIDE_183,biliary sludge,,,,,[],0,none,none,no_kg_evidence,False,True
+184,BIOKORF_SIDE_184,cholestasis,C0008370,10008635,Cholestasis,,"[""HP_0001396""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+185,BIOKORF_SIDE_185,chorea and atheletes disease,,,,,[],0,none,none,no_kg_evidence,False,True
+186,BIOKORF_SIDE_186,color vision change,,,,,[],0,none,none,no_kg_evidence,False,True
+187,BIOKORF_SIDE_187,urine discolouration,,,,,[],0,none,none,no_kg_evidence,False,True
+188,BIOKORF_SIDE_188,chronic obstructive pulmonary disease,C0024117,10009033,Chronic obstructive pulmonary disease,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+189,BIOKORF_SIDE_189,clostridium difficile colitis,C0238106,10009657,Clostridium difficile colitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+190,BIOKORF_SIDE_190,coagulopathy,C0005779,10009802,Coagulopathy,,"[""HP_0001928""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+191,BIOKORF_SIDE_191,cognitive disorder,C0009241,10057668,Cognitive disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+192,BIOKORF_SIDE_192,cold sweat,C0232431,10009866,Cold sweat,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+193,BIOKORF_SIDE_193,colitis,C0009319,10009887,Colitis,meddra:10009887,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+194,BIOKORF_SIDE_194,colitis ischaemic,C0162529,10009895,Colitis ischaemic,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+195,BIOKORF_SIDE_195,colitis ulcerative,C0009324,10009900,Colitis ulcerative,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+196,BIOKORF_SIDE_196,coma,C0009421,10010071,Coma,,"[""HP_0001259""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+197,BIOKORF_SIDE_197,completed suicide,C0852733,10010144,Completed suicide,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+198,BIOKORF_SIDE_198,conduction disorder,C0264886,10010276,Conduction disorder,,"[""HP_0011675""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+199,BIOKORF_SIDE_199,confusion state,,,,,[],0,none,none,no_kg_evidence,False,True
+200,BIOKORF_SIDE_200,congenital eye disorder,C0015393,10059159,Congenital eye disorder,,"[""HP_0000478""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+201,BIOKORF_SIDE_201,conjunctival haemorrhage,C0009760,10010719,Conjunctival haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+202,BIOKORF_SIDE_202,congestion conjunctival,,,,,[],0,none,none,no_kg_evidence,False,True
+203,BIOKORF_SIDE_203,conjunctival oedema,C0151601,10010726,Conjunctival oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+204,BIOKORF_SIDE_204,conjunctivitis,C0009763,10010741,Conjunctivitis,meddra:10010741,"[""HP_0000509""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+205,BIOKORF_SIDE_205,conjunctivitis allergic,C0009766,10010744,Conjunctivitis allergic,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+206,BIOKORF_SIDE_206,connective tissue disorder,C0009782,10061087,Connective tissue disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+207,BIOKORF_SIDE_207,constipation,C0009806,10010774,Constipation,meddra:10010774,"[""HP_0002019""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+208,BIOKORF_SIDE_208,contusion,C0009938,10050584,Contusion,meddra:10050584,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+209,BIOKORF_SIDE_209,conversion disorder,C0009946,10010893,Conversion disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+210,BIOKORF_SIDE_210,coordination abnormal,C0520966,10010947,Coordination abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+211,BIOKORF_SIDE_211,corneal erosion,C0392163,10011013,Corneal erosion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+212,BIOKORF_SIDE_212,corneal lesion,C0151571,10011026,Corneal lesion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+213,BIOKORF_SIDE_213,corneal opacity,C0010038,10011035,Corneal opacity,,"[""HP_0007957""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+214,BIOKORF_SIDE_214,coronary artery disease,C1956346,10011078,Coronary artery disease,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+215,BIOKORF_SIDE_215,cough,C0010200,10011224,Cough,meddra:10011224,"[""HP_0012735""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+216,BIOKORF_SIDE_216,regional enteritis of unspecified site,,,,,[],0,none,none,no_kg_evidence,False,True
+217,BIOKORF_SIDE_217,crying,C0010399,10011469,Crying,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+218,BIOKORF_SIDE_218,cushing syndrome,,,,,[],0,none,none,no_kg_evidence,False,True
+219,BIOKORF_SIDE_219,cyanosis,C0010520,10011703,Cyanosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+220,BIOKORF_SIDE_220,cyst,C0010709,10011732,Cyst,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+221,BIOKORF_SIDE_221,cystitis,C0010692,10011781,Cystitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+222,BIOKORF_SIDE_222,cystitis haemorrhagic,C0085692,10011793,Cystitis haemorrhagic,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+223,BIOKORF_SIDE_223,cystitis non infective,,,,,[],0,none,none,no_kg_evidence,False,True
+224,BIOKORF_SIDE_224,deafness,C0011053,10011878,Deafness,,"[""HP_0000365""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+225,BIOKORF_SIDE_225,decreased appetite,C0232462,10061428,Decreased appetite,meddra:10061428,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+226,BIOKORF_SIDE_226,deep vein thrombosis,C0149871,10051055,Deep vein thrombosis,meddra:10051055,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+227,BIOKORF_SIDE_227,dehydration,C0011175,10012174,Dehydration,meddra:10012174,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+228,BIOKORF_SIDE_228,delirium,C0011206,10012218,Delirium,meddra:10012218,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+229,BIOKORF_SIDE_229,delusion,C0011253,10012239,Delusion,,"[""HP_0000746""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+230,BIOKORF_SIDE_230,dementia,C0497327,10012267,Dementia,,"[""HP_0000726""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+231,BIOKORF_SIDE_231,dental caries,C0011334,10012318,Dental caries,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+232,BIOKORF_SIDE_232,depressed level of consciousness,C0549249,10012373,Depressed level of consciousness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+233,BIOKORF_SIDE_233,depressed mood,C0344315,10012374,Depressed mood,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+234,BIOKORF_SIDE_234,depression,C0011570,10012378,Depression,meddra:10012378,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+235,BIOKORF_SIDE_235,feeling unreal,,,,,[],0,none,none,no_kg_evidence,False,True
+236,BIOKORF_SIDE_236,dermatitis,C0011603,10012431,Dermatitis,,"[""HP_0011123""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+237,BIOKORF_SIDE_237,dermatitis acne,,,,,[],0,none,none,no_kg_evidence,False,True
+238,BIOKORF_SIDE_238,dermatitis atopic,C0011615,10012438,Dermatitis atopic,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+239,BIOKORF_SIDE_239,dermatitis bullous,C0085932,10012441,Dermatitis bullous,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+240,BIOKORF_SIDE_240,dermatitis contact,C0011616,10012442,Dermatitis contact,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+241,BIOKORF_SIDE_241,dermatitis exfoliating,,,,,[],0,none,none,no_kg_evidence,False,True
+242,BIOKORF_SIDE_242,diabetes mellitus,C0011849,10012601,Diabetes mellitus,meddra:10012601,"[""HP_0000819""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+243,BIOKORF_SIDE_243,diarrhoea,C0011991,10012735,Diarrhoea,,"[""HP_0002014""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+244,BIOKORF_SIDE_244,diarrhoea haemorrhagic,C0151594,10012741,Diarrhoea haemorrhagic,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+245,BIOKORF_SIDE_245,diplopia,C0012569,10013036,Diplopia,meddra:10013036,"[""HP_0000651""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+246,BIOKORF_SIDE_246,discomfort,C0234215,10013082,Discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+247,BIOKORF_SIDE_247,disorientation,C0233407,10013395,Disorientation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+248,BIOKORF_SIDE_248,disseminated intravascular coagulation,C0012739,10013442,Disseminated intravascular coagulation,,"[""HP_0005521""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+249,BIOKORF_SIDE_249,disturbance in attention,C0233414,10013496,Disturbance in attention,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+250,BIOKORF_SIDE_250,disturbance in sexual arousal,C0855242,10058929,Disturbance in sexual arousal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+251,BIOKORF_SIDE_251,diverticulitis,C0012813,10013538,Diverticulitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+252,BIOKORF_SIDE_252,dizziness,C0012833,10013573,Dizziness,meddra:10013573,"[""HP_0002321""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+253,BIOKORF_SIDE_253,dizziness postural,C0234987,10013578,Dizziness postural,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+254,BIOKORF_SIDE_254,drug eruption,C0011609,10013687,Drug eruption,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+255,BIOKORF_SIDE_255,drug hypersensitivity,C0013182,10013700,Drug hypersensitivity,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+256,BIOKORF_SIDE_256,drug ineffective,C0852908,10013709,Drug ineffective,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+257,BIOKORF_SIDE_257,dry eye,C0314719,10013774,Dry eye,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+258,BIOKORF_SIDE_258,dry mouth,C0043352,10013781,Dry mouth,meddra:10013781,[],1,exact_meddra_pt_name,high,canonical_meddra_with_kg,True,False
+259,BIOKORF_SIDE_259,dry skin,C0151908,10013786,Dry skin,meddra:10013786,"[""HP_0000958""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+260,BIOKORF_SIDE_260,dry throat,C0235234,10013789,Dry throat,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+261,BIOKORF_SIDE_261,duodenal ulcer,C0013295,10013836,Duodenal ulcer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+262,BIOKORF_SIDE_262,duodenal inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+263,BIOKORF_SIDE_263,paresthesia,,,,HP_0003401,[],1,step12_unique_exact_name,high,exact_other_ontology,True,False
+264,BIOKORF_SIDE_264,dysarthria,C0013362,10013887,Dysarthria,,"[""HP_0001260""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+265,BIOKORF_SIDE_265,bad taste,,,,,[],0,none,none,no_kg_evidence,False,True
+266,BIOKORF_SIDE_266,dyskinesia,C0013384,10013916,Dyskinesia,meddra:10013916,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+267,BIOKORF_SIDE_267,menses painful,,,,,[],0,none,none,no_kg_evidence,False,True
+268,BIOKORF_SIDE_268,dyspareunia,C1384606,10013941,Dyspareunia,,"[""HP_0030016""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+269,BIOKORF_SIDE_269,dyspepsia,C0013395,10013946,Dyspepsia,meddra:10013946,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+270,BIOKORF_SIDE_270,dysphagia,C0011168,10013950,Dysphagia,meddra:10013950,"[""HP_0002015""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+271,BIOKORF_SIDE_271,dysphonia,C1527344,10013952,Dysphonia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+272,BIOKORF_SIDE_272,dysphoria,C0233477,10013954,Dysphoria,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+273,BIOKORF_SIDE_273,air hunger,,,,,[],0,none,none,no_kg_evidence,False,True
+274,BIOKORF_SIDE_274,air hunger exertional,,,,,[],0,none,none,no_kg_evidence,False,True
+275,BIOKORF_SIDE_275,urinary spray,,,,,[],0,none,none,no_kg_evidence,False,True
+276,BIOKORF_SIDE_276,ear disorder,C0013447,10014004,Ear disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+277,BIOKORF_SIDE_277,ear infection,C0699744,10014011,Ear infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+278,BIOKORF_SIDE_278,ear pain,C0013456,10014020,Ear pain,,"[""HP_0030766""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+279,BIOKORF_SIDE_279,bruise,,,,,[],0,none,none,no_kg_evidence,False,True
+280,BIOKORF_SIDE_280,eczema,C0013595,10014184,Eczema,,"[""HP_0000964""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+281,BIOKORF_SIDE_281,ejaculation delayed,C0234047,10014325,Ejaculation delayed,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+282,BIOKORF_SIDE_282,ejaculation disorder,C0235969,10014326,Ejaculation disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+283,BIOKORF_SIDE_283,ejaculation failure,C0278106,10014328,Ejaculation failure,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+284,BIOKORF_SIDE_284,electrocardiogram abnormal,C0522055,10014363,Electrocardiogram abnormal,,"[""HP_0003115"",""HP_0011675""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+285,BIOKORF_SIDE_285,electrocardiogram qt prolonged,C0151878,10014387,Electrocardiogram QT prolonged,,"[""HP_0001657""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+286,BIOKORF_SIDE_286,electrocardiogram st segment depression,C0520887,10014391,Electrocardiogram ST segment depression,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+287,BIOKORF_SIDE_287,electroencephalogram abnormal,C0151611,10014408,Electroencephalogram abnormal,,"[""HP_0002353""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+288,BIOKORF_SIDE_288,electrolyte imbalance,C0342579,10014418,Electrolyte imbalance,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+289,BIOKORF_SIDE_289,embolism,C0013922,10061169,Embolism,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+290,BIOKORF_SIDE_290,embolism venous,C0340726,10014522,Embolism venous,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+291,BIOKORF_SIDE_291,emotional disorder,C0233459,10014551,Emotional disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+292,BIOKORF_SIDE_292,emphysema,C0034067,10014561,Emphysema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+293,BIOKORF_SIDE_293,encephalopathy,C0085584,10014625,Encephalopathy,meddra:10014625,"[""HP_0001298""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+294,BIOKORF_SIDE_294,endocrine disorder,C0014130,10014695,Endocrine disorder,meddra:10014695,"[""HP_0000818""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+295,BIOKORF_SIDE_295,endometrial disorder,C0151622,10014753,Endometrial disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+296,BIOKORF_SIDE_296,ophthalmia,,,,,[],0,none,none,no_kg_evidence,False,True
+297,BIOKORF_SIDE_297,enteritis,C0014335,10014866,Enteritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+298,BIOKORF_SIDE_298,enterocolitis,C0014356,10014893,Enterocolitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+299,BIOKORF_SIDE_299,enuresis,C0014394,10014928,Enuresis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+300,BIOKORF_SIDE_300,eosinophilia,C0014457,10014950,Eosinophilia,,"[""HP_0001880""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+301,BIOKORF_SIDE_301,epididymitis,C0014534,10015000,Epididymitis,,"[""HP_0000031""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+302,BIOKORF_SIDE_302,epigastric discomfort,C1291078,10053155,Epigastric discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+303,BIOKORF_SIDE_303,epistaxis,C0014591,10015090,Epistaxis,meddra:10015090,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+304,BIOKORF_SIDE_304,erectile dysfunction,C0242350,10061461,Erectile dysfunction,meddra:10061461,"[""HP_0000802""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+305,BIOKORF_SIDE_305,gas raising,,,,,[],0,none,none,no_kg_evidence,False,True
+306,BIOKORF_SIDE_306,erythema,C0041834,10015150,Erythema,meddra:10015150,"[""HP_0010783""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+307,BIOKORF_SIDE_307,erythema multiforme,C0014742,10015218,Erythema multiforme,meddra:10015218,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+308,BIOKORF_SIDE_308,erythema nodosum,C0014743,10015226,Erythema nodosum,,"[""HP_0012219""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+309,BIOKORF_SIDE_309,erythema of eyelid,C0239454,10015237,Erythema of eyelid,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+310,BIOKORF_SIDE_310,euphoric mood,C0235146,10015535,Euphoric mood,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+311,BIOKORF_SIDE_311,excoriation,C0015256,10049796,Excoriation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+312,BIOKORF_SIDE_312,exophthalmos,C0015300,10015683,Exophthalmos,,"[""HP_0000520""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+313,BIOKORF_SIDE_313,bone spur,,,,,[],0,none,none,no_kg_evidence,False,True
+314,BIOKORF_SIDE_314,extrapyramidal disorder,C0015371,10015832,Extrapyramidal disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+315,BIOKORF_SIDE_315,cardiac complex,,,,,[],0,none,none,no_kg_evidence,False,True
+316,BIOKORF_SIDE_316,extravasation,C0015376,10015866,Extravasation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+317,BIOKORF_SIDE_317,eye discharge,C0423006,10015915,Eye discharge,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+318,BIOKORF_SIDE_318,eye disorder,C0015397,10015916,Eye disorder,,"[""HP_0000478""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+319,BIOKORF_SIDE_319,eye haemorrhage,C0015402,10015926,Eye haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+320,BIOKORF_SIDE_320,eye infection,C0015403,10015929,Eye infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+321,BIOKORF_SIDE_321,eye irritation,C0235266,10015946,Eye irritation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+322,BIOKORF_SIDE_322,eye oedema,C0743680,10052139,Eye oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+323,BIOKORF_SIDE_323,eye pain,C0151827,10015958,Eye pain,meddra:10015958,"[""HP_0200026""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+324,BIOKORF_SIDE_324,eye pruritus,C0022281,10052140,Eye pruritus,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+325,BIOKORF_SIDE_325,eye swelling,C0270996,10015967,Eye swelling,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+326,BIOKORF_SIDE_326,eyelid oedema,C0162285,10015993,Eyelid oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+327,BIOKORF_SIDE_327,face oedema,C0542571,10016029,Face oedema,,"[""HP_0000282""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+328,BIOKORF_SIDE_328,fecal impaction,,,,,[],0,none,none,no_kg_evidence,False,True
+329,BIOKORF_SIDE_329,fecal impaction causing obstruction,,,,,[],0,none,none,no_kg_evidence,False,True
+330,BIOKORF_SIDE_330,faeces discoloured,C0235315,10016100,Faeces discoloured,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+331,BIOKORF_SIDE_331,fasting,C0015663,10068315,Fasting,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+332,BIOKORF_SIDE_332,fatigue,C0015672,10016256,Fatigue,meddra:10016256,"[""HP_0012378""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+333,BIOKORF_SIDE_333,febrile neutropenia,C0746883,10016288,Febrile neutropenia,meddra:10016288,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+334,BIOKORF_SIDE_334,feeling abnormal,C1443060,10016322,Feeling abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+335,BIOKORF_SIDE_335,feeling cold,C0234192,10016326,Feeling cold,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+336,BIOKORF_SIDE_336,feeling drunk,C0522172,10016330,Feeling drunk,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+337,BIOKORF_SIDE_337,feeling hot,C2939147,10016334,Feeling hot,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+338,BIOKORF_SIDE_338,feeling jittery,C0549209,10016338,Feeling jittery,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+339,BIOKORF_SIDE_339,fibrocystic breast disease,C0016034,10016621,Fibrocystic breast disease,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+340,BIOKORF_SIDE_340,flank pain,C0016199,10016750,Flank pain,,"[""HP_0030157""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+341,BIOKORF_SIDE_341,flat affect,C0233471,10016759,Flat affect,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+342,BIOKORF_SIDE_342,flatulence,C0016204,10016766,Flatulence,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+343,BIOKORF_SIDE_343,fluid overload,C0546817,10016803,Fluid overload,,"[""HP_0011105""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+344,BIOKORF_SIDE_344,fluid retention,C0268000,10016807,Fluid retention,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+345,BIOKORF_SIDE_345,flushing,C0016382,10016825,Flushing,meddra:10016825,"[""HP_0010783""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+346,BIOKORF_SIDE_346,halitosis of liver disease,,,,,[],0,none,none,no_kg_evidence,False,True
+347,BIOKORF_SIDE_347,folliculitis,C0016436,10016936,Folliculitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+348,BIOKORF_SIDE_348,fracture,C0016658,10017076,Fracture,meddra:10017076,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+349,BIOKORF_SIDE_349,functional gastrointestinal disorder,C0559031,10071275,Functional gastrointestinal disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+350,BIOKORF_SIDE_350,fungal infection,C0026946,10017533,Fungal infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+351,BIOKORF_SIDE_351,fungal skin infection,C0011630,10017543,Fungal skin infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+352,BIOKORF_SIDE_352,boil in nose,,,,,[],0,none,none,no_kg_evidence,False,True
+353,BIOKORF_SIDE_353,gait disturbance,C0575081,10017577,Gait disturbance,,"[""HP_0001288""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+354,BIOKORF_SIDE_354,female lactation,,,,,[],0,none,none,no_kg_evidence,False,True
+355,BIOKORF_SIDE_355,gamma glutamine transfer enzyme increased,,,,,[],0,none,none,no_kg_evidence,False,True
+356,BIOKORF_SIDE_356,gangrene,C0017086,10017711,Gangrene,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+357,BIOKORF_SIDE_357,gastric ulcer,C0038358,10017822,Gastric ulcer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+358,BIOKORF_SIDE_358,gastritis,C0017152,10017853,Gastritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+359,BIOKORF_SIDE_359,gastroenteritis,C0017160,10017888,Gastroenteritis,meddra:10017888,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+360,BIOKORF_SIDE_360,gastrointestinal carcinoma,C0151544,10017940,Gastrointestinal carcinoma,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+361,BIOKORF_SIDE_361,gastrointestinal disorder,C0017178,10017944,Gastrointestinal disorder,meddra:10017944,"[""HP_0011024""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+362,BIOKORF_SIDE_362,gastrointestinal haemorrhage,C0017181,10017955,Gastrointestinal haemorrhage,,"[""HP_0002239""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+363,BIOKORF_SIDE_363,gastrointestinal infection,C1264613,10017964,Gastrointestinal infection,,"[""HP_0004798""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+364,BIOKORF_SIDE_364,gastrointestinal pain,C0687713,10017999,Gastrointestinal pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+365,BIOKORF_SIDE_365,gastrointestinal perforation,C0151664,10018001,Gastrointestinal perforation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+366,BIOKORF_SIDE_366,gastrointestinal ulcer,C0237938,10061459,Gastrointestinal ulcer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+367,BIOKORF_SIDE_367,esophageal reflux,,,,,[],0,none,none,no_kg_evidence,False,True
+368,BIOKORF_SIDE_368,generalised oedema,C0151603,10018092,Generalised oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+369,BIOKORF_SIDE_369,genital candidiasis,C0343863,10018143,Genital candidiasis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+370,BIOKORF_SIDE_370,gingival bleeding,C0017565,10018276,Gingival bleeding,,"[""HP_0000225""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+371,BIOKORF_SIDE_371,gingival pain,C0239739,10018286,Gingival pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+372,BIOKORF_SIDE_372,gingivitis,C0017574,10018292,Gingivitis,meddra:10018292,"[""HP_0000230""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+373,BIOKORF_SIDE_373,glaucoma,C0017601,10018304,Glaucoma,meddra:10018304,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+374,BIOKORF_SIDE_374,glossitis,C0017675,10018386,Glossitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+375,BIOKORF_SIDE_375,burning tongue,,,,,[],0,none,none,no_kg_evidence,False,True
+376,BIOKORF_SIDE_376,glucose tolerance impaired,C0271650,10018429,Glucose tolerance impaired,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+377,BIOKORF_SIDE_377,diabetes,,,,,[],0,none,none,no_kg_evidence,False,True
+378,BIOKORF_SIDE_378,goitre,C0018021,10018498,Goitre,,"[""HP_0000853""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+379,BIOKORF_SIDE_379,gout,C0018099,10018627,Gout,meddra:10018627,"[""HP_0001997""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+380,BIOKORF_SIDE_380,gravitational oedema,C0235437,10018713,Gravitational oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+381,BIOKORF_SIDE_381,breast enlargement male,,,,,[],0,none,none,no_kg_evidence,False,True
+382,BIOKORF_SIDE_382,emesis bloody,,,,,[],0,none,none,no_kg_evidence,False,True
+383,BIOKORF_SIDE_383,blood in stool,,,,HP_0025085,[],1,step12_unique_exact_synonym,high,exact_other_ontology,True,False
+384,BIOKORF_SIDE_384,packed cell volume decreased,,,,,[],0,none,none,no_kg_evidence,False,True
+385,BIOKORF_SIDE_385,haematoma,C0018944,10018852,Haematoma,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+386,BIOKORF_SIDE_386,urinary tract bleed microscopic,,,,,[],0,none,none,no_kg_evidence,False,True
+387,BIOKORF_SIDE_387,haemoglobin,C0518015,10018876,Haemoglobin,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+388,BIOKORF_SIDE_388,haemoglobin decreased,C0162119,10018884,Haemoglobin decreased,,"[""HP_0001903""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+389,BIOKORF_SIDE_389,haemolytic anaemia,C0002878,10018916,Haemolytic anaemia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+390,BIOKORF_SIDE_390,haemolytic uremia syndrome,,,,,[],0,none,none,no_kg_evidence,False,True
+391,BIOKORF_SIDE_391,blood streaked sputum,,,,,[],0,none,none,no_kg_evidence,False,True
+392,BIOKORF_SIDE_392,haemorrhage,C0019080,10055798,Haemorrhage,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+393,BIOKORF_SIDE_393,haemorrhage intracranial,C0151699,10018985,Haemorrhage intracranial,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+394,BIOKORF_SIDE_394,haemorrhagic disorder,C0019087,10019009,Haemorrhagic disorder,,"[""HP_0001928""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+395,BIOKORF_SIDE_395,hemorrhoids,,,,HP_0032551,[],1,step12_unique_exact_name,high,exact_other_ontology,True,False
+396,BIOKORF_SIDE_396,hair colour changes,C0474378,10019030,Hair colour changes,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+397,BIOKORF_SIDE_397,hair disorder,C0018500,10019037,Hair disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+398,BIOKORF_SIDE_398,hair texture abnormal,C0235807,10019049,Hair texture abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+399,BIOKORF_SIDE_399,hallucination,C0018524,10019063,Hallucination,meddra:10019063,"[""HP_0000738""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+400,BIOKORF_SIDE_400,hangover,C0221100,10019133,Hangover,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+401,BIOKORF_SIDE_401,headache,C0018681,10019211,Headache,meddra:10019211,"[""HP_0002315""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+402,BIOKORF_SIDE_402,hemiplegia,C0018991,10019468,Hemiplegia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+403,BIOKORF_SIDE_403,hepatic cancer,C0345904,10073069,Hepatic cancer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+404,BIOKORF_SIDE_404,hepatic enzyme increased,C0235996,10060795,Hepatic enzyme increased,,"[""HP_0002910""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+405,BIOKORF_SIDE_405,hepatic failure,C0085605,10019663,Hepatic failure,meddra:10019663,"[""HP_0001399""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+406,BIOKORF_SIDE_406,hepatic function abnormal,C0086565,10019670,Hepatic function abnormal,,"[""HP_0001410"",""HP_0002910""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+407,BIOKORF_SIDE_407,hepatic necrosis,C0151798,10019692,Hepatic necrosis,,"[""HP_0002605""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+408,BIOKORF_SIDE_408,hepatic steatosis,C2711227,10019708,Hepatic steatosis,,"[""HP_0001397""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+409,BIOKORF_SIDE_409,hepatitis,C0019158,10019717,Hepatitis,meddra:10019717,"[""HP_0012115""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+410,BIOKORF_SIDE_410,hepatitis cholestasis,,,,,[],0,none,none,no_kg_evidence,False,True
+411,BIOKORF_SIDE_411,hepatobiliary disease,C0267792,10062000,Hepatobiliary disease,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+412,BIOKORF_SIDE_412,hepatocellular injury,C0151763,10019837,Hepatocellular injury,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+413,BIOKORF_SIDE_413,hepatomegaly,C0019209,10019842,Hepatomegaly,,"[""HP_0002240""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+414,BIOKORF_SIDE_414,hepatotoxicity,C0235378,10019851,Hepatotoxicity,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+415,BIOKORF_SIDE_415,hernia,C0019270,10019909,Hernia,,"[""HP_0100790""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+416,BIOKORF_SIDE_416,herpes simplex,C0019348,10019948,Herpes simplex,meddra:10019948,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+417,BIOKORF_SIDE_417,herpes virus infection,C0019372,10019973,Herpes virus infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+418,BIOKORF_SIDE_418,herpes zoster,C0019360,10019974,Herpes zoster,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+419,BIOKORF_SIDE_419,hiatus hernia,C3489393,10020028,Hiatus hernia,,"[""HP_0002036""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+420,BIOKORF_SIDE_420,hiccups,C0019521,10020039,Hiccups,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+421,BIOKORF_SIDE_421,hirsutism,C0019572,10020112,Hirsutism,,"[""HP_0001007""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+422,BIOKORF_SIDE_422,hostility,C0020039,10020400,Hostility,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+423,BIOKORF_SIDE_423,hot flush,C0600142,10060800,Hot flush,meddra:10060800,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+424,BIOKORF_SIDE_424,hyperacusis,C0034880,10020559,Hyperacusis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+425,BIOKORF_SIDE_425,venous congestion,,,,,[],0,none,none,no_kg_evidence,False,True
+426,BIOKORF_SIDE_426,allodynia mechanical,,,,,[],0,none,none,no_kg_evidence,False,True
+427,BIOKORF_SIDE_427,bilirubin blood,,,,,[],0,none,none,no_kg_evidence,False,True
+428,BIOKORF_SIDE_428,high calcium blood,,,,,[],0,none,none,no_kg_evidence,False,True
+429,BIOKORF_SIDE_429,high calcium urine,,,,,[],0,none,none,no_kg_evidence,False,True
+430,BIOKORF_SIDE_430,high cholesterol blood,,,,,[],0,none,none,no_kg_evidence,False,True
+431,BIOKORF_SIDE_431,high blood sugar,,,,HP_0003074,[],1,step12_unique_exact_synonym,high,exact_other_ontology,True,False
+432,BIOKORF_SIDE_432,hyperhidrosis,C0020458,10020642,Hyperhidrosis,,"[""HP_0000975""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+433,BIOKORF_SIDE_433,high potassium blood,,,,,[],0,none,none,no_kg_evidence,False,True
+434,BIOKORF_SIDE_434,hyperkeratosis,C0870082,10020649,Hyperkeratosis,,"[""HP_0000962""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+435,BIOKORF_SIDE_435,movement function hyperactivity,,,,,[],0,none,none,no_kg_evidence,False,True
+436,BIOKORF_SIDE_436,high lactic acid blood,,,,,[],0,none,none,no_kg_evidence,False,True
+437,BIOKORF_SIDE_437,high levels of lipids,,,,,[],0,none,none,no_kg_evidence,False,True
+438,BIOKORF_SIDE_438,high magnesium blood,,,,,[],0,none,none,no_kg_evidence,False,True
+439,BIOKORF_SIDE_439,salt retention,,,,,[],0,none,none,no_kg_evidence,False,True
+440,BIOKORF_SIDE_440,pain allergy,,,,,[],0,none,none,no_kg_evidence,False,True
+441,BIOKORF_SIDE_441,high phosphorus blood,,,,,[],0,none,none,no_kg_evidence,False,True
+442,BIOKORF_SIDE_442,exaggerated reflexes,,,,,[],0,none,none,no_kg_evidence,False,True
+443,BIOKORF_SIDE_443,hypersensitivity,C0020517,10020751,Hypersensitivity,meddra:10020751,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+444,BIOKORF_SIDE_444,sleep excessive,,,,,[],0,none,none,no_kg_evidence,False,True
+445,BIOKORF_SIDE_445,hypertension,C0020538,10020772,Hypertension,meddra:10020772,"[""HP_0000822""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+446,BIOKORF_SIDE_446,hyperthyroidism,C0020550,10020850,Hyperthyroidism,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+447,BIOKORF_SIDE_447,tone increased,,,,,[],0,none,none,no_kg_evidence,False,True
+448,BIOKORF_SIDE_448,hypertrichosis,C0020555,10020864,Hypertrichosis,,"[""HP_0000998""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+449,BIOKORF_SIDE_449,high glycerin three ester blood,,,,,[],0,none,none,no_kg_evidence,False,True
+450,BIOKORF_SIDE_450,high uric acid blood,,,,,[],0,none,none,no_kg_evidence,False,True
+451,BIOKORF_SIDE_451,hyperventilation,C0020578,10020910,Hyperventilation,,"[""HP_0002883""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+452,BIOKORF_SIDE_452,body numbness,,,,,[],0,none,none,no_kg_evidence,False,True
+453,BIOKORF_SIDE_453,body numbness oral,,,,,[],0,none,none,no_kg_evidence,False,True
+454,BIOKORF_SIDE_454,low albumin blood,,,,,[],0,none,none,no_kg_evidence,False,True
+455,BIOKORF_SIDE_455,low calcium blood,,,,,[],0,none,none,no_kg_evidence,False,True
+456,BIOKORF_SIDE_456,low chlorine blood,,,,,[],0,none,none,no_kg_evidence,False,True
+457,BIOKORF_SIDE_457,chlorosis,,,,,[],0,none,none,no_kg_evidence,False,True
+458,BIOKORF_SIDE_458,hypoglycemia,,,,HP_0001943,[],1,step12_unique_exact_name,high,exact_other_ontology,True,False
+459,BIOKORF_SIDE_459,drenching sweats,,,,,[],0,none,none,no_kg_evidence,False,True
+460,BIOKORF_SIDE_460,potassium deficiency,,,,,[],0,none,none,no_kg_evidence,False,True
+461,BIOKORF_SIDE_461,activity motor retarded,,,,,[],0,none,none,no_kg_evidence,False,True
+462,BIOKORF_SIDE_462,low magnesium blood,,,,,[],0,none,none,no_kg_evidence,False,True
+463,BIOKORF_SIDE_463,hypomania,C0241934,10021030,Hypomania,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+464,BIOKORF_SIDE_464,low sodium blood,,,,,[],0,none,none,no_kg_evidence,False,True
+465,BIOKORF_SIDE_465,phosphorus low blood,,,,,[],0,none,none,no_kg_evidence,False,True
+466,BIOKORF_SIDE_466,potassium deficiency,,,,,[],0,none,none,no_kg_evidence,False,True
+467,BIOKORF_SIDE_467,diminished reflexes,,,,,[],0,none,none,no_kg_evidence,False,True
+468,BIOKORF_SIDE_468,hypotension,C0020649,10021097,Hypotension,meddra:10021097,[],1,exact_meddra_pt_name,high,canonical_meddra_with_kg,True,False
+469,BIOKORF_SIDE_469,hypothermia,C0413252,10021113,Hypothermia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+470,BIOKORF_SIDE_470,hypothyroidism,C0020676,10021114,Hypothyroidism,meddra:10021114,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+471,BIOKORF_SIDE_471,hypotonia,C0026827,10021118,Hypotonia,,"[""HP_0001252""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+472,BIOKORF_SIDE_472,hypoventilation,C3203358,10021133,Hypoventilation,,"[""HP_0002791""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+473,BIOKORF_SIDE_473,hypoxia,C0242184,10021143,Hypoxia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+474,BIOKORF_SIDE_474,ileus,C1258215,10021328,Ileus,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+475,BIOKORF_SIDE_475,ileus paralytic,C0030446,10021333,Ileus paralytic,,"[""HP_0002590""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+476,BIOKORF_SIDE_476,ill-defined disorder,C2047937,10061520,Ill-defined disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+477,BIOKORF_SIDE_477,immune system disorder,C0021053,10021425,Immune system disorder,meddra:10021425,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+478,BIOKORF_SIDE_478,impaired gastric emptying,C0522063,10021518,Impaired gastric emptying,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+479,BIOKORF_SIDE_479,impaired healing,C0151692,10021519,Impaired healing,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+480,BIOKORF_SIDE_480,impetigo,C0021099,10021531,Impetigo,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+481,BIOKORF_SIDE_481,inappropriate antidiuretic hormone secretion,C0021141,10053198,Inappropriate antidiuretic hormone secretion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+482,BIOKORF_SIDE_482,incontinence,C0021167,10021639,Incontinence,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+483,BIOKORF_SIDE_483,increased appetite,C0232461,10021654,Increased appetite,,"[""HP_0002591""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+484,BIOKORF_SIDE_484,increased bronchial secretion,C1262144,10062530,Increased bronchial secretion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+485,BIOKORF_SIDE_485,increased tendency to bruise,C0423798,10021688,Increased tendency to bruise,,"[""HP_0000978""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+486,BIOKORF_SIDE_486,hardening,,,,,[],0,none,none,no_kg_evidence,False,True
+487,BIOKORF_SIDE_487,infarction,C0021308,10061216,Infarction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+488,BIOKORF_SIDE_488,infection,C0009450,10021789,Infection,meddra:10021789,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+489,BIOKORF_SIDE_489,infestation,C1384353,10061217,Infestation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+490,BIOKORF_SIDE_490,inflammation,C0021368,10061218,Inflammation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+491,BIOKORF_SIDE_491,influenza,C0021400,10022000,Influenza,meddra:10022000,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+492,BIOKORF_SIDE_492,influenza like illness,C0521839,10022004,Influenza like illness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+493,BIOKORF_SIDE_493,infusion site pain,C1096035,10053483,Infusion site pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+494,BIOKORF_SIDE_494,infusion site reaction,C1096343,10054996,Infusion site reaction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+495,BIOKORF_SIDE_495,injection site bruising,C0521508,10022052,Injection site bruising,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+496,BIOKORF_SIDE_496,injection site erythema,C0852625,10022061,Injection site erythema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+497,BIOKORF_SIDE_497,injection site haemorrhage,C0151698,10022067,Injection site haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+498,BIOKORF_SIDE_498,injection site hardening,,,,,[],0,none,none,no_kg_evidence,False,True
+499,BIOKORF_SIDE_499,injection site inflammation,C0151734,10022078,Injection site inflammation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+500,BIOKORF_SIDE_500,injection site pain,C0151828,10022086,Injection site pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+501,BIOKORF_SIDE_501,injection site pruritus,C0852995,10022093,Injection site pruritus,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+502,BIOKORF_SIDE_502,injection site reaction,C0151735,10022095,Injection site reaction,meddra:10022095,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+503,BIOKORF_SIDE_503,injection site swelling,C0151605,10053425,Injection site swelling,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+504,BIOKORF_SIDE_504,injury,C3263723,10022116,Injury,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+505,BIOKORF_SIDE_505,insomnia,C0917801,10022437,Insomnia,meddra:10022437,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+506,BIOKORF_SIDE_506,instillation site pain,C0858797,10022459,Instillation site pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+507,BIOKORF_SIDE_507,intermittent claudication,C0021775,10022562,Intermittent claudication,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+508,BIOKORF_SIDE_508,international normalised ratio increased,C0853225,10022595,International normalised ratio increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+509,BIOKORF_SIDE_509,interstitial lung disease,C0206062,10022611,Interstitial lung disease,meddra:10022611,"[""HP_0006530""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+510,BIOKORF_SIDE_510,intestinal obstruction,C0021843,10022687,Intestinal obstruction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+511,BIOKORF_SIDE_511,intestinal perforation,C0021845,10022694,Intestinal perforation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+512,BIOKORF_SIDE_512,intracranial pressure increased,C0151740,10022773,Intracranial pressure increased,,"[""HP_0002516""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+513,BIOKORF_SIDE_513,intraocular pressure increased,C0234708,10022806,Intraocular pressure increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+514,BIOKORF_SIDE_514,iris inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+515,BIOKORF_SIDE_515,iron deficiency anaemia,C0162316,10022972,Iron deficiency anaemia,,"[""HP_0001891""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+516,BIOKORF_SIDE_516,irritability,C0022107,10022998,Irritability,meddra:10022998,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+517,BIOKORF_SIDE_517,irritable bowel syndrome,C0022104,10023003,Irritable bowel syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+518,BIOKORF_SIDE_518,ischaemia,C0022116,10061255,Ischaemia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+519,BIOKORF_SIDE_519,jaundice,C0022346,10023126,Jaundice,meddra:10023126,"[""HP_0000952""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+520,BIOKORF_SIDE_520,obstructive jaundice,,,,,[],0,none,none,no_kg_evidence,False,True
+521,BIOKORF_SIDE_521,joint stiffness,C0162298,10023230,Joint stiffness,,"[""HP_0001387""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+522,BIOKORF_SIDE_522,joint swelling,C0152031,10023232,Joint swelling,,"[""HP_0001386""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+523,BIOKORF_SIDE_523,keratitis,C0022568,10023332,Keratitis,,"[""HP_0000491""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+524,BIOKORF_SIDE_524,ketosis,C0022638,10023391,Ketosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+525,BIOKORF_SIDE_525,laboratory test abnormal,C0438215,10023547,Laboratory test abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+526,BIOKORF_SIDE_526,inner ear infection,,,,,[],0,none,none,no_kg_evidence,False,True
+527,BIOKORF_SIDE_527,laceration,C0043246,10023572,Laceration,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+528,BIOKORF_SIDE_528,lacrimal disorder,C0022904,10061525,Lacrimal disorder,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+529,BIOKORF_SIDE_529,lacrimal structural disorder,C3495920,10072746,Lacrimal structural disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+530,BIOKORF_SIDE_530,lacrimation increased,C0152227,10023644,Lacrimation increased,,"[""HP_0009926""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+531,BIOKORF_SIDE_531,lactic acidosis,C0001125,10023676,Lactic acidosis,meddra:10023676,"[""HP_0003128""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+532,BIOKORF_SIDE_532,laryngeal oedema,C0023052,10023845,Laryngeal oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+533,BIOKORF_SIDE_533,laryngeal pain,C0549373,10023848,Laryngeal pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+534,BIOKORF_SIDE_534,laryngitis,C0023067,10023874,Laryngitis,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+535,BIOKORF_SIDE_535,laryngeal spasm,,,,,[],0,none,none,no_kg_evidence,False,True
+536,BIOKORF_SIDE_536,lethargy,C0023380,10024264,Lethargy,,"[""HP_0001254""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+537,BIOKORF_SIDE_537,leukocytosis,C0023518,10024378,Leukocytosis,,"[""HP_0001974""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+538,BIOKORF_SIDE_538,vitiligo,C0042900,10047642,Vitiligo,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+539,BIOKORF_SIDE_539,leukopenia,C0023530,10024384,Leukopenia,,"[""HP_0001882""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+540,BIOKORF_SIDE_540,libido decreased,C0011124,10024419,Libido decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+541,BIOKORF_SIDE_541,libido disorder,C0854382,10061221,Libido disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+542,BIOKORF_SIDE_542,libido increased,C0021177,10024421,Libido increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+543,BIOKORF_SIDE_543,mossy keratosis,,,,,[],0,none,none,no_kg_evidence,False,True
+544,BIOKORF_SIDE_544,ligament sprain,C0435002,10024453,Ligament sprain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+545,BIOKORF_SIDE_545,lipase increased,C0549475,10024574,Lipase increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+546,BIOKORF_SIDE_546,lipodystrophy acquired,C0877192,10049287,Lipodystrophy acquired,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+547,BIOKORF_SIDE_547,liver disorder,C0023895,10024670,Liver disorder,,"[""HP_0001392""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+548,BIOKORF_SIDE_548,liver function test abnormal,C0151766,10024690,Liver function test abnormal,,"[""HP_0002910""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+549,BIOKORF_SIDE_549,liver injury,C0160390,10067125,Liver injury,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+550,BIOKORF_SIDE_550,local swelling,C0853619,10024770,Local swelling,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+551,BIOKORF_SIDE_551,loss of consciousness,C0041657,10024855,Loss of consciousness,,"[""HP_0007185""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+552,BIOKORF_SIDE_552,loss of libido,C2981158,10024870,Loss of libido,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+553,BIOKORF_SIDE_553,lower respiratory tract infection,C0149725,10024968,Lower respiratory tract infection,,"[""HP_0002783""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+554,BIOKORF_SIDE_554,lung disorder,C0024115,10025082,Lung disorder,,"[""HP_0002088""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+555,BIOKORF_SIDE_555,lung infection,C0876973,10061229,Lung infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+556,BIOKORF_SIDE_556,lung infiltration,C0235896,10025102,Lung infiltration,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+557,BIOKORF_SIDE_557,lymphadenopathy,C0497156,10025197,Lymphadenopathy,,"[""HP_0002716""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+558,BIOKORF_SIDE_558,lymphocyte count decreased,C0853986,10025256,Lymphocyte count decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+559,BIOKORF_SIDE_559,lymphocyte excess,,,,,[],0,none,none,no_kg_evidence,False,True
+560,BIOKORF_SIDE_560,lymph edema,,,,,[],0,none,none,no_kg_evidence,False,True
+561,BIOKORF_SIDE_561,lymph tumor,,,,,[],0,none,none,no_kg_evidence,False,True
+562,BIOKORF_SIDE_562,lymph cell cut back,,,,,[],0,none,none,no_kg_evidence,False,True
+563,BIOKORF_SIDE_563,major depression,C1269683,10057840,Major depression,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+564,BIOKORF_SIDE_564,malaise,C0231218,10025482,Malaise,meddra:10025482,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+565,BIOKORF_SIDE_565,malignant melanoma,C0025202,10025650,Malignant melanoma,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+566,BIOKORF_SIDE_566,malnutrition,C0162429,10061273,Malnutrition,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+567,BIOKORF_SIDE_567,mania,C0338831,10026749,Mania,meddra:10026749,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+568,BIOKORF_SIDE_568,mastitis,C0024894,10026883,Mastitis,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+569,BIOKORF_SIDE_569,mediastinal disorder,C0025061,10061280,Mediastinal disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+570,BIOKORF_SIDE_570,blood clot excretion,,,,,[],0,none,none,no_kg_evidence,False,True
+571,BIOKORF_SIDE_571,melanosis,C0025209,10027157,Melanosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+572,BIOKORF_SIDE_572,memory impairment,C0233794,10027175,Memory impairment,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+573,BIOKORF_SIDE_573,meningitis,C0025289,10027199,Meningitis,,"[""HP_0001287""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+574,BIOKORF_SIDE_574,menopausal symptoms,C0236075,10027304,Menopausal symptoms,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+575,BIOKORF_SIDE_575,menopause,C0025320,10027308,Menopause,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+576,BIOKORF_SIDE_576,menorrhagia,C0025323,10027313,Menorrhagia,,"[""HP_0000132""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+577,BIOKORF_SIDE_577,menstrual disorder,C0025345,10027327,Menstrual disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+578,BIOKORF_SIDE_578,menstruation irregular,C0156404,10027339,Menstruation irregular,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+579,BIOKORF_SIDE_579,mental disability,C1306341,10027353,Mental disability,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+580,BIOKORF_SIDE_580,mental disorder,C0004936,10061284,Mental disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+581,BIOKORF_SIDE_581,metabolic acidosis,C0220981,10027417,Metabolic acidosis,,"[""HP_0001942""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+582,BIOKORF_SIDE_582,break through bleeding,,,,,[],0,none,none,no_kg_evidence,False,True
+583,BIOKORF_SIDE_583,urination disorder,,,,,[],0,none,none,no_kg_evidence,False,True
+584,BIOKORF_SIDE_584,urination urgency,,,,,[],0,none,none,no_kg_evidence,False,True
+585,BIOKORF_SIDE_585,migraine,C0149931,10027599,Migraine,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+586,BIOKORF_SIDE_586,miosis,C0026205,10027646,Miosis,,"[""HP_0000616""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+587,BIOKORF_SIDE_587,single core cell increase,,,,,[],0,none,none,no_kg_evidence,False,True
+588,BIOKORF_SIDE_588,mood swings,C0085633,10027951,Mood swings,,"[""HP_0000712""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+589,BIOKORF_SIDE_589,motion sickness,C0026603,10027990,Motion sickness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+590,BIOKORF_SIDE_590,mouth ulceration,C0149745,10028034,Mouth ulceration,,"[""HP_0000155""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+591,BIOKORF_SIDE_591,movement disorder,C0026650,10028035,Movement disorder,,"[""HP_0100022""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+592,BIOKORF_SIDE_592,mucosal inflammation,C0333355,10028116,Mucosal inflammation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+593,BIOKORF_SIDE_593,mucous membrane disorder,C0151785,10028133,Mucous membrane disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+594,BIOKORF_SIDE_594,multiple fractures,C0016655,10028200,Multiple fractures,,"[""HP_0002757""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+595,BIOKORF_SIDE_595,muscle atrophy,C0026846,10028289,Muscle atrophy,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+596,BIOKORF_SIDE_596,muscle contractions involuntary,C0235086,10028293,Muscle contractions involuntary,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+597,BIOKORF_SIDE_597,muscle relaxant therapy,C1142135,10058909,Muscle relaxant therapy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+598,BIOKORF_SIDE_598,muscle rigidity,C0026837,10028330,Muscle rigidity,,"[""HP_0002063""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+599,BIOKORF_SIDE_599,muscle spasms,C0037763,10028334,Muscle spasms,meddra:10028334,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+600,BIOKORF_SIDE_600,muscle tightness,C0877322,10049816,Muscle tightness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+601,BIOKORF_SIDE_601,muscle twitching,C0231530,10028347,Muscle twitching,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+602,BIOKORF_SIDE_602,muscular weakness,C0151786,10028372,Muscular weakness,meddra:10028372,"[""HP_0001324""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+603,BIOKORF_SIDE_603,musculoskeletal chest pain,C0476280,10050819,Musculoskeletal chest pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+604,BIOKORF_SIDE_604,musculoskeletal discomfort,C0948594,10053156,Musculoskeletal discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+605,BIOKORF_SIDE_605,musculoskeletal pain,C0026858,10028391,Musculoskeletal pain,meddra:10028391,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+606,BIOKORF_SIDE_606,musculoskeletal stiffness,C0948525,10052904,Musculoskeletal stiffness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+607,BIOKORF_SIDE_607,myalgia,C0231528,10028411,Myalgia,meddra:10028411,"[""HP_0003326""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+608,BIOKORF_SIDE_608,mydriasis,C0026961,10028521,Mydriasis,,"[""HP_0011499""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+609,BIOKORF_SIDE_609,myelitis,C0026975,10028524,Myelitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+610,BIOKORF_SIDE_610,myocardial infarction,C0027051,10028596,Myocardial infarction,meddra:10028596,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+611,BIOKORF_SIDE_611,myocardial ischaemia,C0151744,10028600,Myocardial ischaemia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+612,BIOKORF_SIDE_612,myocarditis,C0027059,10028606,Myocarditis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+613,BIOKORF_SIDE_613,myoclonus,C0027066,10028622,Myoclonus,,"[""HP_0001336""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+614,BIOKORF_SIDE_614,myopathy,C0026848,10028641,Myopathy,,"[""HP_0003198""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+615,BIOKORF_SIDE_615,myositis,C0027121,10028653,Myositis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+616,BIOKORF_SIDE_616,nail disorder,C0027339,10028694,Nail disorder,,"[""HP_0001597""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+617,BIOKORF_SIDE_617,nasal congestion,C0027424,10028735,Nasal congestion,,"[""HP_0001742""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+618,BIOKORF_SIDE_618,nasal discomfort,C0858259,10052437,Nasal discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+619,BIOKORF_SIDE_619,nasal dryness,C0231919,10028740,Nasal dryness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+620,BIOKORF_SIDE_620,nose pharynx inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+621,BIOKORF_SIDE_621,nausea,C0027497,10028813,Nausea,meddra:10028813,"[""HP_0002018""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+622,BIOKORF_SIDE_622,neck pain,C0007859,10028836,Neck pain,meddra:10028836,"[""HP_0030833""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+623,BIOKORF_SIDE_623,neoplasm,C0027651,10028980,Neoplasm,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+624,BIOKORF_SIDE_624,neoplasm malignant,C0006826,10028997,Neoplasm malignant,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+625,BIOKORF_SIDE_625,nephritis,C0027697,10029117,Nephritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+626,BIOKORF_SIDE_626,calculus kidney,,,,,[],0,none,none,no_kg_evidence,False,True
+627,BIOKORF_SIDE_627,nephropathy,C0022658,10029151,Nephropathy,,"[""HP_0000077"",""HP_0000112""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+628,BIOKORF_SIDE_628,nephropathy toxic,C0595916,10029155,Nephropathy toxic,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+629,BIOKORF_SIDE_629,nephrotic syndrome,C0027726,10029164,Nephrotic syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+630,BIOKORF_SIDE_630,nervous system disorder,C0027765,10029202,Nervous system disorder,meddra:10029202,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+631,BIOKORF_SIDE_631,nervousness,C0027769,10029216,Nervousness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+632,BIOKORF_SIDE_632,neuralgia,C0027796,10029223,Neuralgia,meddra:10029223,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+633,BIOKORF_SIDE_633,neuritis,C0027813,10029240,Neuritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+634,BIOKORF_SIDE_634,neuroleptic malignant syndrome,C0027849,10029282,Neuroleptic malignant syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+635,BIOKORF_SIDE_635,neuropathy peripheral,C0031117,10029331,Neuropathy peripheral,meddra:10029331,"[""HP_0009830""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+636,BIOKORF_SIDE_636,neurosis,C0027932,10029333,Neurosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+637,BIOKORF_SIDE_637,neurotoxicity,C0235032,10029350,Neurotoxicity,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+638,BIOKORF_SIDE_638,neutropenia,C0027947,10029354,Neutropenia,meddra:10029354,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+639,BIOKORF_SIDE_639,neutrophil deficiency,,,,,[],0,none,none,no_kg_evidence,False,True
+640,BIOKORF_SIDE_640,neutrophil count decreased,C0853697,10029366,Neutrophil count decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+641,BIOKORF_SIDE_641,night blindness,C0028077,10029404,Night blindness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+642,BIOKORF_SIDE_642,night sweats,C0028081,10029410,Night sweats,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+643,BIOKORF_SIDE_643,nightmare,C0028084,10029412,Nightmare,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+644,BIOKORF_SIDE_644,nocturnal enuresis,,,,,[],0,none,none,no_kg_evidence,False,True
+645,BIOKORF_SIDE_645,nodal arrhythmia,C0264893,10029458,Nodal arrhythmia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+646,BIOKORF_SIDE_646,nodule,C0028259,10054107,Nodule,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+647,BIOKORF_SIDE_647,non cardiac chest pain,,,,,[],0,none,none,no_kg_evidence,False,True
+648,BIOKORF_SIDE_648,non hodgkin lymphoma,,,,,[],0,none,none,no_kg_evidence,False,True
+649,BIOKORF_SIDE_649,nuchal rigidity,C1320474,10058483,Nuchal rigidity,,"[""HP_0005986""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+650,BIOKORF_SIDE_650,nystagmus,C0028738,10029864,Nystagmus,meddra:10029864,"[""HP_0000639""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+651,BIOKORF_SIDE_651,ocular discomfort,C0948595,10052143,Ocular discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+652,BIOKORF_SIDE_652,ocular venous congestion,,,,,[],0,none,none,no_kg_evidence,False,True
+653,BIOKORF_SIDE_653,oculomotor spasm,,,,,[],0,none,none,no_kg_evidence,False,True
+654,BIOKORF_SIDE_654,swallowing painful,,,,,[],0,none,none,no_kg_evidence,False,True
+655,BIOKORF_SIDE_655,oedema,C0013604,10030095,Oedema,,"[""HP_0000969""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+656,BIOKORF_SIDE_656,oedema peripheral,C0085649,10030124,Oedema peripheral,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+657,BIOKORF_SIDE_657,oesophageal spasm,C0014863,10030184,Oesophageal spasm,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+658,BIOKORF_SIDE_658,oesophageal stenosis,C0014866,10030194,Oesophageal stenosis,,"[""HP_0002043"",""HP_0010450""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+659,BIOKORF_SIDE_659,oesophageal ulcer,C0151970,10030201,Oesophageal ulcer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+660,BIOKORF_SIDE_660,esophagus inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+661,BIOKORF_SIDE_661,urine less,,,,,[],0,none,none,no_kg_evidence,False,True
+662,BIOKORF_SIDE_662,onychomycosis,C0040261,10030338,Onychomycosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+663,BIOKORF_SIDE_663,opportunistic infection,C0029118,10030901,Opportunistic infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+664,BIOKORF_SIDE_664,optic atrophy,C0029124,10030910,Optic atrophy,,"[""HP_0000648""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+665,BIOKORF_SIDE_665,optic neuritis,C0029134,10030942,Optic neuritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+666,BIOKORF_SIDE_666,oral candidiasis,C0006849,10030963,Oral candidiasis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+667,BIOKORF_SIDE_667,oral herpes,C0341012,10067152,Oral herpes,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+668,BIOKORF_SIDE_668,oral pain,C0221776,10031009,Oral pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+669,BIOKORF_SIDE_669,testis inflammation non infective,,,,,[],0,none,none,no_kg_evidence,False,True
+670,BIOKORF_SIDE_670,orgasm abnormal,C0029261,10031085,Orgasm abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+671,BIOKORF_SIDE_671,oropharyngeal discomfort,C2363730,10068318,Oropharyngeal discomfort,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+672,BIOKORF_SIDE_672,oropharyngeal pain,C2363731,10068319,Oropharyngeal pain,meddra:10068319,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+673,BIOKORF_SIDE_673,orthostatic hypotension,C0020651,10031127,Orthostatic hypotension,meddra:10031127,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+674,BIOKORF_SIDE_674,osteoarthritis,C0029408,10031161,Osteoarthritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+675,BIOKORF_SIDE_675,osteomyelitis,C0029443,10031252,Osteomyelitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+676,BIOKORF_SIDE_676,osteonecrosis,C0029445,10031264,Osteonecrosis,,"[""HP_0010885""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+677,BIOKORF_SIDE_677,osteoporosis,C0029456,10031282,Osteoporosis,,"[""HP_0000939""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+678,BIOKORF_SIDE_678,otitis externa,C0029878,10033072,Otitis externa,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+679,BIOKORF_SIDE_679,otitis media,C0029882,10033078,Otitis media,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+680,BIOKORF_SIDE_680,ear toxicity,,,,,[],0,none,none,no_kg_evidence,False,True
+681,BIOKORF_SIDE_681,ovarian cyst,C0029927,10033132,Ovarian cyst,,"[""HP_0000138""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+682,BIOKORF_SIDE_682,ovarian disorder,C0029928,10033139,Ovarian disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+683,BIOKORF_SIDE_683,pain,C0030193,10033371,Pain,meddra:10033371,"[""HP_0012531""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+684,BIOKORF_SIDE_684,pain in extremity,C0030196,10033425,Pain in extremity,meddra:10033425,"[""HP_0009763""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+685,BIOKORF_SIDE_685,pain in jaw,C0236000,10033433,Pain in jaw,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+686,BIOKORF_SIDE_686,pain of skin,C0241136,10033474,Pain of skin,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+687,BIOKORF_SIDE_687,pallor,C0030232,10033546,Pallor,,"[""HP_0000980""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+688,BIOKORF_SIDE_688,palpitations,C0030252,10033557,Palpitations,meddra:10033557,"[""HP_0001962""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+689,BIOKORF_SIDE_689,pancreatitis,C0030305,10033645,Pancreatitis,meddra:10033645,"[""HP_0001733""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+690,BIOKORF_SIDE_690,pancreatitis acute,C0001339,10033647,Pancreatitis acute,,"[""HP_0001735""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+691,BIOKORF_SIDE_691,pancytopenia,C0030312,10033661,Pancytopenia,meddra:10033661,"[""HP_0001876""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+692,BIOKORF_SIDE_692,panic attack,C0086769,10033664,Panic attack,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+693,BIOKORF_SIDE_693,panic reaction,C0030318,10033670,Panic reaction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+694,BIOKORF_SIDE_694,eyelid inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+695,BIOKORF_SIDE_695,nipple edema,,,,,[],0,none,none,no_kg_evidence,False,True
+696,BIOKORF_SIDE_696,feeling abnormal,C1443060,10016322,Feeling abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+697,BIOKORF_SIDE_697,feeling abnormal oral,,,,,[],0,none,none,no_kg_evidence,False,True
+698,BIOKORF_SIDE_698,paralysis,C0522224,10033799,Paralysis,,"[""HP_0003470""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+699,BIOKORF_SIDE_699,paranoia,C1456784,10033864,Paranoia,,"[""HP_0011999""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+700,BIOKORF_SIDE_700,paresis,C0030552,10033985,Paresis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+701,BIOKORF_SIDE_701,parkinsonism,C0242422,10034010,Parkinsonism,meddra:10034010,"[""HP_0001300""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+702,BIOKORF_SIDE_702,disturbances of sensation of smell and taste,,,,,[],0,none,none,no_kg_evidence,False,True
+703,BIOKORF_SIDE_703,pelvic pain,C0030794,10034263,Pelvic pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+704,BIOKORF_SIDE_704,penis disorder,C0030846,10034336,Penis disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+705,BIOKORF_SIDE_705,peptic ulcer,C0030920,10034341,Peptic ulcer,,"[""HP_0004398""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+706,BIOKORF_SIDE_706,pericardial effusion,C0031039,10034474,Pericardial effusion,,"[""HP_0001698""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+707,BIOKORF_SIDE_707,pericarditis,C0031046,10034484,Pericarditis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+708,BIOKORF_SIDE_708,perineal pain,C0240717,10061339,Perineal pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+709,BIOKORF_SIDE_709,periodontitis,C0031099,10034539,Periodontitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+710,BIOKORF_SIDE_710,periorbital oedema,C0151205,10034545,Periorbital oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+711,BIOKORF_SIDE_711,peripheral coldness,C0277925,10034568,Peripheral coldness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+712,BIOKORF_SIDE_712,peripheral ischaemia,C0235490,10034576,Peripheral ischaemia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+713,BIOKORF_SIDE_713,peripheral motor neuropathy,C0235025,10034580,Peripheral motor neuropathy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+714,BIOKORF_SIDE_714,peripheral sensory neuropathy,C0151313,10034620,Peripheral sensory neuropathy,,"[""HP_0000763""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+715,BIOKORF_SIDE_715,peripheral vascular disorder,C0085096,10034636,Peripheral vascular disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+716,BIOKORF_SIDE_716,peritonitis,C0031154,10034674,Peritonitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+717,BIOKORF_SIDE_717,personality disorder,C0031212,10034721,Personality disorder,,"[""HP_0012075""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+718,BIOKORF_SIDE_718,petechiae,C0031256,10034754,Petechiae,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+719,BIOKORF_SIDE_719,pharyngeal oedema,C0236024,10034829,Pharyngeal oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+720,BIOKORF_SIDE_720,pharyngitis,C0031350,10034835,Pharyngitis,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+721,BIOKORF_SIDE_721,pharyngitis streptococcal,C0036689,10034839,Pharyngitis streptococcal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+722,BIOKORF_SIDE_722,phlebitis,C0031542,10034879,Phlebitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+723,BIOKORF_SIDE_723,photophobia,C0085636,10034960,Photophobia,,"[""HP_0000613""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+724,BIOKORF_SIDE_724,flash vision,,,,,[],0,none,none,no_kg_evidence,False,True
+725,BIOKORF_SIDE_725,photosensitivity reaction,C0162830,10034972,Photosensitivity reaction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+726,BIOKORF_SIDE_726,pigmentation disorder,C0549567,10062080,Pigmentation disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+727,BIOKORF_SIDE_727,plasma cell myeloma,C0026764,10035226,Plasma cell myeloma,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+728,BIOKORF_SIDE_728,tumor plasma cell,,,,,[],0,none,none,no_kg_evidence,False,True
+729,BIOKORF_SIDE_729,platelet count decreased,C0392386,10035528,Platelet count decreased,,"[""HP_0001873""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+730,BIOKORF_SIDE_730,pleural effusion,C0032227,10035598,Pleural effusion,,"[""HP_0002202""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+731,BIOKORF_SIDE_731,pleurisy,C0032231,10035618,Pleurisy,,"[""HP_0002102""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+732,BIOKORF_SIDE_732,pleural pain,,,,,[],0,none,none,no_kg_evidence,False,True
+733,BIOKORF_SIDE_733,pneumonia,C0032285,10035664,Pneumonia,meddra:10035664,"[""HP_0002090""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+734,BIOKORF_SIDE_734,pneumonia aspiration,C0032290,10035669,Pneumonia aspiration,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+735,BIOKORF_SIDE_735,pneumothorax,C0032326,10035759,Pneumothorax,,"[""HP_0002107""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+736,BIOKORF_SIDE_736,urinary frequency increased,,,,,[],0,none,none,no_kg_evidence,False,True
+737,BIOKORF_SIDE_737,increase in the total amount of red blood cells in the blood,,,,,[],0,none,none,no_kg_evidence,False,True
+738,BIOKORF_SIDE_738,polydipsia,C0085602,10036067,Polydipsia,,"[""HP_0001959""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+739,BIOKORF_SIDE_739,polyneuropathy,C0152025,10036105,Polyneuropathy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+740,BIOKORF_SIDE_740,polyuria,C0032617,10036142,Polyuria,,"[""HP_0000103""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+741,BIOKORF_SIDE_741,post procedural haemorrhage,C0919874,10051077,Post procedural haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+742,BIOKORF_SIDE_742,premenstrual syndrome,C0033046,10036618,Premenstrual syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+743,BIOKORF_SIDE_743,syncope vertigo,,,,,[],0,none,none,no_kg_evidence,False,True
+744,BIOKORF_SIDE_744,priapism,C0033117,10036661,Priapism,,"[""HP_0200023""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+745,BIOKORF_SIDE_745,procedural pain,C1619712,10064882,Procedural pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+746,BIOKORF_SIDE_746,anal pain,,,,HP_0500005,[],1,step12_unique_exact_name,high,exact_other_ontology,True,False
+747,BIOKORF_SIDE_747,rectum inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+748,BIOKORF_SIDE_748,productive cough,C0239134,10036790,Productive cough,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+749,BIOKORF_SIDE_749,prostate cancer,C0376358,10060862,Prostate cancer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+750,BIOKORF_SIDE_750,prostatic disorder,C0033575,10036956,Prostatic disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+751,BIOKORF_SIDE_751,prostatitis,C0033581,10036978,Prostatitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+752,BIOKORF_SIDE_752,protein total decreased,C0860901,10037014,Protein total decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+753,BIOKORF_SIDE_753,protein urine present,C0948586,10053123,Protein urine present,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+754,BIOKORF_SIDE_754,proteinuria,C0033687,10037032,Proteinuria,meddra:10037032,"[""HP_0000093""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+755,BIOKORF_SIDE_755,prothrombin level decreased,C0553732,10037050,Prothrombin level decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+756,BIOKORF_SIDE_756,prothrombin level increased,C0151872,10037051,Prothrombin level increased,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+757,BIOKORF_SIDE_757,itch rash,,,,,[],0,none,none,no_kg_evidence,False,True
+758,BIOKORF_SIDE_758,pruritus,C0033774,10037087,Pruritus,meddra:10037087,"[""HP_0000989""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+759,BIOKORF_SIDE_759,pruritus generalised,C0475858,10052576,Pruritus generalised,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+760,BIOKORF_SIDE_760,pruritus genital,C0033777,10037093,Pruritus genital,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+761,BIOKORF_SIDE_761,falsehood lymph tumor,,,,,[],0,none,none,no_kg_evidence,False,True
+762,BIOKORF_SIDE_762,pseudomembranous colitis,C1257843,10037128,Pseudomembranous colitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+763,BIOKORF_SIDE_763,psoriasis,C0033860,10037153,Psoriasis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+764,BIOKORF_SIDE_764,psychomotor retardation,C0424230,10037213,Psychomotor retardation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+765,BIOKORF_SIDE_765,psychotic disorder,C0033975,10061920,Psychotic disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+766,BIOKORF_SIDE_766,pulmonary congestion,C0242073,10037368,Pulmonary congestion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+767,BIOKORF_SIDE_767,pulmonary embolism,C0034065,10037377,Pulmonary embolism,meddra:10037377,"[""HP_0002204""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+768,BIOKORF_SIDE_768,pulmonary fibrosis,C0034069,10037383,Pulmonary fibrosis,meddra:10037383,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+769,BIOKORF_SIDE_769,pulmonary function test decreased,C0855775,10061922,Pulmonary function test decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+770,BIOKORF_SIDE_770,pulmonary hypertension,C0020542,10037400,Pulmonary hypertension,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+771,BIOKORF_SIDE_771,pulmonary oedema,C0034063,10037423,Pulmonary oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+772,BIOKORF_SIDE_772,punctate keratitis,C0259799,10037508,Punctate keratitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+773,BIOKORF_SIDE_773,pupils unequal,C0003079,10037538,Pupils unequal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+774,BIOKORF_SIDE_774,purpura,C0034150,10037549,Purpura,meddra:10037549,"[""HP_0000979""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+775,BIOKORF_SIDE_775,pyelonephritis,C0034186,10037596,Pyelonephritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+776,BIOKORF_SIDE_776,urine purulent,,,,,[],0,none,none,no_kg_evidence,False,True
+777,BIOKORF_SIDE_777,rales,C0034642,10037833,Rales,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+778,BIOKORF_SIDE_778,rash,C0015230,10037844,Rash,meddra:10037844,"[""HP_0000988""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+779,BIOKORF_SIDE_779,rash erythematous,C0234913,10037855,Rash erythematous,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+780,BIOKORF_SIDE_780,rash generalised,C0497365,10037858,Rash generalised,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+781,BIOKORF_SIDE_781,rash macular,C0221201,10037867,Rash macular,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+782,BIOKORF_SIDE_782,macula papules rash,,,,,[],0,none,none,no_kg_evidence,False,True
+783,BIOKORF_SIDE_783,rash papular,C1519353,10037876,Rash papular,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+784,BIOKORF_SIDE_784,rash pustular,C0085641,10037888,Rash pustular,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+785,BIOKORF_SIDE_785,rectal haemorrhage,C0267596,10038063,Rectal haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+786,BIOKORF_SIDE_786,defecation urge painful,,,,,[],0,none,none,no_kg_evidence,False,True
+787,BIOKORF_SIDE_787,regurgitation,C2004489,10067171,Regurgitation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+788,BIOKORF_SIDE_788,renal failure,C0035078,10038435,Renal failure,meddra:10038435,"[""HP_0000083""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+789,BIOKORF_SIDE_789,renal impairment,C1565489,10062237,Renal impairment,meddra:10062237,"[""HP_0000083""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+790,BIOKORF_SIDE_790,renal pain,C0558489,10038490,Renal pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+791,BIOKORF_SIDE_791,renal tubular necrosis,C1720775,10038540,Renal tubular necrosis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+792,BIOKORF_SIDE_792,respiration abnormal,C1260922,10038647,Respiration abnormal,,"[""HP_0002086""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+793,BIOKORF_SIDE_793,respiratory depression,C0235063,10038678,Respiratory depression,,"[""HP_0002791""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+794,BIOKORF_SIDE_794,respiratory disorder,C0035204,10038683,Respiratory disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+795,BIOKORF_SIDE_795,respiratory distress,C0476273,10038687,Respiratory distress,,"[""HP_0002098""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+796,BIOKORF_SIDE_796,respiratory failure,C1145670,10038695,Respiratory failure,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+797,BIOKORF_SIDE_797,respiratory tract congestion,C0948349,10052251,Respiratory tract congestion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+798,BIOKORF_SIDE_798,respiratory tract infection,C0035243,10062352,Respiratory tract infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+799,BIOKORF_SIDE_799,restless legs syndrome,C0035258,10058920,Restless legs syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+800,BIOKORF_SIDE_800,retching,C0232602,10038776,Retching,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+801,BIOKORF_SIDE_801,retinal degeneration,C0035304,10038845,Retinal degeneration,,"[""HP_0001105""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+802,BIOKORF_SIDE_802,retinal detachment,C0035305,10038848,Retinal detachment,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+803,BIOKORF_SIDE_803,retinal disorder,C0035309,10038853,Retinal disorder,,"[""HP_0000479""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+804,BIOKORF_SIDE_804,retinal haemorrhage,C0035317,10038867,Retinal haemorrhage,,"[""HP_0000573""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+805,BIOKORF_SIDE_805,retroperitoneal haemorrhage,C0151705,10038980,Retroperitoneal haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+806,BIOKORF_SIDE_806,rhabdomyolysis,C0035410,10039020,Rhabdomyolysis,meddra:10039020,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+807,BIOKORF_SIDE_807,rheumatoid arthritis,C0003873,10039073,Rheumatoid arthritis,,"[""HP_0001370""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+808,BIOKORF_SIDE_808,rhinitis,C0035455,10039083,Rhinitis,meddra:10039083,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+809,BIOKORF_SIDE_809,rhinitis allergic,C2607914,10039085,Rhinitis allergic,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+810,BIOKORF_SIDE_810,mucous nasal increased,,,,,[],0,none,none,no_kg_evidence,False,True
+811,BIOKORF_SIDE_811,dry rales,,,,,[],0,none,none,no_kg_evidence,False,True
+812,BIOKORF_SIDE_812,road traffic accident,C0221706,10039203,Road traffic accident,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+813,BIOKORF_SIDE_813,rosacea,C0035854,10039218,Rosacea,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+814,BIOKORF_SIDE_814,salivary gland enlargement,C0020569,10039408,Salivary gland enlargement,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+815,BIOKORF_SIDE_815,increased salivation,,,,,[],0,none,none,no_kg_evidence,False,True
+816,BIOKORF_SIDE_816,oviduct inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+817,BIOKORF_SIDE_817,scab,C0205204,10039509,Scab,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+818,BIOKORF_SIDE_818,reaction schizoid,,,,,[],0,none,none,no_kg_evidence,False,True
+819,BIOKORF_SIDE_819,sciatica,C0036396,10039674,Sciatica,,"[""HP_0011868""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+820,BIOKORF_SIDE_820,sclera inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+821,BIOKORF_SIDE_821,seasonal allergy,C0018621,10048908,Seasonal allergy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+822,BIOKORF_SIDE_822,seborrheic dermatitis,,,,HP_0001051,[],1,step12_unique_exact_name,high,exact_other_ontology,True,False
+823,BIOKORF_SIDE_823,seborrheic keratosis,,,,HP_0031287,[],1,step12_unique_exact_name,high,exact_other_ontology,True,False
+824,BIOKORF_SIDE_824,sensation of foreign body,C0423602,10061549,Sensation of foreign body,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+825,BIOKORF_SIDE_825,sensory disturbance,C0152027,10040026,Sensory disturbance,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+826,BIOKORF_SIDE_826,sensory loss,C0278134,10040030,Sensory loss,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+827,BIOKORF_SIDE_827,sepsis,C0243026,10040047,Sepsis,meddra:10040047,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+828,BIOKORF_SIDE_828,septic shock,C0036983,10040070,Septic shock,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+829,BIOKORF_SIDE_829,serotonin syndrome,C0699828,10040108,Serotonin syndrome,meddra:10040108,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+830,BIOKORF_SIDE_830,serum sickness,C0036830,10040400,Serum sickness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+831,BIOKORF_SIDE_831,sexual dysfunction,C0549622,10040477,Sexual dysfunction,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+832,BIOKORF_SIDE_832,shock,C0036974,10040560,Shock,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+833,BIOKORF_SIDE_833,salivary glands inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+834,BIOKORF_SIDE_834,sinus bradycardia,C0085610,10040741,Sinus bradycardia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+835,BIOKORF_SIDE_835,sinus congestion,C0152029,10040742,Sinus congestion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+836,BIOKORF_SIDE_836,sinus headache,C0037195,10040744,Sinus headache,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+837,BIOKORF_SIDE_837,sinus tachycardia,C0039239,10040752,Sinus tachycardia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+838,BIOKORF_SIDE_838,sinusitis,C0037199,10040753,Sinusitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+839,BIOKORF_SIDE_839,skin atrophy,C0151514,10040799,Skin atrophy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+840,BIOKORF_SIDE_840,skin burning sensation,C0241057,10054786,Skin burning sensation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+841,BIOKORF_SIDE_841,skin cancer,C0007114,10040808,Skin cancer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+842,BIOKORF_SIDE_842,skin discolouration,C0151907,10040829,Skin discolouration,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+843,BIOKORF_SIDE_843,skin disorder,C0037274,10040831,Skin disorder,,"[""HP_0000951""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+844,BIOKORF_SIDE_844,skin exfoliation,C0237849,10040844,Skin exfoliation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+845,BIOKORF_SIDE_845,skin hyperpigmentation,C0162834,10040865,Skin hyperpigmentation,,"[""HP_0000953""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+846,BIOKORF_SIDE_846,skin hypertrophy,C0151717,10040867,Skin hypertrophy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+847,BIOKORF_SIDE_847,skin infection,C0037278,10040872,Skin infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+848,BIOKORF_SIDE_848,skin irritation,C0152030,10040880,Skin irritation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+849,BIOKORF_SIDE_849,skin lesion,C0037284,10040882,Skin lesion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+850,BIOKORF_SIDE_850,skin mass,C0281981,10067868,Skin mass,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+851,BIOKORF_SIDE_851,skin odour abnormal,C0234930,10040904,Skin odour abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+852,BIOKORF_SIDE_852,skin papilloma,C0347390,10040907,Skin papilloma,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+853,BIOKORF_SIDE_853,skin striae,C0152459,10040925,Skin striae,,"[""HP_0001065""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+854,BIOKORF_SIDE_854,skin ulcer,C0037299,10040943,Skin ulcer,,"[""HP_0200042""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+855,BIOKORF_SIDE_855,sleep apnoea syndrome,C0037315,10040979,Sleep apnoea syndrome,,"[""HP_0010535""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+856,BIOKORF_SIDE_856,sleep disorder,C0851578,10040984,Sleep disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+857,BIOKORF_SIDE_857,sluggishness,C0920289,10041052,Sluggishness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+858,BIOKORF_SIDE_858,sneezing,C0037383,10041232,Sneezing,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+859,BIOKORF_SIDE_859,snoring,C0037384,10041235,Snoring,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+860,BIOKORF_SIDE_860,somnambulism,C0037672,10041347,Somnambulism,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+861,BIOKORF_SIDE_861,somnolence,C2830004,10041349,Somnolence,meddra:10041349,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+862,BIOKORF_SIDE_862,speech disorder,C0037822,10041466,Speech disorder,,"[""HP_0002167""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+863,BIOKORF_SIDE_863,splenomegaly,C0038002,10041660,Splenomegaly,,"[""HP_0001744""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+864,BIOKORF_SIDE_864,sputum increased,C0235567,10041812,Sputum increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+865,BIOKORF_SIDE_865,staphylococcal infection,C0038160,10058080,Staphylococcal infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+866,BIOKORF_SIDE_866,status epilepticus,C0038220,10041962,Status epilepticus,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+867,BIOKORF_SIDE_867,stevens johnson syndrome,,,,,[],0,none,none,no_kg_evidence,False,True
+868,BIOKORF_SIDE_868,sticky skin,C0392162,10051788,Sticky skin,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+869,BIOKORF_SIDE_869,stomatitis,C0038362,10042128,Stomatitis,meddra:10042128,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+870,BIOKORF_SIDE_870,bladder and urethral symptoms,,,,,[],0,none,none,no_kg_evidence,False,True
+871,BIOKORF_SIDE_871,wheezing,C0043144,10047924,Wheezing,,"[""HP_0030828""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+872,BIOKORF_SIDE_872,stupor,C0085628,10042264,Stupor,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+873,BIOKORF_SIDE_873,subarachnoid haemorrhage,C0038525,10042316,Subarachnoid haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+874,BIOKORF_SIDE_874,subdural haematoma,C0018946,10042361,Subdural haematoma,,"[""HP_0100309""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+875,BIOKORF_SIDE_875,sudden death,C0011071,10042434,Sudden death,,"[""HP_0001699""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+876,BIOKORF_SIDE_876,suicidal ideation,C0424000,10042458,Suicidal ideation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+877,BIOKORF_SIDE_877,suicide attempt,C0038663,10042464,Suicide attempt,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+878,BIOKORF_SIDE_878,sunburn,C0038814,10042496,Sunburn,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+879,BIOKORF_SIDE_879,ectopic beats atrial,,,,,[],0,none,none,no_kg_evidence,False,True
+880,BIOKORF_SIDE_880,supraventricular tachycardia,C0039240,10042604,Supraventricular tachycardia,,"[""HP_0004755""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+881,BIOKORF_SIDE_881,swelling,C0038999,10042674,Swelling,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+882,BIOKORF_SIDE_882,swelling face,C0151602,10042682,Swelling face,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+883,BIOKORF_SIDE_883,syncope,C0039070,10042772,Syncope,meddra:10042772,"[""HP_0001279""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+884,BIOKORF_SIDE_884,systemic lupus erythematosus,C0024141,10042945,Systemic lupus erythematosus,,"[""HP_0002725""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+885,BIOKORF_SIDE_885,tachycardia,C0039231,10043071,Tachycardia,meddra:10043071,"[""HP_0001649""]",2,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+886,BIOKORF_SIDE_886,respiration stimulated,,,,,[],0,none,none,no_kg_evidence,False,True
+887,BIOKORF_SIDE_887,tardive dyskinesia,C0686347,10043118,Tardive dyskinesia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+888,BIOKORF_SIDE_888,telangiectasia,C0039446,10043189,Telangiectasia,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+889,BIOKORF_SIDE_889,temperature intolerance,C1112320,10057040,Temperature intolerance,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+890,BIOKORF_SIDE_890,tenderness,C0234233,10043224,Tenderness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+891,BIOKORF_SIDE_891,tendinous contracture,C0158350,10043233,Tendinous contracture,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+892,BIOKORF_SIDE_892,tendon disorder,C0151936,10043239,Tendon disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+893,BIOKORF_SIDE_893,tendonitis,C0039503,10043255,Tendonitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+894,BIOKORF_SIDE_894,tendon sheath inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+895,BIOKORF_SIDE_895,tension,C0233494,10043268,Tension,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+896,BIOKORF_SIDE_896,tension headache,C0033893,10043269,Tension headache,,"[""HP_0012228""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+897,BIOKORF_SIDE_897,testicular pain,C0039591,10043345,Testicular pain,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+898,BIOKORF_SIDE_898,tetany,C0039621,10043380,Tetany,,"[""HP_0001281""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+899,BIOKORF_SIDE_899,therapeutic response unexpected,C0853141,10043417,Therapeutic response unexpected,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+900,BIOKORF_SIDE_900,thinking abnormal,C0233632,10043431,Thinking abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+901,BIOKORF_SIDE_901,thirst,C0039971,10043458,Thirst,meddra:10043458,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+902,BIOKORF_SIDE_902,throat irritation,C0700184,10043521,Throat irritation,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+903,BIOKORF_SIDE_903,throat tightness,C0236071,10043528,Throat tightness,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+904,BIOKORF_SIDE_904,thrombocytopenia,C0040034,10043554,Thrombocytopenia,meddra:10043554,"[""HP_0001873""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+905,BIOKORF_SIDE_905,platelets increase,,,,,[],0,none,none,no_kg_evidence,False,True
+906,BIOKORF_SIDE_906,thrombophlebitis,C0040046,10043570,Thrombophlebitis,,"[""HP_0004418""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+907,BIOKORF_SIDE_907,thrombosis,C0040053,10043607,Thrombosis,meddra:10043607,"[""HP_0001977""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+908,BIOKORF_SIDE_908,thrombotic thrombocytopenic purpura,C0034155,10043648,Thrombotic thrombocytopenic purpura,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+909,BIOKORF_SIDE_909,thyroid disorder,C0040128,10043709,Thyroid disorder,,"[""HP_0000820""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+910,BIOKORF_SIDE_910,thyroid neoplasm,C0040136,10043744,Thyroid neoplasm,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+911,BIOKORF_SIDE_911,thyroiditis,C0040147,10043778,Thyroiditis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+912,BIOKORF_SIDE_912,tinnitus,C0040264,10043882,Tinnitus,meddra:10043882,"[""HP_0000360""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+913,BIOKORF_SIDE_913,tongue discolouration,C0151596,10043949,Tongue discolouration,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+914,BIOKORF_SIDE_914,tongue disorder,C0040409,10043951,Tongue disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+915,BIOKORF_SIDE_915,tongue oedema,C0151610,10043967,Tongue oedema,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+916,BIOKORF_SIDE_916,tongue ulceration,C0235351,10043991,Tongue ulceration,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+917,BIOKORF_SIDE_917,tonsillitis,C0040425,10044008,Tonsillitis,,"[""HP_0011110""]",1,exact_meddra_pt_name,high,meddra_with_alias_kg,True,False
+918,BIOKORF_SIDE_918,tooth abscess,C0518988,10044016,Tooth abscess,,"[""HP_0030757""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+919,BIOKORF_SIDE_919,tooth disorder,C0040435,10044034,Tooth disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+920,BIOKORF_SIDE_920,tooth infection,C0877046,10048762,Tooth infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+921,BIOKORF_SIDE_921,toothache,C0040460,10044055,Toothache,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+922,BIOKORF_SIDE_922,ventricular arrhythmias and cardiac arrest,,,,,[],0,none,none,no_kg_evidence,False,True
+923,BIOKORF_SIDE_923,torticollis,C0040485,10044074,Torticollis,,"[""HP_0000473""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+924,BIOKORF_SIDE_924,toxic epidermal necrolysis,C0014518,10044223,Toxic epidermal necrolysis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+925,BIOKORF_SIDE_925,toxicity to various agents,C3160741,10070863,Toxicity to various agents,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+926,BIOKORF_SIDE_926,tracheitis,C0040584,10044302,Tracheitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+927,BIOKORF_SIDE_927,trachea bronchus inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+928,BIOKORF_SIDE_928,transaminases increased,C0438717,10054889,Transaminases increased,,"[""HP_0002910""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+929,BIOKORF_SIDE_929,transient ischaemic attack,C0007787,10044390,Transient ischaemic attack,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+930,BIOKORF_SIDE_930,tremor,C0040822,10044565,Tremor,meddra:10044565,"[""HP_0001337""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+931,BIOKORF_SIDE_931,masseter spasms,,,,,[],0,none,none,no_kg_evidence,False,True
+932,BIOKORF_SIDE_932,inflammation of the interstitial tissue of the kidney,,,,,[],0,none,none,no_kg_evidence,False,True
+933,BIOKORF_SIDE_933,tumour lysis syndrome,C0041364,10045170,Tumour lysis syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+934,BIOKORF_SIDE_934,ulcer,C0041582,10045285,Ulcer,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+935,BIOKORF_SIDE_935,ulcerative keratitis,C0010043,10064996,Ulcerative keratitis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+936,BIOKORF_SIDE_936,unintended pregnancy,C0041747,10045542,Unintended pregnancy,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+937,BIOKORF_SIDE_937,upper respiratory tract infection,C0041912,10046306,Upper respiratory tract infection,meddra:10046306,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+938,BIOKORF_SIDE_938,upper airway cough syndrome,,,,,[],0,none,none,no_kg_evidence,False,True
+939,BIOKORF_SIDE_939,urethral disorder,C0041969,10046445,Urethral disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+940,BIOKORF_SIDE_940,urethritis,C0041976,10046480,Urethritis,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+941,BIOKORF_SIDE_941,urethritis non infective,,,,,[],0,none,none,no_kg_evidence,False,True
+942,BIOKORF_SIDE_942,urinary hesitation,C0152032,10046542,Urinary hesitation,,"[""HP_0000019""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+943,BIOKORF_SIDE_943,urinary incontinence,C0042024,10046543,Urinary incontinence,,"[""HP_0000020""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+944,BIOKORF_SIDE_944,urinary retention,C0080274,10046555,Urinary retention,,"[""HP_0000016""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+945,BIOKORF_SIDE_945,urinary tract disorder,C0042075,10046566,Urinary tract disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+946,BIOKORF_SIDE_946,urinary tract infection,C0042029,10046571,Urinary tract infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+947,BIOKORF_SIDE_947,urine abnormality,C0235639,10046607,Urine abnormality,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+948,BIOKORF_SIDE_948,urine analysis abnormal,C0438142,10062226,Urine analysis abnormal,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+949,BIOKORF_SIDE_949,urine output increased,C1167965,10059896,Urine output increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+950,BIOKORF_SIDE_950,urticaria,C0042109,10046735,Urticaria,meddra:10046735,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+951,BIOKORF_SIDE_951,uterine disorder,C0042131,10046779,Uterine disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+952,BIOKORF_SIDE_952,uterine haemorrhage,C0042134,10046788,Uterine haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+953,BIOKORF_SIDE_953,uterine smooth muscle tumor,,,,,[],0,none,none,no_kg_evidence,False,True
+954,BIOKORF_SIDE_954,uterine spasm,C0151998,10046823,Uterine spasm,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+955,BIOKORF_SIDE_955,uveitis,C0042164,10046851,Uveitis,,"[""HP_0000554""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+956,BIOKORF_SIDE_956,vaginal discharge,C0227791,10046901,Vaginal discharge,meddra:10046901,[],1,sider_umls_pt,high,canonical_meddra_with_kg,True,False
+957,BIOKORF_SIDE_957,vaginal haemorrhage,C2979982,10046910,Vaginal haemorrhage,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+958,BIOKORF_SIDE_958,vaginal infection,C0404521,10046914,Vaginal infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+959,BIOKORF_SIDE_959,varicose vein,C0042345,10046996,Varicose vein,,"[""HP_0002619""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+960,BIOKORF_SIDE_960,vascular headache,C0042376,10047077,Vascular headache,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+961,BIOKORF_SIDE_961,vascular purpura,C1368065,10047097,Vascular purpura,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+962,BIOKORF_SIDE_962,vasculitis,C0042384,10047115,Vasculitis,meddra:10047115,"[""HP_0002633""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+963,BIOKORF_SIDE_963,vasodilation procedure,C1142412,10058794,Vasodilation procedure,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+964,BIOKORF_SIDE_964,vasospasm,C0085616,10047163,Vasospasm,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+965,BIOKORF_SIDE_965,venous thrombosis,C0042487,10047249,Venous thrombosis,meddra:10047249,"[""HP_0004936""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+966,BIOKORF_SIDE_966,ventricular arrhythmia,C0085612,10047281,Ventricular arrhythmia,,"[""HP_0004308""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+967,BIOKORF_SIDE_967,premature ventricular contractions,,,,,[],0,none,none,no_kg_evidence,False,True
+968,BIOKORF_SIDE_968,ventricular fibrillation,C0042510,10047290,Ventricular fibrillation,,"[""HP_0001663""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+969,BIOKORF_SIDE_969,ventricular tachycardia,C0042514,10047302,Ventricular tachycardia,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+970,BIOKORF_SIDE_970,vertigo,C0042571,10047340,Vertigo,meddra:10047340,"[""HP_0002321""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+971,BIOKORF_SIDE_971,vestibular disorder,C0042594,10047386,Vestibular disorder,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+972,BIOKORF_SIDE_972,viral diarrhoea,C0152517,10051511,Viral diarrhoea,,[],0,exact_meddra_pt_name,high,external_meddra_only,False,True
+973,BIOKORF_SIDE_973,viral infection,C0042769,10047461,Viral infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+974,BIOKORF_SIDE_974,viral upper respiratory tract infection,C0339916,10047482,Viral upper respiratory tract infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+975,BIOKORF_SIDE_975,vision blurred,C0344232,10047513,Vision blurred,,"[""HP_0000622""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+976,BIOKORF_SIDE_976,visual acuity reduced,C0234632,10047531,Visual acuity reduced,,"[""HP_0007663""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+977,BIOKORF_SIDE_977,visual impairment,C3665347,10047571,Visual impairment,,"[""HP_0000505""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+978,BIOKORF_SIDE_978,vomiting,C0042963,10047700,Vomiting,meddra:10047700,"[""HP_0002013""]",2,sider_umls_pt,high,meddra_with_alias_kg,True,False
+979,BIOKORF_SIDE_979,vulva vaginal candidiasis,,,,,[],0,none,none,no_kg_evidence,False,True
+980,BIOKORF_SIDE_980,vulva vaginal dryness,,,,,[],0,none,none,no_kg_evidence,False,True
+981,BIOKORF_SIDE_981,vulva vaginal mold infection,,,,,[],0,none,none,no_kg_evidence,False,True
+982,BIOKORF_SIDE_982,vulva vaginal pruritus,,,,,[],0,none,none,no_kg_evidence,False,True
+983,BIOKORF_SIDE_983,vulva vagina inflammation,,,,,[],0,none,none,no_kg_evidence,False,True
+984,BIOKORF_SIDE_984,weight decreased,C0043096,10047895,Weight decreased,,"[""HP_0001824""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+985,BIOKORF_SIDE_985,weight increased,C0043094,10047899,Weight increased,,"[""HP_0004324""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+986,BIOKORF_SIDE_986,wheezing,C0043144,10047924,Wheezing,,"[""HP_0030828""]",1,sider_umls_pt,high,meddra_with_alias_kg,True,False
+987,BIOKORF_SIDE_987,white blood cell count decreased,C0750394,10047942,White blood cell count decreased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+988,BIOKORF_SIDE_988,white blood cell count increased,C0750426,10047943,White blood cell count increased,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+989,BIOKORF_SIDE_989,withdrawal syndrome,C0038587,10048010,Withdrawal syndrome,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+990,BIOKORF_SIDE_990,wound infection,C0043241,10048038,Wound infection,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+991,BIOKORF_SIDE_991,wound secretion,C0406834,10048629,Wound secretion,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+992,BIOKORF_SIDE_992,dry eye,C0314719,10013774,Dry eye,,[],0,sider_umls_pt,high,external_meddra_only,False,True
+993,BIOKORF_SIDE_993,yawning,C0043387,10048232,Yawning,,[],0,sider_umls_pt,high,external_meddra_only,False,True

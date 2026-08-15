@@ -1,0 +1,256 @@
+matrix_index,side_effect_name,sider_umls_cui,optimuskg_id,optimuskg_name,ontology_namespace,optimuskg_umls_cui,optimuskg_code,is_meddra,was_previous_name_candidate
+1,abdominal distension,C0000731,HP_0003270,Abdominal distention,HPO,"",http://purl.obolibrary.org/obo/HP_0003270,false,true
+2,abdominal pain,C0000737,HP_0002027,Abdominal pain,HPO,"",http://purl.obolibrary.org/obo/HP_0002027,false,true
+5,abnormal behaviour,C0233514,HP_0000708,Atypical behavior,HPO,"",http://purl.obolibrary.org/obo/HP_0000708,false,false
+10,acidosis,C0001122,HP_0001941,Acidosis,HPO,C0001122,http://purl.obolibrary.org/obo/HP_0001941,false,true
+20,aggression,C0001807,HP_0000718,Aggressive behavior,HPO,C0001807,http://purl.obolibrary.org/obo/HP_0000718,false,true
+21,agitation,C0085631,HP_0000713,Agitation,HPO,C0085631,http://purl.obolibrary.org/obo/HP_0000713,false,true
+22,agranulocytosis,C0001824,HP_0001913,Granulocytopenia,HPO,C0001824,http://purl.obolibrary.org/obo/HP_0001913,false,true
+26,proteinuria,C0033687,HP_0000093,Proteinuria,HPO,C0033687,http://purl.obolibrary.org/obo/HP_0000093,false,true
+28,alopecia,C0002170,HP_0001596,Alopecia,HPO,C0002170,http://purl.obolibrary.org/obo/HP_0001596,false,true
+28,alopecia,C0002170,HP_0002293,Alopecia of scalp,HPO,C0002170,http://purl.obolibrary.org/obo/HP_0002293,false,true
+31,amblyopia,C0002418,HP_0000646,Amblyopia,HPO,"",http://purl.obolibrary.org/obo/HP_0000646,false,true
+35,anaemia,C0002871,HP_0001903,Anemia,HPO,"",http://purl.obolibrary.org/obo/HP_0001903,false,true
+37,anaemia megaloblastic,C0002888,HP_0001889,Megaloblastic anemia,HPO,C0002888,http://purl.obolibrary.org/obo/HP_0001889,false,false
+41,aneurysm,C0002940,HP_0002617,Vascular dilatation,HPO,C0002940,http://purl.obolibrary.org/obo/HP_0002617,false,true
+53,anxiety,C0003467,HP_0000739,Anxiety,HPO,C0003467,http://purl.obolibrary.org/obo/HP_0000739,false,true
+54,apathy,C0085632,HP_0000741,Apathy,HPO,C0085632,http://purl.obolibrary.org/obo/HP_0000741,false,true
+55,aphasia,C0003537,HP_0002381,Aphasia,HPO,"",http://purl.obolibrary.org/obo/HP_0002381,false,true
+56,aplasia pure red cell,C0034902,HP_0012410,Pure red cell aplasia,HPO,"",http://purl.obolibrary.org/obo/HP_0012410,false,false
+57,aplastic anaemia,C0002874,HP_0001915,Aplastic anemia,HPO,C0002874,http://purl.obolibrary.org/obo/HP_0001915,false,true
+58,apnoea,C0003578,HP_0002104,Apnea,HPO,C0003578,http://purl.obolibrary.org/obo/HP_0002104,false,true
+71,arrhythmia,C0003811,HP_0011675,Arrhythmia,HPO,C0264886,http://purl.obolibrary.org/obo/HP_0011675,false,true
+74,arthralgia,C0003862,HP_0002829,Arthralgia,HPO,C0003862,http://purl.obolibrary.org/obo/HP_0002829,false,true
+75,arthritis,C0003864,HP_0001369,Arthritis,HPO,C0003864,http://purl.obolibrary.org/obo/HP_0001369,false,true
+77,ascites,C0003962,HP_0001541,Ascites,HPO,C0003962,http://purl.obolibrary.org/obo/HP_0001541,false,true
+82,asthma,C0004096,HP_0002099,Asthma,HPO,C0004096,http://purl.obolibrary.org/obo/HP_0002099,false,true
+89,atrioventricular block first degree,C0085614,HP_0011705,First degree atrioventricular block,HPO,"",http://purl.obolibrary.org/obo/HP_0011705,false,false
+92,back pain,C0004604,HP_0003418,Back pain,HPO,C0004604,http://purl.obolibrary.org/obo/HP_0003418,false,true
+103,bleeding time prolonged,C0151529,HP_0003010,Prolonged bleeding time,HPO,"",http://purl.obolibrary.org/obo/HP_0003010,false,false
+106,blindness,C0456909,HP_0000618,Blindness,HPO,"",http://purl.obolibrary.org/obo/HP_0000618,false,true
+110,blood bilirubin increased,C0311468,HP_0002904,Hyperbilirubinemia,HPO,"",http://purl.obolibrary.org/obo/HP_0002904,false,false
+115,blood disorder,C0018939,HP_0001871,Abnormality of blood and blood-forming tissues,HPO,C0018939,http://purl.obolibrary.org/obo/HP_0001871,false,false
+122,blood pressure increased,C0497247,HP_0000822,Hypertension,HPO,C0020538,http://purl.obolibrary.org/obo/HP_0000822,false,false
+125,blood urea increased,C0151539,HP_0003138,Increased blood urea nitrogen,HPO,"",http://purl.obolibrary.org/obo/HP_0003138,false,false
+128,body temperature decreased,C0020672,HP_0002045,Hypothermia,HPO,C0020672,http://purl.obolibrary.org/obo/HP_0002045,false,false
+129,body temperature increased,C0015967,HP_0001945,Fever,HPO,C0015967,http://purl.obolibrary.org/obo/HP_0001945,false,false
+131,bone pain,C0151825,HP_0002653,Bone pain,HPO,C0151825,http://purl.obolibrary.org/obo/HP_0002653,false,true
+132,bradycardia,C0428977,HP_0001662,Bradycardia,HPO,C0428977,http://purl.obolibrary.org/obo/HP_0001662,false,true
+139,breast enlargement,C2225524,HP_0010313,Breast hypertrophy,HPO,"",http://purl.obolibrary.org/obo/HP_0010313,false,true
+153,cachexia,C0006625,HP_0004326,Cachexia,HPO,"",http://purl.obolibrary.org/obo/HP_0004326,false,true
+157,cardiac failure,C0018801,HP_0001635,Congestive heart failure,HPO,C0018802,http://purl.obolibrary.org/obo/HP_0001635,false,true
+158,cardiac failure congestive,C0018802,HP_0001635,Congestive heart failure,HPO,C0018802,http://purl.obolibrary.org/obo/HP_0001635,false,false
+160,cardiac murmur,C0018808,HP_0030148,Heart murmur,HPO,"",http://purl.obolibrary.org/obo/HP_0030148,false,true
+165,cardiovascular disorder,C0007222,HP_0001626,Abnormality of the cardiovascular system,HPO,C0007222,http://purl.obolibrary.org/obo/HP_0001626,false,false
+167,cataract,C0086543,HP_0000518,Cataract,HPO,"",http://purl.obolibrary.org/obo/HP_0000518,false,true
+169,cellulitis,C0007642,HP_0100658,Cellulitis,HPO,C0162627,http://purl.obolibrary.org/obo/HP_0100658,false,true
+173,cerebral ischaemia,C0917798,HP_0002637,Cerebral ischemia,HPO,"",http://purl.obolibrary.org/obo/HP_0002637,false,false
+174,cerebrovascular accident,C0038454,HP_0001297,Stroke,HPO,C0038454,http://purl.obolibrary.org/obo/HP_0001297,false,true
+178,cheilitis,C0007971,HP_0100825,Cheilitis,HPO,"",http://purl.obolibrary.org/obo/HP_0100825,false,true
+180,chest pain,C0008031,HP_0100749,Chest pain,HPO,"",http://purl.obolibrary.org/obo/HP_0100749,false,true
+182,cholecystitis,C0008325,HP_0001082,Cholecystitis,HPO,C0008325,http://purl.obolibrary.org/obo/HP_0001082,false,true
+184,cholestasis,C0008370,HP_0001396,Cholestasis,HPO,C0008370,http://purl.obolibrary.org/obo/HP_0001396,false,true
+190,coagulopathy,C0005779,HP_0001928,Abnormality of coagulation,HPO,"",http://purl.obolibrary.org/obo/HP_0001928,false,false
+196,coma,C0009421,HP_0001259,Coma,HPO,C0009421,http://purl.obolibrary.org/obo/HP_0001259,false,true
+198,conduction disorder,C0264886,HP_0011675,Arrhythmia,HPO,C0264886,http://purl.obolibrary.org/obo/HP_0011675,false,false
+200,congenital eye disorder,C0015393,HP_0000478,Abnormality of the eye,HPO,"",http://purl.obolibrary.org/obo/HP_0000478,false,false
+204,conjunctivitis,C0009763,HP_0000509,Conjunctivitis,HPO,"",http://purl.obolibrary.org/obo/HP_0000509,false,true
+207,constipation,C0009806,HP_0002019,Constipation,HPO,C0009806,http://purl.obolibrary.org/obo/HP_0002019,false,true
+213,corneal opacity,C0010038,HP_0007957,Corneal opacity,HPO,"",http://purl.obolibrary.org/obo/HP_0007957,false,true
+215,cough,C0010200,HP_0012735,Cough,HPO,C0010200,http://purl.obolibrary.org/obo/HP_0012735,false,true
+224,deafness,C0011053,HP_0000365,Hearing impairment,HPO,"",http://purl.obolibrary.org/obo/HP_0000365,false,true
+229,delusion,C0011253,HP_0000746,Delusion,HPO,"",http://purl.obolibrary.org/obo/HP_0000746,false,true
+230,dementia,C0497327,HP_0000726,Dementia,HPO,C0497327,http://purl.obolibrary.org/obo/HP_0000726,false,true
+236,dermatitis,C0011603,HP_0011123,Inflammatory abnormality of the skin,HPO,"",http://purl.obolibrary.org/obo/HP_0011123,false,false
+242,diabetes mellitus,C0011849,HP_0000819,Diabetes mellitus,HPO,C0011849,http://purl.obolibrary.org/obo/HP_0000819,false,true
+243,diarrhoea,C0011991,HP_0002014,Diarrhea,HPO,C0011991,http://purl.obolibrary.org/obo/HP_0002014,false,true
+245,diplopia,C0012569,HP_0000651,Diplopia,HPO,C0012569,http://purl.obolibrary.org/obo/HP_0000651,false,true
+248,disseminated intravascular coagulation,C0012739,HP_0005521,Disseminated intravascular coagulation,HPO,C0012739,http://purl.obolibrary.org/obo/HP_0005521,false,true
+252,dizziness,C0012833,HP_0002321,Vertigo,HPO,C0012833,http://purl.obolibrary.org/obo/HP_0002321,false,true
+259,dry skin,C0151908,HP_0000958,Dry skin,HPO,"",http://purl.obolibrary.org/obo/HP_0000958,false,true
+264,dysarthria,C0013362,HP_0001260,Dysarthria,HPO,"",http://purl.obolibrary.org/obo/HP_0001260,false,true
+268,dyspareunia,C1384606,HP_0030016,Dyspareunia,HPO,C1384606,http://purl.obolibrary.org/obo/HP_0030016,false,true
+270,dysphagia,C0011168,HP_0002015,Dysphagia,HPO,C0011168,http://purl.obolibrary.org/obo/HP_0002015,false,true
+278,ear pain,C0013456,HP_0030766,Ear pain,HPO,C0013456,http://purl.obolibrary.org/obo/HP_0030766,false,true
+280,eczema,C0013595,HP_0000964,Eczematoid dermatitis,HPO,C0013595,http://purl.obolibrary.org/obo/HP_0000964,false,true
+284,electrocardiogram abnormal,C0522055,HP_0003115,Abnormal EKG,HPO,"",http://purl.obolibrary.org/obo/HP_0003115,false,false
+284,electrocardiogram abnormal,C0522055,HP_0011675,Arrhythmia,HPO,C0264886,http://purl.obolibrary.org/obo/HP_0011675,false,false
+285,electrocardiogram qt prolonged,C0151878,HP_0001657,Prolonged QT interval,HPO,"",http://purl.obolibrary.org/obo/HP_0001657,false,false
+287,electroencephalogram abnormal,C0151611,HP_0002353,EEG abnormality,HPO,"",http://purl.obolibrary.org/obo/HP_0002353,false,true
+293,encephalopathy,C0085584,HP_0001298,Encephalopathy,HPO,"",http://purl.obolibrary.org/obo/HP_0001298,false,true
+294,endocrine disorder,C0014130,HP_0000818,Abnormality of the endocrine system,HPO,"",http://purl.obolibrary.org/obo/HP_0000818,false,false
+300,eosinophilia,C0014457,HP_0001880,Eosinophilia,HPO,"",http://purl.obolibrary.org/obo/HP_0001880,false,true
+301,epididymitis,C0014534,HP_0000031,Epididymitis,HPO,"",http://purl.obolibrary.org/obo/HP_0000031,false,true
+304,erectile dysfunction,C0242350,HP_0000802,Impotence,HPO,C0242350,http://purl.obolibrary.org/obo/HP_0000802,false,false
+306,erythema,C0041834,HP_0010783,Erythema,HPO,"",http://purl.obolibrary.org/obo/HP_0010783,false,true
+308,erythema nodosum,C0014743,HP_0012219,Erythema nodosum,HPO,"",http://purl.obolibrary.org/obo/HP_0012219,false,true
+312,exophthalmos,C0015300,HP_0000520,Proptosis,HPO,"",http://purl.obolibrary.org/obo/HP_0000520,false,true
+318,eye disorder,C0015397,HP_0000478,Abnormality of the eye,HPO,"",http://purl.obolibrary.org/obo/HP_0000478,false,false
+323,eye pain,C0151827,HP_0200026,Ocular pain,HPO,C0151827,http://purl.obolibrary.org/obo/HP_0200026,false,true
+327,face oedema,C0542571,HP_0000282,Facial edema,HPO,"",http://purl.obolibrary.org/obo/HP_0000282,false,false
+332,fatigue,C0015672,HP_0012378,Fatigue,HPO,C0015672,http://purl.obolibrary.org/obo/HP_0012378,false,true
+340,flank pain,C0016199,HP_0030157,Flank pain,HPO,"",http://purl.obolibrary.org/obo/HP_0030157,false,true
+343,fluid overload,C0546817,HP_0011105,Hypervolemia,HPO,"",http://purl.obolibrary.org/obo/HP_0011105,false,false
+345,flushing,C0016382,HP_0010783,Erythema,HPO,"",http://purl.obolibrary.org/obo/HP_0010783,false,false
+353,gait disturbance,C0575081,HP_0001288,Gait disturbance,HPO,C0575081,http://purl.obolibrary.org/obo/HP_0001288,false,true
+361,gastrointestinal disorder,C0017178,HP_0011024,Abnormality of the gastrointestinal tract,HPO,C0017178,http://purl.obolibrary.org/obo/HP_0011024,false,false
+362,gastrointestinal haemorrhage,C0017181,HP_0002239,Gastrointestinal hemorrhage,HPO,"",http://purl.obolibrary.org/obo/HP_0002239,false,true
+363,gastrointestinal infection,C1264613,HP_0004798,Recurrent infection of the gastrointestinal tract,HPO,"",http://purl.obolibrary.org/obo/HP_0004798,false,false
+370,gingival bleeding,C0017565,HP_0000225,Gingival bleeding,HPO,"",http://purl.obolibrary.org/obo/HP_0000225,false,true
+372,gingivitis,C0017574,HP_0000230,Gingivitis,HPO,C0017574,http://purl.obolibrary.org/obo/HP_0000230,false,true
+378,goitre,C0018021,HP_0000853,Goiter,HPO,C0018021,http://purl.obolibrary.org/obo/HP_0000853,false,true
+379,gout,C0018099,HP_0001997,Gout,HPO,C0003868,http://purl.obolibrary.org/obo/HP_0001997,false,true
+388,haemoglobin decreased,C0162119,HP_0001903,Anemia,HPO,"",http://purl.obolibrary.org/obo/HP_0001903,false,false
+394,haemorrhagic disorder,C0019087,HP_0001928,Abnormality of coagulation,HPO,"",http://purl.obolibrary.org/obo/HP_0001928,false,false
+399,hallucination,C0018524,HP_0000738,Hallucinations,HPO,C0018524,http://purl.obolibrary.org/obo/HP_0000738,false,true
+401,headache,C0018681,HP_0002315,Headache,HPO,"",http://purl.obolibrary.org/obo/HP_0002315,false,true
+404,hepatic enzyme increased,C0235996,HP_0002910,Elevated circulating hepatic transaminase concentration,HPO,"",http://purl.obolibrary.org/obo/HP_0002910,false,false
+405,hepatic failure,C0085605,HP_0001399,Hepatic failure,HPO,C0085605,http://purl.obolibrary.org/obo/HP_0001399,false,true
+406,hepatic function abnormal,C0086565,HP_0001410,Decreased liver function,HPO,"",http://purl.obolibrary.org/obo/HP_0001410,false,false
+406,hepatic function abnormal,C0086565,HP_0002910,Elevated circulating hepatic transaminase concentration,HPO,"",http://purl.obolibrary.org/obo/HP_0002910,false,false
+407,hepatic necrosis,C0151798,HP_0002605,Hepatic necrosis,HPO,C0151798,http://purl.obolibrary.org/obo/HP_0002605,false,true
+408,hepatic steatosis,C2711227,HP_0001397,Hepatic steatosis,HPO,C2711227,http://purl.obolibrary.org/obo/HP_0001397,false,true
+409,hepatitis,C0019158,HP_0012115,Hepatitis,HPO,C0019158,http://purl.obolibrary.org/obo/HP_0012115,false,true
+413,hepatomegaly,C0019209,HP_0002240,Hepatomegaly,HPO,C0019209,http://purl.obolibrary.org/obo/HP_0002240,false,true
+415,hernia,C0019270,HP_0100790,Hernia,HPO,"",http://purl.obolibrary.org/obo/HP_0100790,false,true
+419,hiatus hernia,C3489393,HP_0002036,Hiatus hernia,HPO,C3489393,http://purl.obolibrary.org/obo/HP_0002036,false,true
+421,hirsutism,C0019572,HP_0001007,Hirsutism,HPO,"",http://purl.obolibrary.org/obo/HP_0001007,false,true
+432,hyperhidrosis,C0020458,HP_0000975,Hyperhidrosis,HPO,C0020458,http://purl.obolibrary.org/obo/HP_0000975,false,true
+434,hyperkeratosis,C0870082,HP_0000962,Hyperkeratosis,HPO,C0870082,http://purl.obolibrary.org/obo/HP_0000962,false,true
+445,hypertension,C0020538,HP_0000822,Hypertension,HPO,C0020538,http://purl.obolibrary.org/obo/HP_0000822,false,true
+448,hypertrichosis,C0020555,HP_0000998,Hypertrichosis,HPO,"",http://purl.obolibrary.org/obo/HP_0000998,false,true
+451,hyperventilation,C0020578,HP_0002883,Hyperventilation,HPO,"",http://purl.obolibrary.org/obo/HP_0002883,false,true
+471,hypotonia,C0026827,HP_0001252,Hypotonia,HPO,"",http://purl.obolibrary.org/obo/HP_0001252,false,true
+472,hypoventilation,C3203358,HP_0002791,Hypoventilation,HPO,C0235063,http://purl.obolibrary.org/obo/HP_0002791,false,true
+475,ileus paralytic,C0030446,HP_0002590,Paralytic ileus,HPO,C0030446,http://purl.obolibrary.org/obo/HP_0002590,false,false
+483,increased appetite,C0232461,HP_0002591,Polyphagia,HPO,"",http://purl.obolibrary.org/obo/HP_0002591,false,true
+485,increased tendency to bruise,C0423798,HP_0000978,Bruising susceptibility,HPO,"",http://purl.obolibrary.org/obo/HP_0000978,false,false
+509,interstitial lung disease,C0206062,HP_0006530,Abnormal pulmonary interstitial morphology,HPO,C0206062,http://purl.obolibrary.org/obo/HP_0006530,false,true
+512,intracranial pressure increased,C0151740,HP_0002516,Increased intracranial pressure,HPO,C0151740,http://purl.obolibrary.org/obo/HP_0002516,false,false
+515,iron deficiency anaemia,C0162316,HP_0001891,Iron deficiency anemia,HPO,C0162316,http://purl.obolibrary.org/obo/HP_0001891,false,true
+519,jaundice,C0022346,HP_0000952,Jaundice,HPO,C0022346,http://purl.obolibrary.org/obo/HP_0000952,false,true
+521,joint stiffness,C0162298,HP_0001387,Joint stiffness,HPO,"",http://purl.obolibrary.org/obo/HP_0001387,false,true
+522,joint swelling,C0152031,HP_0001386,Joint swelling,HPO,"",http://purl.obolibrary.org/obo/HP_0001386,false,true
+523,keratitis,C0022568,HP_0000491,Keratitis,HPO,C0022568,http://purl.obolibrary.org/obo/HP_0000491,false,true
+530,lacrimation increased,C0152227,HP_0009926,Epiphora,HPO,"",http://purl.obolibrary.org/obo/HP_0009926,false,false
+531,lactic acidosis,C0001125,HP_0003128,Lactic acidosis,HPO,C0001125,http://purl.obolibrary.org/obo/HP_0003128,false,true
+536,lethargy,C0023380,HP_0001254,Lethargy,HPO,"",http://purl.obolibrary.org/obo/HP_0001254,false,true
+537,leukocytosis,C0023518,HP_0001974,Leukocytosis,HPO,C0023518,http://purl.obolibrary.org/obo/HP_0001974,false,true
+539,leukopenia,C0023530,HP_0001882,Leukopenia,HPO,C0023530,http://purl.obolibrary.org/obo/HP_0001882,false,true
+547,liver disorder,C0023895,HP_0001392,Abnormality of the liver,HPO,C0023895,http://purl.obolibrary.org/obo/HP_0001392,false,false
+548,liver function test abnormal,C0151766,HP_0002910,Elevated circulating hepatic transaminase concentration,HPO,"",http://purl.obolibrary.org/obo/HP_0002910,false,false
+551,loss of consciousness,C0041657,HP_0007185,Loss of consciousness,HPO,C0041657,http://purl.obolibrary.org/obo/HP_0007185,false,true
+553,lower respiratory tract infection,C0149725,HP_0002783,Recurrent lower respiratory tract infections,HPO,C0149725,http://purl.obolibrary.org/obo/HP_0002783,false,true
+554,lung disorder,C0024115,HP_0002088,Abnormal lung morphology,HPO,"",http://purl.obolibrary.org/obo/HP_0002088,false,false
+557,lymphadenopathy,C0497156,HP_0002716,Lymphadenopathy,HPO,C0497156,http://purl.obolibrary.org/obo/HP_0002716,false,true
+573,meningitis,C0025289,HP_0001287,Meningitis,HPO,C0025289,http://purl.obolibrary.org/obo/HP_0001287,false,true
+576,menorrhagia,C0025323,HP_0000132,Menorrhagia,HPO,C0025323,http://purl.obolibrary.org/obo/HP_0000132,false,true
+581,metabolic acidosis,C0220981,HP_0001942,Metabolic acidosis,HPO,C0220981,http://purl.obolibrary.org/obo/HP_0001942,false,true
+586,miosis,C0026205,HP_0000616,Miosis,HPO,"",http://purl.obolibrary.org/obo/HP_0000616,false,true
+588,mood swings,C0085633,HP_0000712,Emotional lability,HPO,C0085633,http://purl.obolibrary.org/obo/HP_0000712,false,true
+590,mouth ulceration,C0149745,HP_0000155,Oral ulcer,HPO,"",http://purl.obolibrary.org/obo/HP_0000155,false,false
+591,movement disorder,C0026650,HP_0100022,Abnormality of movement,HPO,"",http://purl.obolibrary.org/obo/HP_0100022,false,true
+594,multiple fractures,C0016655,HP_0002757,Recurrent fractures,HPO,"",http://purl.obolibrary.org/obo/HP_0002757,false,true
+598,muscle rigidity,C0026837,HP_0002063,Rigidity,HPO,"",http://purl.obolibrary.org/obo/HP_0002063,false,true
+602,muscular weakness,C0151786,HP_0001324,Muscle weakness,HPO,C0151786,http://purl.obolibrary.org/obo/HP_0001324,false,true
+607,myalgia,C0231528,HP_0003326,Myalgia,HPO,"",http://purl.obolibrary.org/obo/HP_0003326,false,true
+608,mydriasis,C0026961,HP_0011499,Mydriasis,HPO,C0026961,http://purl.obolibrary.org/obo/HP_0011499,false,true
+613,myoclonus,C0027066,HP_0001336,Myoclonus,HPO,C0027066,http://purl.obolibrary.org/obo/HP_0001336,false,true
+614,myopathy,C0026848,HP_0003198,Myopathy,HPO,C0026848,http://purl.obolibrary.org/obo/HP_0003198,false,true
+616,nail disorder,C0027339,HP_0001597,Abnormal nail morphology,HPO,"",http://purl.obolibrary.org/obo/HP_0001597,false,false
+617,nasal congestion,C0027424,HP_0001742,Nasal congestion,HPO,"",http://purl.obolibrary.org/obo/HP_0001742,false,true
+621,nausea,C0027497,HP_0002018,Nausea,HPO,C0027497,http://purl.obolibrary.org/obo/HP_0002018,false,true
+622,neck pain,C0007859,HP_0030833,Neck pain,HPO,"",http://purl.obolibrary.org/obo/HP_0030833,false,true
+627,nephropathy,C0022658,HP_0000077,Abnormality of the kidney,HPO,C0022658,http://purl.obolibrary.org/obo/HP_0000077,false,false
+627,nephropathy,C0022658,HP_0000112,Nephropathy,HPO,C0022658,http://purl.obolibrary.org/obo/HP_0000112,false,true
+635,neuropathy peripheral,C0031117,HP_0009830,Peripheral neuropathy,HPO,C0031117,http://purl.obolibrary.org/obo/HP_0009830,false,false
+649,nuchal rigidity,C1320474,HP_0005986,Limitation of neck motion,HPO,"",http://purl.obolibrary.org/obo/HP_0005986,false,false
+650,nystagmus,C0028738,HP_0000639,Nystagmus,HPO,"",http://purl.obolibrary.org/obo/HP_0000639,false,true
+655,oedema,C0013604,HP_0000969,Edema,HPO,C0013604,http://purl.obolibrary.org/obo/HP_0000969,false,true
+658,oesophageal stenosis,C0014866,HP_0002043,Esophageal stricture,HPO,C0014866,http://purl.obolibrary.org/obo/HP_0002043,false,false
+658,oesophageal stenosis,C0014866,HP_0010450,Esophageal stenosis,HPO,C0014866,http://purl.obolibrary.org/obo/HP_0010450,false,false
+664,optic atrophy,C0029124,HP_0000648,Optic atrophy,HPO,"",http://purl.obolibrary.org/obo/HP_0000648,false,true
+676,osteonecrosis,C0029445,HP_0010885,Avascular necrosis,HPO,"",http://purl.obolibrary.org/obo/HP_0010885,false,true
+677,osteoporosis,C0029456,HP_0000939,Osteoporosis,HPO,C0029456,http://purl.obolibrary.org/obo/HP_0000939,false,true
+681,ovarian cyst,C0029927,HP_0000138,Ovarian cyst,HPO,C0029927,http://purl.obolibrary.org/obo/HP_0000138,false,true
+683,pain,C0030193,HP_0012531,Pain,HPO,C0030193,http://purl.obolibrary.org/obo/HP_0012531,false,true
+684,pain in extremity,C0030196,HP_0009763,Limb pain,HPO,"",http://purl.obolibrary.org/obo/HP_0009763,false,false
+687,pallor,C0030232,HP_0000980,Pallor,HPO,"",http://purl.obolibrary.org/obo/HP_0000980,false,true
+688,palpitations,C0030252,HP_0001962,Palpitations,HPO,"",http://purl.obolibrary.org/obo/HP_0001962,false,true
+689,pancreatitis,C0030305,HP_0001733,Pancreatitis,HPO,C0030305,http://purl.obolibrary.org/obo/HP_0001733,false,true
+690,pancreatitis acute,C0001339,HP_0001735,Acute pancreatitis,HPO,C0001339,http://purl.obolibrary.org/obo/HP_0001735,false,false
+691,pancytopenia,C0030312,HP_0001876,Pancytopenia,HPO,C0030312,http://purl.obolibrary.org/obo/HP_0001876,false,true
+698,paralysis,C0522224,HP_0003470,Paralysis,HPO,C0522224,http://purl.obolibrary.org/obo/HP_0003470,false,true
+699,paranoia,C1456784,HP_0011999,Paranoia,HPO,C1456784,http://purl.obolibrary.org/obo/HP_0011999,false,true
+701,parkinsonism,C0242422,HP_0001300,Parkinsonism,HPO,C0242422,http://purl.obolibrary.org/obo/HP_0001300,false,true
+705,peptic ulcer,C0030920,HP_0004398,Peptic ulcer,HPO,C0030920,http://purl.obolibrary.org/obo/HP_0004398,false,true
+706,pericardial effusion,C0031039,HP_0001698,Pericardial effusion,HPO,C0031039,http://purl.obolibrary.org/obo/HP_0001698,false,true
+714,peripheral sensory neuropathy,C0151313,HP_0000763,Sensory neuropathy,HPO,"",http://purl.obolibrary.org/obo/HP_0000763,false,true
+717,personality disorder,C0031212,HP_0012075,Personality disorder,HPO,"",http://purl.obolibrary.org/obo/HP_0012075,false,true
+723,photophobia,C0085636,HP_0000613,Photophobia,HPO,C0085636,http://purl.obolibrary.org/obo/HP_0000613,false,true
+729,platelet count decreased,C0392386,HP_0001873,Thrombocytopenia,HPO,C0040034,http://purl.obolibrary.org/obo/HP_0001873,false,false
+730,pleural effusion,C0032227,HP_0002202,Pleural effusion,HPO,"",http://purl.obolibrary.org/obo/HP_0002202,false,true
+731,pleurisy,C0032231,HP_0002102,Pleuritis,HPO,C0032231,http://purl.obolibrary.org/obo/HP_0002102,false,true
+733,pneumonia,C0032285,HP_0002090,Pneumonia,HPO,C0032285,http://purl.obolibrary.org/obo/HP_0002090,false,true
+735,pneumothorax,C0032326,HP_0002107,Pneumothorax,HPO,C0032326,http://purl.obolibrary.org/obo/HP_0002107,false,true
+738,polydipsia,C0085602,HP_0001959,Polydipsia,HPO,C0085602,http://purl.obolibrary.org/obo/HP_0001959,false,true
+740,polyuria,C0032617,HP_0000103,Polyuria,HPO,C0032617,http://purl.obolibrary.org/obo/HP_0000103,false,true
+744,priapism,C0033117,HP_0200023,Priapism,HPO,C0033117,http://purl.obolibrary.org/obo/HP_0200023,false,true
+754,proteinuria,C0033687,HP_0000093,Proteinuria,HPO,C0033687,http://purl.obolibrary.org/obo/HP_0000093,false,true
+758,pruritus,C0033774,HP_0000989,Pruritus,HPO,C0033774,http://purl.obolibrary.org/obo/HP_0000989,false,true
+767,pulmonary embolism,C0034065,HP_0002204,Pulmonary embolism,HPO,C0034065,http://purl.obolibrary.org/obo/HP_0002204,false,true
+774,purpura,C0034150,HP_0000979,Purpura,HPO,C0034150,http://purl.obolibrary.org/obo/HP_0000979,false,true
+778,rash,C0015230,HP_0000988,Skin rash,HPO,C0015230,http://purl.obolibrary.org/obo/HP_0000988,false,true
+788,renal failure,C0035078,HP_0000083,Renal insufficiency,HPO,C0035078,http://purl.obolibrary.org/obo/HP_0000083,false,true
+789,renal impairment,C1565489,HP_0000083,Renal insufficiency,HPO,C0035078,http://purl.obolibrary.org/obo/HP_0000083,false,false
+792,respiration abnormal,C1260922,HP_0002086,Abnormality of the respiratory system,HPO,"",http://purl.obolibrary.org/obo/HP_0002086,false,false
+793,respiratory depression,C0235063,HP_0002791,Hypoventilation,HPO,C0235063,http://purl.obolibrary.org/obo/HP_0002791,false,true
+795,respiratory distress,C0476273,HP_0002098,Respiratory distress,HPO,C0013404,http://purl.obolibrary.org/obo/HP_0002098,false,true
+801,retinal degeneration,C0035304,HP_0001105,Retinal atrophy,HPO,"",http://purl.obolibrary.org/obo/HP_0001105,false,false
+803,retinal disorder,C0035309,HP_0000479,Abnormal retinal morphology,HPO,"",http://purl.obolibrary.org/obo/HP_0000479,false,false
+804,retinal haemorrhage,C0035317,HP_0000573,Retinal hemorrhage,HPO,C0035317,http://purl.obolibrary.org/obo/HP_0000573,false,true
+807,rheumatoid arthritis,C0003873,HP_0001370,Rheumatoid arthritis,HPO,C0003873,http://purl.obolibrary.org/obo/HP_0001370,false,true
+819,sciatica,C0036396,HP_0011868,Sciatica,HPO,"",http://purl.obolibrary.org/obo/HP_0011868,false,true
+843,skin disorder,C0037274,HP_0000951,Abnormality of the skin,HPO,"",http://purl.obolibrary.org/obo/HP_0000951,false,false
+845,skin hyperpigmentation,C0162834,HP_0000953,Hyperpigmentation of the skin,HPO,"",http://purl.obolibrary.org/obo/HP_0000953,false,true
+853,skin striae,C0152459,HP_0001065,Striae distensae,HPO,C0152459,http://purl.obolibrary.org/obo/HP_0001065,false,true
+854,skin ulcer,C0037299,HP_0200042,Skin ulcer,HPO,C0037299,http://purl.obolibrary.org/obo/HP_0200042,false,true
+855,sleep apnoea syndrome,C0037315,HP_0010535,Sleep apnea,HPO,C0037315,http://purl.obolibrary.org/obo/HP_0010535,false,false
+862,speech disorder,C0037822,HP_0002167,Abnormal speech pattern,HPO,"",http://purl.obolibrary.org/obo/HP_0002167,false,false
+863,splenomegaly,C0038002,HP_0001744,Splenomegaly,HPO,C0038002,http://purl.obolibrary.org/obo/HP_0001744,false,true
+871,wheezing,C0043144,HP_0030828,Wheezing,HPO,C0043144,http://purl.obolibrary.org/obo/HP_0030828,false,true
+874,subdural haematoma,C0018946,HP_0100309,Subdural hemorrhage,HPO,"",http://purl.obolibrary.org/obo/HP_0100309,false,true
+875,sudden death,C0011071,HP_0001699,Sudden death,HPO,"",http://purl.obolibrary.org/obo/HP_0001699,false,true
+880,supraventricular tachycardia,C0039240,HP_0004755,Supraventricular tachycardia,HPO,"",http://purl.obolibrary.org/obo/HP_0004755,false,true
+883,syncope,C0039070,HP_0001279,Syncope,HPO,C0039070,http://purl.obolibrary.org/obo/HP_0001279,false,true
+884,systemic lupus erythematosus,C0024141,HP_0002725,Systemic lupus erythematosus,HPO,C0024141,http://purl.obolibrary.org/obo/HP_0002725,false,true
+885,tachycardia,C0039231,HP_0001649,Tachycardia,HPO,"",http://purl.obolibrary.org/obo/HP_0001649,false,true
+896,tension headache,C0033893,HP_0012228,Tension-type headache,HPO,C0033893,http://purl.obolibrary.org/obo/HP_0012228,false,false
+898,tetany,C0039621,HP_0001281,Tetany,HPO,C0039621,http://purl.obolibrary.org/obo/HP_0001281,false,true
+904,thrombocytopenia,C0040034,HP_0001873,Thrombocytopenia,HPO,C0040034,http://purl.obolibrary.org/obo/HP_0001873,false,true
+906,thrombophlebitis,C0040046,HP_0004418,Thrombophlebitis,HPO,C0040046,http://purl.obolibrary.org/obo/HP_0004418,false,true
+907,thrombosis,C0040053,HP_0001977,Abnormal thrombosis,HPO,"",http://purl.obolibrary.org/obo/HP_0001977,false,false
+909,thyroid disorder,C0040128,HP_0000820,Abnormality of the thyroid gland,HPO,C0040128,http://purl.obolibrary.org/obo/HP_0000820,false,false
+912,tinnitus,C0040264,HP_0000360,Tinnitus,HPO,C0040264,http://purl.obolibrary.org/obo/HP_0000360,false,true
+917,tonsillitis,C0040425,HP_0011110,Recurrent tonsillitis,HPO,C0040425,http://purl.obolibrary.org/obo/HP_0011110,false,true
+918,tooth abscess,C0518988,HP_0030757,Tooth abscess,HPO,"",http://purl.obolibrary.org/obo/HP_0030757,false,true
+923,torticollis,C0040485,HP_0000473,Torticollis,HPO,"",http://purl.obolibrary.org/obo/HP_0000473,false,true
+928,transaminases increased,C0438717,HP_0002910,Elevated circulating hepatic transaminase concentration,HPO,"",http://purl.obolibrary.org/obo/HP_0002910,false,false
+930,tremor,C0040822,HP_0001337,Tremor,HPO,"",http://purl.obolibrary.org/obo/HP_0001337,false,true
+942,urinary hesitation,C0152032,HP_0000019,Urinary hesitancy,HPO,C0152032,http://purl.obolibrary.org/obo/HP_0000019,false,false
+943,urinary incontinence,C0042024,HP_0000020,Urinary incontinence,HPO,C0042024,http://purl.obolibrary.org/obo/HP_0000020,false,true
+944,urinary retention,C0080274,HP_0000016,Urinary retention,HPO,C0080274,http://purl.obolibrary.org/obo/HP_0000016,false,true
+955,uveitis,C0042164,HP_0000554,Uveitis,HPO,C0042164,http://purl.obolibrary.org/obo/HP_0000554,false,true
+959,varicose vein,C0042345,HP_0002619,Varicose veins,HPO,C0042345,http://purl.obolibrary.org/obo/HP_0002619,false,false
+962,vasculitis,C0042384,HP_0002633,Vasculitis,HPO,C0042384,http://purl.obolibrary.org/obo/HP_0002633,false,true
+965,venous thrombosis,C0042487,HP_0004936,Venous thrombosis,HPO,C0042487,http://purl.obolibrary.org/obo/HP_0004936,false,true
+966,ventricular arrhythmia,C0085612,HP_0004308,Ventricular arrhythmia,HPO,C0085612,http://purl.obolibrary.org/obo/HP_0004308,false,true
+968,ventricular fibrillation,C0042510,HP_0001663,Ventricular fibrillation,HPO,C0042510,http://purl.obolibrary.org/obo/HP_0001663,false,true
+970,vertigo,C0042571,HP_0002321,Vertigo,HPO,C0012833,http://purl.obolibrary.org/obo/HP_0002321,false,true
+975,vision blurred,C0344232,HP_0000622,Blurred vision,HPO,C0344232,http://purl.obolibrary.org/obo/HP_0000622,false,false
+976,visual acuity reduced,C0234632,HP_0007663,Reduced visual acuity,HPO,C0234632,http://purl.obolibrary.org/obo/HP_0007663,false,false
+977,visual impairment,C3665347,HP_0000505,Visual impairment,HPO,C3665347,http://purl.obolibrary.org/obo/HP_0000505,false,true
+978,vomiting,C0042963,HP_0002013,Vomiting,HPO,C0042963,http://purl.obolibrary.org/obo/HP_0002013,false,true
+984,weight decreased,C0043096,HP_0001824,Weight loss,HPO,"",http://purl.obolibrary.org/obo/HP_0001824,false,false
+985,weight increased,C0043094,HP_0004324,Increased body weight,HPO,C0043094,http://purl.obolibrary.org/obo/HP_0004324,false,false
+986,wheezing,C0043144,HP_0030828,Wheezing,HPO,C0043144,http://purl.obolibrary.org/obo/HP_0030828,false,true

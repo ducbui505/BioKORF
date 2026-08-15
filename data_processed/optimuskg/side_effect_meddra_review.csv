@@ -1,0 +1,861 @@
+matrix_index,side_effect_name,sider_umls_cui,meddra_id,meddra_name,canonical_optimuskg_id,alias_optimuskg_ids,mapping_method,mapping_status,requires_review
+0,abdominal discomfort,C0232487,10000059,Abdominal discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+3,abdominal pain lower,C0232495,10000084,Abdominal pain lower,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+4,abdominal pain upper,C0232492,10000087,Abdominal pain upper,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+5,abnormal behaviour,C0233514,10061422,Abnormal behaviour,,"[""HP_0000708""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+7,abnormal faeces,C0162287,10000133,Abnormal faeces,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+8,abscess,C0000833,10000269,Abscess,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+9,accommodation disorder,C0152198,10000389,Accommodation disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+10,acidosis,C0001122,10000486,Acidosis,,"[""HP_0001941""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+12,actinic keratosis,C0022602,10000614,Actinic keratosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+13,acute coronary syndrome,C0948089,10051592,Acute coronary syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+14,acute myocardial infarction,C0155626,10000891,Acute myocardial infarction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+16,adrenal insufficiency,C0001623,10001367,Adrenal insufficiency,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+17,affect lability,C0233472,10054196,Affect lability,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+18,affective disorder,C0525045,10001443,Affective disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+19,loss of taste,,,,,[],,unresolved,True
+24,can not exercise,,,,,[],,unresolved,True
+25,alanine aminotransferase increased,C0151905,10001551,Alanine aminotransferase increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+27,alcohol intolerance,C0151474,10001598,Alcohol intolerance,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+29,altered state of consciousness,C0150450,10001854,Altered state of consciousness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+30,other allergic pneumonitis,,,,,[],,unresolved,True
+31,amblyopia,C0002418,10001906,Amblyopia,,"[""HP_0000646""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+32,amenorrhoea,C0002453,10001928,Amenorrhoea,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+34,amylase increased,C0151479,10002016,Amylase increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+35,anaemia,C0002871,10002034,Anaemia,,"[""HP_0001903""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+36,anaemia large cell,,,,,[],,unresolved,True
+37,anaemia megaloblastic,C0002888,10002065,Anaemia megaloblastic,,"[""HP_0001889""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+38,anal pruritus,C0033775,10068172,Anal pruritus,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+39,anaphylactic shock,C0002792,10002199,Anaphylactic shock,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+40,anaphylaxis reaction,,,,,[],,unresolved,True
+41,aneurysm,C0002940,10002329,Aneurysm,,"[""HP_0002617""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+42,anger,C0002957,10002368,Anger,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+43,angina pectoris,C0002962,10002383,Angina pectoris,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+45,angiopathy,C0042373,10059245,Angiopathy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+46,angle closure glaucoma,C0017605,10002500,Angle closure glaucoma,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+47,anorectal discomfort,C2242737,10068286,Anorectal discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+48,anorectal disorder,C0687707,10002644,Anorectal disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+49,inability to orgasm,,,,,[],,unresolved,True
+50,antisocial behaviour,C0233523,10002820,Antisocial behaviour,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+51,antisocial personality disorder,C0003431,10002822,Antisocial personality disorder,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+52,arrest of urinary output,,,,,[],,unresolved,True
+54,apathy,C0085632,10002942,Apathy,,"[""HP_0000741""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+55,aphasia,C0003537,10002948,Aphasia,,"[""HP_0002381""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+56,aplasia pure red cell,C0034902,10002965,Aplasia pure red cell,,"[""HP_0012410""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+57,aplastic anaemia,C0002874,10002967,Aplastic anaemia,,"[""HP_0001915""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+58,apnoea,C0003578,10002974,Apnoea,,"[""HP_0002104""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+59,appendicitis,C0003615,10003011,Appendicitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+60,application site burn,C0877661,10065059,Application site burn,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+61,application site dryness,C0877098,10048943,Application site dryness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+62,application site erythema,C0853700,10003041,Application site erythema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+63,application site irritation,C0521490,10003046,Application site irritation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+64,application site pain,C0521491,10003051,Application site pain,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+65,application site paresthesia,,,,,[],,unresolved,True
+66,application site pruritus,C0853714,10003053,Application site pruritus,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+67,application site rash,C0521495,10003054,Application site rash,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+68,application site reaction,C0151505,10003055,Application site reaction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+69,application site vesicles,C0877097,10048941,Application site vesicles,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+70,apraxia,C0003635,10003062,Apraxia,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+72,arrhythmia supraventricular,C0428974,10003130,Arrhythmia supraventricular,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+73,arteriosclerosis,C0003850,10003210,Arteriosclerosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+76,other symptoms referable to lower leg joint,,,,,[],,unresolved,True
+77,ascites,C0003962,10003445,Ascites,,"[""HP_0001541""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+78,asocial behaviour,C0233528,10003472,Asocial behaviour,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+79,aspartate aminotransferase increased,C0151904,10003481,Aspartate aminotransferase increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+81,eye strain,,,,,[],,unresolved,True
+82,asthma,C0004096,10003553,Asthma,,"[""HP_0002099""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+84,atelectasis,C0004144,10003598,Atelectasis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+86,atrial flutter,C0004239,10003662,Atrial flutter,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+87,atrioventricular block,C0004245,10003671,Atrioventricular block,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+88,atrioventricular block complete,C0151517,10003673,Atrioventricular block complete,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+89,atrioventricular block first degree,C0085614,10003674,Atrioventricular block first degree,,"[""HP_0011705""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+90,autonomic nervous system imbalance,C0262385,10003840,Autonomic nervous system imbalance,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+91,syndrome uremic,,,,,[],,unresolved,True
+93,bloodstream infections,,,,,[],,unresolved,True
+94,bacterial infection,C0004623,10060945,Bacterial infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+95,balance disorder,C0575090,10049848,Balance disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+96,basal cell carcinoma,C0007117,10004146,Basal cell carcinoma,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+97,benign neoplasm of skin,C0004998,10004398,Benign neoplasm of skin,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+98,biliary colic,C0151824,10004663,Biliary colic,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+99,bipolar disorder,C0005586,10057667,Bipolar disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+100,bipolar i disorder,C0853193,10004939,Bipolar I disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+101,bladder cancer,C0005684,10005003,Bladder cancer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+102,bladder pain,C0232849,10005063,Bladder pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+103,bleeding time prolonged,C0151529,10005140,Bleeding time prolonged,,"[""HP_0003010""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+104,dermatitis eyelid,,,,,[],,unresolved,True
+105,spasm eyelid,,,,,[],,unresolved,True
+106,blindness,C0456909,10005169,Blindness,,"[""HP_0000618""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+107,blister,C0005758,10005191,Blister,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+108,blood albumin decreased,C0853777,10005287,Blood albumin decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+109,blood alkaline phosphatase increased,C0852911,10059570,Blood alkaline phosphatase increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+110,blood bilirubin increased,C0311468,10005364,Blood bilirubin increased,,"[""HP_0002904""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+111,blood calcium decreased,C3665624,10005395,Blood calcium decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+112,blood cholesterol increased,C0595930,10005425,Blood cholesterol increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+113,creatine kinase high,,,,,[],,unresolved,True
+114,blood creatinine increased,C0235431,10005483,Blood creatinine increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+115,blood disorder,C0018939,10061590,Blood disorder,,"[""HP_0001871""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+116,blood glucose decreased,C0595883,10005555,Blood glucose decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+117,blood glucose increased,C0595877,10005557,Blood glucose increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+118,blood lactate dehydrogenase increased,C0853149,10005630,Blood lactate dehydrogenase increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+119,blood phosphorus decreased,C0877517,10049471,Blood phosphorus decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+120,blood potassium decreased,C0853761,10005724,Blood potassium decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+121,blood potassium increased,C0853760,10005725,Blood potassium increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+122,blood pressure increased,C0497247,10005750,Blood pressure increased,,"[""HP_0000822""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+123,blood prolactin increased,C0854082,10005780,Blood prolactin increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+124,blood triglycerides increased,C0853692,10005839,Blood triglycerides increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+125,blood urea increased,C0151539,10005851,Blood urea increased,,"[""HP_0003138""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+126,blood uric acid increased,C0235416,10005861,Blood uric acid increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+127,blood urine present,C0947999,10018870,Blood urine present,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+128,body temperature decreased,C0020672,10005910,Body temperature decreased,,"[""HP_0002045""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+129,body temperature increased,C0015967,10005911,Body temperature increased,,"[""HP_0001945""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+130,bone disorder,C0005940,10005956,Bone disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+133,loss of motor function,,,,,[],,unresolved,True
+134,brain oedema,C1527311,10048962,Brain oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+135,breast cancer,C0006142,10006187,Breast cancer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+136,breast discharge,C0149741,10006223,Breast discharge,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+137,breast disorder,C0006145,10061021,Breast disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+138,breast engorgement,C0085688,10006240,Breast engorgement,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+139,breast enlargement,C2225524,10006242,Breast enlargement,,"[""HP_0010313""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+140,breast neoplasm,C1458155,10006279,Breast neoplasm,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+141,breast pain,C0024902,10006298,Breast pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+142,breast tenderness,C0262397,10006313,Breast tenderness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+143,breath odour,C0018520,10006326,Breath odour,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+144,breath sounds abnormal,C0231856,10064780,Breath sounds abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+145,reactive airways disease,,,,,[],,unresolved,True
+146,bronchitis,C0006277,10006451,Bronchitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+148,bronchospasm paradoxical,C0236072,10006486,Bronchospasm paradoxical,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+149,bruxism,C0006325,10006514,Bruxism,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+150,bundle branch block,C0006384,10006578,Bundle branch block,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+151,burning sensation,C0085624,10006784,Burning sensation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+152,bursitis,C0006444,10006811,Bursitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+153,cachexia,C0006625,10006895,Cachexia,,"[""HP_0004326""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+154,candida infection,C0006840,10074170,Candida infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+155,cardiac arrest,C0018790,10007515,Cardiac arrest,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+158,cardiac failure congestive,C0018802,10007559,Cardiac failure congestive,,"[""HP_0001635""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+159,cardiac flutter,C0016385,10052840,Cardiac flutter,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+160,cardiac murmur,C0018808,10007586,Cardiac murmur,,"[""HP_0030148""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+161,cardiac output decreased,C0007166,10007595,Cardiac output decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+162,cardiogenic shock,C0036980,10007625,Cardiogenic shock,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+163,cardiac dilatation,,,,,[],,unresolved,True
+164,cardiomyopathy,C0878544,10007636,Cardiomyopathy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+165,cardiovascular disorder,C0007222,10007649,Cardiovascular disorder,,"[""HP_0001626""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+166,carpal tunnel syndrome,C0007286,10007697,Carpal tunnel syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+168,catheter site pain,C0949103,10052268,Catheter site pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+169,cellulitis,C0007642,10007882,Cellulitis,,"[""HP_0100658""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+170,cerebellar syndrome,C0007760,10008072,Cerebellar syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+171,cerebral haemorrhage,C2937358,10008111,Cerebral haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+173,cerebral ischaemia,C0917798,10008120,Cerebral ischaemia,,"[""HP_0002637""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+174,cerebrovascular accident,C0038454,10008190,Cerebrovascular accident,,"[""HP_0001297""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+175,cerebrovascular disorder,C0007820,10008196,Cerebrovascular disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+176,cervix disorder,C0007867,10008351,Cervix disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+177,change of bowel habit,C0278008,10008399,Change of bowel habit,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+178,cheilitis,C0007971,10008417,Cheilitis,,"[""HP_0100825""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+179,chest discomfort,C0235710,10008469,Chest discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+182,cholecystitis,C0008325,10008612,Cholecystitis,,"[""HP_0001082""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+183,biliary sludge,,,,,[],,unresolved,True
+184,cholestasis,C0008370,10008635,Cholestasis,,"[""HP_0001396""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+185,chorea and atheletes disease,,,,,[],,unresolved,True
+186,color vision change,,,,,[],,unresolved,True
+187,urine discolouration,,,,,[],,unresolved,True
+188,chronic obstructive pulmonary disease,C0024117,10009033,Chronic obstructive pulmonary disease,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+189,clostridium difficile colitis,C0238106,10009657,Clostridium difficile colitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+190,coagulopathy,C0005779,10009802,Coagulopathy,,"[""HP_0001928""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+191,cognitive disorder,C0009241,10057668,Cognitive disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+192,cold sweat,C0232431,10009866,Cold sweat,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+194,colitis ischaemic,C0162529,10009895,Colitis ischaemic,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+195,colitis ulcerative,C0009324,10009900,Colitis ulcerative,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+196,coma,C0009421,10010071,Coma,,"[""HP_0001259""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+197,completed suicide,C0852733,10010144,Completed suicide,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+198,conduction disorder,C0264886,10010276,Conduction disorder,,"[""HP_0011675""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+199,confusion state,,,,,[],,unresolved,True
+200,congenital eye disorder,C0015393,10059159,Congenital eye disorder,,"[""HP_0000478""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+201,conjunctival haemorrhage,C0009760,10010719,Conjunctival haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+202,congestion conjunctival,,,,,[],,unresolved,True
+203,conjunctival oedema,C0151601,10010726,Conjunctival oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+205,conjunctivitis allergic,C0009766,10010744,Conjunctivitis allergic,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+206,connective tissue disorder,C0009782,10061087,Connective tissue disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+209,conversion disorder,C0009946,10010893,Conversion disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+210,coordination abnormal,C0520966,10010947,Coordination abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+211,corneal erosion,C0392163,10011013,Corneal erosion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+212,corneal lesion,C0151571,10011026,Corneal lesion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+213,corneal opacity,C0010038,10011035,Corneal opacity,,"[""HP_0007957""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+214,coronary artery disease,C1956346,10011078,Coronary artery disease,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+216,regional enteritis of unspecified site,,,,,[],,unresolved,True
+217,crying,C0010399,10011469,Crying,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+218,cushing syndrome,,,,,[],,unresolved,True
+219,cyanosis,C0010520,10011703,Cyanosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+220,cyst,C0010709,10011732,Cyst,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+221,cystitis,C0010692,10011781,Cystitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+222,cystitis haemorrhagic,C0085692,10011793,Cystitis haemorrhagic,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+223,cystitis non infective,,,,,[],,unresolved,True
+224,deafness,C0011053,10011878,Deafness,,"[""HP_0000365""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+229,delusion,C0011253,10012239,Delusion,,"[""HP_0000746""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+230,dementia,C0497327,10012267,Dementia,,"[""HP_0000726""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+231,dental caries,C0011334,10012318,Dental caries,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+232,depressed level of consciousness,C0549249,10012373,Depressed level of consciousness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+233,depressed mood,C0344315,10012374,Depressed mood,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+235,feeling unreal,,,,,[],,unresolved,True
+236,dermatitis,C0011603,10012431,Dermatitis,,"[""HP_0011123""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+237,dermatitis acne,,,,,[],,unresolved,True
+238,dermatitis atopic,C0011615,10012438,Dermatitis atopic,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+239,dermatitis bullous,C0085932,10012441,Dermatitis bullous,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+240,dermatitis contact,C0011616,10012442,Dermatitis contact,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+241,dermatitis exfoliating,,,,,[],,unresolved,True
+243,diarrhoea,C0011991,10012735,Diarrhoea,,"[""HP_0002014""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+244,diarrhoea haemorrhagic,C0151594,10012741,Diarrhoea haemorrhagic,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+246,discomfort,C0234215,10013082,Discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+247,disorientation,C0233407,10013395,Disorientation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+248,disseminated intravascular coagulation,C0012739,10013442,Disseminated intravascular coagulation,,"[""HP_0005521""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+249,disturbance in attention,C0233414,10013496,Disturbance in attention,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+250,disturbance in sexual arousal,C0855242,10058929,Disturbance in sexual arousal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+251,diverticulitis,C0012813,10013538,Diverticulitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+253,dizziness postural,C0234987,10013578,Dizziness postural,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+254,drug eruption,C0011609,10013687,Drug eruption,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+255,drug hypersensitivity,C0013182,10013700,Drug hypersensitivity,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+256,drug ineffective,C0852908,10013709,Drug ineffective,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+257,dry eye,C0314719,10013774,Dry eye,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+260,dry throat,C0235234,10013789,Dry throat,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+261,duodenal ulcer,C0013295,10013836,Duodenal ulcer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+262,duodenal inflammation,,,,,[],,unresolved,True
+263,paresthesia,,,,,[],,unresolved,True
+264,dysarthria,C0013362,10013887,Dysarthria,,"[""HP_0001260""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+265,bad taste,,,,,[],,unresolved,True
+267,menses painful,,,,,[],,unresolved,True
+268,dyspareunia,C1384606,10013941,Dyspareunia,,"[""HP_0030016""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+271,dysphonia,C1527344,10013952,Dysphonia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+272,dysphoria,C0233477,10013954,Dysphoria,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+273,air hunger,,,,,[],,unresolved,True
+274,air hunger exertional,,,,,[],,unresolved,True
+275,urinary spray,,,,,[],,unresolved,True
+276,ear disorder,C0013447,10014004,Ear disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+277,ear infection,C0699744,10014011,Ear infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+278,ear pain,C0013456,10014020,Ear pain,,"[""HP_0030766""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+279,bruise,,,,,[],,unresolved,True
+280,eczema,C0013595,10014184,Eczema,,"[""HP_0000964""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+281,ejaculation delayed,C0234047,10014325,Ejaculation delayed,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+282,ejaculation disorder,C0235969,10014326,Ejaculation disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+283,ejaculation failure,C0278106,10014328,Ejaculation failure,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+284,electrocardiogram abnormal,C0522055,10014363,Electrocardiogram abnormal,,"[""HP_0003115"",""HP_0011675""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+285,electrocardiogram qt prolonged,C0151878,10014387,Electrocardiogram QT prolonged,,"[""HP_0001657""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+286,electrocardiogram st segment depression,C0520887,10014391,Electrocardiogram ST segment depression,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+287,electroencephalogram abnormal,C0151611,10014408,Electroencephalogram abnormal,,"[""HP_0002353""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+288,electrolyte imbalance,C0342579,10014418,Electrolyte imbalance,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+289,embolism,C0013922,10061169,Embolism,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+290,embolism venous,C0340726,10014522,Embolism venous,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+291,emotional disorder,C0233459,10014551,Emotional disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+292,emphysema,C0034067,10014561,Emphysema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+295,endometrial disorder,C0151622,10014753,Endometrial disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+296,ophthalmia,,,,,[],,unresolved,True
+297,enteritis,C0014335,10014866,Enteritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+298,enterocolitis,C0014356,10014893,Enterocolitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+299,enuresis,C0014394,10014928,Enuresis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+300,eosinophilia,C0014457,10014950,Eosinophilia,,"[""HP_0001880""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+301,epididymitis,C0014534,10015000,Epididymitis,,"[""HP_0000031""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+302,epigastric discomfort,C1291078,10053155,Epigastric discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+305,gas raising,,,,,[],,unresolved,True
+308,erythema nodosum,C0014743,10015226,Erythema nodosum,,"[""HP_0012219""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+309,erythema of eyelid,C0239454,10015237,Erythema of eyelid,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+310,euphoric mood,C0235146,10015535,Euphoric mood,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+311,excoriation,C0015256,10049796,Excoriation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+312,exophthalmos,C0015300,10015683,Exophthalmos,,"[""HP_0000520""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+313,bone spur,,,,,[],,unresolved,True
+314,extrapyramidal disorder,C0015371,10015832,Extrapyramidal disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+315,cardiac complex,,,,,[],,unresolved,True
+316,extravasation,C0015376,10015866,Extravasation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+317,eye discharge,C0423006,10015915,Eye discharge,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+318,eye disorder,C0015397,10015916,Eye disorder,,"[""HP_0000478""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+319,eye haemorrhage,C0015402,10015926,Eye haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+320,eye infection,C0015403,10015929,Eye infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+321,eye irritation,C0235266,10015946,Eye irritation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+322,eye oedema,C0743680,10052139,Eye oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+324,eye pruritus,C0022281,10052140,Eye pruritus,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+325,eye swelling,C0270996,10015967,Eye swelling,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+326,eyelid oedema,C0162285,10015993,Eyelid oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+327,face oedema,C0542571,10016029,Face oedema,,"[""HP_0000282""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+328,fecal impaction,,,,,[],,unresolved,True
+329,fecal impaction causing obstruction,,,,,[],,unresolved,True
+330,faeces discoloured,C0235315,10016100,Faeces discoloured,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+331,fasting,C0015663,10068315,Fasting,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+334,feeling abnormal,C1443060,10016322,Feeling abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+335,feeling cold,C0234192,10016326,Feeling cold,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+336,feeling drunk,C0522172,10016330,Feeling drunk,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+337,feeling hot,C2939147,10016334,Feeling hot,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+338,feeling jittery,C0549209,10016338,Feeling jittery,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+339,fibrocystic breast disease,C0016034,10016621,Fibrocystic breast disease,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+340,flank pain,C0016199,10016750,Flank pain,,"[""HP_0030157""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+341,flat affect,C0233471,10016759,Flat affect,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+342,flatulence,C0016204,10016766,Flatulence,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+343,fluid overload,C0546817,10016803,Fluid overload,,"[""HP_0011105""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+344,fluid retention,C0268000,10016807,Fluid retention,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+346,halitosis of liver disease,,,,,[],,unresolved,True
+347,folliculitis,C0016436,10016936,Folliculitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+349,functional gastrointestinal disorder,C0559031,10071275,Functional gastrointestinal disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+350,fungal infection,C0026946,10017533,Fungal infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+351,fungal skin infection,C0011630,10017543,Fungal skin infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+352,boil in nose,,,,,[],,unresolved,True
+353,gait disturbance,C0575081,10017577,Gait disturbance,,"[""HP_0001288""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+354,female lactation,,,,,[],,unresolved,True
+355,gamma glutamine transfer enzyme increased,,,,,[],,unresolved,True
+356,gangrene,C0017086,10017711,Gangrene,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+357,gastric ulcer,C0038358,10017822,Gastric ulcer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+358,gastritis,C0017152,10017853,Gastritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+360,gastrointestinal carcinoma,C0151544,10017940,Gastrointestinal carcinoma,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+362,gastrointestinal haemorrhage,C0017181,10017955,Gastrointestinal haemorrhage,,"[""HP_0002239""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+363,gastrointestinal infection,C1264613,10017964,Gastrointestinal infection,,"[""HP_0004798""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+364,gastrointestinal pain,C0687713,10017999,Gastrointestinal pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+365,gastrointestinal perforation,C0151664,10018001,Gastrointestinal perforation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+366,gastrointestinal ulcer,C0237938,10061459,Gastrointestinal ulcer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+367,esophageal reflux,,,,,[],,unresolved,True
+368,generalised oedema,C0151603,10018092,Generalised oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+369,genital candidiasis,C0343863,10018143,Genital candidiasis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+370,gingival bleeding,C0017565,10018276,Gingival bleeding,,"[""HP_0000225""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+371,gingival pain,C0239739,10018286,Gingival pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+374,glossitis,C0017675,10018386,Glossitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+375,burning tongue,,,,,[],,unresolved,True
+376,glucose tolerance impaired,C0271650,10018429,Glucose tolerance impaired,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+377,diabetes,,,,,[],,unresolved,True
+378,goitre,C0018021,10018498,Goitre,,"[""HP_0000853""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+380,gravitational oedema,C0235437,10018713,Gravitational oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+381,breast enlargement male,,,,,[],,unresolved,True
+382,emesis bloody,,,,,[],,unresolved,True
+383,blood in stool,,,,,[],,unresolved,True
+384,packed cell volume decreased,,,,,[],,unresolved,True
+385,haematoma,C0018944,10018852,Haematoma,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+386,urinary tract bleed microscopic,,,,,[],,unresolved,True
+387,haemoglobin,C0518015,10018876,Haemoglobin,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+388,haemoglobin decreased,C0162119,10018884,Haemoglobin decreased,,"[""HP_0001903""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+389,haemolytic anaemia,C0002878,10018916,Haemolytic anaemia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+390,haemolytic uremia syndrome,,,,,[],,unresolved,True
+391,blood streaked sputum,,,,,[],,unresolved,True
+392,haemorrhage,C0019080,10055798,Haemorrhage,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+393,haemorrhage intracranial,C0151699,10018985,Haemorrhage intracranial,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+394,haemorrhagic disorder,C0019087,10019009,Haemorrhagic disorder,,"[""HP_0001928""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+395,hemorrhoids,,,,,[],,unresolved,True
+396,hair colour changes,C0474378,10019030,Hair colour changes,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+397,hair disorder,C0018500,10019037,Hair disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+398,hair texture abnormal,C0235807,10019049,Hair texture abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+400,hangover,C0221100,10019133,Hangover,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+402,hemiplegia,C0018991,10019468,Hemiplegia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+403,hepatic cancer,C0345904,10073069,Hepatic cancer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+404,hepatic enzyme increased,C0235996,10060795,Hepatic enzyme increased,,"[""HP_0002910""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+406,hepatic function abnormal,C0086565,10019670,Hepatic function abnormal,,"[""HP_0001410"",""HP_0002910""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+407,hepatic necrosis,C0151798,10019692,Hepatic necrosis,,"[""HP_0002605""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+408,hepatic steatosis,C2711227,10019708,Hepatic steatosis,,"[""HP_0001397""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+410,hepatitis cholestasis,,,,,[],,unresolved,True
+411,hepatobiliary disease,C0267792,10062000,Hepatobiliary disease,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+412,hepatocellular injury,C0151763,10019837,Hepatocellular injury,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+413,hepatomegaly,C0019209,10019842,Hepatomegaly,,"[""HP_0002240""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+414,hepatotoxicity,C0235378,10019851,Hepatotoxicity,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+415,hernia,C0019270,10019909,Hernia,,"[""HP_0100790""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+417,herpes virus infection,C0019372,10019973,Herpes virus infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+418,herpes zoster,C0019360,10019974,Herpes zoster,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+419,hiatus hernia,C3489393,10020028,Hiatus hernia,,"[""HP_0002036""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+420,hiccups,C0019521,10020039,Hiccups,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+421,hirsutism,C0019572,10020112,Hirsutism,,"[""HP_0001007""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+422,hostility,C0020039,10020400,Hostility,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+424,hyperacusis,C0034880,10020559,Hyperacusis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+425,venous congestion,,,,,[],,unresolved,True
+426,allodynia mechanical,,,,,[],,unresolved,True
+427,bilirubin blood,,,,,[],,unresolved,True
+428,high calcium blood,,,,,[],,unresolved,True
+429,high calcium urine,,,,,[],,unresolved,True
+430,high cholesterol blood,,,,,[],,unresolved,True
+431,high blood sugar,,,,,[],,unresolved,True
+432,hyperhidrosis,C0020458,10020642,Hyperhidrosis,,"[""HP_0000975""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+433,high potassium blood,,,,,[],,unresolved,True
+434,hyperkeratosis,C0870082,10020649,Hyperkeratosis,,"[""HP_0000962""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+435,movement function hyperactivity,,,,,[],,unresolved,True
+436,high lactic acid blood,,,,,[],,unresolved,True
+437,high levels of lipids,,,,,[],,unresolved,True
+438,high magnesium blood,,,,,[],,unresolved,True
+439,salt retention,,,,,[],,unresolved,True
+440,pain allergy,,,,,[],,unresolved,True
+441,high phosphorus blood,,,,,[],,unresolved,True
+442,exaggerated reflexes,,,,,[],,unresolved,True
+444,sleep excessive,,,,,[],,unresolved,True
+446,hyperthyroidism,C0020550,10020850,Hyperthyroidism,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+447,tone increased,,,,,[],,unresolved,True
+448,hypertrichosis,C0020555,10020864,Hypertrichosis,,"[""HP_0000998""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+449,high glycerin three ester blood,,,,,[],,unresolved,True
+450,high uric acid blood,,,,,[],,unresolved,True
+451,hyperventilation,C0020578,10020910,Hyperventilation,,"[""HP_0002883""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+452,body numbness,,,,,[],,unresolved,True
+453,body numbness oral,,,,,[],,unresolved,True
+454,low albumin blood,,,,,[],,unresolved,True
+455,low calcium blood,,,,,[],,unresolved,True
+456,low chlorine blood,,,,,[],,unresolved,True
+457,chlorosis,,,,,[],,unresolved,True
+458,hypoglycemia,,,,,[],,unresolved,True
+459,drenching sweats,,,,,[],,unresolved,True
+460,potassium deficiency,,,,,[],,unresolved,True
+461,activity motor retarded,,,,,[],,unresolved,True
+462,low magnesium blood,,,,,[],,unresolved,True
+463,hypomania,C0241934,10021030,Hypomania,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+464,low sodium blood,,,,,[],,unresolved,True
+465,phosphorus low blood,,,,,[],,unresolved,True
+466,potassium deficiency,,,,,[],,unresolved,True
+467,diminished reflexes,,,,,[],,unresolved,True
+469,hypothermia,C0413252,10021113,Hypothermia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+471,hypotonia,C0026827,10021118,Hypotonia,,"[""HP_0001252""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+472,hypoventilation,C3203358,10021133,Hypoventilation,,"[""HP_0002791""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+473,hypoxia,C0242184,10021143,Hypoxia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+474,ileus,C1258215,10021328,Ileus,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+475,ileus paralytic,C0030446,10021333,Ileus paralytic,,"[""HP_0002590""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+476,ill-defined disorder,C2047937,10061520,Ill-defined disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+478,impaired gastric emptying,C0522063,10021518,Impaired gastric emptying,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+479,impaired healing,C0151692,10021519,Impaired healing,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+480,impetigo,C0021099,10021531,Impetigo,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+481,inappropriate antidiuretic hormone secretion,C0021141,10053198,Inappropriate antidiuretic hormone secretion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+482,incontinence,C0021167,10021639,Incontinence,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+483,increased appetite,C0232461,10021654,Increased appetite,,"[""HP_0002591""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+484,increased bronchial secretion,C1262144,10062530,Increased bronchial secretion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+485,increased tendency to bruise,C0423798,10021688,Increased tendency to bruise,,"[""HP_0000978""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+486,hardening,,,,,[],,unresolved,True
+487,infarction,C0021308,10061216,Infarction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+489,infestation,C1384353,10061217,Infestation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+490,inflammation,C0021368,10061218,Inflammation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+492,influenza like illness,C0521839,10022004,Influenza like illness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+493,infusion site pain,C1096035,10053483,Infusion site pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+494,infusion site reaction,C1096343,10054996,Infusion site reaction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+495,injection site bruising,C0521508,10022052,Injection site bruising,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+496,injection site erythema,C0852625,10022061,Injection site erythema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+497,injection site haemorrhage,C0151698,10022067,Injection site haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+498,injection site hardening,,,,,[],,unresolved,True
+499,injection site inflammation,C0151734,10022078,Injection site inflammation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+500,injection site pain,C0151828,10022086,Injection site pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+501,injection site pruritus,C0852995,10022093,Injection site pruritus,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+503,injection site swelling,C0151605,10053425,Injection site swelling,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+504,injury,C3263723,10022116,Injury,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+506,instillation site pain,C0858797,10022459,Instillation site pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+507,intermittent claudication,C0021775,10022562,Intermittent claudication,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+508,international normalised ratio increased,C0853225,10022595,International normalised ratio increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+510,intestinal obstruction,C0021843,10022687,Intestinal obstruction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+511,intestinal perforation,C0021845,10022694,Intestinal perforation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+512,intracranial pressure increased,C0151740,10022773,Intracranial pressure increased,,"[""HP_0002516""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+513,intraocular pressure increased,C0234708,10022806,Intraocular pressure increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+514,iris inflammation,,,,,[],,unresolved,True
+515,iron deficiency anaemia,C0162316,10022972,Iron deficiency anaemia,,"[""HP_0001891""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+517,irritable bowel syndrome,C0022104,10023003,Irritable bowel syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+518,ischaemia,C0022116,10061255,Ischaemia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+520,obstructive jaundice,,,,,[],,unresolved,True
+521,joint stiffness,C0162298,10023230,Joint stiffness,,"[""HP_0001387""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+522,joint swelling,C0152031,10023232,Joint swelling,,"[""HP_0001386""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+523,keratitis,C0022568,10023332,Keratitis,,"[""HP_0000491""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+524,ketosis,C0022638,10023391,Ketosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+525,laboratory test abnormal,C0438215,10023547,Laboratory test abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+526,inner ear infection,,,,,[],,unresolved,True
+527,laceration,C0043246,10023572,Laceration,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+528,lacrimal disorder,C0022904,10061525,Lacrimal disorder,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+529,lacrimal structural disorder,C3495920,10072746,Lacrimal structural disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+530,lacrimation increased,C0152227,10023644,Lacrimation increased,,"[""HP_0009926""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+532,laryngeal oedema,C0023052,10023845,Laryngeal oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+533,laryngeal pain,C0549373,10023848,Laryngeal pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+534,laryngitis,C0023067,10023874,Laryngitis,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+535,laryngeal spasm,,,,,[],,unresolved,True
+536,lethargy,C0023380,10024264,Lethargy,,"[""HP_0001254""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+537,leukocytosis,C0023518,10024378,Leukocytosis,,"[""HP_0001974""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+538,vitiligo,C0042900,10047642,Vitiligo,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+539,leukopenia,C0023530,10024384,Leukopenia,,"[""HP_0001882""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+540,libido decreased,C0011124,10024419,Libido decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+541,libido disorder,C0854382,10061221,Libido disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+542,libido increased,C0021177,10024421,Libido increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+543,mossy keratosis,,,,,[],,unresolved,True
+544,ligament sprain,C0435002,10024453,Ligament sprain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+545,lipase increased,C0549475,10024574,Lipase increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+546,lipodystrophy acquired,C0877192,10049287,Lipodystrophy acquired,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+547,liver disorder,C0023895,10024670,Liver disorder,,"[""HP_0001392""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+548,liver function test abnormal,C0151766,10024690,Liver function test abnormal,,"[""HP_0002910""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+549,liver injury,C0160390,10067125,Liver injury,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+550,local swelling,C0853619,10024770,Local swelling,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+551,loss of consciousness,C0041657,10024855,Loss of consciousness,,"[""HP_0007185""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+552,loss of libido,C2981158,10024870,Loss of libido,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+553,lower respiratory tract infection,C0149725,10024968,Lower respiratory tract infection,,"[""HP_0002783""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+554,lung disorder,C0024115,10025082,Lung disorder,,"[""HP_0002088""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+555,lung infection,C0876973,10061229,Lung infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+556,lung infiltration,C0235896,10025102,Lung infiltration,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+557,lymphadenopathy,C0497156,10025197,Lymphadenopathy,,"[""HP_0002716""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+558,lymphocyte count decreased,C0853986,10025256,Lymphocyte count decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+559,lymphocyte excess,,,,,[],,unresolved,True
+560,lymph edema,,,,,[],,unresolved,True
+561,lymph tumor,,,,,[],,unresolved,True
+562,lymph cell cut back,,,,,[],,unresolved,True
+563,major depression,C1269683,10057840,Major depression,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+565,malignant melanoma,C0025202,10025650,Malignant melanoma,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+566,malnutrition,C0162429,10061273,Malnutrition,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+568,mastitis,C0024894,10026883,Mastitis,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+569,mediastinal disorder,C0025061,10061280,Mediastinal disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+570,blood clot excretion,,,,,[],,unresolved,True
+571,melanosis,C0025209,10027157,Melanosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+572,memory impairment,C0233794,10027175,Memory impairment,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+573,meningitis,C0025289,10027199,Meningitis,,"[""HP_0001287""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+574,menopausal symptoms,C0236075,10027304,Menopausal symptoms,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+575,menopause,C0025320,10027308,Menopause,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+576,menorrhagia,C0025323,10027313,Menorrhagia,,"[""HP_0000132""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+577,menstrual disorder,C0025345,10027327,Menstrual disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+578,menstruation irregular,C0156404,10027339,Menstruation irregular,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+579,mental disability,C1306341,10027353,Mental disability,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+580,mental disorder,C0004936,10061284,Mental disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+581,metabolic acidosis,C0220981,10027417,Metabolic acidosis,,"[""HP_0001942""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+582,break through bleeding,,,,,[],,unresolved,True
+583,urination disorder,,,,,[],,unresolved,True
+584,urination urgency,,,,,[],,unresolved,True
+585,migraine,C0149931,10027599,Migraine,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+586,miosis,C0026205,10027646,Miosis,,"[""HP_0000616""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+587,single core cell increase,,,,,[],,unresolved,True
+588,mood swings,C0085633,10027951,Mood swings,,"[""HP_0000712""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+589,motion sickness,C0026603,10027990,Motion sickness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+590,mouth ulceration,C0149745,10028034,Mouth ulceration,,"[""HP_0000155""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+591,movement disorder,C0026650,10028035,Movement disorder,,"[""HP_0100022""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+592,mucosal inflammation,C0333355,10028116,Mucosal inflammation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+593,mucous membrane disorder,C0151785,10028133,Mucous membrane disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+594,multiple fractures,C0016655,10028200,Multiple fractures,,"[""HP_0002757""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+595,muscle atrophy,C0026846,10028289,Muscle atrophy,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+596,muscle contractions involuntary,C0235086,10028293,Muscle contractions involuntary,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+597,muscle relaxant therapy,C1142135,10058909,Muscle relaxant therapy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+598,muscle rigidity,C0026837,10028330,Muscle rigidity,,"[""HP_0002063""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+600,muscle tightness,C0877322,10049816,Muscle tightness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+601,muscle twitching,C0231530,10028347,Muscle twitching,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+603,musculoskeletal chest pain,C0476280,10050819,Musculoskeletal chest pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+604,musculoskeletal discomfort,C0948594,10053156,Musculoskeletal discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+606,musculoskeletal stiffness,C0948525,10052904,Musculoskeletal stiffness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+608,mydriasis,C0026961,10028521,Mydriasis,,"[""HP_0011499""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+609,myelitis,C0026975,10028524,Myelitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+611,myocardial ischaemia,C0151744,10028600,Myocardial ischaemia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+612,myocarditis,C0027059,10028606,Myocarditis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+613,myoclonus,C0027066,10028622,Myoclonus,,"[""HP_0001336""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+614,myopathy,C0026848,10028641,Myopathy,,"[""HP_0003198""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+615,myositis,C0027121,10028653,Myositis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+616,nail disorder,C0027339,10028694,Nail disorder,,"[""HP_0001597""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+617,nasal congestion,C0027424,10028735,Nasal congestion,,"[""HP_0001742""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+618,nasal discomfort,C0858259,10052437,Nasal discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+619,nasal dryness,C0231919,10028740,Nasal dryness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+620,nose pharynx inflammation,,,,,[],,unresolved,True
+623,neoplasm,C0027651,10028980,Neoplasm,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+624,neoplasm malignant,C0006826,10028997,Neoplasm malignant,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+625,nephritis,C0027697,10029117,Nephritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+626,calculus kidney,,,,,[],,unresolved,True
+627,nephropathy,C0022658,10029151,Nephropathy,,"[""HP_0000077"",""HP_0000112""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+628,nephropathy toxic,C0595916,10029155,Nephropathy toxic,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+629,nephrotic syndrome,C0027726,10029164,Nephrotic syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+631,nervousness,C0027769,10029216,Nervousness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+633,neuritis,C0027813,10029240,Neuritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+634,neuroleptic malignant syndrome,C0027849,10029282,Neuroleptic malignant syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+636,neurosis,C0027932,10029333,Neurosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+637,neurotoxicity,C0235032,10029350,Neurotoxicity,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+639,neutrophil deficiency,,,,,[],,unresolved,True
+640,neutrophil count decreased,C0853697,10029366,Neutrophil count decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+641,night blindness,C0028077,10029404,Night blindness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+642,night sweats,C0028081,10029410,Night sweats,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+643,nightmare,C0028084,10029412,Nightmare,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+644,nocturnal enuresis,,,,,[],,unresolved,True
+645,nodal arrhythmia,C0264893,10029458,Nodal arrhythmia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+646,nodule,C0028259,10054107,Nodule,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+647,non cardiac chest pain,,,,,[],,unresolved,True
+648,non hodgkin lymphoma,,,,,[],,unresolved,True
+649,nuchal rigidity,C1320474,10058483,Nuchal rigidity,,"[""HP_0005986""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+651,ocular discomfort,C0948595,10052143,Ocular discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+652,ocular venous congestion,,,,,[],,unresolved,True
+653,oculomotor spasm,,,,,[],,unresolved,True
+654,swallowing painful,,,,,[],,unresolved,True
+655,oedema,C0013604,10030095,Oedema,,"[""HP_0000969""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+656,oedema peripheral,C0085649,10030124,Oedema peripheral,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+657,oesophageal spasm,C0014863,10030184,Oesophageal spasm,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+658,oesophageal stenosis,C0014866,10030194,Oesophageal stenosis,,"[""HP_0002043"",""HP_0010450""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+659,oesophageal ulcer,C0151970,10030201,Oesophageal ulcer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+660,esophagus inflammation,,,,,[],,unresolved,True
+661,urine less,,,,,[],,unresolved,True
+662,onychomycosis,C0040261,10030338,Onychomycosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+663,opportunistic infection,C0029118,10030901,Opportunistic infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+664,optic atrophy,C0029124,10030910,Optic atrophy,,"[""HP_0000648""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+665,optic neuritis,C0029134,10030942,Optic neuritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+666,oral candidiasis,C0006849,10030963,Oral candidiasis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+667,oral herpes,C0341012,10067152,Oral herpes,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+668,oral pain,C0221776,10031009,Oral pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+669,testis inflammation non infective,,,,,[],,unresolved,True
+670,orgasm abnormal,C0029261,10031085,Orgasm abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+671,oropharyngeal discomfort,C2363730,10068318,Oropharyngeal discomfort,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+674,osteoarthritis,C0029408,10031161,Osteoarthritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+675,osteomyelitis,C0029443,10031252,Osteomyelitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+676,osteonecrosis,C0029445,10031264,Osteonecrosis,,"[""HP_0010885""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+677,osteoporosis,C0029456,10031282,Osteoporosis,,"[""HP_0000939""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+678,otitis externa,C0029878,10033072,Otitis externa,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+679,otitis media,C0029882,10033078,Otitis media,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+680,ear toxicity,,,,,[],,unresolved,True
+681,ovarian cyst,C0029927,10033132,Ovarian cyst,,"[""HP_0000138""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+682,ovarian disorder,C0029928,10033139,Ovarian disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+685,pain in jaw,C0236000,10033433,Pain in jaw,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+686,pain of skin,C0241136,10033474,Pain of skin,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+687,pallor,C0030232,10033546,Pallor,,"[""HP_0000980""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+690,pancreatitis acute,C0001339,10033647,Pancreatitis acute,,"[""HP_0001735""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+692,panic attack,C0086769,10033664,Panic attack,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+693,panic reaction,C0030318,10033670,Panic reaction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+694,eyelid inflammation,,,,,[],,unresolved,True
+695,nipple edema,,,,,[],,unresolved,True
+696,feeling abnormal,C1443060,10016322,Feeling abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+697,feeling abnormal oral,,,,,[],,unresolved,True
+698,paralysis,C0522224,10033799,Paralysis,,"[""HP_0003470""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+699,paranoia,C1456784,10033864,Paranoia,,"[""HP_0011999""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+700,paresis,C0030552,10033985,Paresis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+702,disturbances of sensation of smell and taste,,,,,[],,unresolved,True
+703,pelvic pain,C0030794,10034263,Pelvic pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+704,penis disorder,C0030846,10034336,Penis disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+705,peptic ulcer,C0030920,10034341,Peptic ulcer,,"[""HP_0004398""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+706,pericardial effusion,C0031039,10034474,Pericardial effusion,,"[""HP_0001698""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+707,pericarditis,C0031046,10034484,Pericarditis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+708,perineal pain,C0240717,10061339,Perineal pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+709,periodontitis,C0031099,10034539,Periodontitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+710,periorbital oedema,C0151205,10034545,Periorbital oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+711,peripheral coldness,C0277925,10034568,Peripheral coldness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+712,peripheral ischaemia,C0235490,10034576,Peripheral ischaemia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+713,peripheral motor neuropathy,C0235025,10034580,Peripheral motor neuropathy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+714,peripheral sensory neuropathy,C0151313,10034620,Peripheral sensory neuropathy,,"[""HP_0000763""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+715,peripheral vascular disorder,C0085096,10034636,Peripheral vascular disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+716,peritonitis,C0031154,10034674,Peritonitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+717,personality disorder,C0031212,10034721,Personality disorder,,"[""HP_0012075""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+718,petechiae,C0031256,10034754,Petechiae,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+719,pharyngeal oedema,C0236024,10034829,Pharyngeal oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+720,pharyngitis,C0031350,10034835,Pharyngitis,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+721,pharyngitis streptococcal,C0036689,10034839,Pharyngitis streptococcal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+722,phlebitis,C0031542,10034879,Phlebitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+723,photophobia,C0085636,10034960,Photophobia,,"[""HP_0000613""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+724,flash vision,,,,,[],,unresolved,True
+725,photosensitivity reaction,C0162830,10034972,Photosensitivity reaction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+726,pigmentation disorder,C0549567,10062080,Pigmentation disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+727,plasma cell myeloma,C0026764,10035226,Plasma cell myeloma,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+728,tumor plasma cell,,,,,[],,unresolved,True
+729,platelet count decreased,C0392386,10035528,Platelet count decreased,,"[""HP_0001873""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+730,pleural effusion,C0032227,10035598,Pleural effusion,,"[""HP_0002202""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+731,pleurisy,C0032231,10035618,Pleurisy,,"[""HP_0002102""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+732,pleural pain,,,,,[],,unresolved,True
+734,pneumonia aspiration,C0032290,10035669,Pneumonia aspiration,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+735,pneumothorax,C0032326,10035759,Pneumothorax,,"[""HP_0002107""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+736,urinary frequency increased,,,,,[],,unresolved,True
+737,increase in the total amount of red blood cells in the blood,,,,,[],,unresolved,True
+738,polydipsia,C0085602,10036067,Polydipsia,,"[""HP_0001959""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+739,polyneuropathy,C0152025,10036105,Polyneuropathy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+740,polyuria,C0032617,10036142,Polyuria,,"[""HP_0000103""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+741,post procedural haemorrhage,C0919874,10051077,Post procedural haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+742,premenstrual syndrome,C0033046,10036618,Premenstrual syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+743,syncope vertigo,,,,,[],,unresolved,True
+744,priapism,C0033117,10036661,Priapism,,"[""HP_0200023""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+745,procedural pain,C1619712,10064882,Procedural pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+746,anal pain,,,,,[],,unresolved,True
+747,rectum inflammation,,,,,[],,unresolved,True
+748,productive cough,C0239134,10036790,Productive cough,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+749,prostate cancer,C0376358,10060862,Prostate cancer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+750,prostatic disorder,C0033575,10036956,Prostatic disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+751,prostatitis,C0033581,10036978,Prostatitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+752,protein total decreased,C0860901,10037014,Protein total decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+753,protein urine present,C0948586,10053123,Protein urine present,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+755,prothrombin level decreased,C0553732,10037050,Prothrombin level decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+756,prothrombin level increased,C0151872,10037051,Prothrombin level increased,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+757,itch rash,,,,,[],,unresolved,True
+759,pruritus generalised,C0475858,10052576,Pruritus generalised,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+760,pruritus genital,C0033777,10037093,Pruritus genital,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+761,falsehood lymph tumor,,,,,[],,unresolved,True
+762,pseudomembranous colitis,C1257843,10037128,Pseudomembranous colitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+763,psoriasis,C0033860,10037153,Psoriasis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+764,psychomotor retardation,C0424230,10037213,Psychomotor retardation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+765,psychotic disorder,C0033975,10061920,Psychotic disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+766,pulmonary congestion,C0242073,10037368,Pulmonary congestion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+769,pulmonary function test decreased,C0855775,10061922,Pulmonary function test decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+770,pulmonary hypertension,C0020542,10037400,Pulmonary hypertension,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+771,pulmonary oedema,C0034063,10037423,Pulmonary oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+772,punctate keratitis,C0259799,10037508,Punctate keratitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+773,pupils unequal,C0003079,10037538,Pupils unequal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+775,pyelonephritis,C0034186,10037596,Pyelonephritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+776,urine purulent,,,,,[],,unresolved,True
+777,rales,C0034642,10037833,Rales,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+779,rash erythematous,C0234913,10037855,Rash erythematous,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+780,rash generalised,C0497365,10037858,Rash generalised,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+781,rash macular,C0221201,10037867,Rash macular,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+782,macula papules rash,,,,,[],,unresolved,True
+783,rash papular,C1519353,10037876,Rash papular,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+784,rash pustular,C0085641,10037888,Rash pustular,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+785,rectal haemorrhage,C0267596,10038063,Rectal haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+786,defecation urge painful,,,,,[],,unresolved,True
+787,regurgitation,C2004489,10067171,Regurgitation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+790,renal pain,C0558489,10038490,Renal pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+791,renal tubular necrosis,C1720775,10038540,Renal tubular necrosis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+792,respiration abnormal,C1260922,10038647,Respiration abnormal,,"[""HP_0002086""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+793,respiratory depression,C0235063,10038678,Respiratory depression,,"[""HP_0002791""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+794,respiratory disorder,C0035204,10038683,Respiratory disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+795,respiratory distress,C0476273,10038687,Respiratory distress,,"[""HP_0002098""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+796,respiratory failure,C1145670,10038695,Respiratory failure,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+797,respiratory tract congestion,C0948349,10052251,Respiratory tract congestion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+798,respiratory tract infection,C0035243,10062352,Respiratory tract infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+799,restless legs syndrome,C0035258,10058920,Restless legs syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+800,retching,C0232602,10038776,Retching,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+801,retinal degeneration,C0035304,10038845,Retinal degeneration,,"[""HP_0001105""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+802,retinal detachment,C0035305,10038848,Retinal detachment,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+803,retinal disorder,C0035309,10038853,Retinal disorder,,"[""HP_0000479""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+804,retinal haemorrhage,C0035317,10038867,Retinal haemorrhage,,"[""HP_0000573""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+805,retroperitoneal haemorrhage,C0151705,10038980,Retroperitoneal haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+807,rheumatoid arthritis,C0003873,10039073,Rheumatoid arthritis,,"[""HP_0001370""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+809,rhinitis allergic,C2607914,10039085,Rhinitis allergic,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+810,mucous nasal increased,,,,,[],,unresolved,True
+811,dry rales,,,,,[],,unresolved,True
+812,road traffic accident,C0221706,10039203,Road traffic accident,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+813,rosacea,C0035854,10039218,Rosacea,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+814,salivary gland enlargement,C0020569,10039408,Salivary gland enlargement,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+815,increased salivation,,,,,[],,unresolved,True
+816,oviduct inflammation,,,,,[],,unresolved,True
+817,scab,C0205204,10039509,Scab,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+818,reaction schizoid,,,,,[],,unresolved,True
+819,sciatica,C0036396,10039674,Sciatica,,"[""HP_0011868""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+820,sclera inflammation,,,,,[],,unresolved,True
+821,seasonal allergy,C0018621,10048908,Seasonal allergy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+822,seborrheic dermatitis,,,,,[],,unresolved,True
+823,seborrheic keratosis,,,,,[],,unresolved,True
+824,sensation of foreign body,C0423602,10061549,Sensation of foreign body,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+825,sensory disturbance,C0152027,10040026,Sensory disturbance,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+826,sensory loss,C0278134,10040030,Sensory loss,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+828,septic shock,C0036983,10040070,Septic shock,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+830,serum sickness,C0036830,10040400,Serum sickness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+831,sexual dysfunction,C0549622,10040477,Sexual dysfunction,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+832,shock,C0036974,10040560,Shock,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+833,salivary glands inflammation,,,,,[],,unresolved,True
+834,sinus bradycardia,C0085610,10040741,Sinus bradycardia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+835,sinus congestion,C0152029,10040742,Sinus congestion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+836,sinus headache,C0037195,10040744,Sinus headache,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+837,sinus tachycardia,C0039239,10040752,Sinus tachycardia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+838,sinusitis,C0037199,10040753,Sinusitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+839,skin atrophy,C0151514,10040799,Skin atrophy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+840,skin burning sensation,C0241057,10054786,Skin burning sensation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+841,skin cancer,C0007114,10040808,Skin cancer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+842,skin discolouration,C0151907,10040829,Skin discolouration,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+843,skin disorder,C0037274,10040831,Skin disorder,,"[""HP_0000951""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+844,skin exfoliation,C0237849,10040844,Skin exfoliation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+845,skin hyperpigmentation,C0162834,10040865,Skin hyperpigmentation,,"[""HP_0000953""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+846,skin hypertrophy,C0151717,10040867,Skin hypertrophy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+847,skin infection,C0037278,10040872,Skin infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+848,skin irritation,C0152030,10040880,Skin irritation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+849,skin lesion,C0037284,10040882,Skin lesion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+850,skin mass,C0281981,10067868,Skin mass,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+851,skin odour abnormal,C0234930,10040904,Skin odour abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+852,skin papilloma,C0347390,10040907,Skin papilloma,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+853,skin striae,C0152459,10040925,Skin striae,,"[""HP_0001065""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+854,skin ulcer,C0037299,10040943,Skin ulcer,,"[""HP_0200042""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+855,sleep apnoea syndrome,C0037315,10040979,Sleep apnoea syndrome,,"[""HP_0010535""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+856,sleep disorder,C0851578,10040984,Sleep disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+857,sluggishness,C0920289,10041052,Sluggishness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+858,sneezing,C0037383,10041232,Sneezing,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+859,snoring,C0037384,10041235,Snoring,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+860,somnambulism,C0037672,10041347,Somnambulism,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+862,speech disorder,C0037822,10041466,Speech disorder,,"[""HP_0002167""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+863,splenomegaly,C0038002,10041660,Splenomegaly,,"[""HP_0001744""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+864,sputum increased,C0235567,10041812,Sputum increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+865,staphylococcal infection,C0038160,10058080,Staphylococcal infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+866,status epilepticus,C0038220,10041962,Status epilepticus,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+867,stevens johnson syndrome,,,,,[],,unresolved,True
+868,sticky skin,C0392162,10051788,Sticky skin,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+870,bladder and urethral symptoms,,,,,[],,unresolved,True
+871,wheezing,C0043144,10047924,Wheezing,,"[""HP_0030828""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+872,stupor,C0085628,10042264,Stupor,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+873,subarachnoid haemorrhage,C0038525,10042316,Subarachnoid haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+874,subdural haematoma,C0018946,10042361,Subdural haematoma,,"[""HP_0100309""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+875,sudden death,C0011071,10042434,Sudden death,,"[""HP_0001699""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+876,suicidal ideation,C0424000,10042458,Suicidal ideation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+877,suicide attempt,C0038663,10042464,Suicide attempt,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+878,sunburn,C0038814,10042496,Sunburn,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+879,ectopic beats atrial,,,,,[],,unresolved,True
+880,supraventricular tachycardia,C0039240,10042604,Supraventricular tachycardia,,"[""HP_0004755""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+881,swelling,C0038999,10042674,Swelling,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+882,swelling face,C0151602,10042682,Swelling face,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+884,systemic lupus erythematosus,C0024141,10042945,Systemic lupus erythematosus,,"[""HP_0002725""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+886,respiration stimulated,,,,,[],,unresolved,True
+887,tardive dyskinesia,C0686347,10043118,Tardive dyskinesia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+888,telangiectasia,C0039446,10043189,Telangiectasia,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+889,temperature intolerance,C1112320,10057040,Temperature intolerance,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+890,tenderness,C0234233,10043224,Tenderness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+891,tendinous contracture,C0158350,10043233,Tendinous contracture,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+892,tendon disorder,C0151936,10043239,Tendon disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+893,tendonitis,C0039503,10043255,Tendonitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+894,tendon sheath inflammation,,,,,[],,unresolved,True
+895,tension,C0233494,10043268,Tension,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+896,tension headache,C0033893,10043269,Tension headache,,"[""HP_0012228""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+897,testicular pain,C0039591,10043345,Testicular pain,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+898,tetany,C0039621,10043380,Tetany,,"[""HP_0001281""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+899,therapeutic response unexpected,C0853141,10043417,Therapeutic response unexpected,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+900,thinking abnormal,C0233632,10043431,Thinking abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+902,throat irritation,C0700184,10043521,Throat irritation,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+903,throat tightness,C0236071,10043528,Throat tightness,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+905,platelets increase,,,,,[],,unresolved,True
+906,thrombophlebitis,C0040046,10043570,Thrombophlebitis,,"[""HP_0004418""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+908,thrombotic thrombocytopenic purpura,C0034155,10043648,Thrombotic thrombocytopenic purpura,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+909,thyroid disorder,C0040128,10043709,Thyroid disorder,,"[""HP_0000820""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+910,thyroid neoplasm,C0040136,10043744,Thyroid neoplasm,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+911,thyroiditis,C0040147,10043778,Thyroiditis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+913,tongue discolouration,C0151596,10043949,Tongue discolouration,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+914,tongue disorder,C0040409,10043951,Tongue disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+915,tongue oedema,C0151610,10043967,Tongue oedema,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+916,tongue ulceration,C0235351,10043991,Tongue ulceration,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+917,tonsillitis,C0040425,10044008,Tonsillitis,,"[""HP_0011110""]",exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+918,tooth abscess,C0518988,10044016,Tooth abscess,,"[""HP_0030757""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+919,tooth disorder,C0040435,10044034,Tooth disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+920,tooth infection,C0877046,10048762,Tooth infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+921,toothache,C0040460,10044055,Toothache,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+922,ventricular arrhythmias and cardiac arrest,,,,,[],,unresolved,True
+923,torticollis,C0040485,10044074,Torticollis,,"[""HP_0000473""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+924,toxic epidermal necrolysis,C0014518,10044223,Toxic epidermal necrolysis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+925,toxicity to various agents,C3160741,10070863,Toxicity to various agents,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+926,tracheitis,C0040584,10044302,Tracheitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+927,trachea bronchus inflammation,,,,,[],,unresolved,True
+928,transaminases increased,C0438717,10054889,Transaminases increased,,"[""HP_0002910""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+929,transient ischaemic attack,C0007787,10044390,Transient ischaemic attack,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+931,masseter spasms,,,,,[],,unresolved,True
+932,inflammation of the interstitial tissue of the kidney,,,,,[],,unresolved,True
+933,tumour lysis syndrome,C0041364,10045170,Tumour lysis syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+934,ulcer,C0041582,10045285,Ulcer,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+935,ulcerative keratitis,C0010043,10064996,Ulcerative keratitis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+936,unintended pregnancy,C0041747,10045542,Unintended pregnancy,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+938,upper airway cough syndrome,,,,,[],,unresolved,True
+939,urethral disorder,C0041969,10046445,Urethral disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+940,urethritis,C0041976,10046480,Urethritis,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+941,urethritis non infective,,,,,[],,unresolved,True
+942,urinary hesitation,C0152032,10046542,Urinary hesitation,,"[""HP_0000019""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+943,urinary incontinence,C0042024,10046543,Urinary incontinence,,"[""HP_0000020""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+944,urinary retention,C0080274,10046555,Urinary retention,,"[""HP_0000016""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+945,urinary tract disorder,C0042075,10046566,Urinary tract disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+946,urinary tract infection,C0042029,10046571,Urinary tract infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+947,urine abnormality,C0235639,10046607,Urine abnormality,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+948,urine analysis abnormal,C0438142,10062226,Urine analysis abnormal,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+949,urine output increased,C1167965,10059896,Urine output increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+951,uterine disorder,C0042131,10046779,Uterine disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+952,uterine haemorrhage,C0042134,10046788,Uterine haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+953,uterine smooth muscle tumor,,,,,[],,unresolved,True
+954,uterine spasm,C0151998,10046823,Uterine spasm,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+955,uveitis,C0042164,10046851,Uveitis,,"[""HP_0000554""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+957,vaginal haemorrhage,C2979982,10046910,Vaginal haemorrhage,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+958,vaginal infection,C0404521,10046914,Vaginal infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+959,varicose vein,C0042345,10046996,Varicose vein,,"[""HP_0002619""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+960,vascular headache,C0042376,10047077,Vascular headache,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+961,vascular purpura,C1368065,10047097,Vascular purpura,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+963,vasodilation procedure,C1142412,10058794,Vasodilation procedure,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+964,vasospasm,C0085616,10047163,Vasospasm,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+966,ventricular arrhythmia,C0085612,10047281,Ventricular arrhythmia,,"[""HP_0004308""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+967,premature ventricular contractions,,,,,[],,unresolved,True
+968,ventricular fibrillation,C0042510,10047290,Ventricular fibrillation,,"[""HP_0001663""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+969,ventricular tachycardia,C0042514,10047302,Ventricular tachycardia,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+971,vestibular disorder,C0042594,10047386,Vestibular disorder,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+972,viral diarrhoea,C0152517,10051511,Viral diarrhoea,,[],exact_meddra_pt_name,meddra_resolved_but_not_in_optimuskg,True
+973,viral infection,C0042769,10047461,Viral infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+974,viral upper respiratory tract infection,C0339916,10047482,Viral upper respiratory tract infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+975,vision blurred,C0344232,10047513,Vision blurred,,"[""HP_0000622""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+976,visual acuity reduced,C0234632,10047531,Visual acuity reduced,,"[""HP_0007663""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+977,visual impairment,C3665347,10047571,Visual impairment,,"[""HP_0000505""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+979,vulva vaginal candidiasis,,,,,[],,unresolved,True
+980,vulva vaginal dryness,,,,,[],,unresolved,True
+981,vulva vaginal mold infection,,,,,[],,unresolved,True
+982,vulva vaginal pruritus,,,,,[],,unresolved,True
+983,vulva vagina inflammation,,,,,[],,unresolved,True
+984,weight decreased,C0043096,10047895,Weight decreased,,"[""HP_0001824""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+985,weight increased,C0043094,10047899,Weight increased,,"[""HP_0004324""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+986,wheezing,C0043144,10047924,Wheezing,,"[""HP_0030828""]",sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+987,white blood cell count decreased,C0750394,10047942,White blood cell count decreased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+988,white blood cell count increased,C0750426,10047943,White blood cell count increased,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+989,withdrawal syndrome,C0038587,10048010,Withdrawal syndrome,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+990,wound infection,C0043241,10048038,Wound infection,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+991,wound secretion,C0406834,10048629,Wound secretion,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+992,dry eye,C0314719,10013774,Dry eye,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True
+993,yawning,C0043387,10048232,Yawning,,[],sider_umls_pt,meddra_resolved_but_not_in_optimuskg,True

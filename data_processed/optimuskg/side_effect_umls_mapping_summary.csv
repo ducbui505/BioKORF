@@ -1,0 +1,995 @@
+matrix_index,side_effect_name,sider_umls_cui,optimuskg_match_count,meddra_match_count,hpo_match_count,canonical_optimuskg_id,alias_optimuskg_ids,mapping_status
+0,abdominal discomfort,C0232487,0,0,0,"",[],umls_no_optimuskg_match
+1,abdominal distension,C0000731,1,0,1,HP_0003270,[],umls_unique_other
+2,abdominal pain,C0000737,1,0,1,HP_0002027,[],umls_unique_other
+3,abdominal pain lower,C0232495,0,0,0,"",[],umls_no_optimuskg_match
+4,abdominal pain upper,C0232492,0,0,0,"",[],umls_no_optimuskg_match
+5,abnormal behaviour,C0233514,1,0,1,HP_0000708,[],umls_unique_other
+6,abnormal dreams,C0234458,0,0,0,"",[],umls_no_optimuskg_match
+7,abnormal faeces,C0162287,0,0,0,"",[],umls_no_optimuskg_match
+8,abscess,C0000833,0,0,0,"",[],umls_no_optimuskg_match
+9,accommodation disorder,C0152198,0,0,0,"",[],umls_no_optimuskg_match
+10,acidosis,C0001122,1,0,1,HP_0001941,[],umls_unique_other
+11,acne,C0702166,0,0,0,"",[],umls_no_optimuskg_match
+12,actinic keratosis,C0022602,0,0,0,"",[],umls_no_optimuskg_match
+13,acute coronary syndrome,C0948089,0,0,0,"",[],umls_no_optimuskg_match
+14,acute myocardial infarction,C0155626,0,0,0,"",[],umls_no_optimuskg_match
+15,acute respiratory distress syndrome,C0035222,0,0,0,"",[],umls_no_optimuskg_match
+16,adrenal insufficiency,C0001623,0,0,0,"",[],umls_no_optimuskg_match
+17,affect lability,C0233472,0,0,0,"",[],umls_no_optimuskg_match
+18,affective disorder,C0525045,0,0,0,"",[],umls_no_optimuskg_match
+19,loss of taste,"",0,0,0,"",[],no_sider_umls
+20,aggression,C0001807,1,0,1,HP_0000718,[],umls_unique_other
+21,agitation,C0085631,1,0,1,HP_0000713,[],umls_unique_other
+22,agranulocytosis,C0001824,1,0,1,HP_0001913,[],umls_unique_other
+23,akathisia,C0392156,0,0,0,"",[],umls_no_optimuskg_match
+24,can not exercise,"",0,0,0,"",[],no_sider_umls
+25,alanine aminotransferase increased,C0151905,0,0,0,"",[],umls_no_optimuskg_match
+26,proteinuria,C0033687,1,0,1,HP_0000093,[],umls_unique_other
+27,alcohol intolerance,C0151474,0,0,0,"",[],umls_no_optimuskg_match
+28,alopecia,C0002170,2,0,2,"","[""HP_0001596"",""HP_0002293""]",umls_multiple_no_unique_meddra
+29,altered state of consciousness,C0150450,0,0,0,"",[],umls_no_optimuskg_match
+30,other allergic pneumonitis,"",0,0,0,"",[],no_sider_umls
+31,amblyopia,C0002418,1,0,1,HP_0000646,[],umls_unique_other
+32,amenorrhoea,C0002453,0,0,0,"",[],umls_no_optimuskg_match
+33,amnesia,C0002622,0,0,0,"",[],umls_no_optimuskg_match
+34,amylase increased,C0151479,0,0,0,"",[],umls_no_optimuskg_match
+35,anaemia,C0002871,1,0,1,HP_0001903,[],umls_unique_other
+36,anaemia large cell,"",0,0,0,"",[],no_sider_umls
+37,anaemia megaloblastic,C0002888,1,0,1,HP_0001889,[],umls_unique_other
+38,anal pruritus,C0033775,0,0,0,"",[],umls_no_optimuskg_match
+39,anaphylactic shock,C0002792,0,0,0,"",[],umls_no_optimuskg_match
+40,anaphylaxis reaction,"",0,0,0,"",[],no_sider_umls
+41,aneurysm,C0002940,1,0,1,HP_0002617,[],umls_unique_other
+42,anger,C0002957,0,0,0,"",[],umls_no_optimuskg_match
+43,angina pectoris,C0002962,0,0,0,"",[],umls_no_optimuskg_match
+44,angioedema,C0002994,0,0,0,"",[],umls_no_optimuskg_match
+45,angiopathy,C0042373,0,0,0,"",[],umls_no_optimuskg_match
+46,angle closure glaucoma,C0017605,0,0,0,"",[],umls_no_optimuskg_match
+47,anorectal discomfort,C2242737,0,0,0,"",[],umls_no_optimuskg_match
+48,anorectal disorder,C0687707,0,0,0,"",[],umls_no_optimuskg_match
+49,inability to orgasm,"",0,0,0,"",[],no_sider_umls
+50,antisocial behaviour,C0233523,0,0,0,"",[],umls_no_optimuskg_match
+51,antisocial personality disorder,C0003431,0,0,0,"",[],umls_no_optimuskg_match
+52,arrest of urinary output,"",0,0,0,"",[],no_sider_umls
+53,anxiety,C0003467,1,0,1,HP_0000739,[],umls_unique_other
+54,apathy,C0085632,1,0,1,HP_0000741,[],umls_unique_other
+55,aphasia,C0003537,1,0,1,HP_0002381,[],umls_unique_other
+56,aplasia pure red cell,C0034902,1,0,1,HP_0012410,[],umls_unique_other
+57,aplastic anaemia,C0002874,1,0,1,HP_0001915,[],umls_unique_other
+58,apnoea,C0003578,1,0,1,HP_0002104,[],umls_unique_other
+59,appendicitis,C0003615,0,0,0,"",[],umls_no_optimuskg_match
+60,application site burn,C0877661,0,0,0,"",[],umls_no_optimuskg_match
+61,application site dryness,C0877098,0,0,0,"",[],umls_no_optimuskg_match
+62,application site erythema,C0853700,0,0,0,"",[],umls_no_optimuskg_match
+63,application site irritation,C0521490,0,0,0,"",[],umls_no_optimuskg_match
+64,application site pain,C0521491,0,0,0,"",[],umls_no_optimuskg_match
+65,application site paresthesia,"",0,0,0,"",[],no_sider_umls
+66,application site pruritus,C0853714,0,0,0,"",[],umls_no_optimuskg_match
+67,application site rash,C0521495,0,0,0,"",[],umls_no_optimuskg_match
+68,application site reaction,C0151505,0,0,0,"",[],umls_no_optimuskg_match
+69,application site vesicles,C0877097,0,0,0,"",[],umls_no_optimuskg_match
+70,apraxia,C0003635,0,0,0,"",[],umls_no_optimuskg_match
+71,arrhythmia,C0003811,1,0,1,HP_0011675,[],umls_unique_other
+72,arrhythmia supraventricular,C0428974,0,0,0,"",[],umls_no_optimuskg_match
+73,arteriosclerosis,C0003850,0,0,0,"",[],umls_no_optimuskg_match
+74,arthralgia,C0003862,1,0,1,HP_0002829,[],umls_unique_other
+75,arthritis,C0003864,1,0,1,HP_0001369,[],umls_unique_other
+76,other symptoms referable to lower leg joint,"",0,0,0,"",[],no_sider_umls
+77,ascites,C0003962,1,0,1,HP_0001541,[],umls_unique_other
+78,asocial behaviour,C0233528,0,0,0,"",[],umls_no_optimuskg_match
+79,aspartate aminotransferase increased,C0151904,0,0,0,"",[],umls_no_optimuskg_match
+80,asthenia,C0004093,0,0,0,"",[],umls_no_optimuskg_match
+81,eye strain,"",0,0,0,"",[],no_sider_umls
+82,asthma,C0004096,1,0,1,HP_0002099,[],umls_unique_other
+83,ataxia,C0004134,0,0,0,"",[],umls_no_optimuskg_match
+84,atelectasis,C0004144,0,0,0,"",[],umls_no_optimuskg_match
+85,atrial fibrillation,C0004238,0,0,0,"",[],umls_no_optimuskg_match
+86,atrial flutter,C0004239,0,0,0,"",[],umls_no_optimuskg_match
+87,atrioventricular block,C0004245,0,0,0,"",[],umls_no_optimuskg_match
+88,atrioventricular block complete,C0151517,0,0,0,"",[],umls_no_optimuskg_match
+89,atrioventricular block first degree,C0085614,1,0,1,HP_0011705,[],umls_unique_other
+90,autonomic nervous system imbalance,C0262385,0,0,0,"",[],umls_no_optimuskg_match
+91,syndrome uremic,"",0,0,0,"",[],no_sider_umls
+92,back pain,C0004604,1,0,1,HP_0003418,[],umls_unique_other
+93,bloodstream infections,"",0,0,0,"",[],no_sider_umls
+94,bacterial infection,C0004623,0,0,0,"",[],umls_no_optimuskg_match
+95,balance disorder,C0575090,0,0,0,"",[],umls_no_optimuskg_match
+96,basal cell carcinoma,C0007117,0,0,0,"",[],umls_no_optimuskg_match
+97,benign neoplasm of skin,C0004998,0,0,0,"",[],umls_no_optimuskg_match
+98,biliary colic,C0151824,0,0,0,"",[],umls_no_optimuskg_match
+99,bipolar disorder,C0005586,0,0,0,"",[],umls_no_optimuskg_match
+100,bipolar i disorder,C0853193,0,0,0,"",[],umls_no_optimuskg_match
+101,bladder cancer,C0005684,0,0,0,"",[],umls_no_optimuskg_match
+102,bladder pain,C0232849,0,0,0,"",[],umls_no_optimuskg_match
+103,bleeding time prolonged,C0151529,1,0,1,HP_0003010,[],umls_unique_other
+104,dermatitis eyelid,"",0,0,0,"",[],no_sider_umls
+105,spasm eyelid,"",0,0,0,"",[],no_sider_umls
+106,blindness,C0456909,1,0,1,HP_0000618,[],umls_unique_other
+107,blister,C0005758,0,0,0,"",[],umls_no_optimuskg_match
+108,blood albumin decreased,C0853777,0,0,0,"",[],umls_no_optimuskg_match
+109,blood alkaline phosphatase increased,C0852911,0,0,0,"",[],umls_no_optimuskg_match
+110,blood bilirubin increased,C0311468,1,0,1,HP_0002904,[],umls_unique_other
+111,blood calcium decreased,C3665624,0,0,0,"",[],umls_no_optimuskg_match
+112,blood cholesterol increased,C0595930,0,0,0,"",[],umls_no_optimuskg_match
+113,creatine kinase high,"",0,0,0,"",[],no_sider_umls
+114,blood creatinine increased,C0235431,0,0,0,"",[],umls_no_optimuskg_match
+115,blood disorder,C0018939,1,0,1,HP_0001871,[],umls_unique_other
+116,blood glucose decreased,C0595883,0,0,0,"",[],umls_no_optimuskg_match
+117,blood glucose increased,C0595877,0,0,0,"",[],umls_no_optimuskg_match
+118,blood lactate dehydrogenase increased,C0853149,0,0,0,"",[],umls_no_optimuskg_match
+119,blood phosphorus decreased,C0877517,0,0,0,"",[],umls_no_optimuskg_match
+120,blood potassium decreased,C0853761,0,0,0,"",[],umls_no_optimuskg_match
+121,blood potassium increased,C0853760,0,0,0,"",[],umls_no_optimuskg_match
+122,blood pressure increased,C0497247,1,0,1,HP_0000822,[],umls_unique_other
+123,blood prolactin increased,C0854082,0,0,0,"",[],umls_no_optimuskg_match
+124,blood triglycerides increased,C0853692,0,0,0,"",[],umls_no_optimuskg_match
+125,blood urea increased,C0151539,1,0,1,HP_0003138,[],umls_unique_other
+126,blood uric acid increased,C0235416,0,0,0,"",[],umls_no_optimuskg_match
+127,blood urine present,C0947999,0,0,0,"",[],umls_no_optimuskg_match
+128,body temperature decreased,C0020672,1,0,1,HP_0002045,[],umls_unique_other
+129,body temperature increased,C0015967,1,0,1,HP_0001945,[],umls_unique_other
+130,bone disorder,C0005940,0,0,0,"",[],umls_no_optimuskg_match
+131,bone pain,C0151825,1,0,1,HP_0002653,[],umls_unique_other
+132,bradycardia,C0428977,1,0,1,HP_0001662,[],umls_unique_other
+133,loss of motor function,"",0,0,0,"",[],no_sider_umls
+134,brain oedema,C1527311,0,0,0,"",[],umls_no_optimuskg_match
+135,breast cancer,C0006142,0,0,0,"",[],umls_no_optimuskg_match
+136,breast discharge,C0149741,0,0,0,"",[],umls_no_optimuskg_match
+137,breast disorder,C0006145,0,0,0,"",[],umls_no_optimuskg_match
+138,breast engorgement,C0085688,0,0,0,"",[],umls_no_optimuskg_match
+139,breast enlargement,C2225524,1,0,1,HP_0010313,[],umls_unique_other
+140,breast neoplasm,C1458155,0,0,0,"",[],umls_no_optimuskg_match
+141,breast pain,C0024902,0,0,0,"",[],umls_no_optimuskg_match
+142,breast tenderness,C0262397,0,0,0,"",[],umls_no_optimuskg_match
+143,breath odour,C0018520,0,0,0,"",[],umls_no_optimuskg_match
+144,breath sounds abnormal,C0231856,0,0,0,"",[],umls_no_optimuskg_match
+145,reactive airways disease,"",0,0,0,"",[],no_sider_umls
+146,bronchitis,C0006277,0,0,0,"",[],umls_no_optimuskg_match
+147,bronchospasm,C0006266,0,0,0,"",[],umls_no_optimuskg_match
+148,bronchospasm paradoxical,C0236072,0,0,0,"",[],umls_no_optimuskg_match
+149,bruxism,C0006325,0,0,0,"",[],umls_no_optimuskg_match
+150,bundle branch block,C0006384,0,0,0,"",[],umls_no_optimuskg_match
+151,burning sensation,C0085624,0,0,0,"",[],umls_no_optimuskg_match
+152,bursitis,C0006444,0,0,0,"",[],umls_no_optimuskg_match
+153,cachexia,C0006625,1,0,1,HP_0004326,[],umls_unique_other
+154,candida infection,C0006840,0,0,0,"",[],umls_no_optimuskg_match
+155,cardiac arrest,C0018790,0,0,0,"",[],umls_no_optimuskg_match
+156,cardiac disorder,C0018799,0,0,0,"",[],umls_no_optimuskg_match
+157,cardiac failure,C0018801,1,0,1,HP_0001635,[],umls_unique_other
+158,cardiac failure congestive,C0018802,1,0,1,HP_0001635,[],umls_unique_other
+159,cardiac flutter,C0016385,0,0,0,"",[],umls_no_optimuskg_match
+160,cardiac murmur,C0018808,1,0,1,HP_0030148,[],umls_unique_other
+161,cardiac output decreased,C0007166,0,0,0,"",[],umls_no_optimuskg_match
+162,cardiogenic shock,C0036980,0,0,0,"",[],umls_no_optimuskg_match
+163,cardiac dilatation,"",0,0,0,"",[],no_sider_umls
+164,cardiomyopathy,C0878544,0,0,0,"",[],umls_no_optimuskg_match
+165,cardiovascular disorder,C0007222,1,0,1,HP_0001626,[],umls_unique_other
+166,carpal tunnel syndrome,C0007286,0,0,0,"",[],umls_no_optimuskg_match
+167,cataract,C0086543,1,0,1,HP_0000518,[],umls_unique_other
+168,catheter site pain,C0949103,0,0,0,"",[],umls_no_optimuskg_match
+169,cellulitis,C0007642,1,0,1,HP_0100658,[],umls_unique_other
+170,cerebellar syndrome,C0007760,0,0,0,"",[],umls_no_optimuskg_match
+171,cerebral haemorrhage,C2937358,0,0,0,"",[],umls_no_optimuskg_match
+172,cerebral infarction,C0007785,0,0,0,"",[],umls_no_optimuskg_match
+173,cerebral ischaemia,C0917798,1,0,1,HP_0002637,[],umls_unique_other
+174,cerebrovascular accident,C0038454,1,0,1,HP_0001297,[],umls_unique_other
+175,cerebrovascular disorder,C0007820,0,0,0,"",[],umls_no_optimuskg_match
+176,cervix disorder,C0007867,0,0,0,"",[],umls_no_optimuskg_match
+177,change of bowel habit,C0278008,0,0,0,"",[],umls_no_optimuskg_match
+178,cheilitis,C0007971,1,0,1,HP_0100825,[],umls_unique_other
+179,chest discomfort,C0235710,0,0,0,"",[],umls_no_optimuskg_match
+180,chest pain,C0008031,1,0,1,HP_0100749,[],umls_unique_other
+181,chills,C0085593,0,0,0,"",[],umls_no_optimuskg_match
+182,cholecystitis,C0008325,1,0,1,HP_0001082,[],umls_unique_other
+183,biliary sludge,"",0,0,0,"",[],no_sider_umls
+184,cholestasis,C0008370,1,0,1,HP_0001396,[],umls_unique_other
+185,chorea and atheletes disease,"",0,0,0,"",[],no_sider_umls
+186,color vision change,"",0,0,0,"",[],no_sider_umls
+187,urine discolouration,"",0,0,0,"",[],no_sider_umls
+188,chronic obstructive pulmonary disease,C0024117,0,0,0,"",[],umls_no_optimuskg_match
+189,clostridium difficile colitis,C0238106,0,0,0,"",[],umls_no_optimuskg_match
+190,coagulopathy,C0005779,1,0,1,HP_0001928,[],umls_unique_other
+191,cognitive disorder,C0009241,0,0,0,"",[],umls_no_optimuskg_match
+192,cold sweat,C0232431,0,0,0,"",[],umls_no_optimuskg_match
+193,colitis,C0009319,0,0,0,"",[],umls_no_optimuskg_match
+194,colitis ischaemic,C0162529,0,0,0,"",[],umls_no_optimuskg_match
+195,colitis ulcerative,C0009324,0,0,0,"",[],umls_no_optimuskg_match
+196,coma,C0009421,1,0,1,HP_0001259,[],umls_unique_other
+197,completed suicide,C0852733,0,0,0,"",[],umls_no_optimuskg_match
+198,conduction disorder,C0264886,1,0,1,HP_0011675,[],umls_unique_other
+199,confusion state,"",0,0,0,"",[],no_sider_umls
+200,congenital eye disorder,C0015393,1,0,1,HP_0000478,[],umls_unique_other
+201,conjunctival haemorrhage,C0009760,0,0,0,"",[],umls_no_optimuskg_match
+202,congestion conjunctival,"",0,0,0,"",[],no_sider_umls
+203,conjunctival oedema,C0151601,0,0,0,"",[],umls_no_optimuskg_match
+204,conjunctivitis,C0009763,1,0,1,HP_0000509,[],umls_unique_other
+205,conjunctivitis allergic,C0009766,0,0,0,"",[],umls_no_optimuskg_match
+206,connective tissue disorder,C0009782,0,0,0,"",[],umls_no_optimuskg_match
+207,constipation,C0009806,1,0,1,HP_0002019,[],umls_unique_other
+208,contusion,C0009938,0,0,0,"",[],umls_no_optimuskg_match
+209,conversion disorder,C0009946,0,0,0,"",[],umls_no_optimuskg_match
+210,coordination abnormal,C0520966,0,0,0,"",[],umls_no_optimuskg_match
+211,corneal erosion,C0392163,0,0,0,"",[],umls_no_optimuskg_match
+212,corneal lesion,C0151571,0,0,0,"",[],umls_no_optimuskg_match
+213,corneal opacity,C0010038,1,0,1,HP_0007957,[],umls_unique_other
+214,coronary artery disease,C1956346,0,0,0,"",[],umls_no_optimuskg_match
+215,cough,C0010200,1,0,1,HP_0012735,[],umls_unique_other
+216,regional enteritis of unspecified site,"",0,0,0,"",[],no_sider_umls
+217,crying,C0010399,0,0,0,"",[],umls_no_optimuskg_match
+218,cushing syndrome,"",0,0,0,"",[],no_sider_umls
+219,cyanosis,C0010520,0,0,0,"",[],umls_no_optimuskg_match
+220,cyst,C0010709,0,0,0,"",[],umls_no_optimuskg_match
+221,cystitis,C0010692,0,0,0,"",[],umls_no_optimuskg_match
+222,cystitis haemorrhagic,C0085692,0,0,0,"",[],umls_no_optimuskg_match
+223,cystitis non infective,"",0,0,0,"",[],no_sider_umls
+224,deafness,C0011053,1,0,1,HP_0000365,[],umls_unique_other
+225,decreased appetite,C0232462,0,0,0,"",[],umls_no_optimuskg_match
+226,deep vein thrombosis,C0149871,0,0,0,"",[],umls_no_optimuskg_match
+227,dehydration,C0011175,0,0,0,"",[],umls_no_optimuskg_match
+228,delirium,C0011206,0,0,0,"",[],umls_no_optimuskg_match
+229,delusion,C0011253,1,0,1,HP_0000746,[],umls_unique_other
+230,dementia,C0497327,1,0,1,HP_0000726,[],umls_unique_other
+231,dental caries,C0011334,0,0,0,"",[],umls_no_optimuskg_match
+232,depressed level of consciousness,C0549249,0,0,0,"",[],umls_no_optimuskg_match
+233,depressed mood,C0344315,0,0,0,"",[],umls_no_optimuskg_match
+234,depression,C0011570,0,0,0,"",[],umls_no_optimuskg_match
+235,feeling unreal,"",0,0,0,"",[],no_sider_umls
+236,dermatitis,C0011603,1,0,1,HP_0011123,[],umls_unique_other
+237,dermatitis acne,"",0,0,0,"",[],no_sider_umls
+238,dermatitis atopic,C0011615,0,0,0,"",[],umls_no_optimuskg_match
+239,dermatitis bullous,C0085932,0,0,0,"",[],umls_no_optimuskg_match
+240,dermatitis contact,C0011616,0,0,0,"",[],umls_no_optimuskg_match
+241,dermatitis exfoliating,"",0,0,0,"",[],no_sider_umls
+242,diabetes mellitus,C0011849,1,0,1,HP_0000819,[],umls_unique_other
+243,diarrhoea,C0011991,1,0,1,HP_0002014,[],umls_unique_other
+244,diarrhoea haemorrhagic,C0151594,0,0,0,"",[],umls_no_optimuskg_match
+245,diplopia,C0012569,1,0,1,HP_0000651,[],umls_unique_other
+246,discomfort,C0234215,0,0,0,"",[],umls_no_optimuskg_match
+247,disorientation,C0233407,0,0,0,"",[],umls_no_optimuskg_match
+248,disseminated intravascular coagulation,C0012739,1,0,1,HP_0005521,[],umls_unique_other
+249,disturbance in attention,C0233414,0,0,0,"",[],umls_no_optimuskg_match
+250,disturbance in sexual arousal,C0855242,0,0,0,"",[],umls_no_optimuskg_match
+251,diverticulitis,C0012813,0,0,0,"",[],umls_no_optimuskg_match
+252,dizziness,C0012833,1,0,1,HP_0002321,[],umls_unique_other
+253,dizziness postural,C0234987,0,0,0,"",[],umls_no_optimuskg_match
+254,drug eruption,C0011609,0,0,0,"",[],umls_no_optimuskg_match
+255,drug hypersensitivity,C0013182,0,0,0,"",[],umls_no_optimuskg_match
+256,drug ineffective,C0852908,0,0,0,"",[],umls_no_optimuskg_match
+257,dry eye,C0314719,0,0,0,"",[],umls_no_optimuskg_match
+258,dry mouth,C0043352,0,0,0,"",[],umls_no_optimuskg_match
+259,dry skin,C0151908,1,0,1,HP_0000958,[],umls_unique_other
+260,dry throat,C0235234,0,0,0,"",[],umls_no_optimuskg_match
+261,duodenal ulcer,C0013295,0,0,0,"",[],umls_no_optimuskg_match
+262,duodenal inflammation,"",0,0,0,"",[],no_sider_umls
+263,paresthesia,"",0,0,0,"",[],no_sider_umls
+264,dysarthria,C0013362,1,0,1,HP_0001260,[],umls_unique_other
+265,bad taste,"",0,0,0,"",[],no_sider_umls
+266,dyskinesia,C0013384,0,0,0,"",[],umls_no_optimuskg_match
+267,menses painful,"",0,0,0,"",[],no_sider_umls
+268,dyspareunia,C1384606,1,0,1,HP_0030016,[],umls_unique_other
+269,dyspepsia,C0013395,0,0,0,"",[],umls_no_optimuskg_match
+270,dysphagia,C0011168,1,0,1,HP_0002015,[],umls_unique_other
+271,dysphonia,C1527344,0,0,0,"",[],umls_no_optimuskg_match
+272,dysphoria,C0233477,0,0,0,"",[],umls_no_optimuskg_match
+273,air hunger,"",0,0,0,"",[],no_sider_umls
+274,air hunger exertional,"",0,0,0,"",[],no_sider_umls
+275,urinary spray,"",0,0,0,"",[],no_sider_umls
+276,ear disorder,C0013447,0,0,0,"",[],umls_no_optimuskg_match
+277,ear infection,C0699744,0,0,0,"",[],umls_no_optimuskg_match
+278,ear pain,C0013456,1,0,1,HP_0030766,[],umls_unique_other
+279,bruise,"",0,0,0,"",[],no_sider_umls
+280,eczema,C0013595,1,0,1,HP_0000964,[],umls_unique_other
+281,ejaculation delayed,C0234047,0,0,0,"",[],umls_no_optimuskg_match
+282,ejaculation disorder,C0235969,0,0,0,"",[],umls_no_optimuskg_match
+283,ejaculation failure,C0278106,0,0,0,"",[],umls_no_optimuskg_match
+284,electrocardiogram abnormal,C0522055,2,0,2,"","[""HP_0003115"",""HP_0011675""]",umls_multiple_no_unique_meddra
+285,electrocardiogram qt prolonged,C0151878,1,0,1,HP_0001657,[],umls_unique_other
+286,electrocardiogram st segment depression,C0520887,0,0,0,"",[],umls_no_optimuskg_match
+287,electroencephalogram abnormal,C0151611,1,0,1,HP_0002353,[],umls_unique_other
+288,electrolyte imbalance,C0342579,0,0,0,"",[],umls_no_optimuskg_match
+289,embolism,C0013922,0,0,0,"",[],umls_no_optimuskg_match
+290,embolism venous,C0340726,0,0,0,"",[],umls_no_optimuskg_match
+291,emotional disorder,C0233459,0,0,0,"",[],umls_no_optimuskg_match
+292,emphysema,C0034067,0,0,0,"",[],umls_no_optimuskg_match
+293,encephalopathy,C0085584,1,0,1,HP_0001298,[],umls_unique_other
+294,endocrine disorder,C0014130,1,0,1,HP_0000818,[],umls_unique_other
+295,endometrial disorder,C0151622,0,0,0,"",[],umls_no_optimuskg_match
+296,ophthalmia,"",0,0,0,"",[],no_sider_umls
+297,enteritis,C0014335,0,0,0,"",[],umls_no_optimuskg_match
+298,enterocolitis,C0014356,0,0,0,"",[],umls_no_optimuskg_match
+299,enuresis,C0014394,0,0,0,"",[],umls_no_optimuskg_match
+300,eosinophilia,C0014457,1,0,1,HP_0001880,[],umls_unique_other
+301,epididymitis,C0014534,1,0,1,HP_0000031,[],umls_unique_other
+302,epigastric discomfort,C1291078,0,0,0,"",[],umls_no_optimuskg_match
+303,epistaxis,C0014591,0,0,0,"",[],umls_no_optimuskg_match
+304,erectile dysfunction,C0242350,1,0,1,HP_0000802,[],umls_unique_other
+305,gas raising,"",0,0,0,"",[],no_sider_umls
+306,erythema,C0041834,1,0,1,HP_0010783,[],umls_unique_other
+307,erythema multiforme,C0014742,0,0,0,"",[],umls_no_optimuskg_match
+308,erythema nodosum,C0014743,1,0,1,HP_0012219,[],umls_unique_other
+309,erythema of eyelid,C0239454,0,0,0,"",[],umls_no_optimuskg_match
+310,euphoric mood,C0235146,0,0,0,"",[],umls_no_optimuskg_match
+311,excoriation,C0015256,0,0,0,"",[],umls_no_optimuskg_match
+312,exophthalmos,C0015300,1,0,1,HP_0000520,[],umls_unique_other
+313,bone spur,"",0,0,0,"",[],no_sider_umls
+314,extrapyramidal disorder,C0015371,0,0,0,"",[],umls_no_optimuskg_match
+315,cardiac complex,"",0,0,0,"",[],no_sider_umls
+316,extravasation,C0015376,0,0,0,"",[],umls_no_optimuskg_match
+317,eye discharge,C0423006,0,0,0,"",[],umls_no_optimuskg_match
+318,eye disorder,C0015397,1,0,1,HP_0000478,[],umls_unique_other
+319,eye haemorrhage,C0015402,0,0,0,"",[],umls_no_optimuskg_match
+320,eye infection,C0015403,0,0,0,"",[],umls_no_optimuskg_match
+321,eye irritation,C0235266,0,0,0,"",[],umls_no_optimuskg_match
+322,eye oedema,C0743680,0,0,0,"",[],umls_no_optimuskg_match
+323,eye pain,C0151827,1,0,1,HP_0200026,[],umls_unique_other
+324,eye pruritus,C0022281,0,0,0,"",[],umls_no_optimuskg_match
+325,eye swelling,C0270996,0,0,0,"",[],umls_no_optimuskg_match
+326,eyelid oedema,C0162285,0,0,0,"",[],umls_no_optimuskg_match
+327,face oedema,C0542571,1,0,1,HP_0000282,[],umls_unique_other
+328,fecal impaction,"",0,0,0,"",[],no_sider_umls
+329,fecal impaction causing obstruction,"",0,0,0,"",[],no_sider_umls
+330,faeces discoloured,C0235315,0,0,0,"",[],umls_no_optimuskg_match
+331,fasting,C0015663,0,0,0,"",[],umls_no_optimuskg_match
+332,fatigue,C0015672,1,0,1,HP_0012378,[],umls_unique_other
+333,febrile neutropenia,C0746883,0,0,0,"",[],umls_no_optimuskg_match
+334,feeling abnormal,C1443060,0,0,0,"",[],umls_no_optimuskg_match
+335,feeling cold,C0234192,0,0,0,"",[],umls_no_optimuskg_match
+336,feeling drunk,C0522172,0,0,0,"",[],umls_no_optimuskg_match
+337,feeling hot,C2939147,0,0,0,"",[],umls_no_optimuskg_match
+338,feeling jittery,C0549209,0,0,0,"",[],umls_no_optimuskg_match
+339,fibrocystic breast disease,C0016034,0,0,0,"",[],umls_no_optimuskg_match
+340,flank pain,C0016199,1,0,1,HP_0030157,[],umls_unique_other
+341,flat affect,C0233471,0,0,0,"",[],umls_no_optimuskg_match
+342,flatulence,C0016204,0,0,0,"",[],umls_no_optimuskg_match
+343,fluid overload,C0546817,1,0,1,HP_0011105,[],umls_unique_other
+344,fluid retention,C0268000,0,0,0,"",[],umls_no_optimuskg_match
+345,flushing,C0016382,1,0,1,HP_0010783,[],umls_unique_other
+346,halitosis of liver disease,"",0,0,0,"",[],no_sider_umls
+347,folliculitis,C0016436,0,0,0,"",[],umls_no_optimuskg_match
+348,fracture,C0016658,0,0,0,"",[],umls_no_optimuskg_match
+349,functional gastrointestinal disorder,C0559031,0,0,0,"",[],umls_no_optimuskg_match
+350,fungal infection,C0026946,0,0,0,"",[],umls_no_optimuskg_match
+351,fungal skin infection,C0011630,0,0,0,"",[],umls_no_optimuskg_match
+352,boil in nose,"",0,0,0,"",[],no_sider_umls
+353,gait disturbance,C0575081,1,0,1,HP_0001288,[],umls_unique_other
+354,female lactation,"",0,0,0,"",[],no_sider_umls
+355,gamma glutamine transfer enzyme increased,"",0,0,0,"",[],no_sider_umls
+356,gangrene,C0017086,0,0,0,"",[],umls_no_optimuskg_match
+357,gastric ulcer,C0038358,0,0,0,"",[],umls_no_optimuskg_match
+358,gastritis,C0017152,0,0,0,"",[],umls_no_optimuskg_match
+359,gastroenteritis,C0017160,0,0,0,"",[],umls_no_optimuskg_match
+360,gastrointestinal carcinoma,C0151544,0,0,0,"",[],umls_no_optimuskg_match
+361,gastrointestinal disorder,C0017178,1,0,1,HP_0011024,[],umls_unique_other
+362,gastrointestinal haemorrhage,C0017181,1,0,1,HP_0002239,[],umls_unique_other
+363,gastrointestinal infection,C1264613,1,0,1,HP_0004798,[],umls_unique_other
+364,gastrointestinal pain,C0687713,0,0,0,"",[],umls_no_optimuskg_match
+365,gastrointestinal perforation,C0151664,0,0,0,"",[],umls_no_optimuskg_match
+366,gastrointestinal ulcer,C0237938,0,0,0,"",[],umls_no_optimuskg_match
+367,esophageal reflux,"",0,0,0,"",[],no_sider_umls
+368,generalised oedema,C0151603,0,0,0,"",[],umls_no_optimuskg_match
+369,genital candidiasis,C0343863,0,0,0,"",[],umls_no_optimuskg_match
+370,gingival bleeding,C0017565,1,0,1,HP_0000225,[],umls_unique_other
+371,gingival pain,C0239739,0,0,0,"",[],umls_no_optimuskg_match
+372,gingivitis,C0017574,1,0,1,HP_0000230,[],umls_unique_other
+373,glaucoma,C0017601,0,0,0,"",[],umls_no_optimuskg_match
+374,glossitis,C0017675,0,0,0,"",[],umls_no_optimuskg_match
+375,burning tongue,"",0,0,0,"",[],no_sider_umls
+376,glucose tolerance impaired,C0271650,0,0,0,"",[],umls_no_optimuskg_match
+377,diabetes,"",0,0,0,"",[],no_sider_umls
+378,goitre,C0018021,1,0,1,HP_0000853,[],umls_unique_other
+379,gout,C0018099,1,0,1,HP_0001997,[],umls_unique_other
+380,gravitational oedema,C0235437,0,0,0,"",[],umls_no_optimuskg_match
+381,breast enlargement male,"",0,0,0,"",[],no_sider_umls
+382,emesis bloody,"",0,0,0,"",[],no_sider_umls
+383,blood in stool,"",0,0,0,"",[],no_sider_umls
+384,packed cell volume decreased,"",0,0,0,"",[],no_sider_umls
+385,haematoma,C0018944,0,0,0,"",[],umls_no_optimuskg_match
+386,urinary tract bleed microscopic,"",0,0,0,"",[],no_sider_umls
+387,haemoglobin,C0518015,0,0,0,"",[],umls_no_optimuskg_match
+388,haemoglobin decreased,C0162119,1,0,1,HP_0001903,[],umls_unique_other
+389,haemolytic anaemia,C0002878,0,0,0,"",[],umls_no_optimuskg_match
+390,haemolytic uremia syndrome,"",0,0,0,"",[],no_sider_umls
+391,blood streaked sputum,"",0,0,0,"",[],no_sider_umls
+392,haemorrhage,C0019080,0,0,0,"",[],umls_no_optimuskg_match
+393,haemorrhage intracranial,C0151699,0,0,0,"",[],umls_no_optimuskg_match
+394,haemorrhagic disorder,C0019087,1,0,1,HP_0001928,[],umls_unique_other
+395,hemorrhoids,"",0,0,0,"",[],no_sider_umls
+396,hair colour changes,C0474378,0,0,0,"",[],umls_no_optimuskg_match
+397,hair disorder,C0018500,0,0,0,"",[],umls_no_optimuskg_match
+398,hair texture abnormal,C0235807,0,0,0,"",[],umls_no_optimuskg_match
+399,hallucination,C0018524,1,0,1,HP_0000738,[],umls_unique_other
+400,hangover,C0221100,0,0,0,"",[],umls_no_optimuskg_match
+401,headache,C0018681,1,0,1,HP_0002315,[],umls_unique_other
+402,hemiplegia,C0018991,0,0,0,"",[],umls_no_optimuskg_match
+403,hepatic cancer,C0345904,0,0,0,"",[],umls_no_optimuskg_match
+404,hepatic enzyme increased,C0235996,1,0,1,HP_0002910,[],umls_unique_other
+405,hepatic failure,C0085605,1,0,1,HP_0001399,[],umls_unique_other
+406,hepatic function abnormal,C0086565,2,0,2,"","[""HP_0001410"",""HP_0002910""]",umls_multiple_no_unique_meddra
+407,hepatic necrosis,C0151798,1,0,1,HP_0002605,[],umls_unique_other
+408,hepatic steatosis,C2711227,1,0,1,HP_0001397,[],umls_unique_other
+409,hepatitis,C0019158,1,0,1,HP_0012115,[],umls_unique_other
+410,hepatitis cholestasis,"",0,0,0,"",[],no_sider_umls
+411,hepatobiliary disease,C0267792,0,0,0,"",[],umls_no_optimuskg_match
+412,hepatocellular injury,C0151763,0,0,0,"",[],umls_no_optimuskg_match
+413,hepatomegaly,C0019209,1,0,1,HP_0002240,[],umls_unique_other
+414,hepatotoxicity,C0235378,0,0,0,"",[],umls_no_optimuskg_match
+415,hernia,C0019270,1,0,1,HP_0100790,[],umls_unique_other
+416,herpes simplex,C0019348,0,0,0,"",[],umls_no_optimuskg_match
+417,herpes virus infection,C0019372,0,0,0,"",[],umls_no_optimuskg_match
+418,herpes zoster,C0019360,0,0,0,"",[],umls_no_optimuskg_match
+419,hiatus hernia,C3489393,1,0,1,HP_0002036,[],umls_unique_other
+420,hiccups,C0019521,0,0,0,"",[],umls_no_optimuskg_match
+421,hirsutism,C0019572,1,0,1,HP_0001007,[],umls_unique_other
+422,hostility,C0020039,0,0,0,"",[],umls_no_optimuskg_match
+423,hot flush,C0600142,0,0,0,"",[],umls_no_optimuskg_match
+424,hyperacusis,C0034880,0,0,0,"",[],umls_no_optimuskg_match
+425,venous congestion,"",0,0,0,"",[],no_sider_umls
+426,allodynia mechanical,"",0,0,0,"",[],no_sider_umls
+427,bilirubin blood,"",0,0,0,"",[],no_sider_umls
+428,high calcium blood,"",0,0,0,"",[],no_sider_umls
+429,high calcium urine,"",0,0,0,"",[],no_sider_umls
+430,high cholesterol blood,"",0,0,0,"",[],no_sider_umls
+431,high blood sugar,"",0,0,0,"",[],no_sider_umls
+432,hyperhidrosis,C0020458,1,0,1,HP_0000975,[],umls_unique_other
+433,high potassium blood,"",0,0,0,"",[],no_sider_umls
+434,hyperkeratosis,C0870082,1,0,1,HP_0000962,[],umls_unique_other
+435,movement function hyperactivity,"",0,0,0,"",[],no_sider_umls
+436,high lactic acid blood,"",0,0,0,"",[],no_sider_umls
+437,high levels of lipids,"",0,0,0,"",[],no_sider_umls
+438,high magnesium blood,"",0,0,0,"",[],no_sider_umls
+439,salt retention,"",0,0,0,"",[],no_sider_umls
+440,pain allergy,"",0,0,0,"",[],no_sider_umls
+441,high phosphorus blood,"",0,0,0,"",[],no_sider_umls
+442,exaggerated reflexes,"",0,0,0,"",[],no_sider_umls
+443,hypersensitivity,C0020517,0,0,0,"",[],umls_no_optimuskg_match
+444,sleep excessive,"",0,0,0,"",[],no_sider_umls
+445,hypertension,C0020538,1,0,1,HP_0000822,[],umls_unique_other
+446,hyperthyroidism,C0020550,0,0,0,"",[],umls_no_optimuskg_match
+447,tone increased,"",0,0,0,"",[],no_sider_umls
+448,hypertrichosis,C0020555,1,0,1,HP_0000998,[],umls_unique_other
+449,high glycerin three ester blood,"",0,0,0,"",[],no_sider_umls
+450,high uric acid blood,"",0,0,0,"",[],no_sider_umls
+451,hyperventilation,C0020578,1,0,1,HP_0002883,[],umls_unique_other
+452,body numbness,"",0,0,0,"",[],no_sider_umls
+453,body numbness oral,"",0,0,0,"",[],no_sider_umls
+454,low albumin blood,"",0,0,0,"",[],no_sider_umls
+455,low calcium blood,"",0,0,0,"",[],no_sider_umls
+456,low chlorine blood,"",0,0,0,"",[],no_sider_umls
+457,chlorosis,"",0,0,0,"",[],no_sider_umls
+458,hypoglycemia,"",0,0,0,"",[],no_sider_umls
+459,drenching sweats,"",0,0,0,"",[],no_sider_umls
+460,potassium deficiency,"",0,0,0,"",[],no_sider_umls
+461,activity motor retarded,"",0,0,0,"",[],no_sider_umls
+462,low magnesium blood,"",0,0,0,"",[],no_sider_umls
+463,hypomania,C0241934,0,0,0,"",[],umls_no_optimuskg_match
+464,low sodium blood,"",0,0,0,"",[],no_sider_umls
+465,phosphorus low blood,"",0,0,0,"",[],no_sider_umls
+466,potassium deficiency,"",0,0,0,"",[],no_sider_umls
+467,diminished reflexes,"",0,0,0,"",[],no_sider_umls
+468,hypotension,C0020649,0,0,0,"",[],umls_no_optimuskg_match
+469,hypothermia,C0413252,0,0,0,"",[],umls_no_optimuskg_match
+470,hypothyroidism,C0020676,0,0,0,"",[],umls_no_optimuskg_match
+471,hypotonia,C0026827,1,0,1,HP_0001252,[],umls_unique_other
+472,hypoventilation,C3203358,1,0,1,HP_0002791,[],umls_unique_other
+473,hypoxia,C0242184,0,0,0,"",[],umls_no_optimuskg_match
+474,ileus,C1258215,0,0,0,"",[],umls_no_optimuskg_match
+475,ileus paralytic,C0030446,1,0,1,HP_0002590,[],umls_unique_other
+476,ill-defined disorder,C2047937,0,0,0,"",[],umls_no_optimuskg_match
+477,immune system disorder,C0021053,0,0,0,"",[],umls_no_optimuskg_match
+478,impaired gastric emptying,C0522063,0,0,0,"",[],umls_no_optimuskg_match
+479,impaired healing,C0151692,0,0,0,"",[],umls_no_optimuskg_match
+480,impetigo,C0021099,0,0,0,"",[],umls_no_optimuskg_match
+481,inappropriate antidiuretic hormone secretion,C0021141,0,0,0,"",[],umls_no_optimuskg_match
+482,incontinence,C0021167,0,0,0,"",[],umls_no_optimuskg_match
+483,increased appetite,C0232461,1,0,1,HP_0002591,[],umls_unique_other
+484,increased bronchial secretion,C1262144,0,0,0,"",[],umls_no_optimuskg_match
+485,increased tendency to bruise,C0423798,1,0,1,HP_0000978,[],umls_unique_other
+486,hardening,"",0,0,0,"",[],no_sider_umls
+487,infarction,C0021308,0,0,0,"",[],umls_no_optimuskg_match
+488,infection,C0009450,0,0,0,"",[],umls_no_optimuskg_match
+489,infestation,C1384353,0,0,0,"",[],umls_no_optimuskg_match
+490,inflammation,C0021368,0,0,0,"",[],umls_no_optimuskg_match
+491,influenza,C0021400,0,0,0,"",[],umls_no_optimuskg_match
+492,influenza like illness,C0521839,0,0,0,"",[],umls_no_optimuskg_match
+493,infusion site pain,C1096035,0,0,0,"",[],umls_no_optimuskg_match
+494,infusion site reaction,C1096343,0,0,0,"",[],umls_no_optimuskg_match
+495,injection site bruising,C0521508,0,0,0,"",[],umls_no_optimuskg_match
+496,injection site erythema,C0852625,0,0,0,"",[],umls_no_optimuskg_match
+497,injection site haemorrhage,C0151698,0,0,0,"",[],umls_no_optimuskg_match
+498,injection site hardening,"",0,0,0,"",[],no_sider_umls
+499,injection site inflammation,C0151734,0,0,0,"",[],umls_no_optimuskg_match
+500,injection site pain,C0151828,0,0,0,"",[],umls_no_optimuskg_match
+501,injection site pruritus,C0852995,0,0,0,"",[],umls_no_optimuskg_match
+502,injection site reaction,C0151735,0,0,0,"",[],umls_no_optimuskg_match
+503,injection site swelling,C0151605,0,0,0,"",[],umls_no_optimuskg_match
+504,injury,C3263723,0,0,0,"",[],umls_no_optimuskg_match
+505,insomnia,C0917801,0,0,0,"",[],umls_no_optimuskg_match
+506,instillation site pain,C0858797,0,0,0,"",[],umls_no_optimuskg_match
+507,intermittent claudication,C0021775,0,0,0,"",[],umls_no_optimuskg_match
+508,international normalised ratio increased,C0853225,0,0,0,"",[],umls_no_optimuskg_match
+509,interstitial lung disease,C0206062,1,0,1,HP_0006530,[],umls_unique_other
+510,intestinal obstruction,C0021843,0,0,0,"",[],umls_no_optimuskg_match
+511,intestinal perforation,C0021845,0,0,0,"",[],umls_no_optimuskg_match
+512,intracranial pressure increased,C0151740,1,0,1,HP_0002516,[],umls_unique_other
+513,intraocular pressure increased,C0234708,0,0,0,"",[],umls_no_optimuskg_match
+514,iris inflammation,"",0,0,0,"",[],no_sider_umls
+515,iron deficiency anaemia,C0162316,1,0,1,HP_0001891,[],umls_unique_other
+516,irritability,C0022107,0,0,0,"",[],umls_no_optimuskg_match
+517,irritable bowel syndrome,C0022104,0,0,0,"",[],umls_no_optimuskg_match
+518,ischaemia,C0022116,0,0,0,"",[],umls_no_optimuskg_match
+519,jaundice,C0022346,1,0,1,HP_0000952,[],umls_unique_other
+520,obstructive jaundice,"",0,0,0,"",[],no_sider_umls
+521,joint stiffness,C0162298,1,0,1,HP_0001387,[],umls_unique_other
+522,joint swelling,C0152031,1,0,1,HP_0001386,[],umls_unique_other
+523,keratitis,C0022568,1,0,1,HP_0000491,[],umls_unique_other
+524,ketosis,C0022638,0,0,0,"",[],umls_no_optimuskg_match
+525,laboratory test abnormal,C0438215,0,0,0,"",[],umls_no_optimuskg_match
+526,inner ear infection,"",0,0,0,"",[],no_sider_umls
+527,laceration,C0043246,0,0,0,"",[],umls_no_optimuskg_match
+528,lacrimal disorder,C0022904,0,0,0,"",[],umls_no_optimuskg_match
+529,lacrimal structural disorder,C3495920,0,0,0,"",[],umls_no_optimuskg_match
+530,lacrimation increased,C0152227,1,0,1,HP_0009926,[],umls_unique_other
+531,lactic acidosis,C0001125,1,0,1,HP_0003128,[],umls_unique_other
+532,laryngeal oedema,C0023052,0,0,0,"",[],umls_no_optimuskg_match
+533,laryngeal pain,C0549373,0,0,0,"",[],umls_no_optimuskg_match
+534,laryngitis,C0023067,0,0,0,"",[],umls_no_optimuskg_match
+535,laryngeal spasm,"",0,0,0,"",[],no_sider_umls
+536,lethargy,C0023380,1,0,1,HP_0001254,[],umls_unique_other
+537,leukocytosis,C0023518,1,0,1,HP_0001974,[],umls_unique_other
+538,vitiligo,C0042900,0,0,0,"",[],umls_no_optimuskg_match
+539,leukopenia,C0023530,1,0,1,HP_0001882,[],umls_unique_other
+540,libido decreased,C0011124,0,0,0,"",[],umls_no_optimuskg_match
+541,libido disorder,C0854382,0,0,0,"",[],umls_no_optimuskg_match
+542,libido increased,C0021177,0,0,0,"",[],umls_no_optimuskg_match
+543,mossy keratosis,"",0,0,0,"",[],no_sider_umls
+544,ligament sprain,C0435002,0,0,0,"",[],umls_no_optimuskg_match
+545,lipase increased,C0549475,0,0,0,"",[],umls_no_optimuskg_match
+546,lipodystrophy acquired,C0877192,0,0,0,"",[],umls_no_optimuskg_match
+547,liver disorder,C0023895,1,0,1,HP_0001392,[],umls_unique_other
+548,liver function test abnormal,C0151766,1,0,1,HP_0002910,[],umls_unique_other
+549,liver injury,C0160390,0,0,0,"",[],umls_no_optimuskg_match
+550,local swelling,C0853619,0,0,0,"",[],umls_no_optimuskg_match
+551,loss of consciousness,C0041657,1,0,1,HP_0007185,[],umls_unique_other
+552,loss of libido,C2981158,0,0,0,"",[],umls_no_optimuskg_match
+553,lower respiratory tract infection,C0149725,1,0,1,HP_0002783,[],umls_unique_other
+554,lung disorder,C0024115,1,0,1,HP_0002088,[],umls_unique_other
+555,lung infection,C0876973,0,0,0,"",[],umls_no_optimuskg_match
+556,lung infiltration,C0235896,0,0,0,"",[],umls_no_optimuskg_match
+557,lymphadenopathy,C0497156,1,0,1,HP_0002716,[],umls_unique_other
+558,lymphocyte count decreased,C0853986,0,0,0,"",[],umls_no_optimuskg_match
+559,lymphocyte excess,"",0,0,0,"",[],no_sider_umls
+560,lymph edema,"",0,0,0,"",[],no_sider_umls
+561,lymph tumor,"",0,0,0,"",[],no_sider_umls
+562,lymph cell cut back,"",0,0,0,"",[],no_sider_umls
+563,major depression,C1269683,0,0,0,"",[],umls_no_optimuskg_match
+564,malaise,C0231218,0,0,0,"",[],umls_no_optimuskg_match
+565,malignant melanoma,C0025202,0,0,0,"",[],umls_no_optimuskg_match
+566,malnutrition,C0162429,0,0,0,"",[],umls_no_optimuskg_match
+567,mania,C0338831,0,0,0,"",[],umls_no_optimuskg_match
+568,mastitis,C0024894,0,0,0,"",[],umls_no_optimuskg_match
+569,mediastinal disorder,C0025061,0,0,0,"",[],umls_no_optimuskg_match
+570,blood clot excretion,"",0,0,0,"",[],no_sider_umls
+571,melanosis,C0025209,0,0,0,"",[],umls_no_optimuskg_match
+572,memory impairment,C0233794,0,0,0,"",[],umls_no_optimuskg_match
+573,meningitis,C0025289,1,0,1,HP_0001287,[],umls_unique_other
+574,menopausal symptoms,C0236075,0,0,0,"",[],umls_no_optimuskg_match
+575,menopause,C0025320,0,0,0,"",[],umls_no_optimuskg_match
+576,menorrhagia,C0025323,1,0,1,HP_0000132,[],umls_unique_other
+577,menstrual disorder,C0025345,0,0,0,"",[],umls_no_optimuskg_match
+578,menstruation irregular,C0156404,0,0,0,"",[],umls_no_optimuskg_match
+579,mental disability,C1306341,0,0,0,"",[],umls_no_optimuskg_match
+580,mental disorder,C0004936,0,0,0,"",[],umls_no_optimuskg_match
+581,metabolic acidosis,C0220981,1,0,1,HP_0001942,[],umls_unique_other
+582,break through bleeding,"",0,0,0,"",[],no_sider_umls
+583,urination disorder,"",0,0,0,"",[],no_sider_umls
+584,urination urgency,"",0,0,0,"",[],no_sider_umls
+585,migraine,C0149931,0,0,0,"",[],umls_no_optimuskg_match
+586,miosis,C0026205,1,0,1,HP_0000616,[],umls_unique_other
+587,single core cell increase,"",0,0,0,"",[],no_sider_umls
+588,mood swings,C0085633,1,0,1,HP_0000712,[],umls_unique_other
+589,motion sickness,C0026603,0,0,0,"",[],umls_no_optimuskg_match
+590,mouth ulceration,C0149745,1,0,1,HP_0000155,[],umls_unique_other
+591,movement disorder,C0026650,1,0,1,HP_0100022,[],umls_unique_other
+592,mucosal inflammation,C0333355,0,0,0,"",[],umls_no_optimuskg_match
+593,mucous membrane disorder,C0151785,0,0,0,"",[],umls_no_optimuskg_match
+594,multiple fractures,C0016655,1,0,1,HP_0002757,[],umls_unique_other
+595,muscle atrophy,C0026846,0,0,0,"",[],umls_no_optimuskg_match
+596,muscle contractions involuntary,C0235086,0,0,0,"",[],umls_no_optimuskg_match
+597,muscle relaxant therapy,C1142135,0,0,0,"",[],umls_no_optimuskg_match
+598,muscle rigidity,C0026837,1,0,1,HP_0002063,[],umls_unique_other
+599,muscle spasms,C0037763,0,0,0,"",[],umls_no_optimuskg_match
+600,muscle tightness,C0877322,0,0,0,"",[],umls_no_optimuskg_match
+601,muscle twitching,C0231530,0,0,0,"",[],umls_no_optimuskg_match
+602,muscular weakness,C0151786,1,0,1,HP_0001324,[],umls_unique_other
+603,musculoskeletal chest pain,C0476280,0,0,0,"",[],umls_no_optimuskg_match
+604,musculoskeletal discomfort,C0948594,0,0,0,"",[],umls_no_optimuskg_match
+605,musculoskeletal pain,C0026858,0,0,0,"",[],umls_no_optimuskg_match
+606,musculoskeletal stiffness,C0948525,0,0,0,"",[],umls_no_optimuskg_match
+607,myalgia,C0231528,1,0,1,HP_0003326,[],umls_unique_other
+608,mydriasis,C0026961,1,0,1,HP_0011499,[],umls_unique_other
+609,myelitis,C0026975,0,0,0,"",[],umls_no_optimuskg_match
+610,myocardial infarction,C0027051,0,0,0,"",[],umls_no_optimuskg_match
+611,myocardial ischaemia,C0151744,0,0,0,"",[],umls_no_optimuskg_match
+612,myocarditis,C0027059,0,0,0,"",[],umls_no_optimuskg_match
+613,myoclonus,C0027066,1,0,1,HP_0001336,[],umls_unique_other
+614,myopathy,C0026848,1,0,1,HP_0003198,[],umls_unique_other
+615,myositis,C0027121,0,0,0,"",[],umls_no_optimuskg_match
+616,nail disorder,C0027339,1,0,1,HP_0001597,[],umls_unique_other
+617,nasal congestion,C0027424,1,0,1,HP_0001742,[],umls_unique_other
+618,nasal discomfort,C0858259,0,0,0,"",[],umls_no_optimuskg_match
+619,nasal dryness,C0231919,0,0,0,"",[],umls_no_optimuskg_match
+620,nose pharynx inflammation,"",0,0,0,"",[],no_sider_umls
+621,nausea,C0027497,1,0,1,HP_0002018,[],umls_unique_other
+622,neck pain,C0007859,1,0,1,HP_0030833,[],umls_unique_other
+623,neoplasm,C0027651,0,0,0,"",[],umls_no_optimuskg_match
+624,neoplasm malignant,C0006826,0,0,0,"",[],umls_no_optimuskg_match
+625,nephritis,C0027697,0,0,0,"",[],umls_no_optimuskg_match
+626,calculus kidney,"",0,0,0,"",[],no_sider_umls
+627,nephropathy,C0022658,2,0,2,"","[""HP_0000077"",""HP_0000112""]",umls_multiple_no_unique_meddra
+628,nephropathy toxic,C0595916,0,0,0,"",[],umls_no_optimuskg_match
+629,nephrotic syndrome,C0027726,0,0,0,"",[],umls_no_optimuskg_match
+630,nervous system disorder,C0027765,0,0,0,"",[],umls_no_optimuskg_match
+631,nervousness,C0027769,0,0,0,"",[],umls_no_optimuskg_match
+632,neuralgia,C0027796,0,0,0,"",[],umls_no_optimuskg_match
+633,neuritis,C0027813,0,0,0,"",[],umls_no_optimuskg_match
+634,neuroleptic malignant syndrome,C0027849,0,0,0,"",[],umls_no_optimuskg_match
+635,neuropathy peripheral,C0031117,1,0,1,HP_0009830,[],umls_unique_other
+636,neurosis,C0027932,0,0,0,"",[],umls_no_optimuskg_match
+637,neurotoxicity,C0235032,0,0,0,"",[],umls_no_optimuskg_match
+638,neutropenia,C0027947,0,0,0,"",[],umls_no_optimuskg_match
+639,neutrophil deficiency,"",0,0,0,"",[],no_sider_umls
+640,neutrophil count decreased,C0853697,0,0,0,"",[],umls_no_optimuskg_match
+641,night blindness,C0028077,0,0,0,"",[],umls_no_optimuskg_match
+642,night sweats,C0028081,0,0,0,"",[],umls_no_optimuskg_match
+643,nightmare,C0028084,0,0,0,"",[],umls_no_optimuskg_match
+644,nocturnal enuresis,"",0,0,0,"",[],no_sider_umls
+645,nodal arrhythmia,C0264893,0,0,0,"",[],umls_no_optimuskg_match
+646,nodule,C0028259,0,0,0,"",[],umls_no_optimuskg_match
+647,non cardiac chest pain,"",0,0,0,"",[],no_sider_umls
+648,non hodgkin lymphoma,"",0,0,0,"",[],no_sider_umls
+649,nuchal rigidity,C1320474,1,0,1,HP_0005986,[],umls_unique_other
+650,nystagmus,C0028738,1,0,1,HP_0000639,[],umls_unique_other
+651,ocular discomfort,C0948595,0,0,0,"",[],umls_no_optimuskg_match
+652,ocular venous congestion,"",0,0,0,"",[],no_sider_umls
+653,oculomotor spasm,"",0,0,0,"",[],no_sider_umls
+654,swallowing painful,"",0,0,0,"",[],no_sider_umls
+655,oedema,C0013604,1,0,1,HP_0000969,[],umls_unique_other
+656,oedema peripheral,C0085649,0,0,0,"",[],umls_no_optimuskg_match
+657,oesophageal spasm,C0014863,0,0,0,"",[],umls_no_optimuskg_match
+658,oesophageal stenosis,C0014866,2,0,2,"","[""HP_0002043"",""HP_0010450""]",umls_multiple_no_unique_meddra
+659,oesophageal ulcer,C0151970,0,0,0,"",[],umls_no_optimuskg_match
+660,esophagus inflammation,"",0,0,0,"",[],no_sider_umls
+661,urine less,"",0,0,0,"",[],no_sider_umls
+662,onychomycosis,C0040261,0,0,0,"",[],umls_no_optimuskg_match
+663,opportunistic infection,C0029118,0,0,0,"",[],umls_no_optimuskg_match
+664,optic atrophy,C0029124,1,0,1,HP_0000648,[],umls_unique_other
+665,optic neuritis,C0029134,0,0,0,"",[],umls_no_optimuskg_match
+666,oral candidiasis,C0006849,0,0,0,"",[],umls_no_optimuskg_match
+667,oral herpes,C0341012,0,0,0,"",[],umls_no_optimuskg_match
+668,oral pain,C0221776,0,0,0,"",[],umls_no_optimuskg_match
+669,testis inflammation non infective,"",0,0,0,"",[],no_sider_umls
+670,orgasm abnormal,C0029261,0,0,0,"",[],umls_no_optimuskg_match
+671,oropharyngeal discomfort,C2363730,0,0,0,"",[],umls_no_optimuskg_match
+672,oropharyngeal pain,C2363731,0,0,0,"",[],umls_no_optimuskg_match
+673,orthostatic hypotension,C0020651,0,0,0,"",[],umls_no_optimuskg_match
+674,osteoarthritis,C0029408,0,0,0,"",[],umls_no_optimuskg_match
+675,osteomyelitis,C0029443,0,0,0,"",[],umls_no_optimuskg_match
+676,osteonecrosis,C0029445,1,0,1,HP_0010885,[],umls_unique_other
+677,osteoporosis,C0029456,1,0,1,HP_0000939,[],umls_unique_other
+678,otitis externa,C0029878,0,0,0,"",[],umls_no_optimuskg_match
+679,otitis media,C0029882,0,0,0,"",[],umls_no_optimuskg_match
+680,ear toxicity,"",0,0,0,"",[],no_sider_umls
+681,ovarian cyst,C0029927,1,0,1,HP_0000138,[],umls_unique_other
+682,ovarian disorder,C0029928,0,0,0,"",[],umls_no_optimuskg_match
+683,pain,C0030193,1,0,1,HP_0012531,[],umls_unique_other
+684,pain in extremity,C0030196,1,0,1,HP_0009763,[],umls_unique_other
+685,pain in jaw,C0236000,0,0,0,"",[],umls_no_optimuskg_match
+686,pain of skin,C0241136,0,0,0,"",[],umls_no_optimuskg_match
+687,pallor,C0030232,1,0,1,HP_0000980,[],umls_unique_other
+688,palpitations,C0030252,1,0,1,HP_0001962,[],umls_unique_other
+689,pancreatitis,C0030305,1,0,1,HP_0001733,[],umls_unique_other
+690,pancreatitis acute,C0001339,1,0,1,HP_0001735,[],umls_unique_other
+691,pancytopenia,C0030312,1,0,1,HP_0001876,[],umls_unique_other
+692,panic attack,C0086769,0,0,0,"",[],umls_no_optimuskg_match
+693,panic reaction,C0030318,0,0,0,"",[],umls_no_optimuskg_match
+694,eyelid inflammation,"",0,0,0,"",[],no_sider_umls
+695,nipple edema,"",0,0,0,"",[],no_sider_umls
+696,feeling abnormal,C1443060,0,0,0,"",[],umls_no_optimuskg_match
+697,feeling abnormal oral,"",0,0,0,"",[],no_sider_umls
+698,paralysis,C0522224,1,0,1,HP_0003470,[],umls_unique_other
+699,paranoia,C1456784,1,0,1,HP_0011999,[],umls_unique_other
+700,paresis,C0030552,0,0,0,"",[],umls_no_optimuskg_match
+701,parkinsonism,C0242422,1,0,1,HP_0001300,[],umls_unique_other
+702,disturbances of sensation of smell and taste,"",0,0,0,"",[],no_sider_umls
+703,pelvic pain,C0030794,0,0,0,"",[],umls_no_optimuskg_match
+704,penis disorder,C0030846,0,0,0,"",[],umls_no_optimuskg_match
+705,peptic ulcer,C0030920,1,0,1,HP_0004398,[],umls_unique_other
+706,pericardial effusion,C0031039,1,0,1,HP_0001698,[],umls_unique_other
+707,pericarditis,C0031046,0,0,0,"",[],umls_no_optimuskg_match
+708,perineal pain,C0240717,0,0,0,"",[],umls_no_optimuskg_match
+709,periodontitis,C0031099,0,0,0,"",[],umls_no_optimuskg_match
+710,periorbital oedema,C0151205,0,0,0,"",[],umls_no_optimuskg_match
+711,peripheral coldness,C0277925,0,0,0,"",[],umls_no_optimuskg_match
+712,peripheral ischaemia,C0235490,0,0,0,"",[],umls_no_optimuskg_match
+713,peripheral motor neuropathy,C0235025,0,0,0,"",[],umls_no_optimuskg_match
+714,peripheral sensory neuropathy,C0151313,1,0,1,HP_0000763,[],umls_unique_other
+715,peripheral vascular disorder,C0085096,0,0,0,"",[],umls_no_optimuskg_match
+716,peritonitis,C0031154,0,0,0,"",[],umls_no_optimuskg_match
+717,personality disorder,C0031212,1,0,1,HP_0012075,[],umls_unique_other
+718,petechiae,C0031256,0,0,0,"",[],umls_no_optimuskg_match
+719,pharyngeal oedema,C0236024,0,0,0,"",[],umls_no_optimuskg_match
+720,pharyngitis,C0031350,0,0,0,"",[],umls_no_optimuskg_match
+721,pharyngitis streptococcal,C0036689,0,0,0,"",[],umls_no_optimuskg_match
+722,phlebitis,C0031542,0,0,0,"",[],umls_no_optimuskg_match
+723,photophobia,C0085636,1,0,1,HP_0000613,[],umls_unique_other
+724,flash vision,"",0,0,0,"",[],no_sider_umls
+725,photosensitivity reaction,C0162830,0,0,0,"",[],umls_no_optimuskg_match
+726,pigmentation disorder,C0549567,0,0,0,"",[],umls_no_optimuskg_match
+727,plasma cell myeloma,C0026764,0,0,0,"",[],umls_no_optimuskg_match
+728,tumor plasma cell,"",0,0,0,"",[],no_sider_umls
+729,platelet count decreased,C0392386,1,0,1,HP_0001873,[],umls_unique_other
+730,pleural effusion,C0032227,1,0,1,HP_0002202,[],umls_unique_other
+731,pleurisy,C0032231,1,0,1,HP_0002102,[],umls_unique_other
+732,pleural pain,"",0,0,0,"",[],no_sider_umls
+733,pneumonia,C0032285,1,0,1,HP_0002090,[],umls_unique_other
+734,pneumonia aspiration,C0032290,0,0,0,"",[],umls_no_optimuskg_match
+735,pneumothorax,C0032326,1,0,1,HP_0002107,[],umls_unique_other
+736,urinary frequency increased,"",0,0,0,"",[],no_sider_umls
+737,increase in the total amount of red blood cells in the blood,"",0,0,0,"",[],no_sider_umls
+738,polydipsia,C0085602,1,0,1,HP_0001959,[],umls_unique_other
+739,polyneuropathy,C0152025,0,0,0,"",[],umls_no_optimuskg_match
+740,polyuria,C0032617,1,0,1,HP_0000103,[],umls_unique_other
+741,post procedural haemorrhage,C0919874,0,0,0,"",[],umls_no_optimuskg_match
+742,premenstrual syndrome,C0033046,0,0,0,"",[],umls_no_optimuskg_match
+743,syncope vertigo,"",0,0,0,"",[],no_sider_umls
+744,priapism,C0033117,1,0,1,HP_0200023,[],umls_unique_other
+745,procedural pain,C1619712,0,0,0,"",[],umls_no_optimuskg_match
+746,anal pain,"",0,0,0,"",[],no_sider_umls
+747,rectum inflammation,"",0,0,0,"",[],no_sider_umls
+748,productive cough,C0239134,0,0,0,"",[],umls_no_optimuskg_match
+749,prostate cancer,C0376358,0,0,0,"",[],umls_no_optimuskg_match
+750,prostatic disorder,C0033575,0,0,0,"",[],umls_no_optimuskg_match
+751,prostatitis,C0033581,0,0,0,"",[],umls_no_optimuskg_match
+752,protein total decreased,C0860901,0,0,0,"",[],umls_no_optimuskg_match
+753,protein urine present,C0948586,0,0,0,"",[],umls_no_optimuskg_match
+754,proteinuria,C0033687,1,0,1,HP_0000093,[],umls_unique_other
+755,prothrombin level decreased,C0553732,0,0,0,"",[],umls_no_optimuskg_match
+756,prothrombin level increased,C0151872,0,0,0,"",[],umls_no_optimuskg_match
+757,itch rash,"",0,0,0,"",[],no_sider_umls
+758,pruritus,C0033774,1,0,1,HP_0000989,[],umls_unique_other
+759,pruritus generalised,C0475858,0,0,0,"",[],umls_no_optimuskg_match
+760,pruritus genital,C0033777,0,0,0,"",[],umls_no_optimuskg_match
+761,falsehood lymph tumor,"",0,0,0,"",[],no_sider_umls
+762,pseudomembranous colitis,C1257843,0,0,0,"",[],umls_no_optimuskg_match
+763,psoriasis,C0033860,0,0,0,"",[],umls_no_optimuskg_match
+764,psychomotor retardation,C0424230,0,0,0,"",[],umls_no_optimuskg_match
+765,psychotic disorder,C0033975,0,0,0,"",[],umls_no_optimuskg_match
+766,pulmonary congestion,C0242073,0,0,0,"",[],umls_no_optimuskg_match
+767,pulmonary embolism,C0034065,1,0,1,HP_0002204,[],umls_unique_other
+768,pulmonary fibrosis,C0034069,0,0,0,"",[],umls_no_optimuskg_match
+769,pulmonary function test decreased,C0855775,0,0,0,"",[],umls_no_optimuskg_match
+770,pulmonary hypertension,C0020542,0,0,0,"",[],umls_no_optimuskg_match
+771,pulmonary oedema,C0034063,0,0,0,"",[],umls_no_optimuskg_match
+772,punctate keratitis,C0259799,0,0,0,"",[],umls_no_optimuskg_match
+773,pupils unequal,C0003079,0,0,0,"",[],umls_no_optimuskg_match
+774,purpura,C0034150,1,0,1,HP_0000979,[],umls_unique_other
+775,pyelonephritis,C0034186,0,0,0,"",[],umls_no_optimuskg_match
+776,urine purulent,"",0,0,0,"",[],no_sider_umls
+777,rales,C0034642,0,0,0,"",[],umls_no_optimuskg_match
+778,rash,C0015230,1,0,1,HP_0000988,[],umls_unique_other
+779,rash erythematous,C0234913,0,0,0,"",[],umls_no_optimuskg_match
+780,rash generalised,C0497365,0,0,0,"",[],umls_no_optimuskg_match
+781,rash macular,C0221201,0,0,0,"",[],umls_no_optimuskg_match
+782,macula papules rash,"",0,0,0,"",[],no_sider_umls
+783,rash papular,C1519353,0,0,0,"",[],umls_no_optimuskg_match
+784,rash pustular,C0085641,0,0,0,"",[],umls_no_optimuskg_match
+785,rectal haemorrhage,C0267596,0,0,0,"",[],umls_no_optimuskg_match
+786,defecation urge painful,"",0,0,0,"",[],no_sider_umls
+787,regurgitation,C2004489,0,0,0,"",[],umls_no_optimuskg_match
+788,renal failure,C0035078,1,0,1,HP_0000083,[],umls_unique_other
+789,renal impairment,C1565489,1,0,1,HP_0000083,[],umls_unique_other
+790,renal pain,C0558489,0,0,0,"",[],umls_no_optimuskg_match
+791,renal tubular necrosis,C1720775,0,0,0,"",[],umls_no_optimuskg_match
+792,respiration abnormal,C1260922,1,0,1,HP_0002086,[],umls_unique_other
+793,respiratory depression,C0235063,1,0,1,HP_0002791,[],umls_unique_other
+794,respiratory disorder,C0035204,0,0,0,"",[],umls_no_optimuskg_match
+795,respiratory distress,C0476273,1,0,1,HP_0002098,[],umls_unique_other
+796,respiratory failure,C1145670,0,0,0,"",[],umls_no_optimuskg_match
+797,respiratory tract congestion,C0948349,0,0,0,"",[],umls_no_optimuskg_match
+798,respiratory tract infection,C0035243,0,0,0,"",[],umls_no_optimuskg_match
+799,restless legs syndrome,C0035258,0,0,0,"",[],umls_no_optimuskg_match
+800,retching,C0232602,0,0,0,"",[],umls_no_optimuskg_match
+801,retinal degeneration,C0035304,1,0,1,HP_0001105,[],umls_unique_other
+802,retinal detachment,C0035305,0,0,0,"",[],umls_no_optimuskg_match
+803,retinal disorder,C0035309,1,0,1,HP_0000479,[],umls_unique_other
+804,retinal haemorrhage,C0035317,1,0,1,HP_0000573,[],umls_unique_other
+805,retroperitoneal haemorrhage,C0151705,0,0,0,"",[],umls_no_optimuskg_match
+806,rhabdomyolysis,C0035410,0,0,0,"",[],umls_no_optimuskg_match
+807,rheumatoid arthritis,C0003873,1,0,1,HP_0001370,[],umls_unique_other
+808,rhinitis,C0035455,0,0,0,"",[],umls_no_optimuskg_match
+809,rhinitis allergic,C2607914,0,0,0,"",[],umls_no_optimuskg_match
+810,mucous nasal increased,"",0,0,0,"",[],no_sider_umls
+811,dry rales,"",0,0,0,"",[],no_sider_umls
+812,road traffic accident,C0221706,0,0,0,"",[],umls_no_optimuskg_match
+813,rosacea,C0035854,0,0,0,"",[],umls_no_optimuskg_match
+814,salivary gland enlargement,C0020569,0,0,0,"",[],umls_no_optimuskg_match
+815,increased salivation,"",0,0,0,"",[],no_sider_umls
+816,oviduct inflammation,"",0,0,0,"",[],no_sider_umls
+817,scab,C0205204,0,0,0,"",[],umls_no_optimuskg_match
+818,reaction schizoid,"",0,0,0,"",[],no_sider_umls
+819,sciatica,C0036396,1,0,1,HP_0011868,[],umls_unique_other
+820,sclera inflammation,"",0,0,0,"",[],no_sider_umls
+821,seasonal allergy,C0018621,0,0,0,"",[],umls_no_optimuskg_match
+822,seborrheic dermatitis,"",0,0,0,"",[],no_sider_umls
+823,seborrheic keratosis,"",0,0,0,"",[],no_sider_umls
+824,sensation of foreign body,C0423602,0,0,0,"",[],umls_no_optimuskg_match
+825,sensory disturbance,C0152027,0,0,0,"",[],umls_no_optimuskg_match
+826,sensory loss,C0278134,0,0,0,"",[],umls_no_optimuskg_match
+827,sepsis,C0243026,0,0,0,"",[],umls_no_optimuskg_match
+828,septic shock,C0036983,0,0,0,"",[],umls_no_optimuskg_match
+829,serotonin syndrome,C0699828,0,0,0,"",[],umls_no_optimuskg_match
+830,serum sickness,C0036830,0,0,0,"",[],umls_no_optimuskg_match
+831,sexual dysfunction,C0549622,0,0,0,"",[],umls_no_optimuskg_match
+832,shock,C0036974,0,0,0,"",[],umls_no_optimuskg_match
+833,salivary glands inflammation,"",0,0,0,"",[],no_sider_umls
+834,sinus bradycardia,C0085610,0,0,0,"",[],umls_no_optimuskg_match
+835,sinus congestion,C0152029,0,0,0,"",[],umls_no_optimuskg_match
+836,sinus headache,C0037195,0,0,0,"",[],umls_no_optimuskg_match
+837,sinus tachycardia,C0039239,0,0,0,"",[],umls_no_optimuskg_match
+838,sinusitis,C0037199,0,0,0,"",[],umls_no_optimuskg_match
+839,skin atrophy,C0151514,0,0,0,"",[],umls_no_optimuskg_match
+840,skin burning sensation,C0241057,0,0,0,"",[],umls_no_optimuskg_match
+841,skin cancer,C0007114,0,0,0,"",[],umls_no_optimuskg_match
+842,skin discolouration,C0151907,0,0,0,"",[],umls_no_optimuskg_match
+843,skin disorder,C0037274,1,0,1,HP_0000951,[],umls_unique_other
+844,skin exfoliation,C0237849,0,0,0,"",[],umls_no_optimuskg_match
+845,skin hyperpigmentation,C0162834,1,0,1,HP_0000953,[],umls_unique_other
+846,skin hypertrophy,C0151717,0,0,0,"",[],umls_no_optimuskg_match
+847,skin infection,C0037278,0,0,0,"",[],umls_no_optimuskg_match
+848,skin irritation,C0152030,0,0,0,"",[],umls_no_optimuskg_match
+849,skin lesion,C0037284,0,0,0,"",[],umls_no_optimuskg_match
+850,skin mass,C0281981,0,0,0,"",[],umls_no_optimuskg_match
+851,skin odour abnormal,C0234930,0,0,0,"",[],umls_no_optimuskg_match
+852,skin papilloma,C0347390,0,0,0,"",[],umls_no_optimuskg_match
+853,skin striae,C0152459,1,0,1,HP_0001065,[],umls_unique_other
+854,skin ulcer,C0037299,1,0,1,HP_0200042,[],umls_unique_other
+855,sleep apnoea syndrome,C0037315,1,0,1,HP_0010535,[],umls_unique_other
+856,sleep disorder,C0851578,0,0,0,"",[],umls_no_optimuskg_match
+857,sluggishness,C0920289,0,0,0,"",[],umls_no_optimuskg_match
+858,sneezing,C0037383,0,0,0,"",[],umls_no_optimuskg_match
+859,snoring,C0037384,0,0,0,"",[],umls_no_optimuskg_match
+860,somnambulism,C0037672,0,0,0,"",[],umls_no_optimuskg_match
+861,somnolence,C2830004,0,0,0,"",[],umls_no_optimuskg_match
+862,speech disorder,C0037822,1,0,1,HP_0002167,[],umls_unique_other
+863,splenomegaly,C0038002,1,0,1,HP_0001744,[],umls_unique_other
+864,sputum increased,C0235567,0,0,0,"",[],umls_no_optimuskg_match
+865,staphylococcal infection,C0038160,0,0,0,"",[],umls_no_optimuskg_match
+866,status epilepticus,C0038220,0,0,0,"",[],umls_no_optimuskg_match
+867,stevens johnson syndrome,"",0,0,0,"",[],no_sider_umls
+868,sticky skin,C0392162,0,0,0,"",[],umls_no_optimuskg_match
+869,stomatitis,C0038362,0,0,0,"",[],umls_no_optimuskg_match
+870,bladder and urethral symptoms,"",0,0,0,"",[],no_sider_umls
+871,wheezing,C0043144,1,0,1,HP_0030828,[],umls_unique_other
+872,stupor,C0085628,0,0,0,"",[],umls_no_optimuskg_match
+873,subarachnoid haemorrhage,C0038525,0,0,0,"",[],umls_no_optimuskg_match
+874,subdural haematoma,C0018946,1,0,1,HP_0100309,[],umls_unique_other
+875,sudden death,C0011071,1,0,1,HP_0001699,[],umls_unique_other
+876,suicidal ideation,C0424000,0,0,0,"",[],umls_no_optimuskg_match
+877,suicide attempt,C0038663,0,0,0,"",[],umls_no_optimuskg_match
+878,sunburn,C0038814,0,0,0,"",[],umls_no_optimuskg_match
+879,ectopic beats atrial,"",0,0,0,"",[],no_sider_umls
+880,supraventricular tachycardia,C0039240,1,0,1,HP_0004755,[],umls_unique_other
+881,swelling,C0038999,0,0,0,"",[],umls_no_optimuskg_match
+882,swelling face,C0151602,0,0,0,"",[],umls_no_optimuskg_match
+883,syncope,C0039070,1,0,1,HP_0001279,[],umls_unique_other
+884,systemic lupus erythematosus,C0024141,1,0,1,HP_0002725,[],umls_unique_other
+885,tachycardia,C0039231,1,0,1,HP_0001649,[],umls_unique_other
+886,respiration stimulated,"",0,0,0,"",[],no_sider_umls
+887,tardive dyskinesia,C0686347,0,0,0,"",[],umls_no_optimuskg_match
+888,telangiectasia,C0039446,0,0,0,"",[],umls_no_optimuskg_match
+889,temperature intolerance,C1112320,0,0,0,"",[],umls_no_optimuskg_match
+890,tenderness,C0234233,0,0,0,"",[],umls_no_optimuskg_match
+891,tendinous contracture,C0158350,0,0,0,"",[],umls_no_optimuskg_match
+892,tendon disorder,C0151936,0,0,0,"",[],umls_no_optimuskg_match
+893,tendonitis,C0039503,0,0,0,"",[],umls_no_optimuskg_match
+894,tendon sheath inflammation,"",0,0,0,"",[],no_sider_umls
+895,tension,C0233494,0,0,0,"",[],umls_no_optimuskg_match
+896,tension headache,C0033893,1,0,1,HP_0012228,[],umls_unique_other
+897,testicular pain,C0039591,0,0,0,"",[],umls_no_optimuskg_match
+898,tetany,C0039621,1,0,1,HP_0001281,[],umls_unique_other
+899,therapeutic response unexpected,C0853141,0,0,0,"",[],umls_no_optimuskg_match
+900,thinking abnormal,C0233632,0,0,0,"",[],umls_no_optimuskg_match
+901,thirst,C0039971,0,0,0,"",[],umls_no_optimuskg_match
+902,throat irritation,C0700184,0,0,0,"",[],umls_no_optimuskg_match
+903,throat tightness,C0236071,0,0,0,"",[],umls_no_optimuskg_match
+904,thrombocytopenia,C0040034,1,0,1,HP_0001873,[],umls_unique_other
+905,platelets increase,"",0,0,0,"",[],no_sider_umls
+906,thrombophlebitis,C0040046,1,0,1,HP_0004418,[],umls_unique_other
+907,thrombosis,C0040053,1,0,1,HP_0001977,[],umls_unique_other
+908,thrombotic thrombocytopenic purpura,C0034155,0,0,0,"",[],umls_no_optimuskg_match
+909,thyroid disorder,C0040128,1,0,1,HP_0000820,[],umls_unique_other
+910,thyroid neoplasm,C0040136,0,0,0,"",[],umls_no_optimuskg_match
+911,thyroiditis,C0040147,0,0,0,"",[],umls_no_optimuskg_match
+912,tinnitus,C0040264,1,0,1,HP_0000360,[],umls_unique_other
+913,tongue discolouration,C0151596,0,0,0,"",[],umls_no_optimuskg_match
+914,tongue disorder,C0040409,0,0,0,"",[],umls_no_optimuskg_match
+915,tongue oedema,C0151610,0,0,0,"",[],umls_no_optimuskg_match
+916,tongue ulceration,C0235351,0,0,0,"",[],umls_no_optimuskg_match
+917,tonsillitis,C0040425,1,0,1,HP_0011110,[],umls_unique_other
+918,tooth abscess,C0518988,1,0,1,HP_0030757,[],umls_unique_other
+919,tooth disorder,C0040435,0,0,0,"",[],umls_no_optimuskg_match
+920,tooth infection,C0877046,0,0,0,"",[],umls_no_optimuskg_match
+921,toothache,C0040460,0,0,0,"",[],umls_no_optimuskg_match
+922,ventricular arrhythmias and cardiac arrest,"",0,0,0,"",[],no_sider_umls
+923,torticollis,C0040485,1,0,1,HP_0000473,[],umls_unique_other
+924,toxic epidermal necrolysis,C0014518,0,0,0,"",[],umls_no_optimuskg_match
+925,toxicity to various agents,C3160741,0,0,0,"",[],umls_no_optimuskg_match
+926,tracheitis,C0040584,0,0,0,"",[],umls_no_optimuskg_match
+927,trachea bronchus inflammation,"",0,0,0,"",[],no_sider_umls
+928,transaminases increased,C0438717,1,0,1,HP_0002910,[],umls_unique_other
+929,transient ischaemic attack,C0007787,0,0,0,"",[],umls_no_optimuskg_match
+930,tremor,C0040822,1,0,1,HP_0001337,[],umls_unique_other
+931,masseter spasms,"",0,0,0,"",[],no_sider_umls
+932,inflammation of the interstitial tissue of the kidney,"",0,0,0,"",[],no_sider_umls
+933,tumour lysis syndrome,C0041364,0,0,0,"",[],umls_no_optimuskg_match
+934,ulcer,C0041582,0,0,0,"",[],umls_no_optimuskg_match
+935,ulcerative keratitis,C0010043,0,0,0,"",[],umls_no_optimuskg_match
+936,unintended pregnancy,C0041747,0,0,0,"",[],umls_no_optimuskg_match
+937,upper respiratory tract infection,C0041912,0,0,0,"",[],umls_no_optimuskg_match
+938,upper airway cough syndrome,"",0,0,0,"",[],no_sider_umls
+939,urethral disorder,C0041969,0,0,0,"",[],umls_no_optimuskg_match
+940,urethritis,C0041976,0,0,0,"",[],umls_no_optimuskg_match
+941,urethritis non infective,"",0,0,0,"",[],no_sider_umls
+942,urinary hesitation,C0152032,1,0,1,HP_0000019,[],umls_unique_other
+943,urinary incontinence,C0042024,1,0,1,HP_0000020,[],umls_unique_other
+944,urinary retention,C0080274,1,0,1,HP_0000016,[],umls_unique_other
+945,urinary tract disorder,C0042075,0,0,0,"",[],umls_no_optimuskg_match
+946,urinary tract infection,C0042029,0,0,0,"",[],umls_no_optimuskg_match
+947,urine abnormality,C0235639,0,0,0,"",[],umls_no_optimuskg_match
+948,urine analysis abnormal,C0438142,0,0,0,"",[],umls_no_optimuskg_match
+949,urine output increased,C1167965,0,0,0,"",[],umls_no_optimuskg_match
+950,urticaria,C0042109,0,0,0,"",[],umls_no_optimuskg_match
+951,uterine disorder,C0042131,0,0,0,"",[],umls_no_optimuskg_match
+952,uterine haemorrhage,C0042134,0,0,0,"",[],umls_no_optimuskg_match
+953,uterine smooth muscle tumor,"",0,0,0,"",[],no_sider_umls
+954,uterine spasm,C0151998,0,0,0,"",[],umls_no_optimuskg_match
+955,uveitis,C0042164,1,0,1,HP_0000554,[],umls_unique_other
+956,vaginal discharge,C0227791,0,0,0,"",[],umls_no_optimuskg_match
+957,vaginal haemorrhage,C2979982,0,0,0,"",[],umls_no_optimuskg_match
+958,vaginal infection,C0404521,0,0,0,"",[],umls_no_optimuskg_match
+959,varicose vein,C0042345,1,0,1,HP_0002619,[],umls_unique_other
+960,vascular headache,C0042376,0,0,0,"",[],umls_no_optimuskg_match
+961,vascular purpura,C1368065,0,0,0,"",[],umls_no_optimuskg_match
+962,vasculitis,C0042384,1,0,1,HP_0002633,[],umls_unique_other
+963,vasodilation procedure,C1142412,0,0,0,"",[],umls_no_optimuskg_match
+964,vasospasm,C0085616,0,0,0,"",[],umls_no_optimuskg_match
+965,venous thrombosis,C0042487,1,0,1,HP_0004936,[],umls_unique_other
+966,ventricular arrhythmia,C0085612,1,0,1,HP_0004308,[],umls_unique_other
+967,premature ventricular contractions,"",0,0,0,"",[],no_sider_umls
+968,ventricular fibrillation,C0042510,1,0,1,HP_0001663,[],umls_unique_other
+969,ventricular tachycardia,C0042514,0,0,0,"",[],umls_no_optimuskg_match
+970,vertigo,C0042571,1,0,1,HP_0002321,[],umls_unique_other
+971,vestibular disorder,C0042594,0,0,0,"",[],umls_no_optimuskg_match
+972,viral diarrhoea,C0152517,0,0,0,"",[],umls_no_optimuskg_match
+973,viral infection,C0042769,0,0,0,"",[],umls_no_optimuskg_match
+974,viral upper respiratory tract infection,C0339916,0,0,0,"",[],umls_no_optimuskg_match
+975,vision blurred,C0344232,1,0,1,HP_0000622,[],umls_unique_other
+976,visual acuity reduced,C0234632,1,0,1,HP_0007663,[],umls_unique_other
+977,visual impairment,C3665347,1,0,1,HP_0000505,[],umls_unique_other
+978,vomiting,C0042963,1,0,1,HP_0002013,[],umls_unique_other
+979,vulva vaginal candidiasis,"",0,0,0,"",[],no_sider_umls
+980,vulva vaginal dryness,"",0,0,0,"",[],no_sider_umls
+981,vulva vaginal mold infection,"",0,0,0,"",[],no_sider_umls
+982,vulva vaginal pruritus,"",0,0,0,"",[],no_sider_umls
+983,vulva vagina inflammation,"",0,0,0,"",[],no_sider_umls
+984,weight decreased,C0043096,1,0,1,HP_0001824,[],umls_unique_other
+985,weight increased,C0043094,1,0,1,HP_0004324,[],umls_unique_other
+986,wheezing,C0043144,1,0,1,HP_0030828,[],umls_unique_other
+987,white blood cell count decreased,C0750394,0,0,0,"",[],umls_no_optimuskg_match
+988,white blood cell count increased,C0750426,0,0,0,"",[],umls_no_optimuskg_match
+989,withdrawal syndrome,C0038587,0,0,0,"",[],umls_no_optimuskg_match
+990,wound infection,C0043241,0,0,0,"",[],umls_no_optimuskg_match
+991,wound secretion,C0406834,0,0,0,"",[],umls_no_optimuskg_match
+992,dry eye,C0314719,0,0,0,"",[],umls_no_optimuskg_match
+993,yawning,C0043387,0,0,0,"",[],umls_no_optimuskg_match

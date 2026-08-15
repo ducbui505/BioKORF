@@ -1,0 +1,7 @@
+BioKORF biomedical subgraph leakage check
+==========================================
+No direct Drug -> Phenotype edge: PASS
+No ADVERSE_DRUG_REACTION relation: PASS
+No edge file named drug_phenotype.parquet was used: PASS
+No BioKORF drug anchor directly connected to a BioKORF side anchor: PASS
+Overall leakage check: PASS

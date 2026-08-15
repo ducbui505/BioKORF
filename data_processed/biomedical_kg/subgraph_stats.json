@@ -1,0 +1,41 @@
+{
+  "total_nodes": 21829,
+  "total_edges": 524299,
+  "count_by_node_type": {
+    "BIOKORF_DRUG": 757,
+    "BIOKORF_SIDE": 994,
+    "DRUG": 793,
+    "GENE": 16686,
+    "PATHWAY": 2220,
+    "PHENOTYPE": 379
+  },
+  "count_by_relation": {
+    "ACTIVATOR": 3,
+    "AGONIST": 194,
+    "ANTAGONIST": 187,
+    "ASSOCIATED_WITH": 208668,
+    "BLOCKER": 132,
+    "CARRIER": 242,
+    "ENZYME": 2046,
+    "INHIBITOR": 327,
+    "INTERACTS_WITH": 308453,
+    "INVERSE_AGONIST": 2,
+    "MAPS_TO_DRUG": 794,
+    "MAPS_TO_PHENOTYPE": 397,
+    "MODULATOR": 16,
+    "NEGATIVE_ALLOSTERIC_MODULATOR": 8,
+    "OPENER": 7,
+    "PARTIAL_AGONIST": 9,
+    "POSITIVE_ALLOSTERIC_MODULATOR": 214,
+    "POSITIVE_MODULATOR": 20,
+    "TARGET": 1540,
+    "TRANSPORTER": 1040
+  },
+  "biokorf_drug_anchors_with_kg_connection": 730,
+  "biokorf_side_anchors_with_kg_connection": 319,
+  "unique_connected_genes": 16686,
+  "unique_connected_pathways": 2220,
+  "isolated_biokorf_anchors": 702,
+  "drug_anchor_kg_coverage_percentage": 96.43,
+  "side_effect_anchor_kg_coverage_percentage": 32.09
+}

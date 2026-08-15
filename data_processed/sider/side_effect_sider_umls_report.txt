@@ -1,0 +1,1644 @@
+BioKORF side-effect SIDER/MedDRA PT UMLS recovery
+=======================================================
+SIDER input: D:\Duc\BioKORF\kg\sider\meddra_freq.tsv\meddra_freq.tsv
+Input type: plain tab-separated text (not gzip)
+Detected column-count frequencies: {10: 291632}
+Appears to contain a header: False
+First row: ['CID100000085', 'CID000010917', 'C0000737', '', '21%', '0.21', '0.21', 'LLT', 'C0000737', 'Abdominal pain']
+Total SIDER rows: 291632
+MedDRA PT rows: 154507
+Observed positional fields used (zero-based): 0=STITCH flat chemical ID, 1=STITCH stereo chemical ID, 7=MedDRA concept type, 8=MedDRA-term UMLS CUI, 9=MedDRA term name
+
+Total BioKORF side effects: 994
+unique_umls: 825
+multiple_umls: 0
+unmatched: 169
+SIDER/UMLS coverage percentage: 83.00%
+
+Detailed requested terms
+------------------------
+abdominal discomfort
+  matrix_index: 0
+  side_effect_name: abdominal discomfort
+  sider_found: True
+  sider_pt_row_count: 265
+  umls_cui_count: 1
+  umls_cuis: ["C0232487"]
+  matched_meddra_names: ["Abdominal discomfort"]
+  mapping_status: unique_umls
+
+abdominal distension
+  matrix_index: 1
+  side_effect_name: abdominal distension
+  sider_found: True
+  sider_pt_row_count: 267
+  umls_cui_count: 1
+  umls_cuis: ["C0000731"]
+  matched_meddra_names: ["Abdominal distension"]
+  mapping_status: unique_umls
+
+abdominal pain
+  matrix_index: 2
+  side_effect_name: abdominal pain
+  sider_found: True
+  sider_pt_row_count: 2033
+  umls_cui_count: 1
+  umls_cuis: ["C0000737"]
+  matched_meddra_names: ["Abdominal pain"]
+  mapping_status: unique_umls
+
+nausea
+  matrix_index: 621
+  side_effect_name: nausea
+  sider_found: True
+  sider_pt_row_count: 3957
+  umls_cui_count: 1
+  umls_cuis: ["C0027497"]
+  matched_meddra_names: ["Nausea"]
+  mapping_status: unique_umls
+
+vomiting
+  matrix_index: 978
+  side_effect_name: vomiting
+  sider_found: True
+  sider_pt_row_count: 2889
+  umls_cui_count: 1
+  umls_cuis: ["C0042963"]
+  matched_meddra_names: ["Vomiting"]
+  mapping_status: unique_umls
+
+headache
+  matrix_index: 401
+  side_effect_name: headache
+  sider_found: True
+  sider_pt_row_count: 3732
+  umls_cui_count: 1
+  umls_cuis: ["C0018681"]
+  matched_meddra_names: ["Headache"]
+  mapping_status: unique_umls
+
+dizziness
+  matrix_index: 252
+  side_effect_name: dizziness
+  sider_found: True
+  sider_pt_row_count: 3207
+  umls_cui_count: 1
+  umls_cuis: ["C0012833"]
+  matched_meddra_names: ["Dizziness"]
+  mapping_status: unique_umls
+
+dry eye
+  matrix_index: 992
+  side_effect_name: dry eye
+  sider_found: True
+  sider_pt_row_count: 125
+  umls_cui_count: 1
+  umls_cuis: ["C0314719"]
+  matched_meddra_names: ["Dry eye"]
+  mapping_status: unique_umls
+
+proteinuria
+  matrix_index: 754
+  side_effect_name: proteinuria
+  sider_found: True
+  sider_pt_row_count: 102
+  umls_cui_count: 1
+  umls_cuis: ["C0033687"]
+  matched_meddra_names: ["Proteinuria"]
+  mapping_status: unique_umls
+
+wheezing
+  matrix_index: 986
+  side_effect_name: wheezing
+  sider_found: True
+  sider_pt_row_count: 95
+  umls_cui_count: 1
+  umls_cuis: ["C0043144"]
+  matched_meddra_names: ["Wheezing"]
+  mapping_status: unique_umls
+
+All multiple-UMLS terms
+-----------------------
+  None
+All unmatched terms
+-------------------
+  matrix_index: 19
+  side_effect_name: loss of taste
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 24
+  side_effect_name: can not exercise
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 30
+  side_effect_name: other allergic pneumonitis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 36
+  side_effect_name: anaemia large cell
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 40
+  side_effect_name: anaphylaxis reaction
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 49
+  side_effect_name: inability to orgasm
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 52
+  side_effect_name: arrest of urinary output
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 65
+  side_effect_name: application site paresthesia
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 76
+  side_effect_name: other symptoms referable to lower leg joint
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 81
+  side_effect_name: eye strain
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 91
+  side_effect_name: syndrome uremic
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 93
+  side_effect_name: bloodstream infections
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 104
+  side_effect_name: dermatitis eyelid
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 105
+  side_effect_name: spasm eyelid
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 113
+  side_effect_name: creatine kinase high
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 133
+  side_effect_name: loss of motor function
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 145
+  side_effect_name: reactive airways disease
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 163
+  side_effect_name: cardiac dilatation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 183
+  side_effect_name: biliary sludge
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 185
+  side_effect_name: chorea and atheletes disease
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 186
+  side_effect_name: color vision change
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 187
+  side_effect_name: urine discolouration
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 199
+  side_effect_name: confusion state
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 202
+  side_effect_name: congestion conjunctival
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 216
+  side_effect_name: regional enteritis of unspecified site
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 218
+  side_effect_name: cushing syndrome
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 223
+  side_effect_name: cystitis non infective
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 235
+  side_effect_name: feeling unreal
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 237
+  side_effect_name: dermatitis acne
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 241
+  side_effect_name: dermatitis exfoliating
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 262
+  side_effect_name: duodenal inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 263
+  side_effect_name: paresthesia
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 265
+  side_effect_name: bad taste
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 267
+  side_effect_name: menses painful
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 273
+  side_effect_name: air hunger
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 274
+  side_effect_name: air hunger exertional
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 275
+  side_effect_name: urinary spray
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 279
+  side_effect_name: bruise
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 296
+  side_effect_name: ophthalmia
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 305
+  side_effect_name: gas raising
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 313
+  side_effect_name: bone spur
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 315
+  side_effect_name: cardiac complex
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 328
+  side_effect_name: fecal impaction
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 329
+  side_effect_name: fecal impaction causing obstruction
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 346
+  side_effect_name: halitosis of liver disease
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 352
+  side_effect_name: boil in nose
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 354
+  side_effect_name: female lactation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 355
+  side_effect_name: gamma glutamine transfer enzyme increased
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 367
+  side_effect_name: esophageal reflux
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 375
+  side_effect_name: burning tongue
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 377
+  side_effect_name: diabetes
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 381
+  side_effect_name: breast enlargement male
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 382
+  side_effect_name: emesis bloody
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 383
+  side_effect_name: blood in stool
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 384
+  side_effect_name: packed cell volume decreased
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 386
+  side_effect_name: urinary tract bleed microscopic
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 390
+  side_effect_name: haemolytic uremia syndrome
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 391
+  side_effect_name: blood streaked sputum
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 395
+  side_effect_name: hemorrhoids
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 410
+  side_effect_name: hepatitis cholestasis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 425
+  side_effect_name: venous congestion
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 426
+  side_effect_name: allodynia mechanical
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 427
+  side_effect_name: bilirubin blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 428
+  side_effect_name: high calcium blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 429
+  side_effect_name: high calcium urine
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 430
+  side_effect_name: high cholesterol blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 431
+  side_effect_name: high blood sugar
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 433
+  side_effect_name: high potassium blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 435
+  side_effect_name: movement function hyperactivity
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 436
+  side_effect_name: high lactic acid blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 437
+  side_effect_name: high levels of lipids
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 438
+  side_effect_name: high magnesium blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 439
+  side_effect_name: salt retention
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 440
+  side_effect_name: pain allergy
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 441
+  side_effect_name: high phosphorus blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 442
+  side_effect_name: exaggerated reflexes
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 444
+  side_effect_name: sleep excessive
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 447
+  side_effect_name: tone increased
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 449
+  side_effect_name: high glycerin three ester blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 450
+  side_effect_name: high uric acid blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 452
+  side_effect_name: body numbness
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 453
+  side_effect_name: body numbness oral
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 454
+  side_effect_name: low albumin blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 455
+  side_effect_name: low calcium blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 456
+  side_effect_name: low chlorine blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 457
+  side_effect_name: chlorosis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 458
+  side_effect_name: hypoglycemia
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 459
+  side_effect_name: drenching sweats
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 460
+  side_effect_name: potassium deficiency
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 461
+  side_effect_name: activity motor retarded
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 462
+  side_effect_name: low magnesium blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 464
+  side_effect_name: low sodium blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 465
+  side_effect_name: phosphorus low blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 466
+  side_effect_name: potassium deficiency
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 467
+  side_effect_name: diminished reflexes
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 486
+  side_effect_name: hardening
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 498
+  side_effect_name: injection site hardening
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 514
+  side_effect_name: iris inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 520
+  side_effect_name: obstructive jaundice
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 526
+  side_effect_name: inner ear infection
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 535
+  side_effect_name: laryngeal spasm
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 543
+  side_effect_name: mossy keratosis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 559
+  side_effect_name: lymphocyte excess
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 560
+  side_effect_name: lymph edema
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 561
+  side_effect_name: lymph tumor
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 562
+  side_effect_name: lymph cell cut back
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 570
+  side_effect_name: blood clot excretion
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 582
+  side_effect_name: break through bleeding
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 583
+  side_effect_name: urination disorder
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 584
+  side_effect_name: urination urgency
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 587
+  side_effect_name: single core cell increase
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 620
+  side_effect_name: nose pharynx inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 626
+  side_effect_name: calculus kidney
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 639
+  side_effect_name: neutrophil deficiency
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 644
+  side_effect_name: nocturnal enuresis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 647
+  side_effect_name: non cardiac chest pain
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 648
+  side_effect_name: non hodgkin lymphoma
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 652
+  side_effect_name: ocular venous congestion
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 653
+  side_effect_name: oculomotor spasm
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 654
+  side_effect_name: swallowing painful
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 660
+  side_effect_name: esophagus inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 661
+  side_effect_name: urine less
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 669
+  side_effect_name: testis inflammation non infective
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 680
+  side_effect_name: ear toxicity
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 694
+  side_effect_name: eyelid inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 695
+  side_effect_name: nipple edema
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 697
+  side_effect_name: feeling abnormal oral
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 702
+  side_effect_name: disturbances of sensation of smell and taste
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 724
+  side_effect_name: flash vision
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 728
+  side_effect_name: tumor plasma cell
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 732
+  side_effect_name: pleural pain
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 736
+  side_effect_name: urinary frequency increased
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 737
+  side_effect_name: increase in the total amount of red blood cells in the blood
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 743
+  side_effect_name: syncope vertigo
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 746
+  side_effect_name: anal pain
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 747
+  side_effect_name: rectum inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 757
+  side_effect_name: itch rash
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 761
+  side_effect_name: falsehood lymph tumor
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 776
+  side_effect_name: urine purulent
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 782
+  side_effect_name: macula papules rash
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 786
+  side_effect_name: defecation urge painful
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 810
+  side_effect_name: mucous nasal increased
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 811
+  side_effect_name: dry rales
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 815
+  side_effect_name: increased salivation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 816
+  side_effect_name: oviduct inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 818
+  side_effect_name: reaction schizoid
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 820
+  side_effect_name: sclera inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 822
+  side_effect_name: seborrheic dermatitis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 823
+  side_effect_name: seborrheic keratosis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 833
+  side_effect_name: salivary glands inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 867
+  side_effect_name: stevens johnson syndrome
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 870
+  side_effect_name: bladder and urethral symptoms
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 879
+  side_effect_name: ectopic beats atrial
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 886
+  side_effect_name: respiration stimulated
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 894
+  side_effect_name: tendon sheath inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 905
+  side_effect_name: platelets increase
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 922
+  side_effect_name: ventricular arrhythmias and cardiac arrest
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 927
+  side_effect_name: trachea bronchus inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 931
+  side_effect_name: masseter spasms
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 932
+  side_effect_name: inflammation of the interstitial tissue of the kidney
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 938
+  side_effect_name: upper airway cough syndrome
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 941
+  side_effect_name: urethritis non infective
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 953
+  side_effect_name: uterine smooth muscle tumor
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 967
+  side_effect_name: premature ventricular contractions
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 979
+  side_effect_name: vulva vaginal candidiasis
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 980
+  side_effect_name: vulva vaginal dryness
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 981
+  side_effect_name: vulva vaginal mold infection
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 982
+  side_effect_name: vulva vaginal pruritus
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
+
+  matrix_index: 983
+  side_effect_name: vulva vagina inflammation
+  sider_found: False
+  sider_pt_row_count: 0
+  umls_cui_count: 0
+  umls_cuis: []
+  matched_meddra_names: []
+  mapping_status: unmatched
