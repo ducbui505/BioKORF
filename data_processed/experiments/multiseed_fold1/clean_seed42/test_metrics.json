@@ -1,0 +1,89 @@
+{
+  "accuracy": 0.690291521797272,
+  "macro_precision": 0.6542610543148646,
+  "macro_recall": 0.6263290308571312,
+  "macro_f1": 0.6378239655980125,
+  "micro_f1": 0.690291521797272,
+  "aupr": 0.7079465584659003,
+  "confusion_matrix": [
+    [
+      62,
+      15,
+      19,
+      17,
+      6
+    ],
+    [
+      11,
+      266,
+      115,
+      25,
+      3
+    ],
+    [
+      10,
+      131,
+      628,
+      223,
+      9
+    ],
+    [
+      7,
+      29,
+      194,
+      1384,
+      163
+    ],
+    [
+      0,
+      2,
+      12,
+      167,
+      241
+    ]
+  ],
+  "per_class": {
+    "1": {
+      "precision": 0.6888888888888889,
+      "recall": 0.5210084033613446,
+      "f1": 0.5933014354066986,
+      "support": 119
+    },
+    "2": {
+      "precision": 0.600451467268623,
+      "recall": 0.6333333333333333,
+      "f1": 0.6164542294322132,
+      "support": 420
+    },
+    "3": {
+      "precision": 0.6487603305785123,
+      "recall": 0.6273726273726273,
+      "f1": 0.637887252412392,
+      "support": 1001
+    },
+    "4": {
+      "precision": 0.762114537444934,
+      "recall": 0.7788407428249859,
+      "f1": 0.7703868633453939,
+      "support": 1777
+    },
+    "5": {
+      "precision": 0.5710900473933649,
+      "recall": 0.5710900473933649,
+      "f1": 0.5710900473933649,
+      "support": 422
+    }
+  },
+  "model": "clean",
+  "seed": 42,
+  "selected_epoch": 28,
+  "selection_metric": "validation_macro_f1",
+  "best_validation_macro_f1": 0.6575894388988544,
+  "test_evaluation_policy": "one evaluation after validation-only model selection",
+  "checks": {
+    "experiment_fairness": true,
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "frozen_kg": true
+  }
+}

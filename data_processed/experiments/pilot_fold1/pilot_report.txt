@@ -1,0 +1,35 @@
+BioKORF fold-1 clean versus frozen-KG pilot
+============================================
+Fold: 1
+Seed: 42
+Epochs: 5
+Device: cuda
+Samples total/train/validation/test: 37387/30284/3364/3739
+Split file: D:\Duc\BioKORF\data_processed\experiments\pilot_fold1_split.npz
+Outer split: original StratifiedKFold(10, shuffle=True, random_state=42), first fold as test
+Validation split: 10% stratified from non-test development data, random_state=42
+Optimizer both models: Adam(lr=0.0001, weight_decay=1e-05)
+Training objective both models: CrossEntropy + 0.001*KL + 0.0001*EN-con reconstruction + 0.0001*EN-add reconstruction
+Evaluation BVI policy both models: eval mode returns latent=mu deterministically; no sampling
+Model selection: maximum validation Macro-F1 within epochs 1..5; test never consulted
+Clean parameters trainable/total: 9031755/9031755
+Clean+KG parameters trainable/total: 9427275/9427275
+Common MSSF initialization identical: PASS
+Clean best epoch/validation Macro-F1: 5/0.59194609
+Clean+KG best epoch/validation Macro-F1: 5/0.59840314
+Clean test accuracy/Macro-F1/AUPR: 0.64883659/0.59007617/0.64688148
+Clean+KG test accuracy/Macro-F1/AUPR: 0.66140679/0.58078764/0.65780471
+Delta KG-clean accuracy/Macro-F1/AUPR: 0.01257021/-0.00928853/0.01092324
+Final clean+KG test gate category means:
+- drug available, side available: 0.43748790
+- drug available, side unavailable: 0.45269966
+- drug unavailable, side available: 0.45994857
+- neither available: 0.47822094
+FROZEN KG CHECK: PASS
+LABEL-DERIVED FEATURE LEAKAGE CHECK: PASS
+Drug-Phenotype graph leakage check: PASS
+EXPERIMENT FAIRNESS CHECK: PASS
+LEAKAGE CHECK: PASS
+Protected-file safety check: PASS
+Test evaluations performed after selection: exactly one per model
+Ordinal learning/new attention/alignment/R-GCN fine-tuning/KG rewiring: none

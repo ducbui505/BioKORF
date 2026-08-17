@@ -1,0 +1,49 @@
+{
+  "models": {
+    "clean": {
+      "best_epoch": 28,
+      "best_validation_macro_f1": 0.6575894388988544,
+      "accuracy": 0.690291521797272,
+      "macro_precision": 0.6542610543148646,
+      "macro_recall": 0.6263290308571312,
+      "macro_f1": 0.6378239655980125,
+      "micro_f1": 0.690291521797272,
+      "aupr": 0.7079465584659003,
+      "epochs_ran": 30
+    },
+    "drug_kg": {
+      "best_epoch": 22,
+      "best_validation_macro_f1": 0.6441581585408397,
+      "accuracy": 0.6951056432201124,
+      "macro_precision": 0.6578432315666712,
+      "macro_recall": 0.6360607923294477,
+      "macro_f1": 0.6443794562888923,
+      "micro_f1": 0.6951056432201124,
+      "aupr": 0.7051928204876207,
+      "epochs_ran": 29
+    },
+    "drug_side_kg": {
+      "best_epoch": 26,
+      "best_validation_macro_f1": 0.6503851115345582,
+      "accuracy": 0.6932334848890077,
+      "macro_precision": 0.6567464892505015,
+      "macro_recall": 0.6192510672877718,
+      "macro_f1": 0.6340805785144128,
+      "micro_f1": 0.6932334848890077,
+      "aupr": 0.70950982643341,
+      "epochs_ran": 30
+    }
+  },
+  "delta_vs_clean": {
+    "drug_kg": {
+      "accuracy": 0.004814121422840323,
+      "macro_f1": 0.006555490690879795,
+      "aupr": -0.0027537379782796023
+    },
+    "drug_side_kg": {
+      "accuracy": 0.0029419630917356665,
+      "macro_f1": -0.0037433870835996697,
+      "aupr": 0.0015632679675097183
+    }
+  }
+}

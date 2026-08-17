@@ -1,0 +1,39 @@
+BioKORF extended Fold-1 KG ablation
+====================================
+Seed: 42
+Fixed split (read-only): D:\Duc\BioKORF\data_processed\experiments\pilot_fold1_split.npz
+Samples train/validation/test: 30284/3364/3739
+Maximum epochs: 30
+Early-stopping patience: 7
+Selection metric: validation Macro-F1
+Optimizer for all models: Adam(lr=0.0001, weight_decay=1e-05)
+Batch size for all models: 128
+Evaluation BVI policy: model.eval() returns latent=mu without sampling
+Test evaluation policy: exactly once per validation-selected checkpoint
+DRUG_KG isolation: side embedding and side availability mask are zero before KG projection
+
+Model | Best epoch | Accuracy | Macro-F1 | AUPR
+--- | ---: | ---: | ---: | ---:
+CLEAN | 28 | 0.69029152 | 0.63782397 | 0.70794656
+DRUG_KG | 22 | 0.69510564 | 0.64437946 | 0.70519282
+DRUG_SIDE_KG | 26 | 0.69323348 | 0.63408058 | 0.70950983
+
+Deltas relative to CLEAN:
+- DRUG_KG accuracy=+0.00481412, Macro-F1=+0.00655549, AUPR=-0.00275374
+- DRUG_SIDE_KG accuracy=+0.00294196, Macro-F1=-0.00374339, AUPR=+0.00156327
+
+Per-class F1:
+- Class 1 (support 119): CLEAN=0.59330144, DRUG_KG=0.64166667, DRUG_SIDE_KG=0.62068966
+- Class 2 (support 420): CLEAN=0.61645423, DRUG_KG=0.60414129, DRUG_SIDE_KG=0.60922330
+- Class 3 (support 1001): CLEAN=0.63788725, DRUG_KG=0.64748201, DRUG_SIDE_KG=0.63341646
+- Class 4 (support 1777): CLEAN=0.77038686, DRUG_KG=0.77650988, DRUG_SIDE_KG=0.78119935
+- Class 5 (support 422): CLEAN=0.57109005, DRUG_KG=0.55209743, DRUG_SIDE_KG=0.52587413
+
+EXPERIMENT FAIRNESS CHECK: PASS
+LABEL-DERIVED FEATURE LEAKAGE CHECK: PASS
+DRUG-PHENOTYPE LEAKAGE CHECK: PASS
+FROZEN KG CHECK: PASS
+Previous split/pilot outputs unchanged: PASS
+Protected model files unchanged: PASS
+Ordinal learning/attention/R-GCN fine-tuning/KG modification: none
+Gate values are descriptive diagnostics and are not interpreted as causal importance.

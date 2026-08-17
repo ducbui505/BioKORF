@@ -1,0 +1,23 @@
+BioKORF MSSF-clean smoke test
+==============================
+Device: cuda
+Training performed: no
+KG embeddings loaded: no
+New attention added: no
+Cross-minibatch attention present: no
+EN-con shape: (4, 128)
+EN-add shape: (4, 128)
+CNN-im shape: (4, 128)
+H_pair shape: (4, 384)
+Latent shape: (4, 64)
+Logits shape: (4, 5)
+drug_index shape: (4,)
+side_effect_index shape: (4,)
+labels shape: (4,)
+Index preservation check: PASS
+Batch-independence check: PASS
+Finite tensor check: PASS
+CrossEntropyLoss finite check: PASS
+Original MSSF files unchanged: PASS
+mssf.py SHA256: 4867fecd04beabb2d715b24073f82a46bd572c13294afa3565ddba99f963fdb1
+model.py SHA256: 9c0d4bf17551a7d0f881a29e0f8e2727227f3561678064fec46f2848156a1e75

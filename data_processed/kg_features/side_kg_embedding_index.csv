@@ -1,0 +1,995 @@
+matrix_index,biokorf_side_id,side_effect_name,kg_available,embedding_row
+0,BIOKORF_SIDE_000,abdominal discomfort,False,0
+1,BIOKORF_SIDE_001,abdominal distension,True,1
+2,BIOKORF_SIDE_002,abdominal pain,True,2
+3,BIOKORF_SIDE_003,abdominal pain lower,False,3
+4,BIOKORF_SIDE_004,abdominal pain upper,False,4
+5,BIOKORF_SIDE_005,abnormal behaviour,True,5
+6,BIOKORF_SIDE_006,abnormal dreams,True,6
+7,BIOKORF_SIDE_007,abnormal faeces,False,7
+8,BIOKORF_SIDE_008,abscess,False,8
+9,BIOKORF_SIDE_009,accommodation disorder,False,9
+10,BIOKORF_SIDE_010,acidosis,True,10
+11,BIOKORF_SIDE_011,acne,True,11
+12,BIOKORF_SIDE_012,actinic keratosis,False,12
+13,BIOKORF_SIDE_013,acute coronary syndrome,False,13
+14,BIOKORF_SIDE_014,acute myocardial infarction,False,14
+15,BIOKORF_SIDE_015,acute respiratory distress syndrome,True,15
+16,BIOKORF_SIDE_016,adrenal insufficiency,False,16
+17,BIOKORF_SIDE_017,affect lability,False,17
+18,BIOKORF_SIDE_018,affective disorder,False,18
+19,BIOKORF_SIDE_019,loss of taste,False,19
+20,BIOKORF_SIDE_020,aggression,True,20
+21,BIOKORF_SIDE_021,agitation,True,21
+22,BIOKORF_SIDE_022,agranulocytosis,True,22
+23,BIOKORF_SIDE_023,akathisia,True,23
+24,BIOKORF_SIDE_024,can not exercise,False,24
+25,BIOKORF_SIDE_025,alanine aminotransferase increased,False,25
+26,BIOKORF_SIDE_026,proteinuria,True,26
+27,BIOKORF_SIDE_027,alcohol intolerance,False,27
+28,BIOKORF_SIDE_028,alopecia,True,28
+29,BIOKORF_SIDE_029,altered state of consciousness,False,29
+30,BIOKORF_SIDE_030,other allergic pneumonitis,False,30
+31,BIOKORF_SIDE_031,amblyopia,True,31
+32,BIOKORF_SIDE_032,amenorrhoea,False,32
+33,BIOKORF_SIDE_033,amnesia,True,33
+34,BIOKORF_SIDE_034,amylase increased,False,34
+35,BIOKORF_SIDE_035,anaemia,True,35
+36,BIOKORF_SIDE_036,anaemia large cell,False,36
+37,BIOKORF_SIDE_037,anaemia megaloblastic,True,37
+38,BIOKORF_SIDE_038,anal pruritus,False,38
+39,BIOKORF_SIDE_039,anaphylactic shock,False,39
+40,BIOKORF_SIDE_040,anaphylaxis reaction,False,40
+41,BIOKORF_SIDE_041,aneurysm,True,41
+42,BIOKORF_SIDE_042,anger,False,42
+43,BIOKORF_SIDE_043,angina pectoris,False,43
+44,BIOKORF_SIDE_044,angioedema,True,44
+45,BIOKORF_SIDE_045,angiopathy,False,45
+46,BIOKORF_SIDE_046,angle closure glaucoma,False,46
+47,BIOKORF_SIDE_047,anorectal discomfort,False,47
+48,BIOKORF_SIDE_048,anorectal disorder,False,48
+49,BIOKORF_SIDE_049,inability to orgasm,False,49
+50,BIOKORF_SIDE_050,antisocial behaviour,False,50
+51,BIOKORF_SIDE_051,antisocial personality disorder,False,51
+52,BIOKORF_SIDE_052,arrest of urinary output,False,52
+53,BIOKORF_SIDE_053,anxiety,True,53
+54,BIOKORF_SIDE_054,apathy,True,54
+55,BIOKORF_SIDE_055,aphasia,True,55
+56,BIOKORF_SIDE_056,aplasia pure red cell,True,56
+57,BIOKORF_SIDE_057,aplastic anaemia,True,57
+58,BIOKORF_SIDE_058,apnoea,True,58
+59,BIOKORF_SIDE_059,appendicitis,False,59
+60,BIOKORF_SIDE_060,application site burn,False,60
+61,BIOKORF_SIDE_061,application site dryness,False,61
+62,BIOKORF_SIDE_062,application site erythema,False,62
+63,BIOKORF_SIDE_063,application site irritation,False,63
+64,BIOKORF_SIDE_064,application site pain,False,64
+65,BIOKORF_SIDE_065,application site paresthesia,False,65
+66,BIOKORF_SIDE_066,application site pruritus,False,66
+67,BIOKORF_SIDE_067,application site rash,False,67
+68,BIOKORF_SIDE_068,application site reaction,False,68
+69,BIOKORF_SIDE_069,application site vesicles,False,69
+70,BIOKORF_SIDE_070,apraxia,False,70
+71,BIOKORF_SIDE_071,arrhythmia,True,71
+72,BIOKORF_SIDE_072,arrhythmia supraventricular,False,72
+73,BIOKORF_SIDE_073,arteriosclerosis,False,73
+74,BIOKORF_SIDE_074,arthralgia,True,74
+75,BIOKORF_SIDE_075,arthritis,True,75
+76,BIOKORF_SIDE_076,other symptoms referable to lower leg joint,False,76
+77,BIOKORF_SIDE_077,ascites,True,77
+78,BIOKORF_SIDE_078,asocial behaviour,False,78
+79,BIOKORF_SIDE_079,aspartate aminotransferase increased,False,79
+80,BIOKORF_SIDE_080,asthenia,True,80
+81,BIOKORF_SIDE_081,eye strain,False,81
+82,BIOKORF_SIDE_082,asthma,True,82
+83,BIOKORF_SIDE_083,ataxia,True,83
+84,BIOKORF_SIDE_084,atelectasis,False,84
+85,BIOKORF_SIDE_085,atrial fibrillation,True,85
+86,BIOKORF_SIDE_086,atrial flutter,False,86
+87,BIOKORF_SIDE_087,atrioventricular block,False,87
+88,BIOKORF_SIDE_088,atrioventricular block complete,False,88
+89,BIOKORF_SIDE_089,atrioventricular block first degree,True,89
+90,BIOKORF_SIDE_090,autonomic nervous system imbalance,False,90
+91,BIOKORF_SIDE_091,syndrome uremic,False,91
+92,BIOKORF_SIDE_092,back pain,True,92
+93,BIOKORF_SIDE_093,bloodstream infections,False,93
+94,BIOKORF_SIDE_094,bacterial infection,False,94
+95,BIOKORF_SIDE_095,balance disorder,False,95
+96,BIOKORF_SIDE_096,basal cell carcinoma,False,96
+97,BIOKORF_SIDE_097,benign neoplasm of skin,False,97
+98,BIOKORF_SIDE_098,biliary colic,False,98
+99,BIOKORF_SIDE_099,bipolar disorder,False,99
+100,BIOKORF_SIDE_100,bipolar i disorder,False,100
+101,BIOKORF_SIDE_101,bladder cancer,False,101
+102,BIOKORF_SIDE_102,bladder pain,False,102
+103,BIOKORF_SIDE_103,bleeding time prolonged,True,103
+104,BIOKORF_SIDE_104,dermatitis eyelid,False,104
+105,BIOKORF_SIDE_105,spasm eyelid,False,105
+106,BIOKORF_SIDE_106,blindness,True,106
+107,BIOKORF_SIDE_107,blister,False,107
+108,BIOKORF_SIDE_108,blood albumin decreased,False,108
+109,BIOKORF_SIDE_109,blood alkaline phosphatase increased,False,109
+110,BIOKORF_SIDE_110,blood bilirubin increased,True,110
+111,BIOKORF_SIDE_111,blood calcium decreased,False,111
+112,BIOKORF_SIDE_112,blood cholesterol increased,False,112
+113,BIOKORF_SIDE_113,creatine kinase high,False,113
+114,BIOKORF_SIDE_114,blood creatinine increased,False,114
+115,BIOKORF_SIDE_115,blood disorder,True,115
+116,BIOKORF_SIDE_116,blood glucose decreased,False,116
+117,BIOKORF_SIDE_117,blood glucose increased,False,117
+118,BIOKORF_SIDE_118,blood lactate dehydrogenase increased,False,118
+119,BIOKORF_SIDE_119,blood phosphorus decreased,False,119
+120,BIOKORF_SIDE_120,blood potassium decreased,False,120
+121,BIOKORF_SIDE_121,blood potassium increased,False,121
+122,BIOKORF_SIDE_122,blood pressure increased,True,122
+123,BIOKORF_SIDE_123,blood prolactin increased,False,123
+124,BIOKORF_SIDE_124,blood triglycerides increased,False,124
+125,BIOKORF_SIDE_125,blood urea increased,True,125
+126,BIOKORF_SIDE_126,blood uric acid increased,False,126
+127,BIOKORF_SIDE_127,blood urine present,False,127
+128,BIOKORF_SIDE_128,body temperature decreased,True,128
+129,BIOKORF_SIDE_129,body temperature increased,True,129
+130,BIOKORF_SIDE_130,bone disorder,False,130
+131,BIOKORF_SIDE_131,bone pain,True,131
+132,BIOKORF_SIDE_132,bradycardia,True,132
+133,BIOKORF_SIDE_133,loss of motor function,False,133
+134,BIOKORF_SIDE_134,brain oedema,False,134
+135,BIOKORF_SIDE_135,breast cancer,False,135
+136,BIOKORF_SIDE_136,breast discharge,False,136
+137,BIOKORF_SIDE_137,breast disorder,False,137
+138,BIOKORF_SIDE_138,breast engorgement,False,138
+139,BIOKORF_SIDE_139,breast enlargement,True,139
+140,BIOKORF_SIDE_140,breast neoplasm,False,140
+141,BIOKORF_SIDE_141,breast pain,False,141
+142,BIOKORF_SIDE_142,breast tenderness,False,142
+143,BIOKORF_SIDE_143,breath odour,False,143
+144,BIOKORF_SIDE_144,breath sounds abnormal,False,144
+145,BIOKORF_SIDE_145,reactive airways disease,False,145
+146,BIOKORF_SIDE_146,bronchitis,False,146
+147,BIOKORF_SIDE_147,bronchospasm,True,147
+148,BIOKORF_SIDE_148,bronchospasm paradoxical,False,148
+149,BIOKORF_SIDE_149,bruxism,False,149
+150,BIOKORF_SIDE_150,bundle branch block,False,150
+151,BIOKORF_SIDE_151,burning sensation,False,151
+152,BIOKORF_SIDE_152,bursitis,False,152
+153,BIOKORF_SIDE_153,cachexia,True,153
+154,BIOKORF_SIDE_154,candida infection,False,154
+155,BIOKORF_SIDE_155,cardiac arrest,False,155
+156,BIOKORF_SIDE_156,cardiac disorder,True,156
+157,BIOKORF_SIDE_157,cardiac failure,True,157
+158,BIOKORF_SIDE_158,cardiac failure congestive,True,158
+159,BIOKORF_SIDE_159,cardiac flutter,False,159
+160,BIOKORF_SIDE_160,cardiac murmur,True,160
+161,BIOKORF_SIDE_161,cardiac output decreased,False,161
+162,BIOKORF_SIDE_162,cardiogenic shock,False,162
+163,BIOKORF_SIDE_163,cardiac dilatation,False,163
+164,BIOKORF_SIDE_164,cardiomyopathy,False,164
+165,BIOKORF_SIDE_165,cardiovascular disorder,True,165
+166,BIOKORF_SIDE_166,carpal tunnel syndrome,False,166
+167,BIOKORF_SIDE_167,cataract,True,167
+168,BIOKORF_SIDE_168,catheter site pain,False,168
+169,BIOKORF_SIDE_169,cellulitis,True,169
+170,BIOKORF_SIDE_170,cerebellar syndrome,False,170
+171,BIOKORF_SIDE_171,cerebral haemorrhage,False,171
+172,BIOKORF_SIDE_172,cerebral infarction,True,172
+173,BIOKORF_SIDE_173,cerebral ischaemia,True,173
+174,BIOKORF_SIDE_174,cerebrovascular accident,True,174
+175,BIOKORF_SIDE_175,cerebrovascular disorder,False,175
+176,BIOKORF_SIDE_176,cervix disorder,False,176
+177,BIOKORF_SIDE_177,change of bowel habit,False,177
+178,BIOKORF_SIDE_178,cheilitis,True,178
+179,BIOKORF_SIDE_179,chest discomfort,False,179
+180,BIOKORF_SIDE_180,chest pain,True,180
+181,BIOKORF_SIDE_181,chills,True,181
+182,BIOKORF_SIDE_182,cholecystitis,True,182
+183,BIOKORF_SIDE_183,biliary sludge,False,183
+184,BIOKORF_SIDE_184,cholestasis,True,184
+185,BIOKORF_SIDE_185,chorea and atheletes disease,False,185
+186,BIOKORF_SIDE_186,color vision change,False,186
+187,BIOKORF_SIDE_187,urine discolouration,False,187
+188,BIOKORF_SIDE_188,chronic obstructive pulmonary disease,False,188
+189,BIOKORF_SIDE_189,clostridium difficile colitis,False,189
+190,BIOKORF_SIDE_190,coagulopathy,True,190
+191,BIOKORF_SIDE_191,cognitive disorder,False,191
+192,BIOKORF_SIDE_192,cold sweat,False,192
+193,BIOKORF_SIDE_193,colitis,True,193
+194,BIOKORF_SIDE_194,colitis ischaemic,False,194
+195,BIOKORF_SIDE_195,colitis ulcerative,False,195
+196,BIOKORF_SIDE_196,coma,True,196
+197,BIOKORF_SIDE_197,completed suicide,False,197
+198,BIOKORF_SIDE_198,conduction disorder,True,198
+199,BIOKORF_SIDE_199,confusion state,False,199
+200,BIOKORF_SIDE_200,congenital eye disorder,True,200
+201,BIOKORF_SIDE_201,conjunctival haemorrhage,False,201
+202,BIOKORF_SIDE_202,congestion conjunctival,False,202
+203,BIOKORF_SIDE_203,conjunctival oedema,False,203
+204,BIOKORF_SIDE_204,conjunctivitis,True,204
+205,BIOKORF_SIDE_205,conjunctivitis allergic,False,205
+206,BIOKORF_SIDE_206,connective tissue disorder,False,206
+207,BIOKORF_SIDE_207,constipation,True,207
+208,BIOKORF_SIDE_208,contusion,True,208
+209,BIOKORF_SIDE_209,conversion disorder,False,209
+210,BIOKORF_SIDE_210,coordination abnormal,False,210
+211,BIOKORF_SIDE_211,corneal erosion,False,211
+212,BIOKORF_SIDE_212,corneal lesion,False,212
+213,BIOKORF_SIDE_213,corneal opacity,True,213
+214,BIOKORF_SIDE_214,coronary artery disease,False,214
+215,BIOKORF_SIDE_215,cough,True,215
+216,BIOKORF_SIDE_216,regional enteritis of unspecified site,False,216
+217,BIOKORF_SIDE_217,crying,False,217
+218,BIOKORF_SIDE_218,cushing syndrome,False,218
+219,BIOKORF_SIDE_219,cyanosis,False,219
+220,BIOKORF_SIDE_220,cyst,False,220
+221,BIOKORF_SIDE_221,cystitis,False,221
+222,BIOKORF_SIDE_222,cystitis haemorrhagic,False,222
+223,BIOKORF_SIDE_223,cystitis non infective,False,223
+224,BIOKORF_SIDE_224,deafness,True,224
+225,BIOKORF_SIDE_225,decreased appetite,True,225
+226,BIOKORF_SIDE_226,deep vein thrombosis,True,226
+227,BIOKORF_SIDE_227,dehydration,True,227
+228,BIOKORF_SIDE_228,delirium,True,228
+229,BIOKORF_SIDE_229,delusion,True,229
+230,BIOKORF_SIDE_230,dementia,True,230
+231,BIOKORF_SIDE_231,dental caries,False,231
+232,BIOKORF_SIDE_232,depressed level of consciousness,False,232
+233,BIOKORF_SIDE_233,depressed mood,False,233
+234,BIOKORF_SIDE_234,depression,True,234
+235,BIOKORF_SIDE_235,feeling unreal,False,235
+236,BIOKORF_SIDE_236,dermatitis,True,236
+237,BIOKORF_SIDE_237,dermatitis acne,False,237
+238,BIOKORF_SIDE_238,dermatitis atopic,False,238
+239,BIOKORF_SIDE_239,dermatitis bullous,False,239
+240,BIOKORF_SIDE_240,dermatitis contact,False,240
+241,BIOKORF_SIDE_241,dermatitis exfoliating,False,241
+242,BIOKORF_SIDE_242,diabetes mellitus,True,242
+243,BIOKORF_SIDE_243,diarrhoea,True,243
+244,BIOKORF_SIDE_244,diarrhoea haemorrhagic,False,244
+245,BIOKORF_SIDE_245,diplopia,True,245
+246,BIOKORF_SIDE_246,discomfort,False,246
+247,BIOKORF_SIDE_247,disorientation,False,247
+248,BIOKORF_SIDE_248,disseminated intravascular coagulation,True,248
+249,BIOKORF_SIDE_249,disturbance in attention,False,249
+250,BIOKORF_SIDE_250,disturbance in sexual arousal,False,250
+251,BIOKORF_SIDE_251,diverticulitis,False,251
+252,BIOKORF_SIDE_252,dizziness,True,252
+253,BIOKORF_SIDE_253,dizziness postural,False,253
+254,BIOKORF_SIDE_254,drug eruption,False,254
+255,BIOKORF_SIDE_255,drug hypersensitivity,False,255
+256,BIOKORF_SIDE_256,drug ineffective,False,256
+257,BIOKORF_SIDE_257,dry eye,False,257
+258,BIOKORF_SIDE_258,dry mouth,True,258
+259,BIOKORF_SIDE_259,dry skin,True,259
+260,BIOKORF_SIDE_260,dry throat,False,260
+261,BIOKORF_SIDE_261,duodenal ulcer,False,261
+262,BIOKORF_SIDE_262,duodenal inflammation,False,262
+263,BIOKORF_SIDE_263,paresthesia,True,263
+264,BIOKORF_SIDE_264,dysarthria,True,264
+265,BIOKORF_SIDE_265,bad taste,False,265
+266,BIOKORF_SIDE_266,dyskinesia,True,266
+267,BIOKORF_SIDE_267,menses painful,False,267
+268,BIOKORF_SIDE_268,dyspareunia,True,268
+269,BIOKORF_SIDE_269,dyspepsia,True,269
+270,BIOKORF_SIDE_270,dysphagia,True,270
+271,BIOKORF_SIDE_271,dysphonia,False,271
+272,BIOKORF_SIDE_272,dysphoria,False,272
+273,BIOKORF_SIDE_273,air hunger,False,273
+274,BIOKORF_SIDE_274,air hunger exertional,False,274
+275,BIOKORF_SIDE_275,urinary spray,False,275
+276,BIOKORF_SIDE_276,ear disorder,False,276
+277,BIOKORF_SIDE_277,ear infection,False,277
+278,BIOKORF_SIDE_278,ear pain,True,278
+279,BIOKORF_SIDE_279,bruise,False,279
+280,BIOKORF_SIDE_280,eczema,True,280
+281,BIOKORF_SIDE_281,ejaculation delayed,False,281
+282,BIOKORF_SIDE_282,ejaculation disorder,False,282
+283,BIOKORF_SIDE_283,ejaculation failure,False,283
+284,BIOKORF_SIDE_284,electrocardiogram abnormal,True,284
+285,BIOKORF_SIDE_285,electrocardiogram qt prolonged,True,285
+286,BIOKORF_SIDE_286,electrocardiogram st segment depression,False,286
+287,BIOKORF_SIDE_287,electroencephalogram abnormal,True,287
+288,BIOKORF_SIDE_288,electrolyte imbalance,False,288
+289,BIOKORF_SIDE_289,embolism,False,289
+290,BIOKORF_SIDE_290,embolism venous,False,290
+291,BIOKORF_SIDE_291,emotional disorder,False,291
+292,BIOKORF_SIDE_292,emphysema,False,292
+293,BIOKORF_SIDE_293,encephalopathy,True,293
+294,BIOKORF_SIDE_294,endocrine disorder,True,294
+295,BIOKORF_SIDE_295,endometrial disorder,False,295
+296,BIOKORF_SIDE_296,ophthalmia,False,296
+297,BIOKORF_SIDE_297,enteritis,False,297
+298,BIOKORF_SIDE_298,enterocolitis,False,298
+299,BIOKORF_SIDE_299,enuresis,False,299
+300,BIOKORF_SIDE_300,eosinophilia,True,300
+301,BIOKORF_SIDE_301,epididymitis,True,301
+302,BIOKORF_SIDE_302,epigastric discomfort,False,302
+303,BIOKORF_SIDE_303,epistaxis,True,303
+304,BIOKORF_SIDE_304,erectile dysfunction,True,304
+305,BIOKORF_SIDE_305,gas raising,False,305
+306,BIOKORF_SIDE_306,erythema,True,306
+307,BIOKORF_SIDE_307,erythema multiforme,True,307
+308,BIOKORF_SIDE_308,erythema nodosum,True,308
+309,BIOKORF_SIDE_309,erythema of eyelid,False,309
+310,BIOKORF_SIDE_310,euphoric mood,False,310
+311,BIOKORF_SIDE_311,excoriation,False,311
+312,BIOKORF_SIDE_312,exophthalmos,True,312
+313,BIOKORF_SIDE_313,bone spur,False,313
+314,BIOKORF_SIDE_314,extrapyramidal disorder,False,314
+315,BIOKORF_SIDE_315,cardiac complex,False,315
+316,BIOKORF_SIDE_316,extravasation,False,316
+317,BIOKORF_SIDE_317,eye discharge,False,317
+318,BIOKORF_SIDE_318,eye disorder,True,318
+319,BIOKORF_SIDE_319,eye haemorrhage,False,319
+320,BIOKORF_SIDE_320,eye infection,False,320
+321,BIOKORF_SIDE_321,eye irritation,False,321
+322,BIOKORF_SIDE_322,eye oedema,False,322
+323,BIOKORF_SIDE_323,eye pain,True,323
+324,BIOKORF_SIDE_324,eye pruritus,False,324
+325,BIOKORF_SIDE_325,eye swelling,False,325
+326,BIOKORF_SIDE_326,eyelid oedema,False,326
+327,BIOKORF_SIDE_327,face oedema,True,327
+328,BIOKORF_SIDE_328,fecal impaction,False,328
+329,BIOKORF_SIDE_329,fecal impaction causing obstruction,False,329
+330,BIOKORF_SIDE_330,faeces discoloured,False,330
+331,BIOKORF_SIDE_331,fasting,False,331
+332,BIOKORF_SIDE_332,fatigue,True,332
+333,BIOKORF_SIDE_333,febrile neutropenia,True,333
+334,BIOKORF_SIDE_334,feeling abnormal,False,334
+335,BIOKORF_SIDE_335,feeling cold,False,335
+336,BIOKORF_SIDE_336,feeling drunk,False,336
+337,BIOKORF_SIDE_337,feeling hot,False,337
+338,BIOKORF_SIDE_338,feeling jittery,False,338
+339,BIOKORF_SIDE_339,fibrocystic breast disease,False,339
+340,BIOKORF_SIDE_340,flank pain,True,340
+341,BIOKORF_SIDE_341,flat affect,False,341
+342,BIOKORF_SIDE_342,flatulence,False,342
+343,BIOKORF_SIDE_343,fluid overload,True,343
+344,BIOKORF_SIDE_344,fluid retention,False,344
+345,BIOKORF_SIDE_345,flushing,True,345
+346,BIOKORF_SIDE_346,halitosis of liver disease,False,346
+347,BIOKORF_SIDE_347,folliculitis,False,347
+348,BIOKORF_SIDE_348,fracture,True,348
+349,BIOKORF_SIDE_349,functional gastrointestinal disorder,False,349
+350,BIOKORF_SIDE_350,fungal infection,False,350
+351,BIOKORF_SIDE_351,fungal skin infection,False,351
+352,BIOKORF_SIDE_352,boil in nose,False,352
+353,BIOKORF_SIDE_353,gait disturbance,True,353
+354,BIOKORF_SIDE_354,female lactation,False,354
+355,BIOKORF_SIDE_355,gamma glutamine transfer enzyme increased,False,355
+356,BIOKORF_SIDE_356,gangrene,False,356
+357,BIOKORF_SIDE_357,gastric ulcer,False,357
+358,BIOKORF_SIDE_358,gastritis,False,358
+359,BIOKORF_SIDE_359,gastroenteritis,True,359
+360,BIOKORF_SIDE_360,gastrointestinal carcinoma,False,360
+361,BIOKORF_SIDE_361,gastrointestinal disorder,True,361
+362,BIOKORF_SIDE_362,gastrointestinal haemorrhage,True,362
+363,BIOKORF_SIDE_363,gastrointestinal infection,True,363
+364,BIOKORF_SIDE_364,gastrointestinal pain,False,364
+365,BIOKORF_SIDE_365,gastrointestinal perforation,False,365
+366,BIOKORF_SIDE_366,gastrointestinal ulcer,False,366
+367,BIOKORF_SIDE_367,esophageal reflux,False,367
+368,BIOKORF_SIDE_368,generalised oedema,False,368
+369,BIOKORF_SIDE_369,genital candidiasis,False,369
+370,BIOKORF_SIDE_370,gingival bleeding,True,370
+371,BIOKORF_SIDE_371,gingival pain,False,371
+372,BIOKORF_SIDE_372,gingivitis,True,372
+373,BIOKORF_SIDE_373,glaucoma,True,373
+374,BIOKORF_SIDE_374,glossitis,False,374
+375,BIOKORF_SIDE_375,burning tongue,False,375
+376,BIOKORF_SIDE_376,glucose tolerance impaired,False,376
+377,BIOKORF_SIDE_377,diabetes,False,377
+378,BIOKORF_SIDE_378,goitre,True,378
+379,BIOKORF_SIDE_379,gout,True,379
+380,BIOKORF_SIDE_380,gravitational oedema,False,380
+381,BIOKORF_SIDE_381,breast enlargement male,False,381
+382,BIOKORF_SIDE_382,emesis bloody,False,382
+383,BIOKORF_SIDE_383,blood in stool,True,383
+384,BIOKORF_SIDE_384,packed cell volume decreased,False,384
+385,BIOKORF_SIDE_385,haematoma,False,385
+386,BIOKORF_SIDE_386,urinary tract bleed microscopic,False,386
+387,BIOKORF_SIDE_387,haemoglobin,False,387
+388,BIOKORF_SIDE_388,haemoglobin decreased,True,388
+389,BIOKORF_SIDE_389,haemolytic anaemia,False,389
+390,BIOKORF_SIDE_390,haemolytic uremia syndrome,False,390
+391,BIOKORF_SIDE_391,blood streaked sputum,False,391
+392,BIOKORF_SIDE_392,haemorrhage,False,392
+393,BIOKORF_SIDE_393,haemorrhage intracranial,False,393
+394,BIOKORF_SIDE_394,haemorrhagic disorder,True,394
+395,BIOKORF_SIDE_395,hemorrhoids,True,395
+396,BIOKORF_SIDE_396,hair colour changes,False,396
+397,BIOKORF_SIDE_397,hair disorder,False,397
+398,BIOKORF_SIDE_398,hair texture abnormal,False,398
+399,BIOKORF_SIDE_399,hallucination,True,399
+400,BIOKORF_SIDE_400,hangover,False,400
+401,BIOKORF_SIDE_401,headache,True,401
+402,BIOKORF_SIDE_402,hemiplegia,False,402
+403,BIOKORF_SIDE_403,hepatic cancer,False,403
+404,BIOKORF_SIDE_404,hepatic enzyme increased,True,404
+405,BIOKORF_SIDE_405,hepatic failure,True,405
+406,BIOKORF_SIDE_406,hepatic function abnormal,True,406
+407,BIOKORF_SIDE_407,hepatic necrosis,True,407
+408,BIOKORF_SIDE_408,hepatic steatosis,True,408
+409,BIOKORF_SIDE_409,hepatitis,True,409
+410,BIOKORF_SIDE_410,hepatitis cholestasis,False,410
+411,BIOKORF_SIDE_411,hepatobiliary disease,False,411
+412,BIOKORF_SIDE_412,hepatocellular injury,False,412
+413,BIOKORF_SIDE_413,hepatomegaly,True,413
+414,BIOKORF_SIDE_414,hepatotoxicity,False,414
+415,BIOKORF_SIDE_415,hernia,True,415
+416,BIOKORF_SIDE_416,herpes simplex,True,416
+417,BIOKORF_SIDE_417,herpes virus infection,False,417
+418,BIOKORF_SIDE_418,herpes zoster,False,418
+419,BIOKORF_SIDE_419,hiatus hernia,True,419
+420,BIOKORF_SIDE_420,hiccups,False,420
+421,BIOKORF_SIDE_421,hirsutism,True,421
+422,BIOKORF_SIDE_422,hostility,False,422
+423,BIOKORF_SIDE_423,hot flush,True,423
+424,BIOKORF_SIDE_424,hyperacusis,False,424
+425,BIOKORF_SIDE_425,venous congestion,False,425
+426,BIOKORF_SIDE_426,allodynia mechanical,False,426
+427,BIOKORF_SIDE_427,bilirubin blood,False,427
+428,BIOKORF_SIDE_428,high calcium blood,False,428
+429,BIOKORF_SIDE_429,high calcium urine,False,429
+430,BIOKORF_SIDE_430,high cholesterol blood,False,430
+431,BIOKORF_SIDE_431,high blood sugar,True,431
+432,BIOKORF_SIDE_432,hyperhidrosis,True,432
+433,BIOKORF_SIDE_433,high potassium blood,False,433
+434,BIOKORF_SIDE_434,hyperkeratosis,True,434
+435,BIOKORF_SIDE_435,movement function hyperactivity,False,435
+436,BIOKORF_SIDE_436,high lactic acid blood,False,436
+437,BIOKORF_SIDE_437,high levels of lipids,False,437
+438,BIOKORF_SIDE_438,high magnesium blood,False,438
+439,BIOKORF_SIDE_439,salt retention,False,439
+440,BIOKORF_SIDE_440,pain allergy,False,440
+441,BIOKORF_SIDE_441,high phosphorus blood,False,441
+442,BIOKORF_SIDE_442,exaggerated reflexes,False,442
+443,BIOKORF_SIDE_443,hypersensitivity,True,443
+444,BIOKORF_SIDE_444,sleep excessive,False,444
+445,BIOKORF_SIDE_445,hypertension,True,445
+446,BIOKORF_SIDE_446,hyperthyroidism,False,446
+447,BIOKORF_SIDE_447,tone increased,False,447
+448,BIOKORF_SIDE_448,hypertrichosis,True,448
+449,BIOKORF_SIDE_449,high glycerin three ester blood,False,449
+450,BIOKORF_SIDE_450,high uric acid blood,False,450
+451,BIOKORF_SIDE_451,hyperventilation,True,451
+452,BIOKORF_SIDE_452,body numbness,False,452
+453,BIOKORF_SIDE_453,body numbness oral,False,453
+454,BIOKORF_SIDE_454,low albumin blood,False,454
+455,BIOKORF_SIDE_455,low calcium blood,False,455
+456,BIOKORF_SIDE_456,low chlorine blood,False,456
+457,BIOKORF_SIDE_457,chlorosis,False,457
+458,BIOKORF_SIDE_458,hypoglycemia,True,458
+459,BIOKORF_SIDE_459,drenching sweats,False,459
+460,BIOKORF_SIDE_460,potassium deficiency,False,460
+461,BIOKORF_SIDE_461,activity motor retarded,False,461
+462,BIOKORF_SIDE_462,low magnesium blood,False,462
+463,BIOKORF_SIDE_463,hypomania,False,463
+464,BIOKORF_SIDE_464,low sodium blood,False,464
+465,BIOKORF_SIDE_465,phosphorus low blood,False,465
+466,BIOKORF_SIDE_466,potassium deficiency,False,466
+467,BIOKORF_SIDE_467,diminished reflexes,False,467
+468,BIOKORF_SIDE_468,hypotension,True,468
+469,BIOKORF_SIDE_469,hypothermia,False,469
+470,BIOKORF_SIDE_470,hypothyroidism,True,470
+471,BIOKORF_SIDE_471,hypotonia,True,471
+472,BIOKORF_SIDE_472,hypoventilation,True,472
+473,BIOKORF_SIDE_473,hypoxia,False,473
+474,BIOKORF_SIDE_474,ileus,False,474
+475,BIOKORF_SIDE_475,ileus paralytic,True,475
+476,BIOKORF_SIDE_476,ill-defined disorder,False,476
+477,BIOKORF_SIDE_477,immune system disorder,True,477
+478,BIOKORF_SIDE_478,impaired gastric emptying,False,478
+479,BIOKORF_SIDE_479,impaired healing,False,479
+480,BIOKORF_SIDE_480,impetigo,False,480
+481,BIOKORF_SIDE_481,inappropriate antidiuretic hormone secretion,False,481
+482,BIOKORF_SIDE_482,incontinence,False,482
+483,BIOKORF_SIDE_483,increased appetite,True,483
+484,BIOKORF_SIDE_484,increased bronchial secretion,False,484
+485,BIOKORF_SIDE_485,increased tendency to bruise,True,485
+486,BIOKORF_SIDE_486,hardening,False,486
+487,BIOKORF_SIDE_487,infarction,False,487
+488,BIOKORF_SIDE_488,infection,True,488
+489,BIOKORF_SIDE_489,infestation,False,489
+490,BIOKORF_SIDE_490,inflammation,False,490
+491,BIOKORF_SIDE_491,influenza,True,491
+492,BIOKORF_SIDE_492,influenza like illness,False,492
+493,BIOKORF_SIDE_493,infusion site pain,False,493
+494,BIOKORF_SIDE_494,infusion site reaction,False,494
+495,BIOKORF_SIDE_495,injection site bruising,False,495
+496,BIOKORF_SIDE_496,injection site erythema,False,496
+497,BIOKORF_SIDE_497,injection site haemorrhage,False,497
+498,BIOKORF_SIDE_498,injection site hardening,False,498
+499,BIOKORF_SIDE_499,injection site inflammation,False,499
+500,BIOKORF_SIDE_500,injection site pain,False,500
+501,BIOKORF_SIDE_501,injection site pruritus,False,501
+502,BIOKORF_SIDE_502,injection site reaction,True,502
+503,BIOKORF_SIDE_503,injection site swelling,False,503
+504,BIOKORF_SIDE_504,injury,False,504
+505,BIOKORF_SIDE_505,insomnia,True,505
+506,BIOKORF_SIDE_506,instillation site pain,False,506
+507,BIOKORF_SIDE_507,intermittent claudication,False,507
+508,BIOKORF_SIDE_508,international normalised ratio increased,False,508
+509,BIOKORF_SIDE_509,interstitial lung disease,True,509
+510,BIOKORF_SIDE_510,intestinal obstruction,False,510
+511,BIOKORF_SIDE_511,intestinal perforation,False,511
+512,BIOKORF_SIDE_512,intracranial pressure increased,True,512
+513,BIOKORF_SIDE_513,intraocular pressure increased,False,513
+514,BIOKORF_SIDE_514,iris inflammation,False,514
+515,BIOKORF_SIDE_515,iron deficiency anaemia,True,515
+516,BIOKORF_SIDE_516,irritability,True,516
+517,BIOKORF_SIDE_517,irritable bowel syndrome,False,517
+518,BIOKORF_SIDE_518,ischaemia,False,518
+519,BIOKORF_SIDE_519,jaundice,True,519
+520,BIOKORF_SIDE_520,obstructive jaundice,False,520
+521,BIOKORF_SIDE_521,joint stiffness,True,521
+522,BIOKORF_SIDE_522,joint swelling,True,522
+523,BIOKORF_SIDE_523,keratitis,True,523
+524,BIOKORF_SIDE_524,ketosis,False,524
+525,BIOKORF_SIDE_525,laboratory test abnormal,False,525
+526,BIOKORF_SIDE_526,inner ear infection,False,526
+527,BIOKORF_SIDE_527,laceration,False,527
+528,BIOKORF_SIDE_528,lacrimal disorder,False,528
+529,BIOKORF_SIDE_529,lacrimal structural disorder,False,529
+530,BIOKORF_SIDE_530,lacrimation increased,True,530
+531,BIOKORF_SIDE_531,lactic acidosis,True,531
+532,BIOKORF_SIDE_532,laryngeal oedema,False,532
+533,BIOKORF_SIDE_533,laryngeal pain,False,533
+534,BIOKORF_SIDE_534,laryngitis,False,534
+535,BIOKORF_SIDE_535,laryngeal spasm,False,535
+536,BIOKORF_SIDE_536,lethargy,True,536
+537,BIOKORF_SIDE_537,leukocytosis,True,537
+538,BIOKORF_SIDE_538,vitiligo,False,538
+539,BIOKORF_SIDE_539,leukopenia,True,539
+540,BIOKORF_SIDE_540,libido decreased,False,540
+541,BIOKORF_SIDE_541,libido disorder,False,541
+542,BIOKORF_SIDE_542,libido increased,False,542
+543,BIOKORF_SIDE_543,mossy keratosis,False,543
+544,BIOKORF_SIDE_544,ligament sprain,False,544
+545,BIOKORF_SIDE_545,lipase increased,False,545
+546,BIOKORF_SIDE_546,lipodystrophy acquired,False,546
+547,BIOKORF_SIDE_547,liver disorder,True,547
+548,BIOKORF_SIDE_548,liver function test abnormal,True,548
+549,BIOKORF_SIDE_549,liver injury,False,549
+550,BIOKORF_SIDE_550,local swelling,False,550
+551,BIOKORF_SIDE_551,loss of consciousness,True,551
+552,BIOKORF_SIDE_552,loss of libido,False,552
+553,BIOKORF_SIDE_553,lower respiratory tract infection,True,553
+554,BIOKORF_SIDE_554,lung disorder,True,554
+555,BIOKORF_SIDE_555,lung infection,False,555
+556,BIOKORF_SIDE_556,lung infiltration,False,556
+557,BIOKORF_SIDE_557,lymphadenopathy,True,557
+558,BIOKORF_SIDE_558,lymphocyte count decreased,False,558
+559,BIOKORF_SIDE_559,lymphocyte excess,False,559
+560,BIOKORF_SIDE_560,lymph edema,False,560
+561,BIOKORF_SIDE_561,lymph tumor,False,561
+562,BIOKORF_SIDE_562,lymph cell cut back,False,562
+563,BIOKORF_SIDE_563,major depression,False,563
+564,BIOKORF_SIDE_564,malaise,True,564
+565,BIOKORF_SIDE_565,malignant melanoma,False,565
+566,BIOKORF_SIDE_566,malnutrition,False,566
+567,BIOKORF_SIDE_567,mania,True,567
+568,BIOKORF_SIDE_568,mastitis,False,568
+569,BIOKORF_SIDE_569,mediastinal disorder,False,569
+570,BIOKORF_SIDE_570,blood clot excretion,False,570
+571,BIOKORF_SIDE_571,melanosis,False,571
+572,BIOKORF_SIDE_572,memory impairment,False,572
+573,BIOKORF_SIDE_573,meningitis,True,573
+574,BIOKORF_SIDE_574,menopausal symptoms,False,574
+575,BIOKORF_SIDE_575,menopause,False,575
+576,BIOKORF_SIDE_576,menorrhagia,True,576
+577,BIOKORF_SIDE_577,menstrual disorder,False,577
+578,BIOKORF_SIDE_578,menstruation irregular,False,578
+579,BIOKORF_SIDE_579,mental disability,False,579
+580,BIOKORF_SIDE_580,mental disorder,False,580
+581,BIOKORF_SIDE_581,metabolic acidosis,True,581
+582,BIOKORF_SIDE_582,break through bleeding,False,582
+583,BIOKORF_SIDE_583,urination disorder,False,583
+584,BIOKORF_SIDE_584,urination urgency,False,584
+585,BIOKORF_SIDE_585,migraine,False,585
+586,BIOKORF_SIDE_586,miosis,True,586
+587,BIOKORF_SIDE_587,single core cell increase,False,587
+588,BIOKORF_SIDE_588,mood swings,True,588
+589,BIOKORF_SIDE_589,motion sickness,False,589
+590,BIOKORF_SIDE_590,mouth ulceration,True,590
+591,BIOKORF_SIDE_591,movement disorder,True,591
+592,BIOKORF_SIDE_592,mucosal inflammation,False,592
+593,BIOKORF_SIDE_593,mucous membrane disorder,False,593
+594,BIOKORF_SIDE_594,multiple fractures,True,594
+595,BIOKORF_SIDE_595,muscle atrophy,False,595
+596,BIOKORF_SIDE_596,muscle contractions involuntary,False,596
+597,BIOKORF_SIDE_597,muscle relaxant therapy,False,597
+598,BIOKORF_SIDE_598,muscle rigidity,True,598
+599,BIOKORF_SIDE_599,muscle spasms,True,599
+600,BIOKORF_SIDE_600,muscle tightness,False,600
+601,BIOKORF_SIDE_601,muscle twitching,False,601
+602,BIOKORF_SIDE_602,muscular weakness,True,602
+603,BIOKORF_SIDE_603,musculoskeletal chest pain,False,603
+604,BIOKORF_SIDE_604,musculoskeletal discomfort,False,604
+605,BIOKORF_SIDE_605,musculoskeletal pain,True,605
+606,BIOKORF_SIDE_606,musculoskeletal stiffness,False,606
+607,BIOKORF_SIDE_607,myalgia,True,607
+608,BIOKORF_SIDE_608,mydriasis,True,608
+609,BIOKORF_SIDE_609,myelitis,False,609
+610,BIOKORF_SIDE_610,myocardial infarction,True,610
+611,BIOKORF_SIDE_611,myocardial ischaemia,False,611
+612,BIOKORF_SIDE_612,myocarditis,False,612
+613,BIOKORF_SIDE_613,myoclonus,True,613
+614,BIOKORF_SIDE_614,myopathy,True,614
+615,BIOKORF_SIDE_615,myositis,False,615
+616,BIOKORF_SIDE_616,nail disorder,True,616
+617,BIOKORF_SIDE_617,nasal congestion,True,617
+618,BIOKORF_SIDE_618,nasal discomfort,False,618
+619,BIOKORF_SIDE_619,nasal dryness,False,619
+620,BIOKORF_SIDE_620,nose pharynx inflammation,False,620
+621,BIOKORF_SIDE_621,nausea,True,621
+622,BIOKORF_SIDE_622,neck pain,True,622
+623,BIOKORF_SIDE_623,neoplasm,False,623
+624,BIOKORF_SIDE_624,neoplasm malignant,False,624
+625,BIOKORF_SIDE_625,nephritis,False,625
+626,BIOKORF_SIDE_626,calculus kidney,False,626
+627,BIOKORF_SIDE_627,nephropathy,True,627
+628,BIOKORF_SIDE_628,nephropathy toxic,False,628
+629,BIOKORF_SIDE_629,nephrotic syndrome,False,629
+630,BIOKORF_SIDE_630,nervous system disorder,True,630
+631,BIOKORF_SIDE_631,nervousness,False,631
+632,BIOKORF_SIDE_632,neuralgia,True,632
+633,BIOKORF_SIDE_633,neuritis,False,633
+634,BIOKORF_SIDE_634,neuroleptic malignant syndrome,False,634
+635,BIOKORF_SIDE_635,neuropathy peripheral,True,635
+636,BIOKORF_SIDE_636,neurosis,False,636
+637,BIOKORF_SIDE_637,neurotoxicity,False,637
+638,BIOKORF_SIDE_638,neutropenia,True,638
+639,BIOKORF_SIDE_639,neutrophil deficiency,False,639
+640,BIOKORF_SIDE_640,neutrophil count decreased,False,640
+641,BIOKORF_SIDE_641,night blindness,False,641
+642,BIOKORF_SIDE_642,night sweats,False,642
+643,BIOKORF_SIDE_643,nightmare,False,643
+644,BIOKORF_SIDE_644,nocturnal enuresis,False,644
+645,BIOKORF_SIDE_645,nodal arrhythmia,False,645
+646,BIOKORF_SIDE_646,nodule,False,646
+647,BIOKORF_SIDE_647,non cardiac chest pain,False,647
+648,BIOKORF_SIDE_648,non hodgkin lymphoma,False,648
+649,BIOKORF_SIDE_649,nuchal rigidity,True,649
+650,BIOKORF_SIDE_650,nystagmus,True,650
+651,BIOKORF_SIDE_651,ocular discomfort,False,651
+652,BIOKORF_SIDE_652,ocular venous congestion,False,652
+653,BIOKORF_SIDE_653,oculomotor spasm,False,653
+654,BIOKORF_SIDE_654,swallowing painful,False,654
+655,BIOKORF_SIDE_655,oedema,True,655
+656,BIOKORF_SIDE_656,oedema peripheral,False,656
+657,BIOKORF_SIDE_657,oesophageal spasm,False,657
+658,BIOKORF_SIDE_658,oesophageal stenosis,True,658
+659,BIOKORF_SIDE_659,oesophageal ulcer,False,659
+660,BIOKORF_SIDE_660,esophagus inflammation,False,660
+661,BIOKORF_SIDE_661,urine less,False,661
+662,BIOKORF_SIDE_662,onychomycosis,False,662
+663,BIOKORF_SIDE_663,opportunistic infection,False,663
+664,BIOKORF_SIDE_664,optic atrophy,True,664
+665,BIOKORF_SIDE_665,optic neuritis,False,665
+666,BIOKORF_SIDE_666,oral candidiasis,False,666
+667,BIOKORF_SIDE_667,oral herpes,False,667
+668,BIOKORF_SIDE_668,oral pain,False,668
+669,BIOKORF_SIDE_669,testis inflammation non infective,False,669
+670,BIOKORF_SIDE_670,orgasm abnormal,False,670
+671,BIOKORF_SIDE_671,oropharyngeal discomfort,False,671
+672,BIOKORF_SIDE_672,oropharyngeal pain,True,672
+673,BIOKORF_SIDE_673,orthostatic hypotension,True,673
+674,BIOKORF_SIDE_674,osteoarthritis,False,674
+675,BIOKORF_SIDE_675,osteomyelitis,False,675
+676,BIOKORF_SIDE_676,osteonecrosis,True,676
+677,BIOKORF_SIDE_677,osteoporosis,True,677
+678,BIOKORF_SIDE_678,otitis externa,False,678
+679,BIOKORF_SIDE_679,otitis media,False,679
+680,BIOKORF_SIDE_680,ear toxicity,False,680
+681,BIOKORF_SIDE_681,ovarian cyst,True,681
+682,BIOKORF_SIDE_682,ovarian disorder,False,682
+683,BIOKORF_SIDE_683,pain,True,683
+684,BIOKORF_SIDE_684,pain in extremity,True,684
+685,BIOKORF_SIDE_685,pain in jaw,False,685
+686,BIOKORF_SIDE_686,pain of skin,False,686
+687,BIOKORF_SIDE_687,pallor,True,687
+688,BIOKORF_SIDE_688,palpitations,True,688
+689,BIOKORF_SIDE_689,pancreatitis,True,689
+690,BIOKORF_SIDE_690,pancreatitis acute,True,690
+691,BIOKORF_SIDE_691,pancytopenia,True,691
+692,BIOKORF_SIDE_692,panic attack,False,692
+693,BIOKORF_SIDE_693,panic reaction,False,693
+694,BIOKORF_SIDE_694,eyelid inflammation,False,694
+695,BIOKORF_SIDE_695,nipple edema,False,695
+696,BIOKORF_SIDE_696,feeling abnormal,False,696
+697,BIOKORF_SIDE_697,feeling abnormal oral,False,697
+698,BIOKORF_SIDE_698,paralysis,True,698
+699,BIOKORF_SIDE_699,paranoia,True,699
+700,BIOKORF_SIDE_700,paresis,False,700
+701,BIOKORF_SIDE_701,parkinsonism,True,701
+702,BIOKORF_SIDE_702,disturbances of sensation of smell and taste,False,702
+703,BIOKORF_SIDE_703,pelvic pain,False,703
+704,BIOKORF_SIDE_704,penis disorder,False,704
+705,BIOKORF_SIDE_705,peptic ulcer,True,705
+706,BIOKORF_SIDE_706,pericardial effusion,True,706
+707,BIOKORF_SIDE_707,pericarditis,False,707
+708,BIOKORF_SIDE_708,perineal pain,False,708
+709,BIOKORF_SIDE_709,periodontitis,False,709
+710,BIOKORF_SIDE_710,periorbital oedema,False,710
+711,BIOKORF_SIDE_711,peripheral coldness,False,711
+712,BIOKORF_SIDE_712,peripheral ischaemia,False,712
+713,BIOKORF_SIDE_713,peripheral motor neuropathy,False,713
+714,BIOKORF_SIDE_714,peripheral sensory neuropathy,True,714
+715,BIOKORF_SIDE_715,peripheral vascular disorder,False,715
+716,BIOKORF_SIDE_716,peritonitis,False,716
+717,BIOKORF_SIDE_717,personality disorder,True,717
+718,BIOKORF_SIDE_718,petechiae,False,718
+719,BIOKORF_SIDE_719,pharyngeal oedema,False,719
+720,BIOKORF_SIDE_720,pharyngitis,False,720
+721,BIOKORF_SIDE_721,pharyngitis streptococcal,False,721
+722,BIOKORF_SIDE_722,phlebitis,False,722
+723,BIOKORF_SIDE_723,photophobia,True,723
+724,BIOKORF_SIDE_724,flash vision,False,724
+725,BIOKORF_SIDE_725,photosensitivity reaction,False,725
+726,BIOKORF_SIDE_726,pigmentation disorder,False,726
+727,BIOKORF_SIDE_727,plasma cell myeloma,False,727
+728,BIOKORF_SIDE_728,tumor plasma cell,False,728
+729,BIOKORF_SIDE_729,platelet count decreased,True,729
+730,BIOKORF_SIDE_730,pleural effusion,True,730
+731,BIOKORF_SIDE_731,pleurisy,True,731
+732,BIOKORF_SIDE_732,pleural pain,False,732
+733,BIOKORF_SIDE_733,pneumonia,True,733
+734,BIOKORF_SIDE_734,pneumonia aspiration,False,734
+735,BIOKORF_SIDE_735,pneumothorax,True,735
+736,BIOKORF_SIDE_736,urinary frequency increased,False,736
+737,BIOKORF_SIDE_737,increase in the total amount of red blood cells in the blood,False,737
+738,BIOKORF_SIDE_738,polydipsia,True,738
+739,BIOKORF_SIDE_739,polyneuropathy,False,739
+740,BIOKORF_SIDE_740,polyuria,True,740
+741,BIOKORF_SIDE_741,post procedural haemorrhage,False,741
+742,BIOKORF_SIDE_742,premenstrual syndrome,False,742
+743,BIOKORF_SIDE_743,syncope vertigo,False,743
+744,BIOKORF_SIDE_744,priapism,True,744
+745,BIOKORF_SIDE_745,procedural pain,False,745
+746,BIOKORF_SIDE_746,anal pain,True,746
+747,BIOKORF_SIDE_747,rectum inflammation,False,747
+748,BIOKORF_SIDE_748,productive cough,False,748
+749,BIOKORF_SIDE_749,prostate cancer,False,749
+750,BIOKORF_SIDE_750,prostatic disorder,False,750
+751,BIOKORF_SIDE_751,prostatitis,False,751
+752,BIOKORF_SIDE_752,protein total decreased,False,752
+753,BIOKORF_SIDE_753,protein urine present,False,753
+754,BIOKORF_SIDE_754,proteinuria,True,754
+755,BIOKORF_SIDE_755,prothrombin level decreased,False,755
+756,BIOKORF_SIDE_756,prothrombin level increased,False,756
+757,BIOKORF_SIDE_757,itch rash,False,757
+758,BIOKORF_SIDE_758,pruritus,True,758
+759,BIOKORF_SIDE_759,pruritus generalised,False,759
+760,BIOKORF_SIDE_760,pruritus genital,False,760
+761,BIOKORF_SIDE_761,falsehood lymph tumor,False,761
+762,BIOKORF_SIDE_762,pseudomembranous colitis,False,762
+763,BIOKORF_SIDE_763,psoriasis,False,763
+764,BIOKORF_SIDE_764,psychomotor retardation,False,764
+765,BIOKORF_SIDE_765,psychotic disorder,False,765
+766,BIOKORF_SIDE_766,pulmonary congestion,False,766
+767,BIOKORF_SIDE_767,pulmonary embolism,True,767
+768,BIOKORF_SIDE_768,pulmonary fibrosis,True,768
+769,BIOKORF_SIDE_769,pulmonary function test decreased,False,769
+770,BIOKORF_SIDE_770,pulmonary hypertension,False,770
+771,BIOKORF_SIDE_771,pulmonary oedema,False,771
+772,BIOKORF_SIDE_772,punctate keratitis,False,772
+773,BIOKORF_SIDE_773,pupils unequal,False,773
+774,BIOKORF_SIDE_774,purpura,True,774
+775,BIOKORF_SIDE_775,pyelonephritis,False,775
+776,BIOKORF_SIDE_776,urine purulent,False,776
+777,BIOKORF_SIDE_777,rales,False,777
+778,BIOKORF_SIDE_778,rash,True,778
+779,BIOKORF_SIDE_779,rash erythematous,False,779
+780,BIOKORF_SIDE_780,rash generalised,False,780
+781,BIOKORF_SIDE_781,rash macular,False,781
+782,BIOKORF_SIDE_782,macula papules rash,False,782
+783,BIOKORF_SIDE_783,rash papular,False,783
+784,BIOKORF_SIDE_784,rash pustular,False,784
+785,BIOKORF_SIDE_785,rectal haemorrhage,False,785
+786,BIOKORF_SIDE_786,defecation urge painful,False,786
+787,BIOKORF_SIDE_787,regurgitation,False,787
+788,BIOKORF_SIDE_788,renal failure,True,788
+789,BIOKORF_SIDE_789,renal impairment,True,789
+790,BIOKORF_SIDE_790,renal pain,False,790
+791,BIOKORF_SIDE_791,renal tubular necrosis,False,791
+792,BIOKORF_SIDE_792,respiration abnormal,True,792
+793,BIOKORF_SIDE_793,respiratory depression,True,793
+794,BIOKORF_SIDE_794,respiratory disorder,False,794
+795,BIOKORF_SIDE_795,respiratory distress,True,795
+796,BIOKORF_SIDE_796,respiratory failure,False,796
+797,BIOKORF_SIDE_797,respiratory tract congestion,False,797
+798,BIOKORF_SIDE_798,respiratory tract infection,False,798
+799,BIOKORF_SIDE_799,restless legs syndrome,False,799
+800,BIOKORF_SIDE_800,retching,False,800
+801,BIOKORF_SIDE_801,retinal degeneration,True,801
+802,BIOKORF_SIDE_802,retinal detachment,False,802
+803,BIOKORF_SIDE_803,retinal disorder,True,803
+804,BIOKORF_SIDE_804,retinal haemorrhage,True,804
+805,BIOKORF_SIDE_805,retroperitoneal haemorrhage,False,805
+806,BIOKORF_SIDE_806,rhabdomyolysis,True,806
+807,BIOKORF_SIDE_807,rheumatoid arthritis,True,807
+808,BIOKORF_SIDE_808,rhinitis,True,808
+809,BIOKORF_SIDE_809,rhinitis allergic,False,809
+810,BIOKORF_SIDE_810,mucous nasal increased,False,810
+811,BIOKORF_SIDE_811,dry rales,False,811
+812,BIOKORF_SIDE_812,road traffic accident,False,812
+813,BIOKORF_SIDE_813,rosacea,False,813
+814,BIOKORF_SIDE_814,salivary gland enlargement,False,814
+815,BIOKORF_SIDE_815,increased salivation,False,815
+816,BIOKORF_SIDE_816,oviduct inflammation,False,816
+817,BIOKORF_SIDE_817,scab,False,817
+818,BIOKORF_SIDE_818,reaction schizoid,False,818
+819,BIOKORF_SIDE_819,sciatica,True,819
+820,BIOKORF_SIDE_820,sclera inflammation,False,820
+821,BIOKORF_SIDE_821,seasonal allergy,False,821
+822,BIOKORF_SIDE_822,seborrheic dermatitis,True,822
+823,BIOKORF_SIDE_823,seborrheic keratosis,True,823
+824,BIOKORF_SIDE_824,sensation of foreign body,False,824
+825,BIOKORF_SIDE_825,sensory disturbance,False,825
+826,BIOKORF_SIDE_826,sensory loss,False,826
+827,BIOKORF_SIDE_827,sepsis,True,827
+828,BIOKORF_SIDE_828,septic shock,False,828
+829,BIOKORF_SIDE_829,serotonin syndrome,True,829
+830,BIOKORF_SIDE_830,serum sickness,False,830
+831,BIOKORF_SIDE_831,sexual dysfunction,False,831
+832,BIOKORF_SIDE_832,shock,False,832
+833,BIOKORF_SIDE_833,salivary glands inflammation,False,833
+834,BIOKORF_SIDE_834,sinus bradycardia,False,834
+835,BIOKORF_SIDE_835,sinus congestion,False,835
+836,BIOKORF_SIDE_836,sinus headache,False,836
+837,BIOKORF_SIDE_837,sinus tachycardia,False,837
+838,BIOKORF_SIDE_838,sinusitis,False,838
+839,BIOKORF_SIDE_839,skin atrophy,False,839
+840,BIOKORF_SIDE_840,skin burning sensation,False,840
+841,BIOKORF_SIDE_841,skin cancer,False,841
+842,BIOKORF_SIDE_842,skin discolouration,False,842
+843,BIOKORF_SIDE_843,skin disorder,True,843
+844,BIOKORF_SIDE_844,skin exfoliation,False,844
+845,BIOKORF_SIDE_845,skin hyperpigmentation,True,845
+846,BIOKORF_SIDE_846,skin hypertrophy,False,846
+847,BIOKORF_SIDE_847,skin infection,False,847
+848,BIOKORF_SIDE_848,skin irritation,False,848
+849,BIOKORF_SIDE_849,skin lesion,False,849
+850,BIOKORF_SIDE_850,skin mass,False,850
+851,BIOKORF_SIDE_851,skin odour abnormal,False,851
+852,BIOKORF_SIDE_852,skin papilloma,False,852
+853,BIOKORF_SIDE_853,skin striae,True,853
+854,BIOKORF_SIDE_854,skin ulcer,True,854
+855,BIOKORF_SIDE_855,sleep apnoea syndrome,True,855
+856,BIOKORF_SIDE_856,sleep disorder,False,856
+857,BIOKORF_SIDE_857,sluggishness,False,857
+858,BIOKORF_SIDE_858,sneezing,False,858
+859,BIOKORF_SIDE_859,snoring,False,859
+860,BIOKORF_SIDE_860,somnambulism,False,860
+861,BIOKORF_SIDE_861,somnolence,True,861
+862,BIOKORF_SIDE_862,speech disorder,True,862
+863,BIOKORF_SIDE_863,splenomegaly,True,863
+864,BIOKORF_SIDE_864,sputum increased,False,864
+865,BIOKORF_SIDE_865,staphylococcal infection,False,865
+866,BIOKORF_SIDE_866,status epilepticus,False,866
+867,BIOKORF_SIDE_867,stevens johnson syndrome,False,867
+868,BIOKORF_SIDE_868,sticky skin,False,868
+869,BIOKORF_SIDE_869,stomatitis,True,869
+870,BIOKORF_SIDE_870,bladder and urethral symptoms,False,870
+871,BIOKORF_SIDE_871,wheezing,True,871
+872,BIOKORF_SIDE_872,stupor,False,872
+873,BIOKORF_SIDE_873,subarachnoid haemorrhage,False,873
+874,BIOKORF_SIDE_874,subdural haematoma,True,874
+875,BIOKORF_SIDE_875,sudden death,True,875
+876,BIOKORF_SIDE_876,suicidal ideation,False,876
+877,BIOKORF_SIDE_877,suicide attempt,False,877
+878,BIOKORF_SIDE_878,sunburn,False,878
+879,BIOKORF_SIDE_879,ectopic beats atrial,False,879
+880,BIOKORF_SIDE_880,supraventricular tachycardia,True,880
+881,BIOKORF_SIDE_881,swelling,False,881
+882,BIOKORF_SIDE_882,swelling face,False,882
+883,BIOKORF_SIDE_883,syncope,True,883
+884,BIOKORF_SIDE_884,systemic lupus erythematosus,True,884
+885,BIOKORF_SIDE_885,tachycardia,True,885
+886,BIOKORF_SIDE_886,respiration stimulated,False,886
+887,BIOKORF_SIDE_887,tardive dyskinesia,False,887
+888,BIOKORF_SIDE_888,telangiectasia,False,888
+889,BIOKORF_SIDE_889,temperature intolerance,False,889
+890,BIOKORF_SIDE_890,tenderness,False,890
+891,BIOKORF_SIDE_891,tendinous contracture,False,891
+892,BIOKORF_SIDE_892,tendon disorder,False,892
+893,BIOKORF_SIDE_893,tendonitis,False,893
+894,BIOKORF_SIDE_894,tendon sheath inflammation,False,894
+895,BIOKORF_SIDE_895,tension,False,895
+896,BIOKORF_SIDE_896,tension headache,True,896
+897,BIOKORF_SIDE_897,testicular pain,False,897
+898,BIOKORF_SIDE_898,tetany,True,898
+899,BIOKORF_SIDE_899,therapeutic response unexpected,False,899
+900,BIOKORF_SIDE_900,thinking abnormal,False,900
+901,BIOKORF_SIDE_901,thirst,True,901
+902,BIOKORF_SIDE_902,throat irritation,False,902
+903,BIOKORF_SIDE_903,throat tightness,False,903
+904,BIOKORF_SIDE_904,thrombocytopenia,True,904
+905,BIOKORF_SIDE_905,platelets increase,False,905
+906,BIOKORF_SIDE_906,thrombophlebitis,True,906
+907,BIOKORF_SIDE_907,thrombosis,True,907
+908,BIOKORF_SIDE_908,thrombotic thrombocytopenic purpura,False,908
+909,BIOKORF_SIDE_909,thyroid disorder,True,909
+910,BIOKORF_SIDE_910,thyroid neoplasm,False,910
+911,BIOKORF_SIDE_911,thyroiditis,False,911
+912,BIOKORF_SIDE_912,tinnitus,True,912
+913,BIOKORF_SIDE_913,tongue discolouration,False,913
+914,BIOKORF_SIDE_914,tongue disorder,False,914
+915,BIOKORF_SIDE_915,tongue oedema,False,915
+916,BIOKORF_SIDE_916,tongue ulceration,False,916
+917,BIOKORF_SIDE_917,tonsillitis,True,917
+918,BIOKORF_SIDE_918,tooth abscess,True,918
+919,BIOKORF_SIDE_919,tooth disorder,False,919
+920,BIOKORF_SIDE_920,tooth infection,False,920
+921,BIOKORF_SIDE_921,toothache,False,921
+922,BIOKORF_SIDE_922,ventricular arrhythmias and cardiac arrest,False,922
+923,BIOKORF_SIDE_923,torticollis,True,923
+924,BIOKORF_SIDE_924,toxic epidermal necrolysis,False,924
+925,BIOKORF_SIDE_925,toxicity to various agents,False,925
+926,BIOKORF_SIDE_926,tracheitis,False,926
+927,BIOKORF_SIDE_927,trachea bronchus inflammation,False,927
+928,BIOKORF_SIDE_928,transaminases increased,True,928
+929,BIOKORF_SIDE_929,transient ischaemic attack,False,929
+930,BIOKORF_SIDE_930,tremor,True,930
+931,BIOKORF_SIDE_931,masseter spasms,False,931
+932,BIOKORF_SIDE_932,inflammation of the interstitial tissue of the kidney,False,932
+933,BIOKORF_SIDE_933,tumour lysis syndrome,False,933
+934,BIOKORF_SIDE_934,ulcer,False,934
+935,BIOKORF_SIDE_935,ulcerative keratitis,False,935
+936,BIOKORF_SIDE_936,unintended pregnancy,False,936
+937,BIOKORF_SIDE_937,upper respiratory tract infection,True,937
+938,BIOKORF_SIDE_938,upper airway cough syndrome,False,938
+939,BIOKORF_SIDE_939,urethral disorder,False,939
+940,BIOKORF_SIDE_940,urethritis,False,940
+941,BIOKORF_SIDE_941,urethritis non infective,False,941
+942,BIOKORF_SIDE_942,urinary hesitation,True,942
+943,BIOKORF_SIDE_943,urinary incontinence,True,943
+944,BIOKORF_SIDE_944,urinary retention,True,944
+945,BIOKORF_SIDE_945,urinary tract disorder,False,945
+946,BIOKORF_SIDE_946,urinary tract infection,False,946
+947,BIOKORF_SIDE_947,urine abnormality,False,947
+948,BIOKORF_SIDE_948,urine analysis abnormal,False,948
+949,BIOKORF_SIDE_949,urine output increased,False,949
+950,BIOKORF_SIDE_950,urticaria,True,950
+951,BIOKORF_SIDE_951,uterine disorder,False,951
+952,BIOKORF_SIDE_952,uterine haemorrhage,False,952
+953,BIOKORF_SIDE_953,uterine smooth muscle tumor,False,953
+954,BIOKORF_SIDE_954,uterine spasm,False,954
+955,BIOKORF_SIDE_955,uveitis,True,955
+956,BIOKORF_SIDE_956,vaginal discharge,True,956
+957,BIOKORF_SIDE_957,vaginal haemorrhage,False,957
+958,BIOKORF_SIDE_958,vaginal infection,False,958
+959,BIOKORF_SIDE_959,varicose vein,True,959
+960,BIOKORF_SIDE_960,vascular headache,False,960
+961,BIOKORF_SIDE_961,vascular purpura,False,961
+962,BIOKORF_SIDE_962,vasculitis,True,962
+963,BIOKORF_SIDE_963,vasodilation procedure,False,963
+964,BIOKORF_SIDE_964,vasospasm,False,964
+965,BIOKORF_SIDE_965,venous thrombosis,True,965
+966,BIOKORF_SIDE_966,ventricular arrhythmia,True,966
+967,BIOKORF_SIDE_967,premature ventricular contractions,False,967
+968,BIOKORF_SIDE_968,ventricular fibrillation,True,968
+969,BIOKORF_SIDE_969,ventricular tachycardia,False,969
+970,BIOKORF_SIDE_970,vertigo,True,970
+971,BIOKORF_SIDE_971,vestibular disorder,False,971
+972,BIOKORF_SIDE_972,viral diarrhoea,False,972
+973,BIOKORF_SIDE_973,viral infection,False,973
+974,BIOKORF_SIDE_974,viral upper respiratory tract infection,False,974
+975,BIOKORF_SIDE_975,vision blurred,True,975
+976,BIOKORF_SIDE_976,visual acuity reduced,True,976
+977,BIOKORF_SIDE_977,visual impairment,True,977
+978,BIOKORF_SIDE_978,vomiting,True,978
+979,BIOKORF_SIDE_979,vulva vaginal candidiasis,False,979
+980,BIOKORF_SIDE_980,vulva vaginal dryness,False,980
+981,BIOKORF_SIDE_981,vulva vaginal mold infection,False,981
+982,BIOKORF_SIDE_982,vulva vaginal pruritus,False,982
+983,BIOKORF_SIDE_983,vulva vagina inflammation,False,983
+984,BIOKORF_SIDE_984,weight decreased,True,984
+985,BIOKORF_SIDE_985,weight increased,True,985
+986,BIOKORF_SIDE_986,wheezing,True,986
+987,BIOKORF_SIDE_987,white blood cell count decreased,False,987
+988,BIOKORF_SIDE_988,white blood cell count increased,False,988
+989,BIOKORF_SIDE_989,withdrawal syndrome,False,989
+990,BIOKORF_SIDE_990,wound infection,False,990
+991,BIOKORF_SIDE_991,wound secretion,False,991
+992,BIOKORF_SIDE_992,dry eye,False,992
+993,BIOKORF_SIDE_993,yawning,False,993

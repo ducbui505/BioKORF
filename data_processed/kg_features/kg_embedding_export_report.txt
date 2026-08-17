@@ -1,0 +1,38 @@
+BioKORF pretrained KG embedding export
+======================================
+Checkpoint epoch: 58
+Validation AP: 0.656690951874
+Validation ROC-AUC: 0.697274551410
+Device used for export: cuda
+Full graph nodes: 21829
+Full graph edges: 1048598
+Number of relations: 40
+Embedding dimension: 128
+Node embeddings shape: (21829, 128)
+Drug embeddings shape: (757, 128)
+Side embeddings shape: (994, 128)
+Drug KG coverage: 730/757 (96.43%)
+Side KG coverage: 319/994 (32.09%)
+Drug connected/missing: 730/27
+Side connected/missing: 319/675
+Deterministic export check: PASS
+Finite-value check: PASS
+Leakage check: PASS
+Leakage details: no Drug-Phenotype edges; no ADVERSE_DRUG_REACTION relation; no direct BIOKORF_DRUG-BIOKORF_SIDE edges; no frequency labels used
+Mean embedding norm, connected drug anchors: 11.34310150
+Mean embedding norm, connected side anchors: 11.31488132
+Mean embedding norm, missing drug anchors: 0.22994648
+Mean embedding norm, missing side anchors: 0.24571136
+Missing drug fallback check: PASS
+Missing side fallback check: PASS
+Encoder frozen: True
+Inference passes: 2 (first exported; second used only for determinism validation)
+Output paths:
+- D:\Duc\BioKORF\data_processed\kg_features\biokorf_kg_embeddings.pt
+- D:\Duc\BioKORF\data_processed\kg_features\drug_kg_embedding_index.csv
+- D:\Duc\BioKORF\data_processed\kg_features\side_kg_embedding_index.csv
+- D:\Duc\BioKORF\data_processed\kg_features\drug_kg_embeddings.npy
+- D:\Duc\BioKORF\data_processed\kg_features\side_kg_embeddings.npy
+- D:\Duc\BioKORF\data_processed\kg_features\drug_kg_available_mask.npy
+- D:\Duc\BioKORF\data_processed\kg_features\side_kg_available_mask.npy
+- D:\Duc\BioKORF\data_processed\kg_features\kg_embedding_export_report.txt

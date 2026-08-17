@@ -1,0 +1,36 @@
+BioKORF frozen-KG fusion smoke test
+====================================
+Device: cuda
+KG artifact path: D:\Duc\BioKORF\data_processed\kg_features\biokorf_kg_embeddings.pt
+Frozen drug KG embeddings shape: (757, 128)
+Frozen side KG embeddings shape: (994, 128)
+EN-con shape: (4, 128)
+EN-add shape: (4, 128)
+CNN-im shape: (4, 128)
+H_pair shape: (4, 384)
+KG_input shape: (4, 258)
+KG projection shape: (4, 384)
+Gate shape: (4, 384)
+H_fused shape: (4, 384)
+Latent shape: (4, 64)
+Logits shape: (4, 5)
+Gate mean/min/max: 0.50152612 / 0.36539268 / 0.66242206
+Frozen KG check: PASS
+Fusion parameters trainable: PASS
+Exact KG row retrieval check: PASS
+Matrix ordering check: PASS
+KG-effect isolation check: PASS
+Batch-independence check: PASS
+Finite-value check: PASS
+Original-file safety check: PASS
+KG artifact unchanged check: PASS
+Unavailable requested categories: none
+Selected availability-category samples:
+- both drug and side have KG: drug_index=0, side_effect_index=1
+- drug has KG; side does not: drug_index=0, side_effect_index=0
+- side has KG; drug does not: drug_index=10, side_effect_index=1
+- neither has KG: drug_index=10, side_effect_index=0
+Training performed: no
+Ordinal loss added: no
+Attention added: no
+R-GCN fine-tuned: no

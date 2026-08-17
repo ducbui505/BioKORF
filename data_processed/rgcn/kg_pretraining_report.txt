@@ -1,0 +1,32 @@
+BioKORF KG encoder pretraining report
+======================================
+Device: cuda
+Epochs completed: 60
+Previous best epoch: 39
+Previous best AP: 0.64354040
+Resumed starting epoch: 40
+Final epoch: 60
+Checkpoint improved during resume: True
+Best epoch: 58
+Best validation loss: 0.61205357
+Best validation ROC-AUC: 0.69727455
+Best validation AP: 0.65669095
+Best mean positive score: 0.26335433
+Best mean negative score: -0.67548907
+Positive-score sanity check: PASS
+Training message graph edge count: 943972
+Train biological edge count: 470795
+Validation biological edge count: 52313
+Validation/inverse edges removed: 104626
+Relation-wise split statistics: {"ACTIVATOR": {"total": 3, "train": 2, "validation": 1}, "AGONIST": {"total": 194, "train": 175, "validation": 19}, "ANTAGONIST": {"total": 187, "train": 168, "validation": 19}, "ASSOCIATED_WITH": {"total": 208668, "train": 187801, "validation": 20867}, "BLOCKER": {"total": 132, "train": 119, "validation": 13}, "CARRIER": {"total": 242, "train": 218, "validation": 24}, "ENZYME": {"total": 2046, "train": 1841, "validation": 205}, "INHIBITOR": {"total": 327, "train": 294, "validation": 33}, "INTERACTS_WITH": {"total": 308453, "train": 277608, "validation": 30845}, "INVERSE_AGONIST": {"total": 2, "train": 1, "validation": 1}, "MODULATOR": {"total": 16, "train": 14, "validation": 2}, "NEGATIVE_ALLOSTERIC_MODULATOR": {"total": 8, "train": 7, "validation": 1}, "OPENER": {"total": 7, "train": 6, "validation": 1}, "PARTIAL_AGONIST": {"total": 9, "train": 8, "validation": 1}, "POSITIVE_ALLOSTERIC_MODULATOR": {"total": 214, "train": 193, "validation": 21}, "POSITIVE_MODULATOR": {"total": 20, "train": 18, "validation": 2}, "TARGET": {"total": 1540, "train": 1386, "validation": 154}, "TRANSPORTER": {"total": 1040, "train": 936, "validation": 104}}
+Peak CUDA memory: 1166.11 MiB
+Checkpoint path: D:\Duc\BioKORF\checkpoints\kg_encoder_best.pt
+Checkpoint tensor finite check: PASS
+Validation edges absent from message graph: PASS
+Validation inverse edges absent from message graph: PASS
+No Drug-Phenotype relation: PASS
+No ADVERSE_DRUG_REACTION relation: PASS
+No drug-side-effect frequency labels loaded: PASS
+LEAKAGE CHECK: PASS
+KG embeddings exported: no
+MSSF integration performed: no
