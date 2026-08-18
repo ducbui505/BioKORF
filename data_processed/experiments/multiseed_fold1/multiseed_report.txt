@@ -1,0 +1,29 @@
+BioKORF multi-seed Fold-1 robustness comparison
+================================================
+Seeds: 42, 123, 2026
+Fixed split: D:\Duc\BioKORF\data_processed\experiments\pilot_fold1_split.npz
+Models: CLEAN and DRUG_KG
+
+Per-seed results:
+Model | Seed | Accuracy | Macro-F1 | AUPR
+--- | ---: | ---: | ---: | ---:
+CLEAN | 42 | 0.69029152 | 0.63782397 | 0.70794656
+CLEAN | 123 | 0.70018722 | 0.64969819 | 0.70857061
+CLEAN | 2026 | 0.70098957 | 0.64414656 | 0.71652214
+DRUG_KG | 42 | 0.69510564 | 0.64437946 | 0.70519282
+DRUG_KG | 123 | 0.68467505 | 0.62857738 | 0.69396366
+DRUG_KG | 2026 | 0.67344210 | 0.63209502 | 0.69826618
+
+Aggregate results (sample standard deviation):
+CLEAN: Accuracy=0.69715610 +/- 0.00595842; Macro-F1=0.64388957 +/- 0.00594128; AUPR=0.71101310 +/- 0.00478116
+DRUG_KG: Accuracy=0.68440760 +/- 0.01083425; Macro-F1=0.63501729 +/- 0.00829645; AUPR=0.69914089 +/- 0.00566545
+
+Paired per-seed deltas (DRUG_KG - CLEAN):
+Seed | Accuracy | Macro-F1 | AUPR
+---: | ---: | ---: | ---:
+42 | +0.00481412 | +0.00655549 | -0.00275374
+123 | -0.01551217 | -0.02112081 | -0.01460694
+2026 | -0.02754747 | -0.01205153 | -0.01825596
+
+DRUG_KG beats CLEAN on Macro-F1 for 1 of 3 seeds.
+Compare mode performed no training or test evaluation.
