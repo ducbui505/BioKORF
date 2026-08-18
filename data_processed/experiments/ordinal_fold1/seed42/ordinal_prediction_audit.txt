@@ -1,0 +1,103 @@
+BioKORF Step 28A ordinal prediction audit
+==========================================
+Checkpoint-only evaluation; no training and no weight updates.
+Fixed split: D:\Duc\BioKORF\data_processed\experiments\pilot_fold1_split.npz
+Checkpoint: D:\Duc\BioKORF\data_processed\experiments\ordinal_fold1\seed42\best_checkpoint.pt
+
+PART A — RAW LABEL AUDIT
+train: 1=964, 2=3394, 3=8110, 4=14393, 5=3423
+validation: 1=107, 2=377, 3=901, 4=1599, 5=380
+test: 1=119, 2=420, 3=1001, 4=1777, 5=422
+Detected raw label convention: 1..5
+Determination used observed values in the saved split, not source comments.
+
+PART B — TARGET CONSTRUCTION AUDIT
+raw label=1; interpreted ordinal class=1; targets=[0, 0, 0, 0]; expected=[0, 0, 0, 0]; PASS
+raw label=2; interpreted ordinal class=2; targets=[1, 0, 0, 0]; expected=[1, 0, 0, 0]; PASS
+raw label=3; interpreted ordinal class=3; targets=[1, 1, 0, 0]; expected=[1, 1, 0, 0]; PASS
+raw label=4; interpreted ordinal class=4; targets=[1, 1, 1, 0]; expected=[1, 1, 1, 0]; PASS
+raw label=5; interpreted ordinal class=5; targets=[1, 1, 1, 1]; expected=[1, 1, 1, 1]; PASS
+ORDINAL TARGET CHECK: PASS
+
+PART C — LOAD CHECKPOINT ONLY
+Best epoch: 4
+Best validation Macro-F1: 0.10492930
+Ordered thresholds: [-0.015356349758803844, 0.7084062695503235, 1.4478323459625244, 2.1908466815948486]
+Threshold differences: [0.7237626314163208, 0.7394260764122009, 0.7430143356323242]
+Mean severity score: 2.32543111
+Severity min/max/std: -2.58264565 / 5.32942057 / 0.89921266
+
+PART D — CUMULATIVE PROBABILITY AUDIT
+q1=P(y>1): mean=0.88544488, std=0.10114286, min=0.07127352, max=0.99524963
+q2=P(y>2): mean=0.80270588, std=0.14097194, min=0.03587944, max=0.99025321
+q3=P(y>3): mean=0.68227720, std=0.17678359, min=0.01745572, max=0.97979844
+q4=P(y>4): mean=0.53265810, std=0.19177413, min=0.00838000, max=0.95845610
+CUMULATIVE MONOTONICITY CHECK: PASS
+
+PART E — CLASS PROBABILITY AUDIT
+Reconstruction matches model output: PASS
+No materially negative probabilities: PASS
+Rows sum to one: PASS
+All values finite: PASS
+Mean predicted probability class 1: 0.11455506
+Mean predicted probability class 2: 0.08273903
+Mean predicted probability class 3: 0.12042873
+Mean predicted probability class 4: 0.14961919
+Mean predicted probability class 5: 0.53265804
+
+PART F — THREE DECODERS, SAME CHECKPOINT
+Decoder A (class-probability argmax)
+Accuracy=0.13105108; Macro-F1=0.10269727; MAE=1.31131319; QWK=0.30357851
+Predicted distribution: class 1=353, class 2=0, class 3=0, class 4=0, class 5=3386
+Decoder B (0.5 threshold count)
+Accuracy=0.25407863; Macro-F1=0.28691501; MAE=0.89194972; QWK=0.48563826
+Predicted distribution: class 1=36, class 2=115, class 3=480, class 4=905, class 5=2203
+Decoder C (rounded expected value)
+Accuracy=0.54987965; Macro-F1=0.36651212; MAE=0.50227334; QWK=0.56852183
+Predicted distribution: class 1=9, class 2=78, class 3=779, class 4=2379, class 5=494
+
+PART G — OFF-BY-ONE DIAGNOSTIC (NOT A FINAL DECODER)
+shift -1 (clamped 1..5): Accuracy=0.48970313; Macro-F1=0.19498436; dramatic=True
+shift +1 (clamped 1..5): Accuracy=0.16207542; Macro-F1=0.13995361; dramatic=False
+POSSIBLE LABEL INDEXING BUG
+
+PART H — CLASS COLLAPSE
+True test class distribution: class 1=119, class 2=420, class 3=1001, class 4=1777, class 5=422
+Decoder A (class-probability argmax): class 1=353, class 2=0, class 3=0, class 4=0, class 5=3386
+Majority predicted class=5; fraction=0.905590
+CLASS COLLAPSE DETECTED
+Decoder B (0.5 threshold count): class 1=36, class 2=115, class 3=480, class 4=905, class 5=2203
+Majority predicted class=5; fraction=0.589195
+Decoder C (rounded expected value): class 1=9, class 2=78, class 3=779, class 4=2379, class 5=494
+Majority predicted class=4; fraction=0.636266
+
+PART I — CONFUSION MATRICES
+Decoder A (class-probability argmax) confusion matrix (rows=true 1..5, columns=predicted 1..5):
+true\pred | 1 | 2 | 3 | 4 | 5
+1 | 69 | 0 | 0 | 0 | 50
+2 | 185 | 0 | 0 | 0 | 235
+3 | 83 | 0 | 0 | 0 | 918
+4 | 15 | 0 | 0 | 0 | 1762
+5 | 1 | 0 | 0 | 0 | 421
+Decoder B (0.5 threshold count) confusion matrix (rows=true 1..5, columns=predicted 1..5):
+true\pred | 1 | 2 | 3 | 4 | 5
+1 | 33 | 25 | 24 | 21 | 16
+2 | 3 | 66 | 219 | 111 | 21
+3 | 0 | 22 | 200 | 505 | 274
+4 | 0 | 2 | 34 | 250 | 1491
+5 | 0 | 0 | 3 | 18 | 401
+Decoder C (rounded expected value) confusion matrix (rows=true 1..5, columns=predicted 1..5):
+true\pred | 1 | 2 | 3 | 4 | 5
+1 | 9 | 41 | 39 | 30 | 0
+2 | 0 | 27 | 314 | 79 | 0
+3 | 0 | 9 | 345 | 638 | 9
+4 | 0 | 1 | 74 | 1446 | 256
+5 | 0 | 0 | 7 | 186 | 229
+
+PART J — FINAL DIAGNOSIS
+Diagnosis is based only on the diagnostics above:
+- LABEL_INDEX_MISMATCH
+- DECODING_ERROR
+- CLASS_COLLAPSE
+Criteria: dramatic decoder/shift improvement is >=0.10 absolute Accuracy or Macro-F1; collapse is >80% in one class; threshold degeneracy is a non-finite threshold, increment <=1e-3, or all cumulative-probability std values <=1e-3.
+No code or weights were changed, and no training was performed.
