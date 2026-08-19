@@ -1,0 +1,17 @@
+BioKORF Fold-1 CLEAN / Drug Knowledge Alignment
+================================================
+Model: clean
+Seed: 42
+lambda_align: N/A
+Batch size: 64
+Best epoch: 30
+Best validation Macro-F1: 0.66513930
+Accuracy: 0.70419898
+Macro-F1: 0.65404158
+AUPR: 0.71779121
+
+EXPERIMENT FAIRNESS CHECK: PASS
+LABEL DERIVED FEATURE LEAKAGE CHECK: PASS
+DRUG PHENOTYPE LEAKAGE CHECK: PASS
+FINITE VALUES CHECK: PASS
+No side-effect KG, direct KG fusion, ordinal learning, new attention, or R-GCN fine-tuning.

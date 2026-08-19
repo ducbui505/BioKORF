@@ -1,0 +1,99 @@
+{
+  "accuracy": 0.6972452527413747,
+  "macro_precision": 0.6672854691104658,
+  "macro_recall": 0.6128015767837238,
+  "macro_f1": 0.6345640695269964,
+  "micro_f1": 0.6972452527413747,
+  "aupr": 0.7008680206319431,
+  "confusion_matrix": [
+    [
+      70,
+      8,
+      13,
+      25,
+      3
+    ],
+    [
+      12,
+      244,
+      130,
+      32,
+      2
+    ],
+    [
+      14,
+      118,
+      582,
+      280,
+      7
+    ],
+    [
+      10,
+      21,
+      138,
+      1517,
+      91
+    ],
+    [
+      0,
+      1,
+      7,
+      220,
+      194
+    ]
+  ],
+  "per_class": {
+    "1": {
+      "precision": 0.660377358490566,
+      "recall": 0.5882352941176471,
+      "f1": 0.6222222222222222,
+      "support": 119
+    },
+    "2": {
+      "precision": 0.6224489795918368,
+      "recall": 0.580952380952381,
+      "f1": 0.6009852216748769,
+      "support": 420
+    },
+    "3": {
+      "precision": 0.6689655172413793,
+      "recall": 0.5814185814185814,
+      "f1": 0.6221272047033671,
+      "support": 1001
+    },
+    "4": {
+      "precision": 0.7314368370298939,
+      "recall": 0.8536859876195836,
+      "f1": 0.7878473123863932,
+      "support": 1777
+    },
+    "5": {
+      "precision": 0.6531986531986532,
+      "recall": 0.4597156398104265,
+      "f1": 0.5396383866481225,
+      "support": 422
+    }
+  },
+  "model": "residual_view_aware",
+  "seed": 42,
+  "batch_size": 64,
+  "best_epoch": 16,
+  "best_validation_macro_f1": 0.6568623302306341,
+  "test_loss": 0.8182060844472909,
+  "test_mean_residual_gate": 0.17710818350315094,
+  "test_mean_correction_ratio": 0.547922670841217,
+  "checks": {
+    "experiment_fairness": true,
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "finite_values": true,
+    "debug_tensor_contract": true,
+    "clean_equivalence_at_init": true,
+    "initial_residual_zero": true,
+    "initial_gate": true,
+    "residual_gradient_path": true,
+    "view_axis_attention": true,
+    "view_batch_independence": true,
+    "view_pooling": true
+  }
+}

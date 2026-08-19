@@ -1,0 +1,28 @@
+BioKORF Fold-1 Residual View-Aware Experiment
+==============================================
+Seed: 42
+Batch size: 64
+Best epoch: 16
+Best validation Macro-F1: 0.65686233
+Test Accuracy: 0.69724525
+Test Macro Precision: 0.66728547
+Test Macro Recall: 0.61280158
+Test Macro-F1: 0.63456407
+Test Micro-F1: 0.69724525
+Test AUPR: 0.70086802
+Test mean residual gate: 0.17710818
+Test mean correction ratio: 0.54792267
+
+EXPERIMENT FAIRNESS CHECK: PASS
+LABEL DERIVED FEATURE LEAKAGE CHECK: PASS
+DRUG PHENOTYPE LEAKAGE CHECK: PASS
+FINITE VALUES CHECK: PASS
+DEBUG TENSOR CONTRACT CHECK: PASS
+CLEAN EQUIVALENCE AT INIT CHECK: PASS
+INITIAL RESIDUAL ZERO CHECK: PASS
+INITIAL GATE CHECK: PASS
+RESIDUAL GRADIENT PATH CHECK: PASS
+VIEW AXIS ATTENTION CHECK: PASS
+VIEW BATCH INDEPENDENCE CHECK: PASS
+VIEW POOLING CHECK: PASS
+View pooling weights are descriptive and are not causal importance estimates.

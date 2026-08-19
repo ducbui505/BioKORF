@@ -1,0 +1,2 @@
+epoch,train_total_loss,train_frequency_loss,train_alignment_loss,val_frequency_loss,val_macro_f1,val_accuracy,val_aupr,mean_train_drug_kg_cosine,mean_val_drug_kg_cosine,alignment_drug_count,learning_rate
+1,1.5234845922355718,1.5079056588713173,0.3108794063767585,1.1109890172370973,0.342252547601187,0.6013674197384067,0.5334795447538829,0.7759295961166769,0.9161196372950801,729,0.0001

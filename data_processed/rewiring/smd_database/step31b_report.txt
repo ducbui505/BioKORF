@@ -1,0 +1,107 @@
+BioKORF Step 31B — SMDdatabase Additive Graph Construction
+===========================================================
+Graph construction only. Original similarity values are preserved and no model was trained/tested.
+
+Parameters
+----------
+k_original = 10
+kg_candidate_k = 20
+add_k = 3
+min_task_overlap = 3
+seed = 42
+KG/task combined weights = 0.5 / 0.5
+Task frequency centering = {1:-2, 2:-1, 3:0, 4:+1, 5:+2}
+Missing/validation/test entries remain unobserved and never enter masked cosine calculations.
+
+Source view
+-----------
+Audit source_file: Datas/Text_similarity_three.pkl
+Resolved source: D:\Duc\BioKORF\Datas\Text_similarity_three.pkl
+Source shape: [757, 757]
+Source SHA-256: 37cf170abdb2a2bfd45293dffebc7d7b0f88d069afa9f1ddb416de68bd38ff2e
+The source SMDdatabase matrix was not altered and no KG/task score replaces a source similarity.
+
+Train-only overlap diagnostics
+------------------------------
+minimum_required_overlap: 3
+all_pair_overlap_min: 0
+all_pair_overlap_max: 237
+all_pair_overlap_mean: 6.05700586
+all_pair_overlap_median: 4.00000000
+pairs_meeting_overlap_threshold: 176656
+pairs_with_valid_task_similarity: 173262
+degenerate_zero_norm_pairs: 3394
+unavailable_task_similarity_is_nan: True
+
+Graph statistics and task alignment
+-----------------------------------
+ORIGINAL: directed=7570, original=7570, added=0
+  degree mean/min/max=10.0000/10/10; isolated=0
+  reciprocal=2.3778%; components=1; largest=757
+  retained original similarity mean=0.00890357
+  added KG mean=NA; added TRAIN-task mean=NA; added overlap mean=NA
+  graph task mean=0.74704515; median=0.88696859; top-neighborhood=0.75282927
+  random baseline=0.67612629; enrichment=0.07091886; delta-vs-ORIGINAL=0.00000000
+KG_ONLY: directed=9760, original=7570, added=2190
+  degree mean/min/max=12.8930/10/13; isolated=0
+  reciprocal=11.3320%; components=1; largest=757
+  retained original similarity mean=0.00890357
+  added KG mean=0.99871374; added TRAIN-task mean=0.68217664; added overlap mean=7.52968037
+  graph task mean=0.73234122; median=0.87500000; top-neighborhood=0.74006100
+  random baseline=0.67612629; enrichment=0.05621493; delta-vs-ORIGINAL=-0.01470393
+TASK_ONLY: directed=9822, original=7570, added=2252
+  degree mean/min/max=12.9749/10/13; isolated=0
+  reciprocal=5.8033%; components=1; largest=757
+  retained original similarity mean=0.00890357
+  added KG mean=0.94507694; added TRAIN-task mean=0.98983550; added overlap mean=3.50266430
+  graph task mean=0.82263811; median=0.94491118; top-neighborhood=0.83534959
+  random baseline=0.67612629; enrichment=0.14651182; delta-vs-ORIGINAL=0.07559296
+KG_TASK: directed=9481, original=7570, added=1911
+  degree mean/min/max=12.5244/10/13; isolated=0
+  reciprocal=9.5349%; components=1; largest=757
+  retained original similarity mean=0.00890357
+  added KG mean=0.99543909; added TRAIN-task mean=0.91886301; added overlap mean=6.02721088
+  graph task mean=0.79468646; median=0.92739262; top-neighborhood=0.79974577
+  random baseline=0.67612629; enrichment=0.11856017; delta-vs-ORIGINAL=0.04764132
+
+KG contribution diagnostics
+---------------------------
+shared_added_edges: 65
+unique_to_task_only: 2187
+unique_to_kg_task: 1846
+jaccard_overlap: 0.01586140
+kg_task_fraction_also_selected_by_task_only: 0.03401361
+kg_task_fraction_unique_due_to_kg_candidate_restriction: 0.96598639
+
+Coverage
+--------
+source_drugs_with_usable_kg: 730
+source_drugs_without_kg: 27
+source_drugs_receiving_at_least_one_kg_only_edge: 730
+source_drugs_receiving_at_least_one_kg_task_edge: 681
+kg_only_mean_added_edges_per_eligible_drug: 3.00000000
+kg_task_mean_added_edges_per_eligible_drug: 2.61780822
+kg_task_source_drug_coverage_percentage: 89.96036988
+kg_task_added_edge_count: 1911
+
+Concise comparison
+------------------
+Graph | Original edges | Added edges | Mean task similarity | Task enrichment
+ORIGINAL | 7570 | 0 | 0.74704515 | 0.07091886
+KG_ONLY | 7570 | 2190 | 0.73234122 | 0.05621493
+TASK_ONLY | 7570 | 2252 | 0.82263811 | 0.14651182
+KG_TASK | 7570 | 1911 | 0.79468646 | 0.11856017
+
+KG_TASK source-drug coverage: 89.9604%
+KG_TASK added-edge count: 1911
+TASK_ONLY vs KG_TASK added-edge Jaccard: 0.01586140
+
+Improved TRAIN task alignment for TASK_ONLY/KG_TASK is expected because task similarity participates in selection.
+These diagnostics do not establish predictive improvement. Downstream validation is required in Step 31C.
+No downstream winner is selected in Step 31B.
+
+TASK-AWARE LEAKAGE CHECK: PASS
+SOURCE SIMILARITY PRESERVATION CHECK: PASS
+KG ARTIFACT SAFETY CHECK: PASS
+ORIGINAL MODEL SAFETY CHECK: PASS
+Training/testing performed: NO

@@ -1,0 +1,23 @@
+BioKORF Step 31C — Fold-1 Rewired SMDdatabase Experiment
+========================================================
+Variant: original_top10
+Seed: 42
+Batch size: 64
+Best epoch: 26
+Best validation Macro-F1: 0.64889363
+Test Accuracy: 0.69029152
+Test Macro Precision: 0.65117302
+Test Macro Recall: 0.62469155
+Test Macro-F1: 0.63652588
+Test Micro-F1: 0.69029152
+Test AUPR: 0.70195286
+Only drug view #3 topology differs; all feature values come from original SMDdatabase.
+
+EXPERIMENT FAIRNESS CHECK: PASS
+LABEL DERIVED FEATURE LEAKAGE CHECK: PASS
+DRUG PHENOTYPE LEAKAGE CHECK: PASS
+TASK AWARE REWIRING LEAKAGE CHECK: PASS
+DRUG MATRIX ORDER CHECK: PASS
+FINITE VALUES CHECK: PASS
+SOURCE SMD DATABASE PRESERVATION CHECK: PASS
+Training/testing performed: YES (explicit test mode).

@@ -1,0 +1,18 @@
+BioKORF Fold-1 View-Aware Experiment
+====================================
+Seed: 42
+Batch size: 64
+Best epoch: 25
+Best validation Macro-F1: 0.65170944
+Test Accuracy: 0.69002407
+Test Macro-F1: 0.64279039
+Test AUPR: 0.70917994
+
+EXPERIMENT FAIRNESS CHECK: PASS
+LABEL DERIVED FEATURE LEAKAGE CHECK: PASS
+DRUG PHENOTYPE LEAKAGE CHECK: PASS
+FINITE VALUES CHECK: PASS
+VIEW AXIS ATTENTION CHECK: PASS
+VIEW BATCH INDEPENDENCE CHECK: PASS
+VIEW POOLING CHECK: PASS
+Pooling weights are descriptive and are not interpreted as causal importance.

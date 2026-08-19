@@ -1,0 +1,258 @@
+BioKORF Step 31A — MSSF Similarity Graph Audit
+================================================
+Audit type: code/data/statistics only; no training, testing, or matrix modification.
+Task profiles: reconstructed solely from fixed Fold-1 train_samples.
+Validation/test arrays are used only for their drug/side index pairs to verify exclusion.
+
+1. Exact 11 Drug views in original MSSF order
+------------------------------------------------
+DRUG 01 SMDsimilarity | variable=drug_Tfeature_one | source=Datas/Text_similarity_one.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+DRUG 02 SMDexperimental | variable=drug_Tfeature_two | source=Datas/Text_similarity_two.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+DRUG 03 SMDdatabase | variable=drug_Tfeature_three | source=Datas/Text_similarity_three.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+DRUG 04 SMDtext | variable=drug_Tfeature_four | source=Datas/Text_similarity_four.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+DRUG 05 SMDcombined | variable=drug_Tfeature_five | source=Datas/Text_similarity_five.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+DRUG 06 Drug_word_sim | variable=Drug_word_sim | source=Datas/drug_mol.pkl | raw=757x100 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+DRUG 07 drug_target_sim | variable=drug_target_sim | source=Datas/drug_target.pkl | raw=757x847 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+DRUG 08 drug_f_sim | variable=drug_f_sim | source=Datas/fingerprint_similarity.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+DRUG 09 SMD_DIPF | variable=drug_side_sim | source=Datas/drug_side.pkl | raw=757x994 final=757x757 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+DRUG 10 SMD_DIPA | variable=drug_side_label_sim | source=Datas/drug_side.pkl | raw=757x994 final=757x757 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+DRUG 11 drug_p_e_sim | variable=drug_p_e_sim | source=Datas/drug_pathway_enzyme_similarity.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+
+2. Exact 4 Side-effect views in original MSSF order
+----------------------------------------------------
+SIDE_EFFECT 01 effect_side_semantic | variable=effect_side_semantic | source=Datas/side_effect_semantic.pkl | raw=994x994 final=994x994 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+SIDE_EFFECT 02 side_glove_sim | variable=side_glove_sim | source=Datas/glove_wordEmbedding.pkl | raw=994x300 final=994x994 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+SIDE_EFFECT 03 SME_DIPF | variable=side_drug_sim | source=Datas/drug_side.pkl | raw=757x994 final=994x994 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+SIDE_EFFECT 04 SME_DIPA | variable=side_drug_label_sim | source=Datas/drug_side.pkl | raw=757x994 final=994x994 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+
+3–4. Provenance and leakage classification
+--------------------------------------------
+DRUG 01 SMDsimilarity | variable=drug_Tfeature_one | source=Datas/Text_similarity_one.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: drug_features.append(drug_Tfeature_one)
+  File evidence: README.md identifies Text_similarity_one.pkl as a STITCH drug similarity matrix.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 02 SMDexperimental | variable=drug_Tfeature_two | source=Datas/Text_similarity_two.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: drug_features.append(drug_Tfeature_two)
+  File evidence: README.md identifies Text_similarity_two.pkl as a STITCH drug similarity matrix.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 03 SMDdatabase | variable=drug_Tfeature_three | source=Datas/Text_similarity_three.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: drug_features.append(drug_Tfeature_three)
+  File evidence: README.md identifies Text_similarity_three.pkl as a STITCH drug similarity matrix.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 04 SMDtext | variable=drug_Tfeature_four | source=Datas/Text_similarity_four.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: drug_features.append(drug_Tfeature_four)
+  File evidence: README.md identifies Text_similarity_four.pkl as a STITCH drug similarity matrix.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 05 SMDcombined | variable=drug_Tfeature_five | source=Datas/Text_similarity_five.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: drug_features.append(drug_Tfeature_five)
+  File evidence: README.md identifies Text_similarity_five.pkl as a STITCH drug similarity matrix.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 06 Drug_word_sim | variable=Drug_word_sim | source=Datas/drug_mol.pkl | raw=757x100 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: Drug_word_sim = cosine_similarity(Drug_word2vec)
+  File evidence: README.md describes drug_mol.pkl as externally learned Mol2vec vectors.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 07 drug_target_sim | variable=drug_target_sim | source=Datas/drug_target.pkl | raw=757x847 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: drug_target_sim = cosine_similarity(drug_target)
+  File evidence: README.md identifies drug_target.pkl as DrugBank target information.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 08 drug_f_sim | variable=drug_f_sim | source=Datas/fingerprint_similarity.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+  Code evidence: mssf.py: drug_f_sim = pickle.load(...fingerprint_similarity.pkl)
+  File evidence: README.md identifies fingerprint_similarity.pkl as structure similarity from Jaccard scores.
+  Explanation: No drug-side frequency or association labels enter this view.
+DRUG 09 SMD_DIPF | variable=drug_side_sim | source=Datas/drug_side.pkl | raw=757x994 final=757x757 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Code evidence: mssf.py: drug_side_sim = cosine_similarity(drug_side)
+  File evidence: drug_side.pkl contains known drug-side frequency labels; Fold-1 version must be reconstructed from train rows only.
+  Explanation: The audit reconstructs this view from train_samples only. Original mssf.py masks only data_test, so a separate model-selection validation subset would remain; MSSF-clean masks validation and test together.
+DRUG 10 SMD_DIPA | variable=drug_side_label_sim | source=Datas/drug_side.pkl | raw=757x994 final=757x757 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Code evidence: mssf.py: drug_side_label_sim = cosine_similarity(drug_side_label)
+  File evidence: drug_side.pkl supplies known associations; Fold-1 version must be reconstructed from train rows only.
+  Explanation: The audit reconstructs this view from train_samples only. Original mssf.py masks only data_test, so a separate model-selection validation subset would remain; MSSF-clean masks validation and test together.
+DRUG 11 drug_p_e_sim | variable=drug_p_e_sim | source=Datas/drug_pathway_enzyme_similarity.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Code evidence: mssf.py: drug_features.append(drug_p_e_sim)
+  File evidence: README.md identifies the matrix as constructed from DrugBank pathway/enzyme data.
+  Explanation: No drug-side frequency or association labels enter this view.
+SIDE_EFFECT 01 effect_side_semantic | variable=effect_side_semantic | source=Datas/side_effect_semantic.pkl | raw=994x994 final=994x994 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+  Code evidence: mssf.py: side_features.append(effect_side_semantic)
+  File evidence: README.md documents descriptor-based side-effect semantic similarity.
+  Explanation: No drug-side frequency or association labels enter this view.
+SIDE_EFFECT 02 side_glove_sim | variable=side_glove_sim | source=Datas/glove_wordEmbedding.pkl | raw=994x300 final=994x994 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+  Code evidence: mssf.py: side_glove_sim = cosine_similarity(glove_word)
+  File evidence: README.md describes glove_wordEmbedding.pkl as external GloVe vectors.
+  Explanation: No drug-side frequency or association labels enter this view.
+SIDE_EFFECT 03 SME_DIPF | variable=side_drug_sim | source=Datas/drug_side.pkl | raw=757x994 final=994x994 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Code evidence: mssf.py: side_drug_sim = cosine_similarity(drug_side.T)
+  File evidence: drug_side.pkl contains frequency labels; Fold-1 version must be reconstructed from train rows only.
+  Explanation: The audit reconstructs this view from train_samples only. Original mssf.py masks only data_test, so a separate model-selection validation subset would remain; MSSF-clean masks validation and test together.
+SIDE_EFFECT 04 SME_DIPA | variable=side_drug_label_sim | source=Datas/drug_side.pkl | raw=757x994 final=994x994 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Code evidence: mssf.py: side_drug_label_sim = cosine_similarity(drug_side_label.T)
+  File evidence: drug_side.pkl contains known associations; Fold-1 version must be reconstructed from train rows only.
+  Explanation: The audit reconstructs this view from train_samples only. Original mssf.py masks only data_test, so a separate model-selection validation subset would remain; MSSF-clean masks validation and test together.
+
+5. Graph statistics
+-------------------
+DRUG 01 SMDsimilarity: shape=757x757 symmetric=True density=0.002775 range=[0.000000, 1.000000] mean=0.002259 std=0.044033 nonzero=1590 NaN=0 inf=0
+  k=5: degree mean/min/max=8.975/5/702; isolated=0; components=1; largest=757; edges=3397; reciprocal=20.50%; retained_mean=0.152255
+  k=10: degree mean/min/max=18.682/10/752; isolated=0; components=1; largest=757; edges=7071; reciprocal=13.18%; retained_mean=0.083818
+  k=20: degree mean/min/max=38.293/20/756; isolated=0; components=1; largest=757; edges=14494; reciprocal=8.53%; retained_mean=0.041909
+DRUG 02 SMDexperimental: shape=757x757 symmetric=True density=0.011461 range=[0.000000, 1.000000] mean=0.004051 std=0.045402 nonzero=6568 NaN=0 inf=0
+  k=5: degree mean/min/max=8.444/5/390; isolated=0; components=5; largest=719; edges=3196; reciprocal=31.12%; retained_mean=0.190526
+  k=10: degree mean/min/max=16.291/10/480; isolated=0; components=1; largest=757; edges=6166; reciprocal=37.09%; retained_mean=0.154879
+  k=20: degree mean/min/max=33.260/20/662; isolated=0; components=1; largest=757; edges=12589; reciprocal=33.70%; retained_mean=0.102361
+DRUG 03 SMDdatabase: shape=757x757 symmetric=True density=0.001291 range=[0.000000, 1.000000] mean=0.001277 std=0.035533 nonzero=740 NaN=0 inf=0
+  k=5: degree mean/min/max=9.881/5/754; isolated=0; components=1; largest=757; edges=3740; reciprocal=2.38%; retained_mean=0.016380
+  k=10: degree mean/min/max=19.762/10/755; isolated=0; components=1; largest=757; edges=7480; reciprocal=2.38%; retained_mean=0.008904
+  k=20: degree mean/min/max=39.339/20/756; isolated=0; components=1; largest=757; edges=14890; reciprocal=3.30%; retained_mean=0.004742
+DRUG 04 SMDtext: shape=757x757 symmetric=True density=0.075264 range=[0.000000, 1.000000] mean=0.026466 std=0.110645 nonzero=43130 NaN=0 inf=0
+  k=5: degree mean/min/max=7.731/5/137; isolated=0; components=1; largest=757; edges=2926; reciprocal=45.39%; retained_mean=0.627896
+  k=10: degree mean/min/max=15.168/10/156; isolated=0; components=1; largest=757; edges=5741; reciprocal=48.32%; retained_mean=0.545681
+  k=20: degree mean/min/max=30.211/20/227; isolated=0; components=1; largest=757; edges=11435; reciprocal=48.94%; retained_mean=0.439122
+DRUG 05 SMDcombined: shape=757x757 symmetric=True density=0.077794 range=[0.000000, 1.000000] mean=0.028044 std=0.115185 nonzero=44580 NaN=0 inf=0
+  k=5: degree mean/min/max=7.720/5/126; isolated=0; components=1; largest=757; edges=2922; reciprocal=45.60%; retained_mean=0.654749
+  k=10: degree mean/min/max=15.067/10/149; isolated=0; components=1; largest=757; edges=5703; reciprocal=49.33%; retained_mean=0.573912
+  k=20: degree mean/min/max=29.894/20/210; isolated=0; components=1; largest=757; edges=11315; reciprocal=50.53%; retained_mean=0.465157
+DRUG 06 Drug_word_sim: shape=757x757 symmetric=True density=1.000000 range=[0.227134, 1.000000] mean=0.827554 std=0.103845 nonzero=573049 NaN=0 inf=0
+  k=5: degree mean/min/max=7.509/5/21; isolated=0; components=2; largest=751; edges=2842; reciprocal=49.83%; retained_mean=0.964201
+  k=10: degree mean/min/max=14.930/10/43; isolated=0; components=1; largest=757; edges=5651; reciprocal=50.70%; retained_mean=0.956605
+  k=20: degree mean/min/max=29.897/20/86; isolated=0; components=1; largest=757; edges=11316; reciprocal=50.52%; retained_mean=0.948200
+DRUG 07 drug_target_sim: shape=757x757 symmetric=True density=0.024755 range=[0.000000, 1.000000] mean=0.010459 std=0.079316 nonzero=14186 NaN=0 inf=0
+  k=5: degree mean/min/max=7.670/5/298; isolated=0; components=3; largest=735; edges=2903; reciprocal=46.61%; retained_mean=0.483081
+  k=10: degree mean/min/max=15.390/10/401; isolated=0; components=2; largest=742; edges=5825; reciprocal=46.10%; retained_mean=0.376540
+  k=20: degree mean/min/max=31.633/20/533; isolated=0; components=1; largest=757; edges=11973; reciprocal=41.84%; retained_mean=0.261956
+DRUG 08 drug_f_sim: shape=757x757 symmetric=True density=0.986553 range=[0.000000, 1.000000] mean=0.248204 std=0.132054 nonzero=565343 NaN=0 inf=0
+  k=5: degree mean/min/max=7.934/5/201; isolated=0; components=1; largest=757; edges=3003; reciprocal=41.32%; retained_mean=0.544650
+  k=10: degree mean/min/max=16.478/10/295; isolated=0; components=1; largest=757; edges=6237; reciprocal=35.22%; retained_mean=0.498454
+  k=20: degree mean/min/max=33.915/20/365; isolated=0; components=1; largest=757; edges=12837; reciprocal=30.42%; retained_mean=0.460179
+DRUG 09 SMD_DIPF: shape=757x757 symmetric=True density=0.874801 range=[0.000000, 1.000000] mean=0.179057 std=0.119001 nonzero=501304 NaN=0 inf=0
+  k=5: degree mean/min/max=8.322/5/55; isolated=0; components=1; largest=757; edges=3150; reciprocal=33.55%; retained_mean=0.467701
+  k=10: degree mean/min/max=16.196/10/89; isolated=0; components=1; largest=757; edges=6130; reciprocal=38.04%; retained_mean=0.442009
+  k=20: degree mean/min/max=31.530/20/130; isolated=0; components=1; largest=757; edges=11934; reciprocal=42.35%; retained_mean=0.414017
+DRUG 10 SMD_DIPA: shape=757x757 symmetric=True density=0.874801 range=[0.000000, 1.000000] mean=0.167844 std=0.111325 nonzero=501304 NaN=0 inf=0
+  k=5: degree mean/min/max=8.304/5/56; isolated=0; components=1; largest=757; edges=3143; reciprocal=33.92%; retained_mean=0.445389
+  k=10: degree mean/min/max=16.185/10/95; isolated=0; components=1; largest=757; edges=6126; reciprocal=38.15%; retained_mean=0.420359
+  k=20: degree mean/min/max=31.305/20/149; isolated=0; components=1; largest=757; edges=11849; reciprocal=43.47%; retained_mean=0.393190
+DRUG 11 drug_p_e_sim: shape=757x757 symmetric=True density=0.013793 range=[0.000000, 1.000000] mean=0.002700 std=0.034205 nonzero=7904 NaN=0 inf=0
+  k=5: degree mean/min/max=9.406/5/602; isolated=0; components=6; largest=689; edges=3560; reciprocal=11.89%; retained_mean=0.091372
+  k=10: degree mean/min/max=18.597/10/624; isolated=0; components=2; largest=741; edges=7039; reciprocal=14.03%; retained_mean=0.077775
+  k=20: degree mean/min/max=36.925/20/628; isolated=0; components=1; largest=757; edges=13976; reciprocal=15.38%; retained_mean=0.059889
+SIDE_EFFECT 01 effect_side_semantic: shape=994x994 symmetric=True density=0.114311 range=[0.000000, 1.000000] mean=0.010772 std=0.049487 nonzero=112943 NaN=0 inf=0
+  k=5: degree mean/min/max=6.672/5/49; isolated=0; components=9; largest=877; edges=3316; reciprocal=66.56%; retained_mean=0.322829
+  k=10: degree mean/min/max=13.628/10/80; isolated=0; components=2; largest=937; edges=6773; reciprocal=63.72%; retained_mean=0.253469
+  k=20: degree mean/min/max=26.952/20/89; isolated=0; components=2; largest=937; edges=13395; reciprocal=65.24%; retained_mean=0.189683
+SIDE_EFFECT 02 side_glove_sim: shape=994x994 symmetric=True density=1.000000 range=[-0.376382, 1.000000] mean=0.205364 std=0.150788 nonzero=988036 NaN=0 inf=0
+  k=5: degree mean/min/max=7.634/5/33; isolated=0; components=1; largest=994; edges=3794; reciprocal=47.32%; retained_mean=0.645909
+  k=10: degree mean/min/max=15.129/10/51; isolated=0; components=1; largest=994; edges=7519; reciprocal=48.71%; retained_mean=0.601135
+  k=20: degree mean/min/max=30.328/20/103; isolated=0; components=1; largest=994; edges=15073; reciprocal=48.36%; retained_mean=0.553861
+SIDE_EFFECT 03 SME_DIPF: shape=994x994 symmetric=True density=0.641796 range=[0.000000, 1.000000] mean=0.092182 std=0.103616 nonzero=634118 NaN=0 inf=0
+  k=5: degree mean/min/max=7.692/5/31; isolated=0; components=1; largest=994; edges=3823; reciprocal=46.16%; retained_mean=0.428684
+  k=10: degree mean/min/max=15.141/10/59; isolated=0; components=1; largest=994; edges=7525; reciprocal=48.59%; retained_mean=0.391656
+  k=20: degree mean/min/max=30.268/20/118; isolated=0; components=1; largest=994; edges=15043; reciprocal=48.66%; retained_mean=0.353886
+SIDE_EFFECT 04 SME_DIPA: shape=994x994 symmetric=True density=0.641796 range=[0.000000, 1.000000] mean=0.106493 std=0.112534 nonzero=634118 NaN=0 inf=0
+  k=5: degree mean/min/max=7.847/5/42; isolated=0; components=1; largest=994; edges=3900; reciprocal=43.06%; retained_mean=0.435049
+  k=10: degree mean/min/max=15.439/10/71; isolated=0; components=1; largest=994; edges=7673; reciprocal=45.61%; retained_mean=0.401642
+  k=20: degree mean/min/max=30.680/20/130; isolated=0; components=1; largest=994; edges=15248; reciprocal=46.60%; retained_mean=0.367517
+
+6. Train-only task-alignment statistics
+---------------------------------------
+DRUG 01 SMDsimilarity: corr=0.024622; top5=0.173798; top10=0.180515; random=0.178543; enrichment=0.001972; sufficient_entities=756
+DRUG 02 SMDexperimental: corr=0.051440; top5=0.202968; top10=0.203083; random=0.178543; enrichment=0.024540; sufficient_entities=756
+DRUG 03 SMDdatabase: corr=0.009772; top5=0.157211; top10=0.172309; random=0.178543; enrichment=-0.006233; sufficient_entities=756
+DRUG 04 SMDtext: corr=0.103879; top5=0.239988; top10=0.231973; random=0.178543; enrichment=0.053430; sufficient_entities=756
+DRUG 05 SMDcombined: corr=0.103880; top5=0.242745; top10=0.233685; random=0.178543; enrichment=0.055143; sufficient_entities=756
+DRUG 06 Drug_word_sim: corr=0.066558; top5=0.207906; top10=0.199354; random=0.178543; enrichment=0.020812; sufficient_entities=756
+DRUG 07 drug_target_sim: corr=0.072613; top5=0.220601; top10=0.213039; random=0.178543; enrichment=0.034497; sufficient_entities=756
+DRUG 08 drug_f_sim: corr=0.029537; top5=0.205089; top10=0.194525; random=0.178543; enrichment=0.015982; sufficient_entities=756
+DRUG 09 SMD_DIPF: corr=1.000000; top5=0.468319; top10=0.442594; random=0.178543; enrichment=0.264051; sufficient_entities=756
+DRUG 10 SMD_DIPA: corr=0.977660; top5=0.458036; top10=0.433364; random=0.178543; enrichment=0.254821; sufficient_entities=756
+DRUG 11 drug_p_e_sim: corr=0.041213; top5=0.175853; top10=0.184016; random=0.178543; enrichment=0.005473; sufficient_entities=756
+SIDE_EFFECT 01 effect_side_semantic: corr=0.087479; top5=0.158554; top10=0.146902; random=0.092176; enrichment=0.054726; sufficient_entities=994
+SIDE_EFFECT 02 side_glove_sim: corr=0.012938; top5=0.146796; top10=0.137354; random=0.092176; enrichment=0.045178; sufficient_entities=994
+SIDE_EFFECT 03 SME_DIPF: corr=1.000000; top5=0.428684; top10=0.391656; random=0.092176; enrichment=0.299480; sufficient_entities=994
+SIDE_EFFECT 04 SME_DIPA: corr=0.962992; top5=0.398783; top10=0.365861; random=0.092176; enrichment=0.273685; sufficient_entities=994
+
+7. KG redundancy/complementarity statistics
+--------------------------------------------
+Side-effect coverage is reported explicitly and low-coverage results are descriptive only.
+DRUG 01 SMDsimilarity: coverage=96.43%; Pearson=0.023989; Spearman=0.027812; Jaccard@5=0.068580; Jaccard@10=0.088585; class=COMPLEMENTARY
+DRUG 02 SMDexperimental: coverage=96.43%; Pearson=0.028622; Spearman=0.033157; Jaccard@5=0.060872; Jaccard@10=0.081786; class=COMPLEMENTARY
+DRUG 03 SMDdatabase: coverage=96.43%; Pearson=0.002400; Spearman=0.002033; Jaccard@5=0.074315; Jaccard@10=0.094670; class=COMPLEMENTARY
+DRUG 04 SMDtext: coverage=96.43%; Pearson=0.025213; Spearman=0.023887; Jaccard@5=0.048695; Jaccard@10=0.064237; class=COMPLEMENTARY
+DRUG 05 SMDcombined: coverage=96.43%; Pearson=0.026734; Spearman=0.025490; Jaccard@5=0.043178; Jaccard@10=0.058247; class=COMPLEMENTARY
+DRUG 06 Drug_word_sim: coverage=96.43%; Pearson=-0.071647; Spearman=-0.060787; Jaccard@5=0.018569; Jaccard@10=0.027212; class=COMPLEMENTARY
+DRUG 07 drug_target_sim: coverage=96.43%; Pearson=0.029850; Spearman=0.026162; Jaccard@5=0.069406; Jaccard@10=0.094291; class=COMPLEMENTARY
+DRUG 08 drug_f_sim: coverage=96.43%; Pearson=0.043155; Spearman=0.042016; Jaccard@5=0.026082; Jaccard@10=0.025519; class=EFFECTIVELY_UNRELATED
+DRUG 09 SMD_DIPF: coverage=96.43%; Pearson=0.034165; Spearman=0.041379; Jaccard@5=0.007496; Jaccard@10=0.012785; class=EFFECTIVELY_UNRELATED
+DRUG 10 SMD_DIPA: coverage=96.43%; Pearson=0.033680; Spearman=0.040217; Jaccard@5=0.008067; Jaccard@10=0.012096; class=EFFECTIVELY_UNRELATED
+DRUG 11 drug_p_e_sim: coverage=96.43%; Pearson=0.001171; Spearman=-0.016856; Jaccard@5=0.074092; Jaccard@10=0.094165; class=COMPLEMENTARY
+SIDE_EFFECT 01 effect_side_semantic: coverage=32.09%; Pearson=0.001528; Spearman=0.005911; Jaccard@5=0.015064; Jaccard@10=0.026273; class=EFFECTIVELY_UNRELATED
+SIDE_EFFECT 02 side_glove_sim: coverage=32.09%; Pearson=0.022752; Spearman=-0.006705; Jaccard@5=0.014194; Jaccard@10=0.026297; class=EFFECTIVELY_UNRELATED
+SIDE_EFFECT 03 SME_DIPF: coverage=32.09%; Pearson=0.033122; Spearman=-0.036271; Jaccard@5=0.010536; Jaccard@10=0.023252; class=EFFECTIVELY_UNRELATED
+SIDE_EFFECT 04 SME_DIPA: coverage=32.09%; Pearson=0.035226; Spearman=-0.025792; Jaccard@5=0.011407; Jaccard@10=0.023647; class=EFFECTIVELY_UNRELATED
+
+8. Rewiring suitability
+------------------------
+DRUG 01 SMDsimilarity | variable=drug_Tfeature_one | source=Datas/Text_similarity_one.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: Changing source similarity scores would alter STITCH evidence semantics; preserve values and build a separate task adjacency.
+DRUG 02 SMDexperimental | variable=drug_Tfeature_two | source=Datas/Text_similarity_two.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: Changing source scores would alter experimental-evidence semantics; preserve values and build a separate adjacency.
+DRUG 03 SMDdatabase | variable=drug_Tfeature_three | source=Datas/Text_similarity_three.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: Changing source scores would alter database-evidence semantics; preserve values and build a separate adjacency.
+DRUG 04 SMDtext | variable=drug_Tfeature_four | source=Datas/Text_similarity_four.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: Changing source scores would alter text-mining evidence semantics; preserve values and build a separate adjacency.
+DRUG 05 SMDcombined | variable=drug_Tfeature_five | source=Datas/Text_similarity_five.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: Changing combined source scores would alter their evidence meaning; preserve values and build a separate adjacency.
+DRUG 06 Drug_word_sim | variable=Drug_word_sim | source=Datas/drug_mol.pkl | raw=757x100 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: This is molecular-representation similarity; preserve the similarity feature and derive any task graph separately.
+DRUG 07 drug_target_sim | variable=drug_target_sim | source=Datas/drug_target.pkl | raw=757x847 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: Edges mean shared target profiles; added KG-supported edges must remain distinguishable from original target similarity.
+DRUG 08 drug_f_sim | variable=drug_f_sim | source=Datas/fingerprint_similarity.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+  Rationale: Available task/KG diagnostics do not provide consistent evidence for safe rewiring.
+  Scientific meaning: Do not rewrite chemical similarity values; only build a separate task-aware adjacency or prune an adjacency view.
+DRUG 09 SMD_DIPF | variable=drug_side_sim | source=Datas/drug_side.pkl | raw=757x994 final=757x757 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Rationale: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+  Scientific meaning: This already encodes training outcomes; KG/task rewiring risks circular target use and must not modify the feature.
+DRUG 10 SMD_DIPA | variable=drug_side_label_sim | source=Datas/drug_side.pkl | raw=757x994 final=757x757 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Rationale: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+  Scientific meaning: This already encodes training associations; preserve the safely recomputed feature and do not rewire it.
+DRUG 11 drug_p_e_sim | variable=drug_p_e_sim | source=Datas/drug_pathway_enzyme_similarity.pkl | raw=757x757 final=757x757 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=HIGH_PRIORITY_REWIRING_CANDIDATE mode=ADD_EDGES_WITH_KG_SUPPORT
+  Rationale: External and leakage-safe, with task-alignment headroom and complementary KG evidence; preserve source values and alter only a derived adjacency.
+  Scientific meaning: Edges represent pathway/enzyme similarity; keep source values separate from any task/KG adjacency.
+SIDE_EFFECT 01 effect_side_semantic | variable=effect_side_semantic | source=Datas/side_effect_semantic.pkl | raw=994x994 final=994x994 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+  Rationale: Available task/KG diagnostics do not provide consistent evidence for safe rewiring.
+  Scientific meaning: Changing values changes ontology/descriptor semantics; preserve them and build a separate adjacency.
+SIDE_EFFECT 02 side_glove_sim | variable=side_glove_sim | source=Datas/glove_wordEmbedding.pkl | raw=994x300 final=994x994 | provenance=EXTERNAL_STATIC leakage=SAFE_EXTERNAL | priority=NEEDS_MORE_EVIDENCE mode=NEEDS_REVIEW
+  Rationale: Available task/KG diagnostics do not provide consistent evidence for safe rewiring.
+  Scientific meaning: Edges represent lexical distributional similarity; added biomedical edges must remain a separate adjacency.
+SIDE_EFFECT 03 SME_DIPF | variable=side_drug_sim | source=Datas/drug_side.pkl | raw=757x994 final=994x994 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Rationale: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+  Scientific meaning: This already encodes training outcomes and must not be rewired with validation/test or circular task evidence.
+SIDE_EFFECT 04 SME_DIPA | variable=side_drug_label_sim | source=Datas/drug_side.pkl | raw=757x994 final=994x994 | provenance=LABEL_DERIVED leakage=SAFE_TRAIN_ONLY | priority=DO_NOT_REWIRE mode=DO_NOT_MODIFY
+  Rationale: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+  Scientific meaning: This already encodes training associations; preserve the safely recomputed feature and do not rewire it.
+
+9. Top three safest candidates
+------------------------------
+#1 DRUG 3 SMDdatabase — HIGH_PRIORITY_REWIRING_CANDIDATE / ADD_EDGES_WITH_KG_SUPPORT: score=4.5381; task_corr=0.0098; top10_enrichment=-0.0062; KG=COMPLEMENTARY; KG_top10_Jaccard=0.0947
+#2 DRUG 1 SMDsimilarity — HIGH_PRIORITY_REWIRING_CANDIDATE / ADD_EDGES_WITH_KG_SUPPORT: score=4.5347; task_corr=0.0246; top10_enrichment=0.0020; KG=COMPLEMENTARY; KG_top10_Jaccard=0.0886
+#3 DRUG 11 drug_p_e_sim — HIGH_PRIORITY_REWIRING_CANDIDATE / ADD_EDGES_WITH_KG_SUPPORT: score=4.5295; task_corr=0.0412; top10_enrichment=0.0055; KG=COMPLEMENTARY; KG_top10_Jaccard=0.0942
+
+10. Views that must NOT be rewired
+-----------------------------------
+- DRUG 9 SMD_DIPF: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+- DRUG 10 SMD_DIPA: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+- SIDE_EFFECT 3 SME_DIPF: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+- SIDE_EFFECT 4 SME_DIPA: The view directly encodes Fold-1 training labels; further task-guided rewiring would be circular and must never use validation/test labels.
+
+11. Recommended first Step 31B experiment
+------------------------------------------
+Recommend only DRUG view 3 (SMDdatabase) using ADD_EDGES_WITH_KG_SUPPORT. Preserve the original matrix; create one separate train-only/KG-supported adjacency and compare it against unchanged MSSF-clean.
+
+TASK-AWARE LEAKAGE CHECK: PASS
+PROTECTED INPUT IMMUTABILITY CHECK: PASS
+TRAINING/TESTING PERFORMED: NO

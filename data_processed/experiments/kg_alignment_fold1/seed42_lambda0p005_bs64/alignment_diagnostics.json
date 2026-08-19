@@ -1,0 +1,17 @@
+{
+  "lambda_align": 0.005,
+  "batch_size": 64,
+  "mean_test_drug_kg_cosine": 0.9789813227123685,
+  "unique_kg_available_test_drugs": 630,
+  "kg_available_test_samples": 3639,
+  "kg_unavailable_test_samples": 100,
+  "checks": {
+    "experiment_fairness": true,
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "finite_values": true,
+    "frozen_kg": true,
+    "shared_representation_alignment": true,
+    "kg_inference_independence": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "accuracy": 0.6900240706071142,
+  "macro_precision": 0.6462420357994964,
+  "macro_recall": 0.6402217516415131,
+  "macro_f1": 0.6427903865510988,
+  "micro_f1": 0.6900240706071142,
+  "aupr": 0.7091799432908523,
+  "confusion_matrix": [
+    [
+      73,
+      12,
+      13,
+      18,
+      3
+    ],
+    [
+      13,
+      259,
+      126,
+      21,
+      1
+    ],
+    [
+      16,
+      129,
+      591,
+      252,
+      13
+    ],
+    [
+      12,
+      28,
+      168,
+      1409,
+      160
+    ],
+    [
+      0,
+      4,
+      12,
+      158,
+      248
+    ]
+  ],
+  "per_class": {
+    "1": {
+      "precision": 0.6403508771929824,
+      "recall": 0.6134453781512605,
+      "f1": 0.6266094420600858,
+      "support": 119
+    },
+    "2": {
+      "precision": 0.5995370370370371,
+      "recall": 0.6166666666666667,
+      "f1": 0.607981220657277,
+      "support": 420
+    },
+    "3": {
+      "precision": 0.6494505494505495,
+      "recall": 0.5904095904095904,
+      "f1": 0.6185243328100472,
+      "support": 1001
+    },
+    "4": {
+      "precision": 0.7583423035522067,
+      "recall": 0.7929093978615644,
+      "f1": 0.7752407152682256,
+      "support": 1777
+    },
+    "5": {
+      "precision": 0.5835294117647059,
+      "recall": 0.5876777251184834,
+      "f1": 0.5855962219598583,
+      "support": 422
+    }
+  },
+  "model": "view_aware",
+  "seed": 42,
+  "batch_size": 64,
+  "best_epoch": 25,
+  "best_validation_macro_f1": 0.6517094426887372,
+  "checks": {
+    "experiment_fairness": true,
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "finite_values": true,
+    "view_axis_attention": true,
+    "view_batch_independence": true,
+    "view_pooling": true
+  }
+}

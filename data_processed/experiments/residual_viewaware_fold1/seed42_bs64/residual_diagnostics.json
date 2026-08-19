@@ -1,0 +1,28 @@
+{
+  "residual_gate": {
+    "mean": 0.17710818350315094,
+    "std": 0.15014015138149261,
+    "min": 9.999187568610068e-06,
+    "max": 0.9999799728393555
+  },
+  "correction_ratio": {
+    "mean": 0.547922670841217,
+    "std": 0.491815984249115,
+    "min": 0.004939083009958267,
+    "max": 3.2528884410858154
+  },
+  "checks": {
+    "experiment_fairness": true,
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "finite_values": true,
+    "debug_tensor_contract": true,
+    "clean_equivalence_at_init": true,
+    "initial_residual_zero": true,
+    "initial_gate": true,
+    "residual_gradient_path": true,
+    "view_axis_attention": true,
+    "view_batch_independence": true,
+    "view_pooling": true
+  }
+}

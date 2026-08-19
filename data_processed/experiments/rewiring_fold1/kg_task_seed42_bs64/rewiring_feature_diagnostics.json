@@ -1,0 +1,39 @@
+{
+  "variant": "kg_task",
+  "source_shape": [
+    757,
+    757
+  ],
+  "rewired_shape": [
+    757,
+    757
+  ],
+  "selected_adjacency_edge_count": 9481,
+  "added_edge_count": 1911,
+  "selected_zero_weight_edge_count": 9406,
+  "selected_zero_weight_percentage": 99.20894420419786,
+  "mean_selected_original_similarity": 0.007108954751608481,
+  "median_selected_original_similarity": 0.0,
+  "added_zero_weight_edge_count": 1911,
+  "added_zero_weight_percentage": 100.0,
+  "mean_added_original_similarity": 0.0,
+  "median_added_original_similarity": 0.0,
+  "nonzero_rewired_matrix_count": 735,
+  "diagonal_preserved": true,
+  "feature_values_come_only_from_original_smd_database": true,
+  "kg_task_high_zero_weight_warning": true,
+  "audit_source_file": "Datas/Text_similarity_three.pkl",
+  "source_path": "D:\\Duc\\BioKORF\\Datas\\Text_similarity_three.pkl",
+  "source_sha256": "37cf170abdb2a2bfd45293dffebc7d7b0f88d069afa9f1ddb416de68bd38ff2e",
+  "adjacency_path": "D:\\Duc\\BioKORF\\data_processed\\rewiring\\smd_database\\kg_task_edges.csv",
+  "adjacency_sha256": "a55ab8fb6e348c6f3045787166c423c2988277e169f66ff418cebb4bc7404c46",
+  "final_drug_input_dimension": 8327,
+  "final_side_effect_input_dimension": 3976,
+  "checks": {
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "task_aware_rewiring_leakage": true,
+    "drug_matrix_order": true,
+    "finite_values": true
+  }
+}
