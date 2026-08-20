@@ -1,0 +1,24 @@
+BioKORF Step 31F — Explicit Graph as Drug View #12
+===================================================
+Variant: zero_control
+Seed: 42
+Batch size: 64
+Trainable parameter count: 9519424
+Best epoch: 9
+Best validation Macro-F1: 0.64312258
+Test Accuracy: 0.67745386
+Test Macro-F1: 0.62523677
+Test AUPR: 0.68948896
+Original Drug views #1-#11 remain unchanged; the explicit matrix is view #12.
+Zero control convention: identity matrix: diagonal self-similarity only; every off-diagonal is zero
+
+EXPERIMENT FAIRNESS CHECK: PASS
+LABEL-DERIVED FEATURE LEAKAGE CHECK: PASS
+DRUG-PHENOTYPE LEAKAGE CHECK: PASS
+EXPLICIT GRAPH LEAKAGE CHECK: PASS
+SOURCE FEATURE PRESERVATION CHECK: PASS
+ORIGINAL VIEW ORDER PRESERVATION CHECK: PASS
+12-VIEW PARAMETER FAIRNESS CHECK: PASS
+FINITE-VALUE CHECK: PASS
+ZERO CONTROL INFORMATION CHECK: PASS
+Training/testing performed: YES (explicit test mode).

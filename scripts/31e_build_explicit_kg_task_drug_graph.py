@@ -46,6 +46,7 @@ MIN_TASK_OVERLAP = 3
 RANDOM_SEED = 42
 KG_WEIGHT = 0.5
 TASK_WEIGHT = 0.5
+NUMERICAL_BOUNDARY_TOLERANCE = 1e-8
 
 INPUT_PATHS = (
     KG_EDGES_PATH,
@@ -276,6 +277,30 @@ def deterministic_rank(values: np.ndarray, candidates: np.ndarray) -> np.ndarray
     return candidates[order]
 
 
+def clip_unit_interval_roundoff(
+    values: np.ndarray | float,
+    label: str,
+) -> np.ndarray | float:
+    array = np.asarray(values)
+    comparable = ~np.isnan(array)
+    meaningful_violation = comparable & (
+        (array < -NUMERICAL_BOUNDARY_TOLERANCE)
+        | (array > 1.0 + NUMERICAL_BOUNDARY_TOLERANCE)
+    )
+    if np.any(meaningful_violation):
+        violating_values = array[meaningful_violation]
+        raise RuntimeError(
+            f"{label} is outside the numerical boundary tolerance "
+            f"[-{NUMERICAL_BOUNDARY_TOLERANCE}, "
+            f"{1.0 + NUMERICAL_BOUNDARY_TOLERANCE}]: "
+            f"min={float(np.min(violating_values))}, "
+            f"max={float(np.max(violating_values))}, "
+            f"count={int(violating_values.size)}"
+        )
+    clipped = np.clip(array, 0.0, 1.0)
+    return float(clipped) if array.ndim == 0 else clipped
+
+
 def edge_row(
     source: int,
     target: int,
@@ -289,6 +314,14 @@ def edge_row(
     combined: float = math.nan,
 ) -> dict[str, Any]:
     task_value = float(task[source, target])
+    normalized_task_value = (
+        clip_unit_interval_roundoff(
+            (task_value + 1.0) / 2.0,
+            f"normalized task similarity at ({source}, {target})",
+        )
+        if np.isfinite(task_value)
+        else math.nan
+    )
     return {
         "source_drug_index": source,
         "target_drug_index": target,
@@ -297,9 +330,7 @@ def edge_row(
         "gene_jaccard": float(gene[source, target]),
         "pathway_jaccard": float(pathway[source, target]),
         "task_similarity": task_value,
-        "normalized_task_similarity": (
-            (task_value + 1.0) / 2.0 if np.isfinite(task_value) else math.nan
-        ),
+        "normalized_task_similarity": normalized_task_value,
         "combined_score": combined,
         "task_overlap_count": int(overlap[source, target]),
         "edge_origin": origin,
@@ -339,7 +370,10 @@ def build_graphs(
             )
 
         task_valid = not_self & np.isfinite(task[source])
-        normalized_task = (task[source] + 1.0) / 2.0
+        normalized_task = clip_unit_interval_roundoff(
+            (task[source] + 1.0) / 2.0,
+            f"normalized task similarity for source {source}",
+        )
         task_candidates = deterministic_rank(
             normalized_task, all_indices[task_valid]
         )[:TOP_K]
@@ -359,6 +393,10 @@ def build_graphs(
         combined_values[combined_valid] = (
             KG_WEIGHT * structure[source, combined_valid]
             + TASK_WEIGHT * normalized_task[combined_valid]
+        )
+        combined_values = clip_unit_interval_roundoff(
+            combined_values,
+            f"combined score for source {source}",
         )
         combined_candidates = deterministic_rank(
             combined_values, all_indices[combined_valid]
@@ -570,15 +608,206 @@ def complementarity(
 
 
 def validate_matrices(matrices: dict[str, np.ndarray]) -> bool:
-    return all(
-        matrix.shape == (DRUG_COUNT, DRUG_COUNT)
-        and matrix.dtype == np.float32
-        and np.isfinite(matrix).all()
-        and np.array_equal(np.diag(matrix), np.ones(DRUG_COUNT, dtype=np.float32))
-        and np.all(matrix >= 0)
-        and np.all(matrix <= 1)
-        for matrix in matrices.values()
+    expected_shape = (DRUG_COUNT, DRUG_COUNT)
+    expected_names = (
+        "STRUCTURE_ONLY",
+        "TASK_ONLY_EXPLICIT",
+        "KG_TASK_EXPLICIT",
     )
+    failed_contracts: dict[str, list[str]] = {}
+
+    for name in expected_names:
+        matrix = matrices.get(name)
+        is_array = isinstance(matrix, np.ndarray)
+        actual_shape = getattr(matrix, "shape", None)
+        actual_dtype = getattr(matrix, "dtype", None)
+
+        type_check = is_array
+        dtype_check = bool(is_array and matrix.dtype == np.float32)
+        shape_check = bool(is_array and matrix.shape == expected_shape)
+
+        finite_check = False
+        nan_count: int | None = None
+        positive_inf_count: int | None = None
+        negative_inf_count: int | None = None
+        diagonal_min: float | None = None
+        diagonal_max: float | None = None
+        diagonal_max_deviation: float | None = None
+        diagonal_check = False
+        offdiagonal_min: float | None = None
+        offdiagonal_max: float | None = None
+        offdiagonal_below_zero_count: int | None = None
+        offdiagonal_above_one_count: int | None = None
+        nonzero_offdiagonal_count: int | None = None
+        offdiagonal_range_check = False
+        symmetry_check = False
+        offending_diagonal: list[tuple[int, float]] = []
+        offending_offdiagonal: list[tuple[int, int, float]] = []
+
+        is_numeric_matrix = bool(
+            is_array
+            and matrix.ndim == 2
+            and np.issubdtype(matrix.dtype, np.number)
+        )
+        if is_numeric_matrix:
+            finite_mask = np.isfinite(matrix)
+            finite_check = bool(finite_mask.all())
+            nan_count = int(np.isnan(matrix).sum())
+            positive_inf_count = int(np.isposinf(matrix).sum())
+            negative_inf_count = int(np.isneginf(matrix).sum())
+
+            diagonal = np.diag(matrix)
+            if diagonal.size:
+                diagonal_min = float(np.min(diagonal))
+                diagonal_max = float(np.max(diagonal))
+                diagonal_max_deviation = float(
+                    np.max(np.abs(diagonal.astype(np.float64) - 1.0))
+                )
+            diagonal_check = bool(
+                diagonal.size == DRUG_COUNT
+                and np.array_equal(
+                    diagonal, np.ones(DRUG_COUNT, dtype=np.float32)
+                )
+            )
+            bad_diagonal = np.flatnonzero(
+                ~np.isfinite(diagonal) | (diagonal != 1.0)
+            )
+            offending_diagonal = [
+                (int(index), float(diagonal[index]))
+                for index in bad_diagonal[:20]
+            ]
+
+            offdiagonal_mask = np.ones(matrix.shape, dtype=bool)
+            np.fill_diagonal(offdiagonal_mask, False)
+            offdiagonal = matrix[offdiagonal_mask]
+            if offdiagonal.size:
+                offdiagonal_min = float(np.min(offdiagonal))
+                offdiagonal_max = float(np.max(offdiagonal))
+                offdiagonal_below_zero_count = int(
+                    np.count_nonzero(offdiagonal < 0)
+                )
+                offdiagonal_above_one_count = int(
+                    np.count_nonzero(offdiagonal > 1)
+                )
+                nonzero_offdiagonal_count = int(
+                    np.count_nonzero(offdiagonal)
+                )
+                offdiagonal_range_check = bool(
+                    np.all(np.isfinite(offdiagonal))
+                    and np.all(offdiagonal >= 0)
+                    and np.all(offdiagonal <= 1)
+                )
+            else:
+                offdiagonal_below_zero_count = 0
+                offdiagonal_above_one_count = 0
+                nonzero_offdiagonal_count = 0
+                offdiagonal_range_check = True
+
+            bad_offdiagonal_mask = offdiagonal_mask & (
+                ~np.isfinite(matrix) | (matrix < 0) | (matrix > 1)
+            )
+            bad_rows, bad_columns = np.nonzero(bad_offdiagonal_mask)
+            offending_offdiagonal = [
+                (int(row), int(column), float(matrix[row, column]))
+                for row, column in zip(
+                    bad_rows[:20], bad_columns[:20], strict=True
+                )
+            ]
+
+            symmetry_check = bool(
+                matrix.shape[0] == matrix.shape[1]
+                and np.array_equal(matrix, matrix.T, equal_nan=True)
+            )
+
+        condition_results = {
+            "type_check": type_check,
+            "dtype_check": dtype_check,
+            "shape_check": shape_check,
+            "finite_check": finite_check,
+            "diagonal_check": diagonal_check,
+            "offdiagonal_range_check": offdiagonal_range_check,
+        }
+        failed_conditions = [
+            condition
+            for condition, passed in condition_results.items()
+            if not passed
+        ]
+        contract_passed = not failed_conditions
+        if failed_conditions:
+            failed_contracts[name] = failed_conditions
+
+        print(f"\n{name} MATRIX VALIDATION")
+        print(f"  matrix name: {name}")
+        print(f"  Python / NumPy type: {type(matrix)!r}")
+        print(f"  dtype: {actual_dtype}")
+        print(f"  shape: {actual_shape}")
+        print(f"  expected shape: {expected_shape}")
+        print(f"  finite-value check: {'PASS' if finite_check else 'FAIL'}")
+        print(f"  NaN count: {nan_count if nan_count is not None else 'N/A'}")
+        print(
+            "  positive-inf count: "
+            f"{positive_inf_count if positive_inf_count is not None else 'N/A'}"
+        )
+        print(
+            "  negative-inf count: "
+            f"{negative_inf_count if negative_inf_count is not None else 'N/A'}"
+        )
+        print(f"  diagonal min: {diagonal_min}")
+        print(f"  diagonal max: {diagonal_max}")
+        print(
+            "  maximum absolute deviation of diagonal from 1: "
+            f"{diagonal_max_deviation}"
+        )
+        print(f"  diagonal_is_one check: {'PASS' if diagonal_check else 'FAIL'}")
+        print(f"  off-diagonal min: {offdiagonal_min}")
+        print(f"  off-diagonal max: {offdiagonal_max}")
+        print(
+            "  count off-diagonal < 0: "
+            f"{offdiagonal_below_zero_count if offdiagonal_below_zero_count is not None else 'N/A'}"
+        )
+        print(
+            "  count off-diagonal > 1: "
+            f"{offdiagonal_above_one_count if offdiagonal_above_one_count is not None else 'N/A'}"
+        )
+        print(
+            "  count nonzero off-diagonal: "
+            f"{nonzero_offdiagonal_count if nonzero_offdiagonal_count is not None else 'N/A'}"
+        )
+        print(
+            "  symmetry check (diagnostic only): "
+            f"{'PASS' if symmetry_check else 'FAIL'}"
+        )
+        print(f"  final matrix contract: {'PASS' if contract_passed else 'FAIL'}")
+
+        print(f"{name}:")
+        print(f"  type_check: {'PASS' if type_check else 'FAIL'}")
+        print(f"  dtype_check: {'PASS' if dtype_check else 'FAIL'}")
+        print(f"  shape_check: {'PASS' if shape_check else 'FAIL'}")
+        print(f"  finite_check: {'PASS' if finite_check else 'FAIL'}")
+        print(f"  diagonal_check: {'PASS' if diagonal_check else 'FAIL'}")
+        print(
+            "  offdiagonal_range_check: "
+            f"{'PASS' if offdiagonal_range_check else 'FAIL'}"
+        )
+        print(f"  MATRIX CONTRACT: {'PASS' if contract_passed else 'FAIL'}")
+
+        if not diagonal_check and offending_diagonal:
+            print("  First 20 offending diagonal entries:")
+            print("    row_index, value")
+            for row, value in offending_diagonal:
+                print(f"    {row}, {value}")
+        if not offdiagonal_range_check and offending_offdiagonal:
+            print("  First 20 offending off-diagonal entries:")
+            print("    row_index, column_index, value")
+            for row, column, value in offending_offdiagonal:
+                print(f"    {row}, {column}, {value}")
+
+    if failed_contracts:
+        print("\nFAILED MATRIX CONTRACTS:")
+        for name, failed_conditions in failed_contracts.items():
+            print(f"- {name}: {', '.join(failed_conditions)}")
+
+    return not failed_contracts
 
 
 def json_safe(value: Any) -> Any:
@@ -657,6 +886,10 @@ def build_report(
         f"minimum task overlap = {MIN_TASK_OVERLAP}",
         f"seed = {RANDOM_SEED}",
         f"KG/task combined weights = {KG_WEIGHT:.1f}/{TASK_WEIGHT:.1f}",
+        "",
+        "NUMERICAL BOUNDARY NORMALIZATION:",
+        "Small floating-point excursions within 1e-8 of [0,1] were clipped to the",
+        "mathematically valid interval. Larger violations would fail loudly.",
         "",
         "Explicit KG sets",
         "----------------",
@@ -757,7 +990,8 @@ def main() -> None:
         task_similarity,
         overlap,
     )
-    if not validate_matrices(matrices):
+    matrix_contract_safe = validate_matrices(matrices)
+    if not matrix_contract_safe:
         raise RuntimeError("A Step 31E matrix contract check failed")
     random_task_baseline, random_pair_count = deterministic_random_task_baseline(
         task_similarity
@@ -812,7 +1046,7 @@ def main() -> None:
             structure_checks["only_typed_maps_drug_gene_pathway_gene_used"]
             and not structure_checks["drug_phenotype_relations_used"]
             and not structure_checks["adverse_drug_reaction_relations_used"]
-            and validate_matrices(matrices)
+            and matrix_contract_safe
         ),
         "task_aware_leakage": bool(
             train_checks["validation_positions_hidden"]

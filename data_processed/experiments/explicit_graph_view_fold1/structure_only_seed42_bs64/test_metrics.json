@@ -1,0 +1,97 @@
+{
+  "accuracy": 0.6921636801283766,
+  "macro_precision": 0.6577882116259535,
+  "macro_recall": 0.6141145518285753,
+  "macro_f1": 0.6330324397508583,
+  "micro_f1": 0.6921636801283766,
+  "aupr": 0.7063160444831081,
+  "confusion_matrix": [
+    [
+      68,
+      9,
+      16,
+      22,
+      4
+    ],
+    [
+      14,
+      242,
+      136,
+      26,
+      2
+    ],
+    [
+      9,
+      119,
+      583,
+      282,
+      8
+    ],
+    [
+      10,
+      26,
+      134,
+      1481,
+      126
+    ],
+    [
+      0,
+      1,
+      8,
+      199,
+      214
+    ]
+  ],
+  "per_class": {
+    "1": {
+      "precision": 0.6732673267326733,
+      "recall": 0.5714285714285714,
+      "f1": 0.6181818181818183,
+      "support": 119
+    },
+    "2": {
+      "precision": 0.6095717884130982,
+      "recall": 0.5761904761904761,
+      "f1": 0.5924112607099142,
+      "support": 420
+    },
+    "3": {
+      "precision": 0.6647662485746865,
+      "recall": 0.5824175824175825,
+      "f1": 0.6208732694355698,
+      "support": 1001
+    },
+    "4": {
+      "precision": 0.7368159203980099,
+      "recall": 0.8334271243669106,
+      "f1": 0.7821494586744124,
+      "support": 1777
+    },
+    "5": {
+      "precision": 0.6045197740112994,
+      "recall": 0.5071090047393365,
+      "f1": 0.5515463917525774,
+      "support": 422
+    }
+  },
+  "model": "mssf_clean_12view",
+  "variant": "structure_only",
+  "seed": 42,
+  "batch_size": 64,
+  "best_epoch": 16,
+  "best_validation_macro_f1": 0.6568881684784283,
+  "test_loss": 0.8048353725558585,
+  "parameter_count": 9519424,
+  "explicit_matrix_sha256": "0dd623b501ad8af99d450818db35503889bec85c1bfe4b78e9bb2a21f8ea8348",
+  "checks": {
+    "experiment_fairness": true,
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "explicit_graph_leakage": true,
+    "source_feature_preservation": true,
+    "original_view_order_preservation": true,
+    "parameter_fairness": true,
+    "finite_values": true,
+    "zero_control_information": true
+  }
+}

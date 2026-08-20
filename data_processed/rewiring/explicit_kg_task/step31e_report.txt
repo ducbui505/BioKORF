@@ -1,0 +1,82 @@
+BioKORF Step 31E — Explicit KG + Task Drug Graphs
+=================================================
+Graph construction only; no KG embedding cosine, model training, or model testing.
+
+Parameters
+----------
+top_k = 10
+minimum task overlap = 3
+seed = 42
+KG/task combined weights = 0.5/0.5
+
+NUMERICAL BOUNDARY NORMALIZATION:
+Small floating-point excursions within 1e-8 of [0,1] were clipped to the
+mathematically valid interval. Larger violations would fail loudly.
+
+Explicit KG sets
+----------------
+drug_count: 757
+drugs_with_gene_evidence: 611
+drugs_with_pathway_evidence: 611
+mean_gene_count: 7.91017173
+mean_pathway_count: 21.91941876
+used_relations: ['ACTIVATOR', 'AGONIST', 'ANTAGONIST', 'BLOCKER', 'CARRIER', 'ENZYME', 'INHIBITOR', 'INTERACTS_WITH', 'INVERSE_AGONIST', 'MAPS_TO_DRUG', 'MODULATOR', 'NEGATIVE_ALLOSTERIC_MODULATOR', 'OPENER', 'PARTIAL_AGONIST', 'POSITIVE_ALLOSTERIC_MODULATOR', 'POSITIVE_MODULATOR', 'TARGET', 'TRANSPORTER']
+Drug genes use only anchor MAPS_TO_DRUG and typed DRUG-GENE edges.
+Drug pathways use only those genes and typed PATHWAY-GENE edges.
+Drug-Phenotype and adverse-drug-reaction relations are excluded.
+
+Train-only task construction
+----------------------------
+train_observation_count: 30284
+validation_positions_hidden: True
+test_positions_hidden: True
+minimum_shared_observations: 3
+frequency_centering: {'1': -2, '2': -1, '3': 0, '4': 1, '5': 2}
+missing_entries_remain_unobserved: True
+valid_task_pair_count: 173262
+pairs_meeting_overlap_threshold: 176656
+degenerate_zero_norm_pair_count: 3394
+mean_pair_overlap: 6.05700586
+median_pair_overlap: 4.00000000
+deterministic_random_pair_count: 10000
+deterministic_random_task_baseline: 0.67612629
+
+Graph diagnostics
+-----------------
+STRUCTURE_ONLY: edges=6055; coverage=80.5812%; mean_degree=7.9987; isolated=147; edge mean/median=0.38995913/0.39992151; task mean/median=0.71095944/0.84016805; enrichment=0.03483315; geneJ=0.30570233; pathwayJ=0.47421593
+TASK_ONLY_EXPLICIT: edges=7454; coverage=99.3395%; mean_degree=9.8468; isolated=5; edge mean/median=0.98979383/1.00000000; task mean/median=0.97958765/1.00000000; enrichment=0.30346137; geneJ=0.03593281; pathwayJ=0.09711109
+KG_TASK_EXPLICIT: edges=5915; coverage=79.6565%; mean_degree=7.8137; isolated=154; edge mean/median=0.63884350/0.64435611; task mean/median=0.89203142/0.94491118; enrichment=0.21590514; geneJ=0.25127774; pathwayJ=0.41206485
+
+Complementarity with eight actionable SAFE_EXTERNAL Drug views
+---------------------------------------------------------------
+DIPA and DIPF are excluded. The fingerprint view is SAFE_EXTERNAL but excluded because Step 31A marked it NEEDS_MORE_EVIDENCE, leaving the requested eight.
+view 1 SMDsimilarity: Pearson=0.08777703; Spearman=0.07894819; top10 Jaccard=0.01576862
+view 2 SMDexperimental: Pearson=0.10814356; Spearman=0.09491482; top10 Jaccard=0.03976967
+view 3 SMDdatabase: Pearson=0.02586670; Spearman=0.02473299; top10 Jaccard=0.00280117
+view 4 SMDtext: Pearson=0.11359707; Spearman=0.07156083; top10 Jaccard=0.05668376
+view 5 SMDcombined: Pearson=0.11734272; Spearman=0.07203991; top10 Jaccard=0.05850442
+view 6 Drug_word_sim: Pearson=0.05194599; Spearman=0.05704011; top10 Jaccard=0.04657863
+view 7 drug_target_sim: Pearson=0.25188884; Spearman=0.18172270; top10 Jaccard=0.10281998
+view 11 drug_p_e_sim: Pearson=0.08282790; Spearman=0.04121211; top10 Jaccard=0.01841833
+
+Residual-channel policy
+-----------------------
+The original dense SMDdatabase remains unchanged. kg_task_explicit_matrix.npy is saved as a separate prospective feature channel; the two are not combined numerically.
+
+Final summary
+-------------
+Graph | Edge count | Drug coverage | Mean task similarity | Task enrichment
+STRUCTURE_ONLY | 6055 | 80.5812% | 0.71095944 | 0.03483315
+TASK_ONLY_EXPLICIT | 7454 | 99.3395% | 0.97958765 | 0.30346137
+KG_TASK_EXPLICIT | 5915 | 79.6565% | 0.89203142 | 0.21590514
+KG_TASK_EXPLICIT mean gene Jaccard: 0.25127774
+KG_TASK_EXPLICIT mean pathway Jaccard: 0.41206485
+KG_TASK_EXPLICIT top10 overlap with SMDdatabase: 0.00280117
+KG_TASK_EXPLICIT top10 overlap with drug_target_sim: 0.10281998
+KG_TASK_EXPLICIT top10 overlap with drug_p_e_sim: 0.01841833
+
+EXPLICIT KG STRUCTURE CHECK: PASS
+TASK-AWARE LEAKAGE CHECK: PASS
+SOURCE FEATURE PRESERVATION CHECK: PASS
+KG EMBEDDING COSINE EXCLUSION CHECK: PASS
+Training/testing performed: NO

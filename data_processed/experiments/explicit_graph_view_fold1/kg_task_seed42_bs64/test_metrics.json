@@ -1,0 +1,97 @@
+{
+  "accuracy": 0.6951056432201124,
+  "macro_precision": 0.6716873799344169,
+  "macro_recall": 0.6161844440212725,
+  "macro_f1": 0.638007325168848,
+  "micro_f1": 0.6951056432201124,
+  "aupr": 0.709328805276433,
+  "confusion_matrix": [
+    [
+      73,
+      10,
+      12,
+      21,
+      3
+    ],
+    [
+      15,
+      240,
+      125,
+      39,
+      1
+    ],
+    [
+      9,
+      108,
+      540,
+      336,
+      8
+    ],
+    [
+      12,
+      18,
+      110,
+      1539,
+      98
+    ],
+    [
+      0,
+      1,
+      6,
+      208,
+      207
+    ]
+  ],
+  "per_class": {
+    "1": {
+      "precision": 0.6697247706422018,
+      "recall": 0.6134453781512605,
+      "f1": 0.6403508771929824,
+      "support": 119
+    },
+    "2": {
+      "precision": 0.636604774535809,
+      "recall": 0.5714285714285714,
+      "f1": 0.6022584692597239,
+      "support": 420
+    },
+    "3": {
+      "precision": 0.6809583858764187,
+      "recall": 0.5394605394605395,
+      "f1": 0.6020066889632107,
+      "support": 1001
+    },
+    "4": {
+      "precision": 0.7181521231917872,
+      "recall": 0.8660664040517726,
+      "f1": 0.785204081632653,
+      "support": 1777
+    },
+    "5": {
+      "precision": 0.6529968454258676,
+      "recall": 0.490521327014218,
+      "f1": 0.5602165087956699,
+      "support": 422
+    }
+  },
+  "model": "mssf_clean_12view",
+  "variant": "kg_task",
+  "seed": 42,
+  "batch_size": 64,
+  "best_epoch": 17,
+  "best_validation_macro_f1": 0.6538981630796992,
+  "test_loss": 0.8124832866599324,
+  "parameter_count": 9519424,
+  "explicit_matrix_sha256": "950e082a654a69e593f6a88893cd2e254845b9203f92508fe7d426912d341ab0",
+  "checks": {
+    "experiment_fairness": true,
+    "label_derived_feature_leakage": true,
+    "drug_phenotype_leakage": true,
+    "explicit_graph_leakage": true,
+    "source_feature_preservation": true,
+    "original_view_order_preservation": true,
+    "parameter_fairness": true,
+    "finite_values": true,
+    "zero_control_information": true
+  }
+}
